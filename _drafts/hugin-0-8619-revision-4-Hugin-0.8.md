@@ -1,0 +1,20 @@
+---
+id: 625
+title: Hugin 0.8
+date: 2009-09-07T22:33:07+00:00
+author: Jilles
+layout: revision
+guid: http://www.jillesvangurp.com/2009/09/07/619-revision-4/
+permalink: /2009/09/07/619-revision-4/
+---
+I've reviewed Hugin a couple of times already and have been maintaining a nice jalbum with some of my panoramas, most of which have been created with various versions of Hugin. For those not familiar with Hugin, it's a graphical front-end for a couple of highly useful but hard to use command line tools that basically allow you to do what some call computational photography, which is creating new images out of existing ones by transforming, blending, matching them in all sorts of interesting ways. One application hugin supports is so-called high dynamic range photography that combines images with different exposures to create one image with a higher perceived dynamic range and another is stitching overlapping images by detecting identical points, morphing the images such that they line up and making sure they blend in a way that hides exposure differences and stitching + transformation artifacts. And in this new version, you can do both at the same time. I haven't bothered with HDR so far but the stitching is great and the results seem like magic. It just works.
+
+To be fair, it's all pretty geeky and hard to set up but once installed and setup correctly, there's really not much more to it than to load the images, align them, and click the stitch button. It seems to be more capable than it thinks since I just stitched half a dozen panorama photos from my vacation in the past two weeks. With no exception Hugin indicated a disastrously bad fit, which in earlier versions would mean you could throw away the photos. However, with no exception I was unable to find any big issues with the resulting stitched images. I shot the photos from hand and did not even bother to use a tripod. Instead I try to estimate roughly which axis to rotate around (somewhere center on the line with the lens when seen from above) and try to rotate the camera left to right on this axis. This explains the bad fit since inevitably you introduce some parallax problems this way. However, Hugin (and the tools it uses) seems to be able to recover from some pretty severe problems and mostly as long as you have enough overlap, the problems just melt away in the blending step. In one case I had a pretty awful preview and the resulting image after it was done was more or less free from artifacts despite that.
+
+One of the crazy compositions I did was to shoot portrait mode in the Colloseum scanning left to right and ending up with 7 images. I did this portrait mode to maximize vertical pixels and fully relied on Hugin to fix any sloppy camera positioning from my side. The result is a huge resolution photo of the internals of the Colloseum. It will take me some time to properly select and edit all photos so you'll have to do with this quickly polished and vastly downsized preview:
+
+<img class="aligncenter size-full wp-image-621" title="STA_5031" src="http://www.jillesvangurp.com/wp-content/uploads/2009/09/STA_5031.jpg" alt="STA_5031" width="800" height="289" />
+
+This really doesn't do it justice since the full image is a whopping 107MB tiff image with 7838x2826 pixels, or about 22 mega pixels. You can literally count the bricks in that one or get a good look at people's faces.
+
+Anyway, more to follow as I process my images over the next few weeks. I have recently switched to owning a mac and have somewhat dumbed down my tool chain which is now mainly Hugin and Picasa (iphoto is just to weird for me). Picasa is of course somewhat limited but good enough for my needs. I'm considering buying Adobe Lightroom at some point but other than that I'll probably be experimenting with the Gimp and other free toys I find. I'm still a big photoshop fan and it really is the tool for the job but sadly a bit beyond the budget I wish to spend and Photoshop Elements just doesn't include the features I'm interested in using. The Gimp is unbearably slow, buggy, and weird but I can actually work with it to do most what I need.

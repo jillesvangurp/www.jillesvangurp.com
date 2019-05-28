@@ -1,0 +1,32 @@
+---
+id: 109
+title: Netbeans 5.0 first impressions
+date: 2006-02-07T19:13:38+00:00
+author: Jilles
+layout: post
+guid: http://blog.jillesvangurp.com/2006/02/07/netbeans-50-first-impressions/
+permalink: /2006/02/07/netbeans-50-first-impressions/
+dsq_thread_id:
+  - "487247355"
+tags:
+  - eclipse
+  - GUI
+  - java
+  - nokia
+  - reviews
+  - UI
+---
+With much fanfare (at least on the various Java news sites), Sun has launched its latest edition of netbeans. <a title="Netbeans" href="http://www.netbeans.org">Netbeans 5.0</a> is a significant improvement over 4.x. 4.x basically improved the UI to the point where it was reasonably fast and usable. 5.x consolidates the improvements by adding (a lot of) depth to the featurework in 4.x. A new component that is mentioned in every review is Mattisse, the GUI builder. I had a brief session with this thing with one of the betas a few weeks ago. It's definately a very nice tool. Unlike most GUI builders (including most previous generations of netbeans and the eclipse GUI builder) this one doesn't suck, most of the time. I've had too much exposure to Swing over the past decade to not code my GUIs manually but for someone not so familiar with Swing this is actually quite usable.
+Last week I downloaded and installed the release at work. Since I now work for Nokia I, decided to give the mobility pack a spin. The rest of this review is about my impressions using this part of netbeans. The mobility pack basically includes sun's toolkit (libraries, emulator) and integrates this into netbeans. Overall it is a pretty impressive thing. I have had exactly 0 experience with building J2ME stuff. Just to see where I would end up I started a hello world mobile project.
+
+I was positively surprised at the level of usability the mobile pack offers. The project setup generates a build file for you that basically does all the difficult stuff (like creating a deployable jar that you can install on midp phone). Buildfiles in general are well integrated into netbeans (unlike eclipse). Basically building your project means calling the appropriate ant target. You can do this by selecting the option from the menu, right clicking on your project, etc.
+
+After completing the new project wizard, netbeans had generated a nice Visual Midp class for me. The word visual means that you can edit the midp client in a visual environment. This environment is pretty powerful and will probably suit most basic needs. Essentially you drag and drop a various types of screens in a flow. Then you add actions to each of the screens and finally draw some arrows between the screens. At this point you can actually run the application in the emulator (or a real phone) and you will be able to navigate through the screens that were just defined. For the record, you don't need to write any code to get to this point.
+
+The flow view has a nice other use: it is a perfect companion to a functional specification. Just add a little information on the semantics of all the actions and you're basically done (with the functional spec). It's also great for prototyping. You can just click a bunch of screens together and have a live demo on a mobile phone in no time.
+
+ThenÃ‚Â  we come to library dependencies. Basically any java project will end up using several external libraries. In eclipse they have to be in your project and then you can add them to the classpatth, alternatively you can define external libraries. In Netbeans there's the library manager where you define libraries. A library may be a project (in which case netbeans automatically figures out that it should use the jar in the dist dir) or a jar file you downloaded. You can also associate source folders and javadoc with the library. Once you have libraries defined, you can edit the project properties and add library dependencies. That's it. If you do a build of your (mobile) project, netbeans will automagically pull together all libraries and generate one big jar file with everything in it. It will even build projects if the source code is newer than the library. Nice. Eclipse sort of has the same functionality but the netbeans UI for this is simply much better and usable.
+So far, I really like Netbeans 5.0. Now we come to the parts that are not so fun. Coding. The code editor in netbeans still sucks. Sure, it has been improved over netbeans 4.x. It is noticably faster with things like autocompletion. The problem is that it is pretty stupid compared to what I am used to: eclipse. Eclipse has whole bunch of editor features that are simply missing from netbeans. You can't do the "extract local expression" refactoring (alt+shift+l) which means that you have to do that manually (which I never ever do in eclipse). This probably my number 1 missing feature. Several other refactorings are missing. Then there are no quick fixes. So if you write some code that throws an exception you cannot add a catchblock to the try catch you already have. Neither can you add a throws clause. These are just two of the many quickfixes that eclipse has. Templates are implemented but much less functional. I just love typing for and then ctrl + space to generate a foreach for some collection (or select alternative means to iterate over whatever is iteratable in your code). It's just not there. It will generate a for loop but you still have to fill everything in yourself. There are lots of other features that anyone familiar with eclipse will miss.
+In short if your primary task is writing code, stick to eclipse. If you need wizards (mobile and supposedly the J2EE stuff is excellent as well), netbeans may be a better option. You'll be spending much more time on your code but may still be more productive due to all the convenient stuff that netbeans does for you.
+
+Personally, I'm still in the eclipse camp. It's just that I am working on this toy midp client at work so I prefer netbeans for this project. For netbeans to win me over permanently they will basically have to add tons of features to the code editor. This being said, the improvements in netbeans are worth some attention from any java developer. It's nice to see some stuff working that is basically broken (or unsuable, which is the same thing practically) in eclipse. Both projects still have a lot to learn from each other.

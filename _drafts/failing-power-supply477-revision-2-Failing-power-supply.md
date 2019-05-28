@@ -1,0 +1,16 @@
+---
+id: 479
+title: Failing power supply
+date: 2008-09-09T22:58:03+00:00
+author: Jilles
+layout: revision
+guid: http://www.jillesvangurp.com/2008/09/09/477-revision-2/
+permalink: /2008/09/09/477-revision-2/
+---
+In April 2007, I replaced a broken power supply in my PC with a Antec SmartPower 2.0 500W Power Supply. Check my <a href="http://www.jillesvangurp.com/2007/04/11/antec-smartpower-20-500-watt-review/">review here</a>. A few days ago, my pc has started producing a high pitched noise. Really annoying. So, I Google a little and what do I find: <a href="http://forums.slickdeals.net/archive/index.php/archive/t-616300.html">Antec SmartPower 2.0 500W Power Supplies apparently have 21% failure rate</a>. Tell tale signs include the damn thing making high pitched noise.
+
+I have to investigate a little further but probably this means the power supply is failing after less than one and a half year. Out of warranty of course. Damn it, really annoying to have to open that case again to replace the same part. Basically, the PC is now nearly three years old and maybe I should just replace it altogether. Something quiet, fast and reliable would be nice.
+
+In a few weeks my new Macbook Pro should arrive at work (ordered yesterday). I was planning to wait and see if I like that and if so, just upgrade to a nice Mac at home as well. Not fully convinced yet.
+
+Feel free to recommend a decent PSU. Has to power a Nvidia 7800, 2 drives, lots of USB hardware and a amd 4400+ dualcore CPU.

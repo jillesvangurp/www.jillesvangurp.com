@@ -1,0 +1,124 @@
+[23-Jan-2007 19:41:02] -------------------wpopenid-------------------
+[23-Jan-2007 19:41:02] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[23-Jan-2007 19:41:02] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date.  < 85
+[23-Jan-2007 19:41:02] WPOpenID plugin core is disabled -- Check Options -> OpenID tab for a full diagnositic report.
+[23-Jan-2007 19:41:02] WPOpenID Status: userinterface hooks: Disabled (finished including and instantiating, passing control back to wordpress)
+[23-Jan-2007 19:41:04] -------------------wpopenid-------------------
+[23-Jan-2007 19:41:04] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[23-Jan-2007 19:41:04] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date. 0 < 85
+[23-Jan-2007 19:41:04] WPOpenID plugin core is disabled -- Check Options -> OpenID tab for a full diagnositic report.
+[23-Jan-2007 19:41:04] WPOpenID Status: userinterface hooks: Disabled (finished including and instantiating, passing control back to wordpress)
+[23-Jan-2007 19:41:10] -------------------wpopenid-------------------
+[23-Jan-2007 19:41:10] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[23-Jan-2007 19:41:10] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date. 0 < 85
+[23-Jan-2007 19:41:10] WPOpenID plugin core is disabled -- Check Options -> OpenID tab for a full diagnositic report.
+[23-Jan-2007 19:41:10] WPOpenID Status: userinterface hooks: Disabled (finished including and instantiating, passing control back to wordpress)
+[23-Jan-2007 19:41:10] WPOpenID Plugin: Late Binding Now
+[23-Jan-2007 19:41:10] WPOpenID Status: loading file: openid-registration.php [ok]
+[23-Jan-2007 19:41:10] WPOpenID Status: loading file: Services/Yadis/PlainHTTPFetcher.php [ok]
+[23-Jan-2007 19:41:10] WPOpenID Status: loading file: Services/Yadis/Yadis.php [ok]
+[23-Jan-2007 19:41:10] WPOpenID Status: loading file: Auth/OpenID.php [ok]
+[23-Jan-2007 19:41:11] WPOpenID Status: loading file: Auth/OpenID/Discover.php [ok]
+[23-Jan-2007 19:41:11] WPOpenID Status: loading file: Auth/OpenID/DatabaseConnection.php [ok]
+[23-Jan-2007 19:41:11] WPOpenID Status: loading file: Auth/OpenID/MySQLStore.php [ok]
+[23-Jan-2007 19:41:11] WPOpenID Status: loading file: wpdb-pear-wrapper.php [ok]
+[23-Jan-2007 19:41:11] WPOpenID Status: loading file: Auth/OpenID/Consumer.php [ok]
+[23-Jan-2007 19:41:11] WPOpenID Status: database: Wordpress' table prefix [info]: wp_
+[23-Jan-2007 19:41:11] WPOpenID Status: object: OpenID Store [ok]
+[23-Jan-2007 19:41:11] WPOpenID Status: object: OpenID Consumer [ok]
+[23-Jan-2007 19:41:11] Bootstrap -- checking tables
+[23-Jan-2007 19:41:11] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date. 0 < 85
+[23-Jan-2007 19:41:11] WPOpenID Status: database tables [fail]: Tables not created properly. Trying to create..
+[23-Jan-2007 19:41:11] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date. 0 < 85
+[23-Jan-2007 19:41:11] OpenID Consumer could not be activated, something bad happened. Skipping table create. Check libraries.
+[23-Jan-2007 19:41:11] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date. 0 < 85
+[23-Jan-2007 19:41:11] WPOpenID Status: database tables [fail]: Table wp_openid_associations doesn't exist. Table wp_openid_nonces doesn't exist. Table wp_openid_settings doesn't exist. Table wp_openid_identities doesn't exist.
+[23-Jan-2007 19:41:11] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date. 0 < 85
+[23-Jan-2007 19:41:11] WPOpenID Plugin: Enabled (start of wordpress options page)
+[23-Jan-2007 19:41:11] WPOpenID Status: Include Path [info]: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/plugins/wpopenid/ /usr/local/php5/lib/php/
+[23-Jan-2007 19:41:11] WPOpenID Status: WordPress version [info]: 2.1
+[23-Jan-2007 19:41:11] WPOpenID Status: MySQL version [info]: 5.0.18
+[23-Jan-2007 19:41:11] WPOpenID Status: PHP version [info]: 5.1.4
+[23-Jan-2007 19:41:11] WPOpenID Status: Curl version [ok]
+[23-Jan-2007 19:41:11] WPOpenID Status: library: GMP compiled into in PHP [fail]: GMP does not appear to be built into PHP. This is highly recommended for performance reasons.
+[23-Jan-2007 19:41:11] WPOpenID Status: library: BCMath compiled into in PHP [fail]: BCMath does not appear to be built into PHP. GMP is preferred.
+[23-Jan-2007 19:41:11] WPOpenID Status: Loaded long integer library [fail]: No long integer library is loaded! Key calculation will be very slow!
+[23-Jan-2007 19:41:11] WPOpenID Status: Loaded long integer library [fail]: The OpenID Library is operating Dumb Mode, since it doesn't have a big integer library. Recommend installing GMP support.
+[23-Jan-2007 19:41:13] WPOpenID Status: Plugin version [info]: Running version 85. Latest stable release is 86. A new version of this plugin is available.
+[23-Jan-2007 19:41:13] WPOpenID Status: Plugin Database Version [info]: Plugin database is currently at revision 85
+[23-Jan-2007 19:41:13] WPOpenID Status: Overall Plugin Status [ok]
+[23-Jan-2007 19:42:13] -------------------wpopenid-------------------
+[23-Jan-2007 19:42:13] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[23-Jan-2007 19:42:14] WPOpenID Status: userinterface hooks: Enabled (finished including and instantiating, passing control back to wordpress)
+[23-Jan-2007 19:42:19] -------------------wpopenid-------------------
+[23-Jan-2007 19:42:19] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[23-Jan-2007 19:42:19] WPOpenID Status: userinterface hooks: Enabled (finished including and instantiating, passing control back to wordpress)
+[23-Jan-2007 19:42:21] -------------------wpopenid-------------------
+[23-Jan-2007 19:42:21] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[23-Jan-2007 19:42:21] WPOpenID Status: userinterface hooks: Enabled (finished including and instantiating, passing control back to wordpress)
+[23-Jan-2007 19:42:31] -------------------wpopenid-------------------
+[23-Jan-2007 19:42:31] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[23-Jan-2007 19:42:31] WPOpenID Status: userinterface hooks: Enabled (finished including and instantiating, passing control back to wordpress)
+[23-Jan-2007 19:42:35] -------------------wpopenid-------------------
+[23-Jan-2007 19:42:35] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[23-Jan-2007 19:42:36] WPOpenID Status: userinterface hooks: Enabled (finished including and instantiating, passing control back to wordpress)
+[23-Jan-2007 19:42:42] -------------------wpopenid-------------------
+[23-Jan-2007 19:42:42] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[23-Jan-2007 19:42:42] WPOpenID Status: userinterface hooks: Enabled (finished including and instantiating, passing control back to wordpress)
+[14-Aug-2007 18:27:27] -------------------wpopenid-------------------
+[14-Aug-2007 18:27:27] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[14-Aug-2007 18:27:27] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date. 85 < 0
+[14-Aug-2007 18:27:27] WPOpenID plugin core is disabled -- Check Options -> OpenID tab for a full diagnositic report.
+[14-Aug-2007 18:27:27] WPOpenID Status: userinterface hooks: Disabled (finished including and instantiating, passing control back to wordpress)
+[14-Aug-2007 18:27:28] -------------------wpopenid-------------------
+[14-Aug-2007 18:27:28] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[14-Aug-2007 18:27:28] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date. 85 < 0
+[14-Aug-2007 18:27:28] WPOpenID plugin core is disabled -- Check Options -> OpenID tab for a full diagnositic report.
+[14-Aug-2007 18:27:28] WPOpenID Status: userinterface hooks: Disabled (finished including and instantiating, passing control back to wordpress)
+[14-Aug-2007 18:27:31] -------------------wpopenid-------------------
+[14-Aug-2007 18:27:31] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[14-Aug-2007 18:27:31] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date. 85 < 0
+[14-Aug-2007 18:27:31] WPOpenID plugin core is disabled -- Check Options -> OpenID tab for a full diagnositic report.
+[14-Aug-2007 18:27:32] WPOpenID Status: userinterface hooks: Disabled (finished including and instantiating, passing control back to wordpress)
+[14-Aug-2007 18:27:32] WPOpenID Plugin: Late Binding Now
+[14-Aug-2007 18:27:32] WPOpenID Status: loading file: openid-registration.php [ok]
+[14-Aug-2007 18:27:32] WPOpenID Status: loading file: Services/Yadis/PlainHTTPFetcher.php [ok]
+[14-Aug-2007 18:27:32] WPOpenID Status: loading file: Services/Yadis/Yadis.php [ok]
+[14-Aug-2007 18:27:32] WPOpenID Status: loading file: Auth/OpenID.php [ok]
+[14-Aug-2007 18:27:32] WPOpenID Status: loading file: Auth/OpenID/Discover.php [ok]
+[14-Aug-2007 18:27:32] WPOpenID Status: loading file: Auth/OpenID/DatabaseConnection.php [ok]
+[14-Aug-2007 18:27:32] WPOpenID Status: loading file: Auth/OpenID/MySQLStore.php [ok]
+[14-Aug-2007 18:27:32] WPOpenID Status: loading file: wpdb-pear-wrapper.php [ok]
+[14-Aug-2007 18:27:32] WPOpenID Status: loading file: Auth/OpenID/Consumer.php [ok]
+[14-Aug-2007 18:27:32] WPOpenID Status: unknown library variable: php_errormsg [fail]: This library variable is unknown, left unset.
+[14-Aug-2007 18:27:32] WPOpenID Status: database: Wordpress' table prefix [info]: wp_
+[14-Aug-2007 18:27:32] WPOpenID Status: object: OpenID Store [ok]
+[14-Aug-2007 18:27:32] WPOpenID Status: object: OpenID Consumer [ok]
+[14-Aug-2007 18:27:32] Bootstrap -- checking tables
+[14-Aug-2007 18:27:32] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date. 85 < 0
+[14-Aug-2007 18:27:32] WPOpenID Status: database tables [fail]: Tables not created properly. Trying to create..
+[14-Aug-2007 18:27:32] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date. 85 < 0
+[14-Aug-2007 18:27:33] OpenID Consumer could not be activated, something bad happened. Skipping table create. Check libraries.
+[14-Aug-2007 18:27:33] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date. 85 < 0
+[14-Aug-2007 18:27:33] WPOpenID Status: database tables [fail]: Table wp_openid_associations doesn't exist. Table wp_openid_nonces doesn't exist. Table wp_openid_settings doesn't exist. Table wp_openid_identities doesn't exist.
+[14-Aug-2007 18:27:33] WPOpenID Status: Plugin Database Version [fail]: Plugin database is out of date. 85 < 0
+[14-Aug-2007 18:27:33] WPOpenID Plugin: Enabled (start of wordpress options page)
+[14-Aug-2007 18:27:33] WPOpenID Status: Include Path [info]: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/plugins/wpopenid/ /usr/local/php5/lib/php/
+[14-Aug-2007 18:27:33] WPOpenID Status: WordPress version [info]: 2.2.2
+[14-Aug-2007 18:27:33] WPOpenID Status: MySQL version [info]: 5.0.22
+[14-Aug-2007 18:27:33] WPOpenID Status: PHP version [info]: 5.2.3
+[14-Aug-2007 18:27:33] WPOpenID Status: Curl version [ok]
+[14-Aug-2007 18:27:33] WPOpenID Status: library: GMP compiled into in PHP [fail]: GMP does not appear to be built into PHP. This is highly recommended for performance reasons.
+[14-Aug-2007 18:27:33] WPOpenID Status: library: BCMath compiled into in PHP [fail]: BCMath does not appear to be built into PHP. GMP is preferred.
+[14-Aug-2007 18:27:33] WPOpenID Status: Loaded long integer library [fail]: No long integer library is loaded! Key calculation will be very slow!
+[14-Aug-2007 18:27:33] WPOpenID Status: Loaded long integer library [fail]: The OpenID Library is operating Dumb Mode, since it doesn't have a big integer library. Recommend installing GMP support.
+[14-Aug-2007 18:27:33] WPOpenID Status: Cryptographic Randomness Source [info]: /dev/urandom
+[14-Aug-2007 18:27:33] WPOpenID Status: Plugin version [info]: Running version 0. Could not contact sourceforge for latest version information.
+[14-Aug-2007 18:27:33] WPOpenID Status: Plugin Database Version [info]: Plugin database is currently at revision 0.
+[14-Aug-2007 18:27:33] WPOpenID Status: Overall Plugin Status [ok]
+[14-Aug-2007 18:28:22] -------------------wpopenid-------------------
+[14-Aug-2007 18:28:22] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[14-Aug-2007 18:28:22] WPOpenID Status: userinterface hooks: Enabled (finished including and instantiating, passing control back to wordpress)
+[14-Aug-2007 18:28:28] -------------------wpopenid-------------------
+[14-Aug-2007 18:28:28] WPOpenID Status: file:error_log [info]: Logging errors via PHP's error_log faculty to: /home/vhosting/a/vhost0002738/domains/jillesvangurp.com/htdocs/blog/wp-content/uploads/php.log
+[14-Aug-2007 18:28:28] WPOpenID Status: userinterface hooks: Enabled (finished including and instantiating, passing control back to wordpress)

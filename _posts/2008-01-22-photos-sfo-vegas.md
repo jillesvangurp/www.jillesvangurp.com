@@ -1,0 +1,17 @@
+---
+id: 377
+title: 'Photos SFO &#038; Vegas'
+date: 2008-01-22T21:39:47+00:00
+author: Jilles
+layout: post
+guid: http://blog.jillesvangurp.com/2008/01/22/photos-sfo-vegas/
+permalink: /2008/01/22/photos-sfo-vegas/
+categories:
+  - Blog Posts
+tags:
+  - photography
+  - traveling
+---
+I've added about 60 photos to my <a href="http://photos.jillesvangurp.com/Album/2008/San%20Francisco%20and%20Las%20Vegas/index.html">photosite</a>.
+
+<img src="http://photos.jillesvangurp.com/Album/2008/San%20Francisco%20and%20Las%20Vegas/slides/IMG_2826.jpg" alt="There is hope ..." />
