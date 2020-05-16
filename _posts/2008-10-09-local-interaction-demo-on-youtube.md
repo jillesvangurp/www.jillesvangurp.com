@@ -20,7 +20,7 @@ tags:
   - smart space
   - Ubiquitous Pervasive Computing
 ---
-<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/cGNYn8YLlpA&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/cGNYn8YLlpA&hl=en&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object>
+[video](http://www.youtube.com/v/cGNYn8YLlpA&hl=en&fs=1)
 
 I gave a demo of our system at a press event for Nokia a few weeks ago. Our PR people were busy filming and have put several short demo movies on Youtube. Including my demo and several other cool demos from colleagues in Nokia Research.
 
