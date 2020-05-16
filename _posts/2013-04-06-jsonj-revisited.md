@@ -9,25 +9,25 @@ permalink: /2013/04/06/jsonj-revisited/
 wp-syntax-cache-content:
   - |
     a:3:{i:1;s:576:"
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 int i=o.getInt&#40;&quot;a&quot;,&quot;b&quot;&#41;
 ```
-</td></tr></table><p class="theCode" style="display:none;">int i=o.getInt(&quot;a&quot;,&quot;b&quot;)</p></div>
+int i=o.getInt(&quot;a&quot;,&quot;b&quot;)
     ;i:2;s:858:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 o.getOrCreateArray&#40;&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;&#41;.add&#40;43&#41;
 ```
-</td></tr></table><p class="theCode" style="display:none;">o.getOrCreateArray(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;).add(43)</p></div>
+o.getOrCreateArray(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;).add(43)
     ;i:3;s:1530:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 String json= object&#40;&#41;.put&#40;&quot;a&quot;,42&#41;.put&#40;&quot;b&quot;,array&#40;1,2,&quot;three&quot;&#41;.get&#40;&#41;.toString&#40;&#41;;
     // {&quot;a&quot;:42,&quot;b&quot;:[1,2,&quot;three&quot;]}
 ```
-</td></tr></table><p class="theCode" style="display:none;">String json= object().put(&quot;a&quot;,42).put(&quot;b&quot;,array(1,2,&quot;three&quot;).get().toString();
-    // {&quot;a&quot;:42,&quot;b&quot;:[1,2,&quot;three&quot;]}</p></div>
+String json= object().put(&quot;a&quot;,42).put(&quot;b&quot;,array(1,2,&quot;three&quot;).get().toString();
+    // {&quot;a&quot;:42,&quot;b&quot;:[1,2,&quot;three&quot;]}
     ";}
 categories:
   - Blog Posts

@@ -9,7 +9,7 @@ permalink: /2013/05/09/jruby-and-java-at-localstream/
 wp-syntax-cache-content:
   - |
     a:2:{i:1;s:4275:"
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 require 'java'
     &nbsp;
@@ -35,7 +35,7 @@ require 'java'
     end
     end
 ```
-</td></tr></table><p class="theCode" style="display:none;">require 'java'
+require 'java'
     
     # loads the java classes either from the maven target directory
     # in backend or the production location in /opt/localstream/lib
@@ -57,17 +57,17 @@ require 'java'
     else
     puts &quot;No jars found. Maybe you should do a maven clean install?&quot;
     end
-    end</p></div>
+    end
     ;i:2;s:474:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 require 'enable_java'
     &nbsp;
     import com.whatever.MyClass
 ```
-</td></tr></table><p class="theCode" style="display:none;">require 'enable_java'
+require 'enable_java'
     
-    import com.whatever.MyClass</p></div>
+    import com.whatever.MyClass
     ";}
 categories:
   - Blog Posts

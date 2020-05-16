@@ -11,17 +11,17 @@ dsq_thread_id:
 wp-syntax-cache-content:
   - |
     a:2:{i:1;s:831:"
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 mysqldump -u user -ppassword \
     -h host db --single-transaction \
     | gzip -9 &gt; ~/wordpress.sql.gz
 ```
-</td></tr></table><p class="theCode" style="display:none;">mysqldump -u user -ppassword \
+mysqldump -u user -ppassword \
     -h host db --single-transaction \
-    | gzip -9 &gt; ~/wordpress.sql.gz</p></div>
+    | gzip -9 &gt; ~/wordpress.sql.gz
     ;i:2;s:1705:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 #!/bin/bash
     BACKUPDIR=/Users/jilles/backup
@@ -31,13 +31,13 @@ mysqldump -u user -ppassword \
     user@host:~ $BACKUPDIR \
     &gt;&gt; $BACKUPDIR/sitebackup.log
 ```
-</td></tr></table><p class="theCode" style="display:none;">#!/bin/bash
+#!/bin/bash
     BACKUPDIR=/Users/jilles/backup
     date &gt;&gt; $BACKUPDIR/sitebackup.log
     ssh user@host sh ~/dumpdb.sh
     rsync -i -v -a --delete \
     user@host:~ $BACKUPDIR \
-    &gt;&gt; $BACKUPDIR/sitebackup.log</p></div>
+    &gt;&gt; $BACKUPDIR/sitebackup.log
     ";}
 categories:
   - Blog Posts

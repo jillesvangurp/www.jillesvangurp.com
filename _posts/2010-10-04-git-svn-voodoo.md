@@ -11,7 +11,7 @@ dsq_thread_id:
 wp-syntax-cache-content:
   - |
     a:9:{i:1;s:1648:"
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 cd /Users/jilles/test/
     svnadmin create svnrepo
@@ -22,16 +22,16 @@ cd /Users/jilles/test/
     svn commit -m'hi.txt added'
     svn up
 ```
-</td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/
+cd /Users/jilles/test/
     svnadmin create svnrepo
     svn co file:///Users/jilles/test/svnrepo svnwc
     cd svnwc
     echo &quot;hello&quot; &gt; hi.txt
     svn add hi.txt
     svn commit -m'hi.txt added'
-    svn up</p></div>
+    svn up
     ;i:2;s:2575:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 cd /Users/jilles/test/
     # clone the svn repository to a git repository using git-svn ...
@@ -46,7 +46,7 @@ cd /Users/jilles/test/
     # and finally push the local change back to svn
     git svn dcommit
 ```
-</td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/
+cd /Users/jilles/test/
     # clone the svn repository to a git repository using git-svn ...
     git svn clone file:///Users/jilles/test/svnrepo git1
     cd git1
@@ -57,17 +57,17 @@ cd /Users/jilles/test/
     # now commit the change to your local git repository (i.e. your .git directory contains it)
     git commit -m&quot;say hi to the world&quot;
     # and finally push the local change back to svn
-    git svn dcommit</p></div>
+    git svn dcommit
     ;i:3;s:609:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 cd /Users/jilles/test/svnwc
     svn up
 ```
-</td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/svnwc
-    svn up</p></div>
+cd /Users/jilles/test/svnwc
+    svn up
     ;i:4;s:1864:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 cd /Users/jilles/test
     # lets not use git svn and instead do a regular git clone, either way would be fine btw.
@@ -78,16 +78,16 @@ cd /Users/jilles/test
     # commit the change to the local git2 repository
     git commit -m&quot;finishing touch&quot;
 ```
-</td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test
+cd /Users/jilles/test
     # lets not use git svn and instead do a regular git clone, either way would be fine btw.
     git clone file:///Users/jilles/test/git1 git2
     cd git2
     echo '!' &gt;&gt; hi.txt
     git add hi.txt
     # commit the change to the local git2 repository
-    git commit -m&quot;finishing touch&quot;</p></div>
+    git commit -m&quot;finishing touch&quot;
     ;i:5;s:1537:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 cd /Users/jilles/test/git1
     # add git2 as a remote. 
@@ -97,25 +97,25 @@ cd /Users/jilles/test/git1
     # pull the change made on git2 into the master branch (on git1)
     git pull git2 master
 ```
-</td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/git1
+cd /Users/jilles/test/git1
     # add git2 as a remote.
     git remote add git2 file:///Users/jilles/test/git2
     # fetch tags and branches known on git2
     git fetch git2
     # pull the change made on git2 into the master branch (on git1)
-    git pull git2 master</p></div>
+    git pull git2 master
     ;i:6;s:983:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 &#91;svn-remote &quot;svn&quot;&#93;
     url = file:///Users/jilles/test/svnrepo
     fetch = :refs/remotes/git-svn
 ```
-</td></tr></table><p class="theCode" style="display:none;">[svn-remote &quot;svn&quot;]
+[svn-remote &quot;svn&quot;]
     url = file:///Users/jilles/test/svnrepo
-    fetch = :refs/remotes/git-svn</p></div>
+    fetch = :refs/remotes/git-svn
     ;i:7;s:1511:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 cd /Users/jilles/test/git2
     # fetch the svn branch and tag information
@@ -125,15 +125,15 @@ cd /Users/jilles/test/git2
     # now we are ready to dcommit the change we made in git2 back to svn
     git svn dcommit
 ```
-</td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/git2
+cd /Users/jilles/test/git2
     # fetch the svn branch and tag information
     git svn fetch
     # make sure we have all the latest changes on svn by &quot;rebasing&quot;
     git svn rebase
     # now we are ready to dcommit the change we made in git2 back to svn
-    git svn dcommit</p></div>
+    git svn dcommit
     ;i:8;s:1386:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 cd /Users/jilles/test/svnwc
     # get the latest changes from the svn repo
@@ -143,25 +143,25 @@ cd /Users/jilles/test/svnwc
     # and commit it
     svn commit -m&quot;stupid newlines&quot;
 ```
-</td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/svnwc
+cd /Users/jilles/test/svnwc
     # get the latest changes from the svn repo
     svn up
     # fix the file once more ...
     echo 'hello world!' &gt; hi.txt
     # and commit it
-    svn commit -m&quot;stupid newlines&quot;</p></div>
+    svn commit -m&quot;stupid newlines&quot;
     ;i:9;s:1157:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 cd /Users/jilles/test/git1
     git svn rebase
     cd /Users/jilles/test/git2
     git svn rebase
 ```
-</td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/git1
+cd /Users/jilles/test/git1
     git svn rebase
     cd /Users/jilles/test/git2
-    git svn rebase</p></div>
+    git svn rebase
     ";}
 categories:
   - Blog Posts

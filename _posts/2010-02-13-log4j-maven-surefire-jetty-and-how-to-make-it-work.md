@@ -11,7 +11,7 @@ dsq_thread_id:
 wp-syntax-cache-content:
   - |
     a:2:{i:1;s:1798:"
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 &lt;exclusions&gt;
     &lt;exclusion&gt;
@@ -20,14 +20,14 @@ wp-syntax-cache-content:
     &lt;/exclusion&gt;
     &lt;/exclusions&gt;
 ```
-</td></tr></table><p class="theCode" style="display:none;">&lt;exclusions&gt;
+&lt;exclusions&gt;
     &lt;exclusion&gt;
     &lt;groupId&gt;commons-logging&lt;/groupId&gt;
     &lt;artifactId&gt;commons-logging&lt;/artifactId&gt;
     &lt;/exclusion&gt;
-    &lt;/exclusions&gt;</p></div>
+    &lt;/exclusions&gt;
     ;i:2;s:4903:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 &lt;dependency&gt;
     &lt;groupId&gt;org.slf4j&lt;/groupId&gt;
@@ -45,7 +45,7 @@ wp-syntax-cache-content:
     &lt;version&gt;1.5.10&lt;/version&gt;
     &lt;/dependency&gt;
 ```
-</td></tr></table><p class="theCode" style="display:none;">&lt;dependency&gt;
+&lt;dependency&gt;
     &lt;groupId&gt;org.slf4j&lt;/groupId&gt;
     &lt;artifactId&gt;slf4j-api&lt;/artifactId&gt;
     &lt;version&gt;1.5.10&lt;/version&gt;
@@ -59,7 +59,7 @@ wp-syntax-cache-content:
     &lt;groupId&gt;org.slf4j&lt;/groupId&gt;
     &lt;artifactId&gt;slf4j-log4j12&lt;/artifactId&gt;
     &lt;version&gt;1.5.10&lt;/version&gt;
-    &lt;/dependency&gt;</p></div>
+    &lt;/dependency&gt;
     ";}
 categories:
   - Blog Posts

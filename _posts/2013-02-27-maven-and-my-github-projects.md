@@ -9,7 +9,7 @@ permalink: /2013/02/27/maven-and-my-github-projects/
 wp-syntax-cache-content:
   - |
     a:1:{i:1;s:8550:"
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+    
 ```
 &lt;!-- this bit goes into the profiles section --&gt;
     &lt;profile&gt;
@@ -43,7 +43,7 @@ wp-syntax-cache-content:
     &lt;activeProfile&gt;jillesvangurp&lt;/activeProfile&gt;
     &lt;/activeProfiles&gt;
 ```
-</td></tr></table><p class="theCode" style="display:none;">&lt;!-- this bit goes into the profiles section --&gt;
+&lt;!-- this bit goes into the profiles section --&gt;
     &lt;profile&gt;
     &lt;id&gt;jillesvangurp&lt;/id&gt;
     &lt;repositories&gt;
@@ -73,7 +73,7 @@ wp-syntax-cache-content:
     &lt;activeProfiles&gt;
     &lt;activeProfile&gt;sonatype&lt;/activeProfile&gt;
     &lt;activeProfile&gt;jillesvangurp&lt;/activeProfile&gt;
-    &lt;/activeProfiles&gt;</p></div>
+    &lt;/activeProfiles&gt;
     ";}
 categories:
   - Blog Posts
