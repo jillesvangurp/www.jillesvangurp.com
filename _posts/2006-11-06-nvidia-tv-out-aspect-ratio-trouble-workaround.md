@@ -25,7 +25,7 @@ To do this:
 - select 'specify size' and fill in 1024x768. In the various forum posts everybody seems to recommend 640x480. However most nvidia cards have a tv out chip that supports 1024x768 and this seems to be the default resolution used. Both resolutions are a 4:3 aspect ratio and that seems to be the main point. Also the native resolution of 1024x768 is what the image will be scaled to anyway so scaling it to 640x480 means it gets scaled twice before being sent to the tv!
 - set aspect ratio to keep original aspect ratio. This ensures that ffdshow adds black bars rather than stretching the image to fill the 1024x768.
 
-</ul>
+
 OK, this will addresses the issue sort of. A limitation is of course that it only works for content actually passing through ffdshow. This excludes for example dvds. However dvd playing software probably exists that can do similar things. This trick is also compatible with another little trick I apply to get a little extra resolution out of my widescreen (16:9) tv. This one requires media player classic (some other players probably have a similar feature).
 
 - Open a movie, right click on the picture and select pan & scan - scale to 16:9.

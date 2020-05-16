@@ -97,7 +97,7 @@ That's it. Here's what I had to do to get a properly working configuration:
 <exclusions>     <exclusion>         <groupId>commons-logging</groupId>         <artifactId>commons-logging</artifactId>     </exclusion> </exclusions>
 ```
   
-1. You might have to iterate fixing the dependencies and rerunning mvn dependency:tree since only the first instance of commons-logging found will used transitively.  	<li>Now add these dependencies to your pom.xml: 
+1. You might have to iterate fixing the dependencies and rerunning mvn dependency:tree since only the first instance of commons-logging found will used transitively.- Now add these dependencies to your pom.xml: 
 ```xml
 <dependency>     <groupId>org.slf4j</groupId>     <artifactId>slf4j-api</artifactId>     <version>1.5.10</version> </dependency>                 <dependency>     <groupId>org.slf4j</groupId>     <artifactId>jcl-over-slf4j</artifactId>     <version>1.5.10</version> </dependency> <dependency>     <groupId>org.slf4j</groupId>     <artifactId>slf4j-log4j12</artifactId>     <version>1.5.10</version> </dependency>
 ```

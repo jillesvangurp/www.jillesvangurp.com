@@ -20,13 +20,13 @@ I tried ([again](https://www.jillesvangurp.com/2007/01/27/another-ubuntu-install
 - This means the installer hangs indefinitely trying to scan remote mirrors of apt repositories.
 - Predictably the servers are under quite a bit of load currently: this is extremely likely to not work for a lot of people right now. I recall running into the same issue a month ago with edgy when there was no such excuse.
 - The bug is that the installer should detect that things are not working and fail gracefully
-- Gracefully in the sense that it should <ul> 	<li>Allow the user to skip this step (I only had a close button, which was my only option to interrupt the scanning the mirrors procedure)
+- Gracefully in the sense that it should - Allow the user to skip this step (I only had a close button, which was my only option to interrupt the scanning the mirrors procedure)
 - Never ever, ever, ever, let the user exit the installer *AFTER* removing the bootflag on the ntfs partition but before installing an alternative bootloader.
 - Recover from the fact that the network times out/servers are down. There's no excuse for not handling something as common as network failure. Retry is generally a stupid strategy after the second or third attempt.
 - I actually ran ifdown to shut the network down (to force it into detecting there was no connection) and it still didn't detect network failure!
 
-</li>
-</ul>
+
+
 
 The scanning the mirrors bug is a strange thing. Ubuntu actually configured my network correctly and I could for example browse to Google. However, for some reason crucial server side stuff was unreachable. Since ubuntu never gave an error, I can't tell you what went wrong there. This in itself is a bug, since murphy's law pretty damn much guarantees that potential network unreliability translates into users experiencing network problems during installation. 
 
