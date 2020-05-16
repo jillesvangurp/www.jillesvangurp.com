@@ -27,7 +27,7 @@ Localstream can be a lot of things to different people.
 
 - For end users it is a **location-based content sharing and discovery** platform that allows them to share information about locations. You can share youtube videos, souncloud clips, blog articles, news, or simply type some text.
 - For content publishers it is that but also a platform with which they can **push and promote their own content about a location**. Doing so makes it easier for people to find their content.
-- For developers it is an **API</strong> that they can use to easily **add location relevant content** to their applications or <strong>publish their own content to Localstream**. The Localstream platform is ideally suited for quickly building pretty much any type of location-based application.
+- For developers it is an **API** that they can use to easily **add location relevant content** to their applications or **publish their own content to Localstream**. The Localstream platform is ideally suited for quickly building pretty much any type of location-based application.
 
 **Why are we building Localstream?**
 
