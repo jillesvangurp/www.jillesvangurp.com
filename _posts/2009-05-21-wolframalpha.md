@@ -55,5 +55,3 @@ Some more predictions:
 	<li>If not bought up or outcompeted (both of which I consider to be likely), wolframalpha will be the next Google</li>
 </ul>
 
-
-

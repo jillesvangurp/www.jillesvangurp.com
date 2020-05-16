@@ -17,7 +17,7 @@ categories:
 tags:
   - photography
 ---
-<a href="http://www.jillesvangurp.com/wp-content/uploads/2011/04/lisbon.jpg"><img src="http://www.jillesvangurp.com/wp-content/uploads/2011/04/lisbon_thumbnail.jpg" alt="Lisbon" title="Panorama  photo of Lisbon" class="aligncenter size-full wp-image-851" style="width: 100%;" /></a>
+<a href="http://www.jillesvangurp.com/wp-content/uploads/2011/04/lisbon.jpg">![Panorama  photo of Lisbon](https://www.jillesvangurp.com/wp-content/uploads/2011/04/lisbon_thumbnail.jpg Panorama  photo of Lisbon)</a>
 
 Click to see the slightly larger version.
 

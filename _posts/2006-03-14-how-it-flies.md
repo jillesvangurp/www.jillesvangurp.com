@@ -13,7 +13,7 @@ tags:
 ---
 More playing with <a href="http://www.x-plane.com">x-plane</a>. I found this very nice reference <a href="http://www.av8n.com/how/htm/">on flying an airplane</a>. I've learned quite a few useful things already. Just now, I made a silky smooth landing at JFK (New York) coming in at a nice and predictable 3 degree angle at a nice and predictable speed of 80 knots. That is largely due to reading the link above.
 
-<a title="Landing at JFK" class="imagelink" href="http://blog.jillesvangurp.com/wp-content/uploads/2006/03/smooth%20landing.jpg"><img id="image123" alt="Landing at JFK" src="http://blog.jillesvangurp.com/wp-content/uploads/2006/03/smooth%20landing.jpg" />
+<a title="Landing at JFK" class="imagelink" href="http://blog.jillesvangurp.com/wp-content/uploads/2006/03/smooth%20landing.jpg">![Landing at JFK](https://www.jillesvangurp.com/wp-content/uploads/2006/03/smooth%20landing.jpg Landing at JFK)
 </a>
 
 A few of the things that I have learned tonight (after practicing what I read in the first two chapters) is that there is nothing wrong with either my joystick or x-plane. The eratic pitch behaviour that I used to experience when flying x-plane, and to a lesser extent ms flightsimulator, was almost entirely due to my style of flying (or lack thereof). Correct the style and suddenly flight is as it is supposed to be. That in short is realism. In fact a real airplane would present you with similar (and dangerous) eratic pitch behaviour if you'd try to force your way down without much regard for what you should be doing to accomplish that goal.

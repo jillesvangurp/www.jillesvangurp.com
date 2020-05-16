@@ -48,5 +48,3 @@ But, shouldn't this just be easy? It took me two days of running from one proble
 
 So am I now a Netbeans user? No way! I can't stand how tedious it is for coding. Run profiler in Netbeans, go ah, alt tab to eclipse and fix it. Works for me.
 
-
-

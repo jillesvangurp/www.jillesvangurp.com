@@ -45,11 +45,9 @@ At Mediahackday we specialized our concept for news and tried to turn the back c
 
 Living in Berlin I of course entered my street name (Bergstrasse) as a search criteria:
 
-<a href="http://www.jillesvangurp.com/wp-content/uploads/2013/10/Screen-Shot-2013-10-07-at-18.34.41.png"><img src="http://www.jillesvangurp.com/wp-content/uploads/2013/10/Screen-Shot-2013-10-07-at-18.34.41.png" alt="Screen Shot 2013-10-07 at 18.34.41" width="1000" height="888" class="aligncenter size-full wp-image-1614" /></a>
+<a href="http://www.jillesvangurp.com/wp-content/uploads/2013/10/Screen-Shot-2013-10-07-at-18.34.41.png">![Screen Shot 2013-10-07 at 18.34.41](https://www.jillesvangurp.com/wp-content/uploads/2013/10/Screen-Shot-2013-10-07-at-18.34.41.png Screen Shot 2013-10-07 at 18.34.41)</a>
 
 As you can see here, Localstream found some news content that isn't about my street but does mention nearby streets and venues. For example, Tucholskystrasse and Ackerstrasse, which are both near my street (first hit). So, despite the fact that none of these articles were marked up with coordinates, Localstream is able to recognize the street name and deduce that articles that mention a nearby streets are relevant to my location. 
 
 Now bearing in mind that we hadn't seen the content before and that our location graph, ranking and location tagging are very much works in progress, this is a pretty good result. We were able to ingest content we hadn't seen before that lacked any structural location information and turn it in a location browsable news application in under 24 hours. We believe we are just scratching the surface here in terms of what is possible.
-
-
 
