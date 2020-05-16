@@ -32,7 +32,7 @@ In terms of functionality, there doesn't seem to be that many features that are 
 
 **Update 2**.
 
-I've deleted all files except my plugins (google analyticator and openid delegation), configuration and uploads.  Then I re-uploaded the wordpress 2.1 stuff this time ensuring that there is no cruft from previous installations. This should have fixed the editor stuff but didn't. I don't see tabs for switching to wysiqyg. Also there does not seem to be any spellchecking except for the default firefox stuff. <span style="text-decoration: line-through">Solution: allow sites to abuse javascript by messing with stuff they shouldn't be touching. At least that is what is claimed here </span>[http://wordpress.org/support/topic/101716?replies=9](http://wordpress.org/support/topic/101716?replies=9)<span style="text-decoration: line-through">. Only thing is that it doesn't work.</span>
+I've deleted all files except my plugins (google analyticator and openid delegation), configuration and uploads.  Then I re-uploaded the wordpress 2.1 stuff this time ensuring that there is no cruft from previous installations. This should have fixed the editor stuff but didn't. I don't see tabs for switching to wysiqyg. Also there does not seem to be any spellchecking except for the default firefox stuff. Solution: allow sites to abuse javascript by messing with stuff they shouldn't be touching. At least that is what is claimed here [http://wordpress.org/support/topic/101716?replies=9](http://wordpress.org/support/topic/101716?replies=9). Only thing is that it doesn't work.
 
 **Update 3**.
 

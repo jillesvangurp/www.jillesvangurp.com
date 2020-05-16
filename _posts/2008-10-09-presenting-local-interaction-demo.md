@@ -18,7 +18,7 @@ tags:
 <div style="text-align: left; padding: 3px;">
 [![](http://farm4.static.flickr.com/3076/2927768734_d86c491683.jpg)](http://www.flickr.com/photos/jillesvangurp/2927768734/)
 
-<span style="font-size: 0.8em; margin-top: 0px;">[Presenting Local Interaction Demo](http://www.flickr.com/photos/jillesvangurp/2927768734/), originally uploaded by [jillesvangurp](http://www.flickr.com/people/jillesvangurp/).</span>
+[Presenting Local Interaction Demo](http://www.flickr.com/photos/jillesvangurp/2927768734/), originally uploaded by [jillesvangurp](http://www.flickr.com/people/jillesvangurp/).
 </div>
 <p>
 Me presenting our Local Interaction demo at the Way We Live Next press event that Nokia organized two weeks ago. Also see the previous post with the youtube video.

@@ -11,37 +11,37 @@ wp-syntax-cache-content:
     a:1:{i:1;s:8550:"
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color: #808080; font-style: italic;">&lt;!-- this bit goes into the profiles section --&gt;</span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;profile<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;id<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>jillesvangurp<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/id<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;repositories<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;repository<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;id<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>release.repo<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/id<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;url<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>http://repo.jillesvangurp.com/releases/<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/url<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;releases<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;enabled<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>true<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/enabled<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/releases<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;snapshots<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;enabled<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>false<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/enabled<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/snapshots<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/repository<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;repository<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;id<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>snapshot.repo<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/id<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;url<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>http://repo.jillesvangurp.com/snapshots/<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/url<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;releases<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;enabled<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>false<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/enabled<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/releases<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;snapshots<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;enabled<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>true<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/enabled<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/snapshots<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/repository<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/repositories<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/profile<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
+&lt;!-- this bit goes into the profiles section --&gt;
+    &lt;profile&gt;
+    &lt;id&gt;jillesvangurp&lt;/id&gt;
+    &lt;repositories&gt;
+    &lt;repository&gt;
+    &lt;id&gt;release.repo&lt;/id&gt;
+    &lt;url&gt;http://repo.jillesvangurp.com/releases/&lt;/url&gt;
+    &lt;releases&gt;
+    &lt;enabled&gt;true&lt;/enabled&gt;
+    &lt;/releases&gt;
+    &lt;snapshots&gt;
+    &lt;enabled&gt;false&lt;/enabled&gt;
+    &lt;/snapshots&gt;
+    &lt;/repository&gt;
+    &lt;repository&gt;
+    &lt;id&gt;snapshot.repo&lt;/id&gt;
+    &lt;url&gt;http://repo.jillesvangurp.com/snapshots/&lt;/url&gt;
+    &lt;releases&gt;
+    &lt;enabled&gt;false&lt;/enabled&gt;
+    &lt;/releases&gt;
+    &lt;snapshots&gt;
+    &lt;enabled&gt;true&lt;/enabled&gt;
+    &lt;/snapshots&gt;
+    &lt;/repository&gt;
+    &lt;/repositories&gt;
+    &lt;/profile&gt;
     ....
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;activeProfiles<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;activeProfile<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>sonatype<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/activeProfile<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;activeProfile<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>jillesvangurp<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/activeProfile<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/activeProfiles<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
+    &lt;activeProfiles&gt;
+    &lt;activeProfile&gt;sonatype&lt;/activeProfile&gt;
+    &lt;activeProfile&gt;jillesvangurp&lt;/activeProfile&gt;
+    &lt;/activeProfiles&gt;
 ```
 </td></tr></table><p class="theCode" style="display:none;">&lt;!-- this bit goes into the profiles section --&gt;
     &lt;profile&gt;

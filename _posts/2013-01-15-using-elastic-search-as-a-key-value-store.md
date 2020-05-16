@@ -48,7 +48,7 @@ In summary: Elastic Search is a pretty damn good key value store with a lot of p
 
 There are a few caveats of course:
 
-- <span style="line-height: 15px;" data-mce-mark="1">It helps to understand the underlying data structures used by Lucene. Some things come cheap, some other things don't. In the end it is computer science and not magic. That means certain laws of physics still apply.</span>
+- It helps to understand the underlying data structures used by Lucene. Some things come cheap, some other things don't. In the end it is computer science and not magic. That means certain laws of physics still apply.
 - Lucene is memory and IO intensive. That means things generally are a lot faster if everything fits into memory and if you have memory to spare for file caching. This is true for most storage solutions btw. For example with MySql you hit a brick wall once your indexes no longer fit in memory. Insert speeds go through the roof basically and mixed inserts/selects become a nightmare scenario.
 - Mixed key value reads/writes combined with lots of expensive queries is going to require some tuning. You might want to specialize some of the nodes in your cluster for reads, for writes, and for querying load. You might want to think a bit about how many shards you need and how many replicas. You might want to think a bit about how you allocate memory to your nodes, and you might want to think a lot about which parts of your documents actually need to be indexed.
 - Elastic Search is not a transactional data store. If you need a transactional database, you might want to consider using one.

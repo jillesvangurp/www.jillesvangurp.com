@@ -11,20 +11,20 @@ wp-syntax-cache-content:
     a:3:{i:1;s:576:"
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color: #000066; font-weight: bold;">int</span> i<span style="color: #339933;">=</span>o.<span style="color: #006633;">getInt</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;a&quot;</span>,<span style="color: #0000ff;">&quot;b&quot;</span><span style="color: #009900;">&#41;</span>
+int i=o.getInt&#40;&quot;a&quot;,&quot;b&quot;&#41;
 ```
 </td></tr></table><p class="theCode" style="display:none;">int i=o.getInt(&quot;a&quot;,&quot;b&quot;)</p></div>
     ;i:2;s:858:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-o.<span style="color: #006633;">getOrCreateArray</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;a&quot;</span>,<span style="color: #0000ff;">&quot;b&quot;</span>,<span style="color: #0000ff;">&quot;c&quot;</span>,<span style="color: #0000ff;">&quot;d&quot;</span>,<span style="color: #0000ff;">&quot;e&quot;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">add</span><span style="color: #009900;">&#40;</span><span style="color: #cc66cc;">43</span><span style="color: #009900;">&#41;</span>
+o.getOrCreateArray&#40;&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;&#41;.add&#40;43&#41;
 ```
 </td></tr></table><p class="theCode" style="display:none;">o.getOrCreateArray(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;).add(43)</p></div>
     ;i:3;s:1530:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color: #003399;">String</span> json<span style="color: #339933;">=</span> object<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">put</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;a&quot;</span>,<span style="color: #cc66cc;">42</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">put</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;b&quot;</span>,array<span style="color: #009900;">&#40;</span><span style="color: #cc66cc;">1</span>,<span style="color: #cc66cc;">2</span>,<span style="color: #0000ff;">&quot;three&quot;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">get</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">toString</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
-    <span style="color: #666666; font-style: italic;">// {&quot;a&quot;:42,&quot;b&quot;:[1,2,&quot;three&quot;]}</span>
+String json= object&#40;&#41;.put&#40;&quot;a&quot;,42&#41;.put&#40;&quot;b&quot;,array&#40;1,2,&quot;three&quot;&#41;.get&#40;&#41;.toString&#40;&#41;;
+    // {&quot;a&quot;:42,&quot;b&quot;:[1,2,&quot;three&quot;]}
 ```
 </td></tr></table><p class="theCode" style="display:none;">String json= object().put(&quot;a&quot;,42).put(&quot;b&quot;,array(1,2,&quot;three&quot;).get().toString();
     // {&quot;a&quot;:42,&quot;b&quot;:[1,2,&quot;three&quot;]}</p></div>

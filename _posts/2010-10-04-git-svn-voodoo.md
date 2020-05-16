@@ -13,14 +13,14 @@ wp-syntax-cache-content:
     a:9:{i:1;s:1648:"
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color: #7a0874; font-weight: bold;">cd</span> <span style="color: #000000; font-weight: bold;">/</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>test<span style="color: #000000; font-weight: bold;">/</span>
-    <span style="color: #c20cb9; font-weight: bold;">svnadmin create</span> svnrepo
-    <span style="color: #c20cb9; font-weight: bold;">svn co</span> file:<span style="color: #000000; font-weight: bold;">///</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>test<span style="color: #000000; font-weight: bold;">/</span>svnrepo svnwc
-    <span style="color: #7a0874; font-weight: bold;">cd</span> svnwc
-    <span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot;hello&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;</span> hi.txt
-    <span style="color: #c20cb9; font-weight: bold;">svn add</span> hi.txt
-    <span style="color: #c20cb9; font-weight: bold;">svn commit</span> <span style="color: #660033;">-m</span><span style="color: #ff0000;">'hi.txt added'</span>
-    <span style="color: #c20cb9; font-weight: bold;">svn up</span>
+cd /Users/jilles/test/
+    svnadmin create svnrepo
+    svn co file:///Users/jilles/test/svnrepo svnwc
+    cd svnwc
+    echo &quot;hello&quot; &gt; hi.txt
+    svn add hi.txt
+    svn commit -m'hi.txt added'
+    svn up
 ```
 </td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/
     svnadmin create svnrepo
@@ -33,18 +33,18 @@ wp-syntax-cache-content:
     ;i:2;s:2575:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color: #7a0874; font-weight: bold;">cd</span> <span style="color: #000000; font-weight: bold;">/</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>test<span style="color: #000000; font-weight: bold;">/</span>
-    <span style="color: #666666; font-style: italic;"># clone the svn repository to a git repository using git-svn ...</span>
-    <span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #c20cb9; font-weight: bold;">svn</span> clone file:<span style="color: #000000; font-weight: bold;">///</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>test<span style="color: #000000; font-weight: bold;">/</span>svnrepo git1
-    <span style="color: #7a0874; font-weight: bold;">cd</span> git1
-    <span style="color: #666666; font-style: italic;"># observe there is a hi.txt and a .git directory. here</span>
-    <span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">&quot; World&quot;</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> hi.txt
-    <span style="color: #666666; font-style: italic;"># stage a change. </span>
-    <span style="color: #c20cb9; font-weight: bold;">git add</span> hi.txt
-    <span style="color: #666666; font-style: italic;"># now commit the change to your local git repository (i.e. your .git directory contains it)</span>
-    <span style="color: #c20cb9; font-weight: bold;">git commit</span> <span style="color: #660033;">-m</span><span style="color: #ff0000;">&quot;say hi to the world&quot;</span>
-    <span style="color: #666666; font-style: italic;"># and finally push the local change back to svn</span>
-    <span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #c20cb9; font-weight: bold;">svn</span> dcommit
+cd /Users/jilles/test/
+    # clone the svn repository to a git repository using git-svn ...
+    git svn clone file:///Users/jilles/test/svnrepo git1
+    cd git1
+    # observe there is a hi.txt and a .git directory. here
+    echo &quot; World&quot; &gt;&gt; hi.txt
+    # stage a change. 
+    git add hi.txt
+    # now commit the change to your local git repository (i.e. your .git directory contains it)
+    git commit -m&quot;say hi to the world&quot;
+    # and finally push the local change back to svn
+    git svn dcommit
 ```
 </td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/
     # clone the svn repository to a git repository using git-svn ...
@@ -61,22 +61,22 @@ wp-syntax-cache-content:
     ;i:3;s:609:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color: #7a0874; font-weight: bold;">cd</span> <span style="color: #000000; font-weight: bold;">/</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>test<span style="color: #000000; font-weight: bold;">/</span>svnwc
-    <span style="color: #c20cb9; font-weight: bold;">svn up</span>
+cd /Users/jilles/test/svnwc
+    svn up
 ```
 </td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/svnwc
     svn up</p></div>
     ;i:4;s:1864:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color: #7a0874; font-weight: bold;">cd</span> <span style="color: #000000; font-weight: bold;">/</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span><span style="color: #7a0874; font-weight: bold;">test</span>
-    <span style="color: #666666; font-style: italic;"># lets not use git svn and instead do a regular git clone, either way would be fine btw.</span>
-    <span style="color: #c20cb9; font-weight: bold;">git clone</span> file:<span style="color: #000000; font-weight: bold;">///</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>test<span style="color: #000000; font-weight: bold;">/</span>git1 git2
-    <span style="color: #7a0874; font-weight: bold;">cd</span> git2
-    <span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">'!'</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> hi.txt
-    <span style="color: #c20cb9; font-weight: bold;">git add</span> hi.txt
-    <span style="color: #666666; font-style: italic;"># commit the change to the local git2 repository</span>
-    <span style="color: #c20cb9; font-weight: bold;">git commit</span> <span style="color: #660033;">-m</span><span style="color: #ff0000;">&quot;finishing touch&quot;</span>
+cd /Users/jilles/test
+    # lets not use git svn and instead do a regular git clone, either way would be fine btw.
+    git clone file:///Users/jilles/test/git1 git2
+    cd git2
+    echo '!' &gt;&gt; hi.txt
+    git add hi.txt
+    # commit the change to the local git2 repository
+    git commit -m&quot;finishing touch&quot;
 ```
 </td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test
     # lets not use git svn and instead do a regular git clone, either way would be fine btw.
@@ -89,13 +89,13 @@ wp-syntax-cache-content:
     ;i:5;s:1537:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color: #7a0874; font-weight: bold;">cd</span> <span style="color: #000000; font-weight: bold;">/</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>test<span style="color: #000000; font-weight: bold;">/</span>git1
-    <span style="color: #666666; font-style: italic;"># add git2 as a remote. </span>
-    <span style="color: #c20cb9; font-weight: bold;">git remote</span> add git2 file:<span style="color: #000000; font-weight: bold;">///</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>test<span style="color: #000000; font-weight: bold;">/</span>git2
-    <span style="color: #666666; font-style: italic;"># fetch tags and branches known on git2</span>
-    <span style="color: #c20cb9; font-weight: bold;">git fetch</span> git2
-    <span style="color: #666666; font-style: italic;"># pull the change made on git2 into the master branch (on git1)</span>
-    <span style="color: #c20cb9; font-weight: bold;">git pull</span> git2 master
+cd /Users/jilles/test/git1
+    # add git2 as a remote. 
+    git remote add git2 file:///Users/jilles/test/git2
+    # fetch tags and branches known on git2
+    git fetch git2
+    # pull the change made on git2 into the master branch (on git1)
+    git pull git2 master
 ```
 </td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/git1
     # add git2 as a remote.
@@ -107,9 +107,9 @@ wp-syntax-cache-content:
     ;i:6;s:983:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color: #7a0874; font-weight: bold;">&#91;</span>svn-remote <span style="color: #ff0000;">&quot;svn&quot;</span><span style="color: #7a0874; font-weight: bold;">&#93;</span>
-    url = file:<span style="color: #000000; font-weight: bold;">///</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>test<span style="color: #000000; font-weight: bold;">/</span>svnrepo
-    fetch = :refs<span style="color: #000000; font-weight: bold;">/</span>remotes<span style="color: #000000; font-weight: bold;">/</span><span style="color: #c20cb9; font-weight: bold;">git-svn</span>
+&#91;svn-remote &quot;svn&quot;&#93;
+    url = file:///Users/jilles/test/svnrepo
+    fetch = :refs/remotes/git-svn
 ```
 </td></tr></table><p class="theCode" style="display:none;">[svn-remote &quot;svn&quot;]
     url = file:///Users/jilles/test/svnrepo
@@ -117,13 +117,13 @@ wp-syntax-cache-content:
     ;i:7;s:1511:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color: #7a0874; font-weight: bold;">cd</span> <span style="color: #000000; font-weight: bold;">/</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>test<span style="color: #000000; font-weight: bold;">/</span>git2
-    <span style="color: #666666; font-style: italic;"># fetch the svn branch and tag information</span>
-    <span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #c20cb9; font-weight: bold;">svn</span> fetch
-    <span style="color: #666666; font-style: italic;"># make sure we have all the latest changes on svn by &quot;rebasing&quot;</span>
-    <span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #c20cb9; font-weight: bold;">svn</span> rebase
-    <span style="color: #666666; font-style: italic;"># now we are ready to dcommit the change we made in git2 back to svn</span>
-    <span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #c20cb9; font-weight: bold;">svn</span> dcommit
+cd /Users/jilles/test/git2
+    # fetch the svn branch and tag information
+    git svn fetch
+    # make sure we have all the latest changes on svn by &quot;rebasing&quot;
+    git svn rebase
+    # now we are ready to dcommit the change we made in git2 back to svn
+    git svn dcommit
 ```
 </td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/git2
     # fetch the svn branch and tag information
@@ -135,13 +135,13 @@ wp-syntax-cache-content:
     ;i:8;s:1386:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color: #7a0874; font-weight: bold;">cd</span> <span style="color: #000000; font-weight: bold;">/</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>test<span style="color: #000000; font-weight: bold;">/</span>svnwc
-    <span style="color: #666666; font-style: italic;"># get the latest changes from the svn repo</span>
-    <span style="color: #c20cb9; font-weight: bold;">svn up</span>
-    <span style="color: #666666; font-style: italic;"># fix the file once more ...</span>
-    <span style="color: #7a0874; font-weight: bold;">echo</span> <span style="color: #ff0000;">'hello world!'</span> <span style="color: #000000; font-weight: bold;">&gt;</span> hi.txt
-    <span style="color: #666666; font-style: italic;"># and commit it</span>
-    <span style="color: #c20cb9; font-weight: bold;">svn commit</span> <span style="color: #660033;">-m</span><span style="color: #ff0000;">&quot;stupid newlines&quot;</span>
+cd /Users/jilles/test/svnwc
+    # get the latest changes from the svn repo
+    svn up
+    # fix the file once more ...
+    echo 'hello world!' &gt; hi.txt
+    # and commit it
+    svn commit -m&quot;stupid newlines&quot;
 ```
 </td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/svnwc
     # get the latest changes from the svn repo
@@ -153,10 +153,10 @@ wp-syntax-cache-content:
     ;i:9;s:1157:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color: #7a0874; font-weight: bold;">cd</span> <span style="color: #000000; font-weight: bold;">/</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>test<span style="color: #000000; font-weight: bold;">/</span>git1
-    <span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #c20cb9; font-weight: bold;">svn</span> rebase
-    <span style="color: #7a0874; font-weight: bold;">cd</span> <span style="color: #000000; font-weight: bold;">/</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>test<span style="color: #000000; font-weight: bold;">/</span>git2
-    <span style="color: #c20cb9; font-weight: bold;">git</span> <span style="color: #c20cb9; font-weight: bold;">svn</span> rebase
+cd /Users/jilles/test/git1
+    git svn rebase
+    cd /Users/jilles/test/git2
+    git svn rebase
 ```
 </td></tr></table><p class="theCode" style="display:none;">cd /Users/jilles/test/git1
     git svn rebase

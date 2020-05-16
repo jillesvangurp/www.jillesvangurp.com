@@ -13,9 +13,9 @@ wp-syntax-cache-content:
     a:2:{i:1;s:831:"
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-mysqldump <span style="color: #660033;">-u</span> user <span style="color: #660033;">-ppassword</span> \
-    <span style="color: #660033;">-h</span> host db <span style="color: #660033;">--single-transaction</span> \
-    <span style="color: #000000; font-weight: bold;">|</span> <span style="color: #c20cb9; font-weight: bold;">gzip</span> <span style="color: #660033;">-9</span> <span style="color: #000000; font-weight: bold;">&gt;</span> ~<span style="color: #000000; font-weight: bold;">/</span>wordpress.sql.gz
+mysqldump -u user -ppassword \
+    -h host db --single-transaction \
+    | gzip -9 &gt; ~/wordpress.sql.gz
 ```
 </td></tr></table><p class="theCode" style="display:none;">mysqldump -u user -ppassword \
     -h host db --single-transaction \
@@ -23,13 +23,13 @@ mysqldump <span style="color: #660033;">-u</span> user <span style="color: #6600
     ;i:2;s:1705:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color: #666666; font-style: italic;">#!/bin/bash</span>
-    <span style="color: #007800;">BACKUPDIR</span>=<span style="color: #000000; font-weight: bold;">/</span>Users<span style="color: #000000; font-weight: bold;">/</span>jilles<span style="color: #000000; font-weight: bold;">/</span>backup
-    <span style="color: #c20cb9; font-weight: bold;">date</span> <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> <span style="color: #007800;">$BACKUPDIR</span><span style="color: #000000; font-weight: bold;">/</span>sitebackup.log
-    <span style="color: #c20cb9; font-weight: bold;">ssh</span> user<span style="color: #000000; font-weight: bold;">@</span>host <span style="color: #c20cb9; font-weight: bold;">sh</span> ~<span style="color: #000000; font-weight: bold;">/</span>dumpdb.sh
-    rsync <span style="color: #660033;">-i</span> <span style="color: #660033;">-v</span> <span style="color: #660033;">-a</span> <span style="color: #660033;">--delete</span> \
-    user<span style="color: #000000; font-weight: bold;">@</span>host:~ <span style="color: #007800;">$BACKUPDIR</span> \
-    <span style="color: #000000; font-weight: bold;">&gt;&gt;</span> <span style="color: #007800;">$BACKUPDIR</span><span style="color: #000000; font-weight: bold;">/</span>sitebackup.log
+#!/bin/bash
+    BACKUPDIR=/Users/jilles/backup
+    date &gt;&gt; $BACKUPDIR/sitebackup.log
+    ssh user@host sh ~/dumpdb.sh
+    rsync -i -v -a --delete \
+    user@host:~ $BACKUPDIR \
+    &gt;&gt; $BACKUPDIR/sitebackup.log
 ```
 </td></tr></table><p class="theCode" style="display:none;">#!/bin/bash
     BACKUPDIR=/Users/jilles/backup

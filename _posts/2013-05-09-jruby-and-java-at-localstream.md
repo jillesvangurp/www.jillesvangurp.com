@@ -11,29 +11,29 @@ wp-syntax-cache-content:
     a:2:{i:1;s:4275:"
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color:#CC0066; font-weight:bold;">require</span> <span style="color:#996600;">'java'</span>
+require 'java'
     &nbsp;
-    <span style="color:#008000; font-style:italic;"># loads the java classes either from the maven target directory </span>
-    <span style="color:#008000; font-style:italic;"># in backend or the production location in /opt/localstream/lib</span>
+    # loads the java classes either from the maven target directory 
+    # in backend or the production location in /opt/localstream/lib
     &nbsp;
-    targetDir = <span style="color:#CC00FF; font-weight:bold;">Dir</span><span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#996600;">&quot;../backend/target/lib/*.jar&quot;</span><span style="color:#006600; font-weight:bold;">&#93;</span>
-    <span style="color:#008000; font-style:italic;"># manually load the classpath</span>
-    <span style="color:#9966CC; font-weight:bold;">if</span> targetDir.<span style="color:#9900CC;">length</span> <span style="color:#006600; font-weight:bold;">&gt;</span> <span style="color:#006666;">0</span>
-    <span style="color:#CC0066; font-weight:bold;">puts</span> <span style="color:#996600;">&quot;using jars from backend/target&quot;</span>
-    <span style="color:#008000; font-style:italic;"># development</span>
-    targetDir.<span style="color:#9900CC;">each</span> <span style="color:#006600; font-weight:bold;">&#123;</span> <span style="color:#006600; font-weight:bold;">|</span>jar<span style="color:#006600; font-weight:bold;">|</span>
-    <span style="color:#CC0066; font-weight:bold;">require</span> jar
-    <span style="color:#006600; font-weight:bold;">&#125;</span>
-    <span style="color:#CC0066; font-weight:bold;">require</span> <span style="color:#996600;">'../backend/target/localstream-1.0-SNAPSHOT.jar'</span>
-    <span style="color:#9966CC; font-weight:bold;">else</span>
-    <span style="color:#008000; font-style:italic;"># production</span>
-    <span style="color:#9966CC; font-weight:bold;">if</span> <span style="color:#CC00FF; font-weight:bold;">Dir</span><span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#996600;">&quot;/opt/localstream/lib/*.jar&quot;</span><span style="color:#006600; font-weight:bold;">&#93;</span>.<span style="color:#9900CC;">length</span> <span style="color:#006600; font-weight:bold;">&gt;</span> <span style="color:#006666;">0</span>
-    <span style="color:#CC0066; font-weight:bold;">puts</span> <span style="color:#996600;">&quot;using jars from /opt/localstream/lib&quot;</span>
-    <span style="color:#CC00FF; font-weight:bold;">Dir</span><span style="color:#006600; font-weight:bold;">&#91;</span><span style="color:#996600;">&quot;/opt/localstream/lib/*.jar&quot;</span><span style="color:#006600; font-weight:bold;">&#93;</span>.<span style="color:#9900CC;">each</span> <span style="color:#006600; font-weight:bold;">&#123;</span> <span style="color:#006600; font-weight:bold;">|</span>jar<span style="color:#006600; font-weight:bold;">|</span> <span style="color:#CC0066; font-weight:bold;">require</span> jar <span style="color:#006600; font-weight:bold;">&#125;</span>
-    <span style="color:#9966CC; font-weight:bold;">else</span>
-    <span style="color:#CC0066; font-weight:bold;">puts</span> <span style="color:#996600;">&quot;No jars found. Maybe you should do a maven clean install?&quot;</span>
-    <span style="color:#9966CC; font-weight:bold;">end</span>
-    <span style="color:#9966CC; font-weight:bold;">end</span>
+    targetDir = Dir&#91;&quot;../backend/target/lib/*.jar&quot;&#93;
+    # manually load the classpath
+    if targetDir.length &gt; 0
+    puts &quot;using jars from backend/target&quot;
+    # development
+    targetDir.each &#123; |jar|
+    require jar
+    &#125;
+    require '../backend/target/localstream-1.0-SNAPSHOT.jar'
+    else
+    # production
+    if Dir&#91;&quot;/opt/localstream/lib/*.jar&quot;&#93;.length &gt; 0
+    puts &quot;using jars from /opt/localstream/lib&quot;
+    Dir&#91;&quot;/opt/localstream/lib/*.jar&quot;&#93;.each &#123; |jar| require jar &#125;
+    else
+    puts &quot;No jars found. Maybe you should do a maven clean install?&quot;
+    end
+    end
 ```
 </td></tr></table><p class="theCode" style="display:none;">require 'java'
     
@@ -61,9 +61,9 @@ wp-syntax-cache-content:
     ;i:2;s:474:
     <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
 ```
-<span style="color:#CC0066; font-weight:bold;">require</span> <span style="color:#996600;">'enable_java'</span>
+require 'enable_java'
     &nbsp;
-    import com.<span style="color:#9900CC;">whatever</span>.<span style="color:#9900CC;">MyClass</span>
+    import com.whatever.MyClass
 ```
 </td></tr></table><p class="theCode" style="display:none;">require 'enable_java'
     
