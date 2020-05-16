@@ -25,7 +25,7 @@ I have in the past used [Solr](https://www.google.com/url?sa=t&amp;rct=j&amp;q=&
 </ol>
 Recently, I started using [Elastic Search](http://www.elasticsearch.org/), which is an alternative Lucene base search product, and this makes the above even more interesting. Elastic search is often depicted as simply a search engine similar to Solr. However, this is a bit of an understatement and it is quite a bit more than that.
 
-It is better described as a schema less, multi tenant, replicating &amp; sharding<strong> key value store</strong> that implements extensible &amp; advanced search features (geo spatial, faceting, filtering, etc.) as well.
+It is better described as a schema less, multi tenant, replicating &amp; sharding** key value store** that implements extensible &amp; advanced search features (geo spatial, faceting, filtering, etc.) as well.
 
 In more simple terms: you launch it, throw data at it, find it back querying it, and add more nodes to scale. It's that simple. Few other products do this. And even less do it with as little ceremony as Elastic Search. This includes most common relational and nosql solutions on the market today. I've  looked at quite a few. None come close to the out of the box utility and usability of Elastic Search.
 

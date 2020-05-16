@@ -20,7 +20,7 @@ tags:
   - problemsandsolutions
   - Software in General
 ---
-<strong>Update 30/07/2009</strong>I just bought an imac and moved the same, but now consolidated, library over to it. Check out the instructions <a href="http://www.jillesvangurp.com/2009/07/30/migrating-itunes-windows-to-mac/">here</a>.
+**Update 30/07/2009**I just bought an imac and moved the same, but now consolidated, library over to it. Check out the instructions [here](https://www.jillesvangurp.com/2009/07/30/migrating-itunes-windows-to-mac/).
 
 Whoohoo! My new hardware has arrived, last week. I've been busy playing with it so that explains the small delay in posting.
 

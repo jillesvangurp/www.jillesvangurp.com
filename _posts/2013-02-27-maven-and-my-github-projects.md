@@ -117,7 +117,7 @@ So, I set up my own maven repository. This is good enough for what we do in Loca
     <activeProfile>jillesvangurp</activeProfile>
 </activeProfiles>
 </pre>
-<strong>Disclaimer.</strong> This repository is provided as is. Particularly the snapshot part is basically there to support my own builds. I may clean it out at any time and there is no guarantee that snapshots of my github projects are there or up to date. Likewise, the releases repository is there to support my own builds. I will likely only keep recent releases there and you shouldn't use older releases of my projects in any case. Binaries in either maven repository may broken and do untold amounts of damage (which the LICENSE tells you is your problem).
+**Disclaimer.** This repository is provided as is. Particularly the snapshot part is basically there to support my own builds. I may clean it out at any time and there is no guarantee that snapshots of my github projects are there or up to date. Likewise, the releases repository is there to support my own builds. I will likely only keep recent releases there and you shouldn't use older releases of my projects in any case. Binaries in either maven repository may broken and do untold amounts of damage (which the LICENSE tells you is your problem).
 
 If this worries you, you can always build from source of course. Simply check out the github project (and any dependencies) and maven clean install it or deploy it to your own maven repository.
 

@@ -27,7 +27,7 @@ Anyway, problem fixed and 2 minutes later I've created a database using phpmyadm
 
 In case you are wondering, yes I am considering to dump wordpress. The reason is the lack of clear progress in getting proper openid, atompub and microformats support in wordpress. You can all sort of bolt it onto a wordpress install but not without editing php and default templates (and this tends to break during upgrades, i.e. every 2-3 months). Drupal seems much more feature rich and configurable than wordpress and it sure is tempting. Concerns I have include import/export of data (including e.g. uploads); openid support; comment & referral spam blocking; etc. 
 
-<strong>Update.</strong>
+**Update.**
 
 After playing with drupal 5.2 and a development snapshot of 6.0, I've decided not to migrate because simply the migration is too hard currently. There is only a seriously outdated module for drupal 4.7 which can only migrate wordpress version 2.0. In other words, this is unlikely to work for my blog without a lot of tinkering. Additionally, moving from drupal to something else is likely not exactly trivial either. I migrated from pivot to wordpress early 2006. That was quite painless since wordpress has excellent import feature. Drupal lacks such features and wordpress has no Drupal import as far as I know (would be hard due to the generic node datastructure in drupal).
 

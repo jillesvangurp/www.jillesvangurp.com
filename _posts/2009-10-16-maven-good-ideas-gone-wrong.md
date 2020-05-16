@@ -46,7 +46,7 @@ Enough whining, now on to the solutions.
 
 Ultimately, maven is just a stop gap. And not even particularly good at what it does.
 
-<strong>update 27 October 2009</strong>
+**update 27 October 2009**
 
 Somebody produced a [great study on how much time is spent on incremental builds](http://www.zeroturnaround.com/blog/the-build-tool-report-turnaround-times-using-ant-maven-eclipse-intellij-and-netbeans/) with various build tools. This stuff backs my key argument up really well. The most startling out come:
 

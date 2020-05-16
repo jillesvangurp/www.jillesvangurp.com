@@ -25,4 +25,4 @@ For the moment, I won't install it on the photo site (too much work). So far, it
 
 Now as for traffic. The statistics are much better than what I used to get from nedstat before they renamed themselves to webstat4u and became greedy bastards. I'm doing pretty well. I managed to get a few hundred of visitors on my blog over the weekend. Apparently people are interested in my ubuntu post a few days ago and also my itunes post a few months back remains popular.
 
-<strong>Update. </strong>The problem indeed fixed itself. Though still unconfirmed it is gathering data anyway for my mainsite.
+**Update. **The problem indeed fixed itself. Though still unconfirmed it is gathering data anyway for my mainsite.

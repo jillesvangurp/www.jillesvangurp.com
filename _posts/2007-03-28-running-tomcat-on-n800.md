@@ -43,4 +43,4 @@ Now you can run tomcat on the N800:
 
 On my N800, startup time after first launch is 3-4 minutes and most of the servlet and jsp examples in the default tomcat both work correctly and the whole thing is quite responsive. The Jamvm process takes about 26MB with tomcat running. That's all quite impressive considering that jamvm does not include a JIT.
 
-<strong>UPDATE</strong>. I've continued experimenting and got the startup time down to 2 minutes now. Basically I removed all webapps except the balancer app and my own war file. Some more experimenting with jamvm and other java stuff has learned me that the main performance problem is IO while loading classes. Once that is done, the interpreter is quite fast and usable.
+**UPDATE**. I've continued experimenting and got the startup time down to 2 minutes now. Basically I removed all webapps except the balancer app and my own war file. Some more experimenting with jamvm and other java stuff has learned me that the main performance problem is IO while loading classes. Once that is done, the interpreter is quite fast and usable.

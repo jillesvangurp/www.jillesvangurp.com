@@ -21,13 +21,13 @@ I have no idea why they do this. It might be that they are trying to gain access
 
 For real users coming here, I'm sorry about all the obstacles in between you and actually providing comments on my blog. Unfortunately this is the only way for me to keep spam off my blog.
 
-<strong>Update</strong>.
+**Update**.
 For victims of the same problem, here's a useful query:
 
 <blockquote>DELETE FROM wp_users WHERE wp_users.id NOT IN (SELECT DISTINCT user_id from wp_comments)</blockquote>
 
 This will delete any user without any comments. Of course backup your database before running this and if it blows up in your face don't come complaining here.
 
-<strong>Update</strong>.
+**Update**.
 
 It just occurred to me (damn that's a full 24 hours, WTF is wrong with me) that having capcc removes the need for me to require users to register before commenting.

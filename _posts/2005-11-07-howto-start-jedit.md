@@ -52,7 +52,7 @@ Windows Registry Editor Version 5.00
 @="javaw -Xms40M -Xmx256M -jar \"C:\\Program Files\\jEdit 4.2\\jedit.jar\" -reuseview \"%l\""</code></pre>
 Edited as suggested in the comments, wordpress conveniently removes slashes when you save the text :-(.
 
-<strong>Update 02-04-2011</strong>:
+**Update 02-04-2011**:
 
 It's been a while since I wrote this and when I hit my own post accidentally with a Google query, I knew it was time to do a little update. All of the above is still valid as far as I know, except I now use a mac. For a mac, or in fact any linux/unix type installation, there's a convenient way to start jEdit from a bash function. Just include the line below in your .profile or .bashrc (adjust paths as needed of course):
 
@@ -62,6 +62,6 @@ function jedit() { java -Xms15M -jar /Applications/jEdit.app/Contents/Resources/
 </pre>
 </code>
 
-<strong>Update 11-07-2011</strong>:
+**Update 11-07-2011**:
 
 The above line of .profile voodoo is now also available on [Gist](https://gist.github.com/1004521), the code snippet sharing site on Github.

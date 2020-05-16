@@ -22,9 +22,9 @@ tags:
   - osgi
   - VM
 ---
-<strong>Update: a slightly updated version of this article has been published on the <a href="http://www.javalobby.org/nl/archive/jlnews_20071113o.html">Javalobby weekly news letter</a> and on the [javalobby site](http://www.javalobby.org/java/forums/t103264.html) itself after Matthew Schmidt invited me to do so.</strong>
+**Update: a slightly updated version of this article has been published on the [Javalobby weekly news letter](http://www.javalobby.org/nl/archive/jlnews_20071113o.html) and on the [javalobby site](http://www.javalobby.org/java/forums/t103264.html) itself after Matthew Schmidt invited me to do so.**
 
-<strong>Update 2: The <a href="http://www.theserverside.com/news/thread.tss?thread_id=47614">serverside has linked</a> here as well. Readers coming from there, the version on Javalobby linked above is the latest and also has some discussion attached.</strong>
+**Update 2: The [serverside has linked](http://www.theserverside.com/news/thread.tss?thread_id=47614) here as well. Readers coming from there, the version on Javalobby linked above is the latest and also has some discussion attached.**
 
 About an hour ago, Google released some additional information on the [SDK for Android](http://code.google.com/android/), its new mobile platform. Since I work for Nokia (whom I of course not represent when writing things on my <em>personal</em> blog, usual disclaimers apply), I'm naturally interested in new software platforms for mobile phones. Additionally, since I'm a Java developer, I'm particularly interested in this one.
 

@@ -74,7 +74,7 @@ tags:
   - SPDY
   - spring
 ---
-<strong>Update.</strong> I've uploaded a <a href="https://github.com/jillesvangurp/localstream-stack">skeleton project</a> about the stuff in this post to Github. The presentation that I gave on this at Berlin Startup Culture on May 21st can be found [here](https://docs.google.com/presentation/d/19Bw_0rEiSekilx5l_bULgEleZ0me3mbnZD_foNnrR6s/edit?usp=sharing).
+**Update.** I've uploaded a [skeleton project](https://github.com/jillesvangurp/localstream-stack) about the stuff in this post to Github. The presentation that I gave on this at Berlin Startup Culture on May 21st can be found [here](https://docs.google.com/presentation/d/19Bw_0rEiSekilx5l_bULgEleZ0me3mbnZD_foNnrR6s/edit?usp=sharing).
 
 The server side code in the [Localstream](http://localstre.am) platform is a mix of Jruby and Java code. Over the past few months, I've gained a lot of experience using the two together and making the most of idioms and patterns in both worlds. 
 
@@ -88,7 +88,7 @@ The Java ecosystem provides a lot of good, very well supported technology. This 
 
 <!--more-->
 
-<strong>Server</strong>
+**Server**
 
 The Localstream server platform consists of an API layer written using the [Sinatra](http://www.sinatrarb.com/) framework for Ruby and several backend Java services that implement most of the business logic. This Sinatra application is deployed as a [rack](https://github.com/rack/rack) application to a rack compliant wrapper around the Jetty servlet engine called [Fishwife](https://github.com/dekellum/fishwife). Rack is the defacto way of interacting with servers in the Ruby world and Jetty is a pretty cool serlvet engine that provides support for all the latest HTTP stuff such as the SPDY protocol and asynchronous requests. Also, it is very fast and scales very well. 
 
@@ -100,7 +100,7 @@ So with Fishwife, we have none of that madness and can indeed start it, edit a f
 
 This simple setup alone would be worth it for most Ruby shops. No more mongrels. No more wasted memory on duplicate ruby processes. Nice scalable servers. Minimally disruptive to whatever you were doing before with your rack application and it scales a lot better.
 
-<strong>Java Dependencies</strong>
+**Java Dependencies**
 
 To integrate Java libraries in jruby, you can simply import jar files in your ruby code, and then import some java classes and pretend it is all ruby. The key trick here is getting the jar files in the right place.
 
@@ -144,7 +144,7 @@ import com.whatever.MyClass
 
 I considered putting this up on github but it is not much of a project IMHO and somewhat specific to our deployment.
 
-<strong>Dependency injection</strong>
+**Dependency injection**
 
 Dependency injection is something that Java developers over use and that ruby developers underuse in favor of things like [monkey patching](http://stackoverflow.com/questions/394144/what-does-monkey-patching-exactly-mean-in-ruby). Monkey patching is one of those hammers that gets overused in Ruby. While sometimes useful, this results in a lot of needlessly complicated and unreadable code and poorly structured applications and it seems like a free pass for omitting good design because you can always hack your way around the worst design mistakes. Dependency injection can be a more straightforward alternative if you are interested in delivering robust, testable code that does what it says it does. On the Java side, people tend to overdo it with dependency injection. Not every use of <code>new</code> requires an injected dependency. But sometimes it is a useful pattern. Anyway, coming from a Java background, I need dependency injection on the Java side and having a need to access that code from Jruby, I need it there as well. 
 
@@ -158,17 +158,17 @@ We use this in Sinatra controllers to give them access to the various Java servi
 
 That leaves the question of how to start Spring. Since we don't use a traditional application server, I have a Java class that creates a Spring context for me the old fashioned way: <code>new AnnotationConfigApplicationContext(SpringConfig.class); </code>. The context that comes back is stored in a static global variable, which is initialized only once. From there it is business as usual. SpringConfig is a Spring 3 configuration class that defines the beans (i.e. no XML involved). The rest of my code is free of any spring stuff, as it should be. 
 
-<strong>Configuration</strong>
+**Configuration**
 
 Configuration is one of those things that is pretty much done in an adhoc fashion in Ruby. Some people use Yaml, some people use ruby scripts, some people use json files, and some people use property files. In the Java world things are mostly governed using properties and Spring has a nice mechanism for integrating configuration. Java also has a notion of System properties that can be overridden on the command line with -D, which you can use in Spring as well. This is kind of nice for testing. So given the lack of any defacto configuration solutions in Ruby, we stuck with properties and I made sure they are loaded in a ruby friendly way (i.e. <code>AppContext.instance.config.propertyName</code> does what you would expect).
 
 If you are interested, my github project for this is called [properties-configuration-rb](https://github.com/jillesvangurp/property-configuration-rb).
 
-<strong>Logging</strong>
+**Logging**
 
 Ruby has a logging framework that looks like a naive version of what Java developers are used to. Basically it's a glorified printf with very little options and no good conventions for configuring it at deployment time. Indeed there is little advantage to using that over using a puts. Since Fishwife comes with all the plumbing to hook up ruby, rack and sinatra logging to SLF4J, using that was an easy choice. Basically it's another argument for using Fishwife and Jruby: you get pretty much free integration with a proper logging framework. We funnel SLF4j into Logback. But you can also use Log4j or Java's built in logging framework. 
 
-<strong>Final remarks</strong>
+**Final remarks**
 So there are some big advantages to using Jruby together with Java. We get to use a decent, well performing servlet container instead of some micky mouse solution involving poorly scalable, single threaded mongrels. On top of that it supports a few useful things such as https, spdy, and asynchronous requests. Nice and more or less for free.
 
 Then we can integrate just about any Java technology easily through our DIY ruby dependency injection, which is backed by Spring on the Java side. We configure using simple property files (which we also use in Java of course).

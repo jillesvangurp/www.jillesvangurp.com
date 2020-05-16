@@ -34,4 +34,4 @@ The stylesheet has the following nice features:
 	<li>Of course includes a link to the original kmz file.</li>
 </ul>
 
-<strong>Update.</strong> Since posting this I made several updates to the xsl and the css. The link above always points to the latest version of the stylesheet. In the zip file you will also find the css and a ant build file. As part of this update, I also rewrote the text above.
+**Update.** Since posting this I made several updates to the xsl and the css. The link above always points to the latest version of the stylesheet. In the zip file you will also find the css and a ant build file. As part of this update, I also rewrote the text above.
