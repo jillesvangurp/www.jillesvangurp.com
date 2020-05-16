@@ -14,10 +14,10 @@ tags:
 ---
 Ok, I'm considering to buy a RAID 5 external drive. If you have no clue what I mean by that, stop reading. Anyway, one of the products that seems interesting is the Lacie S1S 2TB which is a nice setup that includes four hot swappable 500GB drives.
 <div align="left">Now here's the catch (straight from the manual):</div>
-<blockquote>
-<div align="left">Caution! Do NOT attempt to replace a hard disk yourself. Removing a hard disk from a Drive Bay will void the
-warranty.</div>
-</blockquote>
+> 
+> <div align="left">Caution! Do NOT attempt to replace a hard disk yourself. Removing a hard disk from a Drive Bay will void the
+> warranty.</div>
+> 
 Eh, excuse me? The whole point of buying a raid 5 setup is being able to fix a disk failure by replacing it with a new one without powering down the unit (which according to another quote in the same manual is an extremely bad idea in the event of disk failure). So I guess no Lacie for me (hey that rimes!).
 
 Actually I'm looking for a simple setup that:
