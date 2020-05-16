@@ -2,7 +2,7 @@
 id: 381
 title: Christmas Photos
 date: 2008-02-05T01:10:56+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2008/02/05/christmas-photos/
 permalink: /2008/02/05/christmas-photos/

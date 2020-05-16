@@ -2,7 +2,7 @@
 id: 34
 title: referrer stat bastards!
 date: 2005-04-05T17:35:00+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: 19@http://blog.jillesvangurp.com/
 permalink: /2005/04/05/referrer-stat-bastards/

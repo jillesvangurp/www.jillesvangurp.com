@@ -2,7 +2,7 @@
 id: 1465
 title: Using Java constants in JRuby
 date: 2013-01-16T16:03:17+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1465
 permalink: /2013/01/16/using-java-constants-in-jruby/

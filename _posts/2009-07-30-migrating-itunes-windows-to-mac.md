@@ -2,7 +2,7 @@
 id: 610
 title: Migrating iTunes windows to Mac
 date: 2009-07-30T20:29:58+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=610
 permalink: /2009/07/30/migrating-itunes-windows-to-mac/

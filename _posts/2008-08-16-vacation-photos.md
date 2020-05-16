@@ -2,7 +2,7 @@
 id: 448
 title: Vacation photos
 date: 2008-08-16T16:41:14+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=448
 permalink: /2008/08/16/vacation-photos/

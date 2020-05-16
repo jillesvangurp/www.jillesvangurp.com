@@ -2,7 +2,7 @@
 id: 444
 title: Indie Social Networking
 date: 2008-08-07T22:05:44+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=444
 permalink: /2008/08/07/indie-social-networking/

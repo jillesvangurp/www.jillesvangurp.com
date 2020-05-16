@@ -2,7 +2,7 @@
 id: 671
 title: OVI Prime Place and Happy Holidays!
 date: 2009-12-22T22:25:12+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=671
 permalink: /2009/12/22/ovi-prime-place-and-happy-holidays/

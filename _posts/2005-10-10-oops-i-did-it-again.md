@@ -2,7 +2,7 @@
 id: 66
 title: oops I did it again
 date: 2005-10-10T19:21:10+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=66
 permalink: /2005/10/10/oops-i-did-it-again/

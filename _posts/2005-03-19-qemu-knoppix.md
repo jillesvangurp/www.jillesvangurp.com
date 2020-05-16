@@ -2,7 +2,7 @@
 id: 37
 title: 'qemu & knoppix'
 date: 2005-03-19T11:06:00+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: 16@http://blog.jillesvangurp.com/
 permalink: /2005/03/19/qemu-knoppix/

@@ -2,7 +2,7 @@
 id: 71
 title: The coming paradigm shift in TV broadcasting
 date: 2005-10-17T23:26:58+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=71
 permalink: /2005/10/17/the-coming-paradigm-shift-in-tv-broadcasting/

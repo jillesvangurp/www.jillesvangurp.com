@@ -2,7 +2,7 @@
 id: 1697
 title: Eventual Consistency Now! using Elasticsearch and Redis
 date: 2014-12-04T00:09:27+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1697
 permalink: /2014/12/04/eventual-consistency-now-using-elasticsearch-and-redis/

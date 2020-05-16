@@ -2,7 +2,7 @@
 id: 605
 title: Maps on Ovi
 date: 2009-07-07T21:25:21+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=605
 permalink: /2009/07/07/maps-on-ovi/

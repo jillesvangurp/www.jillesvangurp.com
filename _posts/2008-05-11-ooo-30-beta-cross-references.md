@@ -2,7 +2,7 @@
 id: 408
 title: 'OoO 3.0 Beta &#038; cross references'
 date: 2008-05-11T09:52:54+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=408
 permalink: /2008/05/11/ooo-30-beta-cross-references/

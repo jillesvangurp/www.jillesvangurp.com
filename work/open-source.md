@@ -2,7 +2,7 @@
 id: 1037
 title: Open Source
 date: 2012-06-10T11:25:48+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: page
 guid: http://www.jillesvangurp.com/?page_id=1037
 aktt_notify_twitter:

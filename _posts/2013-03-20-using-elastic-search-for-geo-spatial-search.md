@@ -2,7 +2,7 @@
 id: 1512
 title: Using Elastic Search for geo-spatial search
 date: 2013-03-20T19:59:25+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1512
 permalink: /2013/03/20/using-elastic-search-for-geo-spatial-search/

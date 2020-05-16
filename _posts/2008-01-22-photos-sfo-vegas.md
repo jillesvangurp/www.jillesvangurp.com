@@ -2,7 +2,7 @@
 id: 377
 title: 'Photos SFO &#038; Vegas'
 date: 2008-01-22T21:39:47+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2008/01/22/photos-sfo-vegas/
 permalink: /2008/01/22/photos-sfo-vegas/

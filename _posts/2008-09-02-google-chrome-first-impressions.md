@@ -2,7 +2,7 @@
 id: 467
 title: 'Google Chrome &#8211; First Impressions'
 date: 2008-09-02T22:46:27+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=467
 permalink: /2008/09/02/google-chrome-first-impressions/

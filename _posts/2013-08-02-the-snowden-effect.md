@@ -2,7 +2,7 @@
 id: 1587
 title: The Snowden effect
 date: 2013-08-02T10:10:00+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1587
 permalink: /2013/08/02/the-snowden-effect/

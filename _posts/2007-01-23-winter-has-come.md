@@ -2,7 +2,7 @@
 id: 229
 title: Winter has come
 date: 2007-01-23T10:17:54+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/01/23/winter-has-come/
 permalink: /2007/01/23/winter-has-come/

@@ -2,7 +2,7 @@
 id: 590
 title: Localization rant
 date: 2009-04-23T22:38:43+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=590
 permalink: /2009/04/23/localization-rant/

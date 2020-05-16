@@ -2,7 +2,7 @@
 id: 77
 title: Moving time
 date: 2005-11-18T15:46:02+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=77
 permalink: /2005/11/18/moving-time/

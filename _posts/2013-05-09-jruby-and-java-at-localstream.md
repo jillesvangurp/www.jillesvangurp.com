@@ -2,7 +2,7 @@
 id: 1544
 title: Jruby and Java at Localstream
 date: 2013-05-09T14:49:49+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1544
 permalink: /2013/05/09/jruby-and-java-at-localstream/

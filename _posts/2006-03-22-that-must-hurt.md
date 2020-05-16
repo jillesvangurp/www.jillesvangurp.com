@@ -2,7 +2,7 @@
 id: 129
 title: that must hurt
 date: 2006-03-22T20:55:22+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/03/22/that-must-hurt/
 permalink: /2006/03/22/that-must-hurt/

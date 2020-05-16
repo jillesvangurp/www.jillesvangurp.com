@@ -2,7 +2,7 @@
 id: 567
 title: Photos 1998-2009
 date: 2009-04-13T15:27:42+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: page
 guid: http://www.jillesvangurp.com/?page_id=567
 aktt_notify_twitter:

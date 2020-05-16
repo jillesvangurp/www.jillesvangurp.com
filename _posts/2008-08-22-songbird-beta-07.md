@@ -2,7 +2,7 @@
 id: 452
 title: Songbird Beta (0.7)
 date: 2008-08-22T20:22:48+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/2008/08/22/songbird-beta-07/
 permalink: /2008/08/22/songbird-beta-07/

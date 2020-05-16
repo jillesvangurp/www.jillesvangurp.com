@@ -2,7 +2,7 @@
 id: 1637
 title: Localstream and Linko
 date: 2014-02-01T11:06:46+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1637
 permalink: /2014/02/01/localstream-and-linko/

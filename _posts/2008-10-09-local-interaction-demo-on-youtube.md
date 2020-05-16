@@ -2,7 +2,7 @@
 id: 489
 title: Local Interaction demo on Youtube
 date: 2008-10-09T18:11:36+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=489
 permalink: /2008/10/09/local-interaction-demo-on-youtube/

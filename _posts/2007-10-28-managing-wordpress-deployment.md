@@ -2,7 +2,7 @@
 id: 350
 title: Managing wordpress deployment
 date: 2007-10-28T17:17:04+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/10/28/managing-wordpress-deployment/
 permalink: /2007/10/28/managing-wordpress-deployment/

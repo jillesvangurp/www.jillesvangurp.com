@@ -2,7 +2,7 @@
 id: 117
 title: good headphones
 date: 2006-03-09T20:01:31+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/03/09/good-headphones/
 permalink: /2006/03/09/good-headphones/

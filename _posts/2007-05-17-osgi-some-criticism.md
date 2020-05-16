@@ -2,7 +2,7 @@
 id: 283
 title: 'OSGi: some criticism'
 date: 2007-05-17T11:54:09+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/05/17/osgi-some-criticism/
 permalink: /2007/05/17/osgi-some-criticism/

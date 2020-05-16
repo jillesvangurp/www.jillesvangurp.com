@@ -2,7 +2,7 @@
 id: 266
 title: WordPress sandbox theme
 date: 2007-04-01T12:24:59+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/04/01/wordpress-sandbox-theme/
 permalink: /2007/04/01/wordpress-sandbox-theme/

@@ -2,7 +2,7 @@
 id: 617
 title: Threaded comments
 date: 2009-08-19T08:21:45+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=617
 permalink: /2009/08/19/threaded-comments/

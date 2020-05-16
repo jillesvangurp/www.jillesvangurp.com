@@ -2,7 +2,7 @@
 id: 48
 title: publications.jillesvangurp.com
 date: 2005-02-23T18:55:00+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: 5@http://blog.jillesvangurp.com/
 permalink: /2005/02/23/publicationsjillesvangurpcom/

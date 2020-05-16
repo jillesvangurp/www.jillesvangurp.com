@@ -2,7 +2,7 @@
 id: 359
 title: OpenID 2.0 and concerns about it
 date: 2007-12-01T13:04:27+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/12/01/openid-20-and-concerns-about-it/
 permalink: /2007/12/01/openid-20-and-concerns-about-it/

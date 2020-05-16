@@ -2,7 +2,7 @@
 id: 403
 title: Still traveling
 date: 2008-04-20T10:15:47+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=403
 permalink: /2008/04/20/still-traveling/

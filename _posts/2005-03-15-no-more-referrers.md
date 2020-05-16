@@ -2,7 +2,7 @@
 id: 38
 title: no more referrers
 date: 2005-03-15T21:14:00+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: 15@http://blog.jillesvangurp.com/
 permalink: /2005/03/15/no-more-referrers/

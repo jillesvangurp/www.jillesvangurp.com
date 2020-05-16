@@ -2,7 +2,7 @@
 id: 157
 title: ubuntu breezy to dapper upgrade
 date: 2006-05-29T17:49:30+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/05/29/ubuntu-breezy-to-dapper-upgrade/
 permalink: /2006/05/29/ubuntu-breezy-to-dapper-upgrade/

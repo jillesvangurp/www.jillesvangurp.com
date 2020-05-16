@@ -2,7 +2,7 @@
 id: 598
 title: wolframalpha
 date: 2009-05-21T10:06:39+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=598
 permalink: /2009/05/21/wolframalpha/

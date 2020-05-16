@@ -2,7 +2,7 @@
 id: 230
 title: Upgrading to wordpress 2.1
 date: 2007-01-23T17:49:30+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/01/23/upgrading-to-wordpress-21/
 permalink: /2007/01/23/upgrading-to-wordpress-21/

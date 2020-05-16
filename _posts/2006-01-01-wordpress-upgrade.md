@@ -2,7 +2,7 @@
 id: 87
 title: WordPress upgrade
 date: 2006-01-01T11:10:17+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=87
 permalink: /2006/01/01/wordpress-upgrade/

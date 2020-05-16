@@ -2,7 +2,7 @@
 id: 173
 title: SPLC workshop papers
 date: 2006-08-18T10:04:29+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/08/18/splc-workshop-papers/
 permalink: /2006/08/18/splc-workshop-papers/

@@ -2,7 +2,7 @@
 id: 78
 title: going offline
 date: 2005-11-20T22:27:21+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=78
 permalink: /2005/11/20/going-offline/

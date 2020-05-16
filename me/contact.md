@@ -2,7 +2,7 @@
 id: 113
 title: Contact
 date: 2006-02-23T17:13:49+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: page
 guid: http://blog.jillesvangurp.com/contact/
 dsq_thread_id:

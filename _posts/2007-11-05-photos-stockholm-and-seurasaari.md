@@ -2,7 +2,7 @@
 id: 352
 title: Photos Stockholm and Seurasaari
 date: 2007-11-05T21:59:37+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/11/05/photos-stockholm-and-seurasaari/
 permalink: /2007/11/05/photos-stockholm-and-seurasaari/

@@ -2,7 +2,7 @@
 id: 557
 title: Upgrade to wordpress 2.7.1
 date: 2009-04-13T14:08:24+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=557
 permalink: /2009/04/13/upgrade-to-wordpress-271/

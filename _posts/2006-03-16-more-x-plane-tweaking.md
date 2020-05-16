@@ -2,7 +2,7 @@
 id: 125
 title: more x-plane tweaking
 date: 2006-03-16T21:59:03+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/03/16/more-x-plane-tweaking/
 permalink: /2006/03/16/more-x-plane-tweaking/

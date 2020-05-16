@@ -2,7 +2,7 @@
 id: 502
 title: Mac at home
 date: 2008-10-18T11:40:58+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=502
 permalink: /2008/10/18/mac-at-home/

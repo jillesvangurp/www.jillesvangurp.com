@@ -2,7 +2,7 @@
 id: 325
 title: Another Porsche
 date: 2007-08-24T18:06:29+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/08/24/another-porsche/
 permalink: /2007/08/24/another-porsche/

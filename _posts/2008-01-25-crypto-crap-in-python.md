@@ -2,7 +2,7 @@
 id: 378
 title: Crypto Crap in Python
 date: 2008-01-25T19:05:22+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2008/01/25/crypto-crap-in-python/
 permalink: /2008/01/25/crypto-crap-in-python/

@@ -2,7 +2,7 @@
 id: 218
 title: Semantic diffusion
 date: 2006-12-15T10:29:56+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/12/15/semantic-diffusion/
 permalink: /2006/12/15/semantic-diffusion/

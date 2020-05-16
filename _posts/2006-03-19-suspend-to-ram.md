@@ -2,7 +2,7 @@
 id: 127
 title: suspend to ram
 date: 2006-03-19T11:38:28+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/03/19/suspend-to-ram/
 permalink: /2006/03/19/suspend-to-ram/

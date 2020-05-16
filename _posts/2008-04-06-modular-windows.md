@@ -2,7 +2,7 @@
 id: 401
 title: Modular windows
 date: 2008-04-06T10:44:25+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=401
 permalink: /2008/04/06/modular-windows/

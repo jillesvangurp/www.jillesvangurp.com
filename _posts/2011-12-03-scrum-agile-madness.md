@@ -2,7 +2,7 @@
 id: 938
 title: 'Scrum: Agile madness'
 date: 2011-12-03T14:37:16+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=938
 permalink: /2011/12/03/scrum-agile-madness/

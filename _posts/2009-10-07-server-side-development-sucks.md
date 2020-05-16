@@ -2,7 +2,7 @@
 id: 632
 title: Server side development sucks
 date: 2009-10-07T21:01:00+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=632
 permalink: /2009/10/07/server-side-development-sucks/

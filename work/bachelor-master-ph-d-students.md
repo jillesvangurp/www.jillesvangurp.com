@@ -2,7 +2,7 @@
 id: 420
 title: 'Bachelor, Master &#038; Ph D. students'
 date: 2008-06-28T22:28:42+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: page
 guid: http://www.jillesvangurp.com/?page_id=420
 dsq_thread_id:

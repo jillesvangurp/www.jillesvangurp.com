@@ -2,7 +2,7 @@
 id: 601
 title: OpenID, the identity landscape, and social networks
 date: 2009-05-21T10:30:31+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=601
 permalink: /2009/05/21/openid-the-identity-landscape-and-social-networks/

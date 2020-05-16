@@ -2,7 +2,7 @@
 id: 390
 title: New and updated publications
 date: 2008-03-16T12:36:20+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/2008/03/16/new-and-updated-publications/
 permalink: /2008/03/16/new-and-updated-publications/

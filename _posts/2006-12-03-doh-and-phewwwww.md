@@ -2,7 +2,7 @@
 id: 212
 title: Doh! and phewwwww
 date: 2006-12-03T12:13:38+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/12/03/doh-and-phewwwww/
 permalink: /2006/12/03/doh-and-phewwwww/

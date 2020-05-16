@@ -2,7 +2,7 @@
 id: 147
 title: 'Axis2 &#8211; 1.0 First impressions'
 date: 2006-05-11T17:57:45+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/05/11/axis2-10-first-impressions/
 permalink: /2006/05/11/axis2-10-first-impressions/

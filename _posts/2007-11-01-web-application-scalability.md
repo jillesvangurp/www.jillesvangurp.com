@@ -2,7 +2,7 @@
 id: 351
 title: Web application scalability
 date: 2007-11-01T19:10:21+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/11/01/web-application-scalability/
 permalink: /2007/11/01/web-application-scalability/

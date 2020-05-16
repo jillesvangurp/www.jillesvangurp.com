@@ -2,7 +2,7 @@
 id: 1122
 title: Disabling swap file
 date: 2012-09-15T14:59:43+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1122
 permalink: /2012/09/15/disabling-swap-file/

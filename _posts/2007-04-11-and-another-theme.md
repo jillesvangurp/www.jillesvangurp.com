@@ -2,7 +2,7 @@
 id: 272
 title: And another theme
 date: 2007-04-11T20:07:14+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/04/11/and-another-theme/
 permalink: /2007/04/11/and-another-theme/

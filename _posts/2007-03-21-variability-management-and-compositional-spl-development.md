@@ -2,7 +2,7 @@
 id: 260
 title: Variability Management and Compositional SPL Development
 date: 2007-03-21T23:15:45+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/03/21/variability-management-and-compositional-spl-development/
 permalink: /2007/03/21/variability-management-and-compositional-spl-development/

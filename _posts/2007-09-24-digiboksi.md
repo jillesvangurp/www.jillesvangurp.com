@@ -2,7 +2,7 @@
 id: 336
 title: Digiboksi
 date: 2007-09-24T18:50:14+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/09/24/digiboksi/
 permalink: /2007/09/24/digiboksi/

@@ -2,7 +2,7 @@
 id: 264
 title: Running Tomcat on N800
 date: 2007-03-28T10:03:29+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/03/28/running-tomcat-on-n800/
 permalink: /2007/03/28/running-tomcat-on-n800/

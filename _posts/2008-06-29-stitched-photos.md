@@ -2,7 +2,7 @@
 id: 421
 title: Stitched Photos
 date: 2008-06-29T11:17:33+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=421
 permalink: /2008/06/29/stitched-photos/

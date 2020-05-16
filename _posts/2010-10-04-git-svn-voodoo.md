@@ -2,7 +2,7 @@
 id: 769
 title: Git svn voodoo
 date: 2010-10-04T23:53:40+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=769
 permalink: /2010/10/04/git-svn-voodoo/

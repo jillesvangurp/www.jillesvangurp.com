@@ -2,7 +2,7 @@
 id: 593
 title: Java Profiling
 date: 2009-05-03T11:05:19+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=593
 permalink: /2009/05/03/java-profiling/

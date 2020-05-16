@@ -2,7 +2,7 @@
 id: 96
 title: wlan gone paranoid
 date: 2006-01-15T17:13:04+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=96
 permalink: /2006/01/15/wlan-gone-paranoid/

@@ -2,7 +2,7 @@
 id: 31
 title: FireFox Alpha a.k.a Deerpark
 date: 2005-05-30T19:33:00+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: 22@http://blog.jillesvangurp.com/
 permalink: /2005/05/30/firefox-alpha-aka-deerpark/

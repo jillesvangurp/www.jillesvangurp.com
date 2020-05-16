@@ -2,7 +2,7 @@
 id: 380
 title: Google Social Graph API
 date: 2008-02-04T23:42:13+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2008/02/04/google-social-graph-api/
 permalink: /2008/02/04/google-social-graph-api/

@@ -2,7 +2,7 @@
 id: 58
 title: 'Photo&#8217;s added'
 date: 2005-10-03T19:13:43+00:00
-author: Jilles
+author: Jilles van Gurp
 excerpt: 'Added photos from my recent vacation in Andalucia (with a small excursion to Helsinki) & a weekend in London'
 layout: post
 guid: http://blog.jillesvangurp.com/?p=58

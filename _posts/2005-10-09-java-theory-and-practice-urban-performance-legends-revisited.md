@@ -2,7 +2,7 @@
 id: 65
 title: 'Java theory and practice: Urban performance legends, revisited'
 date: 2005-10-09T19:28:46+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=65
 permalink: /2005/10/09/java-theory-and-practice-urban-performance-legends-revisited/

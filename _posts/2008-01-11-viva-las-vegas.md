@@ -2,7 +2,7 @@
 id: 376
 title: Viva las Vegas
 date: 2008-01-11T23:18:46+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2008/01/11/viva-las-vegas/
 permalink: /2008/01/11/viva-las-vegas/

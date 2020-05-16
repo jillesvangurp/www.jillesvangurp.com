@@ -2,7 +2,7 @@
 id: 342
 title: Experiences with realizing Smart Space Web Service Applications
 date: 2007-10-13T12:04:28+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/10/13/experiences-with-realizing-smart-space-web-service-applications/
 permalink: /2007/10/13/experiences-with-realizing-smart-space-web-service-applications/

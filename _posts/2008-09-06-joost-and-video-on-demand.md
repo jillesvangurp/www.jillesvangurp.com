@@ -2,7 +2,7 @@
 id: 474
 title: Joost and video on demand
 date: 2008-09-06T10:01:55+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=474
 permalink: /2008/09/06/joost-and-video-on-demand/

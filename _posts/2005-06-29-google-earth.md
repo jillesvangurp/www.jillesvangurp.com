@@ -2,7 +2,7 @@
 id: 27
 title: google earth
 date: 2005-06-29T20:30:00+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: 26@http://blog.jillesvangurp.com/
 permalink: /2005/06/29/google-earth/

@@ -2,7 +2,7 @@
 id: 362
 title: Bad behavior
 date: 2007-12-30T16:16:57+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/12/30/bad-behavior/
 permalink: /2007/12/30/bad-behavior/

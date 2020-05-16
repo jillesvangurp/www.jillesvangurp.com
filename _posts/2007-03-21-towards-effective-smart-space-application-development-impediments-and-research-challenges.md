@@ -2,7 +2,7 @@
 id: 261
 title: 'Towards Effective Smart Space Application Development: Impediments and Research Challenges'
 date: 2007-03-21T23:20:15+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/03/21/towards-effective-smart-space-application-development-impediments-and-research-challenges/
 permalink: /2007/03/21/towards-effective-smart-space-application-development-impediments-and-research-challenges/

@@ -2,7 +2,7 @@
 id: 356
 title: Google Android
 date: 2007-11-12T22:10:04+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/11/12/google-android/
 permalink: /2007/11/12/google-android/

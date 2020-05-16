@@ -2,7 +2,7 @@
 id: 248
 title: About Me
 date: 2007-02-10T14:12:30+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: page
 guid: http://blog.jillesvangurp.com/about-me/
 dsq_thread_id:

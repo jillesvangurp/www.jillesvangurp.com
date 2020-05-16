@@ -2,7 +2,7 @@
 id: 43
 title: MP3 Album Art Tool
 date: 2005-03-05T10:20:00+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: 10@http://blog.jillesvangurp.com/
 permalink: /2005/03/05/mp3-album-art-tool/

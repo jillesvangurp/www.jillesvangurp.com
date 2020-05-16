@@ -2,7 +2,7 @@
 id: 86
 title: 'wireless hell (3) &#038; new hardware'
 date: 2005-12-26T14:35:29+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=86
 permalink: /2005/12/26/wireless-hell-3-new-hardware/

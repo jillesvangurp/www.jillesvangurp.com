@@ -2,7 +2,7 @@
 id: 139
 title: Dutch Scenery for X-plane
 date: 2006-04-21T22:31:47+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/04/21/dutch-scenery-for-x-plane/
 permalink: /2006/04/21/dutch-scenery-for-x-plane/

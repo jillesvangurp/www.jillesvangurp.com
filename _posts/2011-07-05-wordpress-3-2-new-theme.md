@@ -2,7 +2,7 @@
 id: 913
 title: 'WordPress 3.2 &#038; new theme'
 date: 2011-07-05T09:11:32+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=913
 permalink: /2011/07/05/wordpress-3-2-new-theme/

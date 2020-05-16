@@ -2,7 +2,7 @@
 id: 128
 title: I love this country
 date: 2006-03-21T19:25:27+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/03/21/i-love-this-country/
 permalink: /2006/03/21/i-love-this-country/

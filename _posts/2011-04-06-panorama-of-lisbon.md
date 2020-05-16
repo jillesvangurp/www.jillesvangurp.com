@@ -2,7 +2,7 @@
 id: 850
 title: Panorama of Lisbon
 date: 2011-04-06T09:14:05+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=850
 permalink: /2011/04/06/panorama-of-lisbon/

@@ -2,7 +2,7 @@
 id: 1102
 title: Leaving Nokia
 date: 2012-08-16T14:54:24+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1102
 permalink: /2012/08/16/leaving-nokia/

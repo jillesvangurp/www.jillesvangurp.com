@@ -2,7 +2,7 @@
 id: 543
 title: Nearly leaving Helsinki
 date: 2009-01-28T23:39:24+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=543
 permalink: /2009/01/28/nearly-leaving-helsinki/

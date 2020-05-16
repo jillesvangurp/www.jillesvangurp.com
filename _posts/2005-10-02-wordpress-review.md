@@ -2,7 +2,7 @@
 id: 57
 title: WordPress review
 date: 2005-10-02T18:22:28+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=57
 permalink: /2005/10/02/wordpress-review/

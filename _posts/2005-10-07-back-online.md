@@ -2,7 +2,7 @@
 id: 61
 title: Back online
 date: 2005-10-07T19:02:35+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=61
 permalink: /2005/10/07/back-online/

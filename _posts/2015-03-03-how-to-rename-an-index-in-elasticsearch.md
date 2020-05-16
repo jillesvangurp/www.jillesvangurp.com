@@ -2,7 +2,7 @@
 id: 1727
 title: How to rename an index in Elasticsearch
 date: 2015-03-03T15:35:52+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1727
 permalink: /2015/03/03/how-to-rename-an-index-in-elasticsearch/

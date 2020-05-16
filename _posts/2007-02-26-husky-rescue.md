@@ -2,7 +2,7 @@
 id: 254
 title: Husky Rescue
 date: 2007-02-26T22:10:14+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/02/26/husky-rescue/
 permalink: /2007/02/26/husky-rescue/

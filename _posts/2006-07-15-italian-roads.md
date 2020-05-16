@@ -2,7 +2,7 @@
 id: 164
 title: Italian roads
 date: 2006-07-15T21:04:54+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/07/15/italian-roads/
 permalink: /2006/07/15/italian-roads/

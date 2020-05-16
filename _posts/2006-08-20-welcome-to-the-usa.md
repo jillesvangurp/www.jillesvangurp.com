@@ -2,7 +2,7 @@
 id: 175
 title: Welcome to the USA!
 date: 2006-08-20T15:15:21+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/08/20/welcome-to-the-usa/
 permalink: /2006/08/20/welcome-to-the-usa/

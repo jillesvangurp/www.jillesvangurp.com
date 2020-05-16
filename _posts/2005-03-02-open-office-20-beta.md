@@ -2,7 +2,7 @@
 id: 44
 title: Open Office 2.0 Beta
 date: 2005-03-02T20:45:00+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: 9@http://blog.jillesvangurp.com/
 permalink: /2005/03/02/open-office-20-beta/

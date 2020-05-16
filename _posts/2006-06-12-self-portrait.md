@@ -2,7 +2,7 @@
 id: 162
 title: Self portrait
 date: 2006-06-12T20:03:23+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/06/12/self-portrait/
 permalink: /2006/06/12/self-portrait/

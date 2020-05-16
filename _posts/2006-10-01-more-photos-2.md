@@ -2,7 +2,7 @@
 id: 190
 title: more photos
 date: 2006-10-01T13:34:21+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/10/01/more-photos-2/
 permalink: /2006/10/01/more-photos-2/

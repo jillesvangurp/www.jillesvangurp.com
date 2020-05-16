@@ -2,7 +2,7 @@
 id: 158
 title: New papers
 date: 2006-05-30T20:56:14+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/05/30/new-papers/
 permalink: /2006/05/30/new-papers/

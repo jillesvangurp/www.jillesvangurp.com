@@ -2,7 +2,7 @@
 id: 391
 title: From SPLs to Open, Compositional Platforms
 date: 2008-03-16T13:04:01+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/2008/03/16/from-spls-to-open-compositional-platforms/
 permalink: /2008/03/16/from-spls-to-open-compositional-platforms/

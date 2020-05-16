@@ -2,7 +2,7 @@
 id: 305
 title: New photos added
 date: 2007-07-03T21:09:49+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/07/03/new-photos-added/
 permalink: /2007/07/03/new-photos-added/

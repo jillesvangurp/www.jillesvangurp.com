@@ -2,7 +2,7 @@
 id: 253
 title: Using rsync for backup
 date: 2007-02-24T14:00:19+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/02/24/using-rsync-for-backup/
 permalink: /2007/02/24/using-rsync-for-backup/

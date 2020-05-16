@@ -2,7 +2,7 @@
 id: 373
 title: Traveling in style
 date: 2008-01-07T22:38:12+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2008/01/07/traveling-in-style/
 permalink: /2008/01/07/traveling-in-style/

@@ -2,7 +2,7 @@
 id: 105
 title: opera mini
 date: 2006-02-01T18:59:38+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/02/01/opera-mini/
 permalink: /2006/02/01/opera-mini/

@@ -2,7 +2,7 @@
 id: 55
 title: About this blog
 date: 2005-10-02T14:49:27+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: page
 guid: http://blog.jillesvangurp.com/?page_id=55
 dsq_thread_id:

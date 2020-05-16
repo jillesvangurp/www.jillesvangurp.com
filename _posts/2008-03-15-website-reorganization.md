@@ -2,7 +2,7 @@
 id: 388
 title: Website reorganization
 date: 2008-03-15T11:52:24+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/2008/03/15/website-reorganization/
 permalink: /2008/03/15/website-reorganization/

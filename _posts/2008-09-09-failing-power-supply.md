@@ -2,7 +2,7 @@
 id: 477
 title: Failing power supply
 date: 2008-09-09T22:58:50+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=477
 permalink: /2008/09/09/failing-power-supply/

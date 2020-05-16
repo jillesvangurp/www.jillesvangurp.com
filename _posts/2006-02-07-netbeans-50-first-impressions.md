@@ -2,7 +2,7 @@
 id: 109
 title: Netbeans 5.0 first impressions
 date: 2006-02-07T19:13:38+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/02/07/netbeans-50-first-impressions/
 permalink: /2006/02/07/netbeans-50-first-impressions/

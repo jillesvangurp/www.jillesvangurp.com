@@ -2,7 +2,7 @@
 id: 122
 title: How it Flies
 date: 2006-03-14T21:40:54+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/03/14/how-it-flies/
 permalink: /2006/03/14/how-it-flies/

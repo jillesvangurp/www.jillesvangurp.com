@@ -2,7 +2,7 @@
 id: 358
 title: Travel from A to B
 date: 2007-11-22T23:22:37+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/11/22/travel-from-a-to-b/
 permalink: /2007/11/22/travel-from-a-to-b/

@@ -2,7 +2,7 @@
 id: 33
 title: comment spam bastards
 date: 2005-04-06T19:39:00+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: 20@http://blog.jillesvangurp.com/
 permalink: /2005/04/06/comment-spam-bastards/

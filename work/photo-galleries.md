@@ -2,7 +2,7 @@
 id: 1058
 title: Photo Galleries
 date: 2012-06-10T11:55:56+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: page
 guid: http://www.jillesvangurp.com/?page_id=1058
 aktt_notify_twitter:

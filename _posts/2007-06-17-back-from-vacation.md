@@ -2,7 +2,7 @@
 id: 296
 title: Back from vacation
 date: 2007-06-17T08:23:36+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/06/17/back-from-vacation/
 permalink: /2007/06/17/back-from-vacation/

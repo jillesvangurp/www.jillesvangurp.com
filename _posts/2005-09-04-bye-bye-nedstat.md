@@ -2,7 +2,7 @@
 id: 23
 title: bye bye nedstat
 date: 2005-09-04T21:06:00+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: 30@http://blog.jillesvangurp.com/
 permalink: /2005/09/04/bye-bye-nedstat/

@@ -2,7 +2,7 @@
 id: 1080
 title: Git-svn tips
 date: 2012-06-10T14:55:35+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1080
 permalink: /2012/06/10/git-svn-tips/

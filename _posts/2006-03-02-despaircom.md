@@ -2,7 +2,7 @@
 id: 114
 title: despair.com
 date: 2006-03-02T22:09:00+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/03/02/despaircom/
 permalink: /2006/03/02/despaircom/

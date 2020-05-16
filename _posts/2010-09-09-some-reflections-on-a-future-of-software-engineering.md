@@ -2,7 +2,7 @@
 id: 759
 title: Some reflections on a future of software engineering
 date: 2010-09-09T09:02:47+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=759
 permalink: /2010/09/09/some-reflections-on-a-future-of-software-engineering/

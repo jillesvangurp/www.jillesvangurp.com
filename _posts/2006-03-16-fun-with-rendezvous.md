@@ -2,7 +2,7 @@
 id: 124
 title: fun with rendezvous
 date: 2006-03-16T22:04:39+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/03/16/fun-with-rendezvous/
 permalink: /2006/03/16/fun-with-rendezvous/

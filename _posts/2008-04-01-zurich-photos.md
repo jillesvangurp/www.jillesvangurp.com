@@ -2,7 +2,7 @@
 id: 397
 title: Zurich Photos
 date: 2008-04-01T22:47:16+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=397
 permalink: /2008/04/01/zurich-photos/

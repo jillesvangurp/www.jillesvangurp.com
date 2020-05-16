@@ -2,7 +2,7 @@
 id: 1794
 title: Running consul in a docker swarm with docker 1.12
 date: 2016-08-26T10:00:58+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1794
 permalink: /2016/08/26/running-consul-in-a-docker-swarm-with-docker-1-12/

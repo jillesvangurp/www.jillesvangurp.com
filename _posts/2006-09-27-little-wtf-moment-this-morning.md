@@ -2,7 +2,7 @@
 id: 189
 title: Little WTF moment this morning
 date: 2006-09-27T12:20:51+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/09/27/little-wtf-moment-this-morning/
 permalink: /2006/09/27/little-wtf-moment-this-morning/

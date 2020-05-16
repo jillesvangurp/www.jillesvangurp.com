@@ -2,7 +2,7 @@
 id: 348
 title: Kdiff3 to the rescue
 date: 2007-10-23T23:47:05+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/10/23/kdiff3-to-the-rescue/
 permalink: /2007/10/23/kdiff3-to-the-rescue/

@@ -2,7 +2,7 @@
 id: 1396
 title: 'Data processing in Java: iterables-support'
 date: 2012-11-15T11:56:56+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1396
 permalink: /2012/11/15/data-processing-in-java-iterables-support/

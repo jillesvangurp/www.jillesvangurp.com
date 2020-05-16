@@ -2,7 +2,7 @@
 id: 148
 title: Dutch politics
 date: 2006-05-16T20:45:32+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/05/16/dutch-politics/
 permalink: /2006/05/16/dutch-politics/

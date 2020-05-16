@@ -2,7 +2,7 @@
 id: 53
 title: migrated to wordpress
 date: 2005-09-28T23:13:54+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=53
 permalink: /2005/09/28/migrated-to-wordpress/

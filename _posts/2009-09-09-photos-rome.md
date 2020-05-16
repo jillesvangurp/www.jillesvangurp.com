@@ -2,7 +2,7 @@
 id: 628
 title: Photos Rome
 date: 2009-09-09T22:12:27+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=628
 permalink: /2009/09/09/photos-rome/

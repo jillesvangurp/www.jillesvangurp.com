@@ -2,7 +2,7 @@
 id: 63
 title: iTunes review
 date: 2005-10-09T16:17:57+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=63
 permalink: /2005/10/09/itunes-review/

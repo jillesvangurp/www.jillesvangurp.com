@@ -2,7 +2,7 @@
 id: 119
 title: Supermarket beers in Finland
 date: 2006-03-10T23:36:30+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/03/10/supermarket-beers-in-finland/
 permalink: /2006/03/10/supermarket-beers-in-finland/

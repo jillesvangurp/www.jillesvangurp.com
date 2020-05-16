@@ -2,7 +2,7 @@
 id: 295
 title: On vacation
 date: 2007-06-04T13:53:58+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/06/04/on-vacation/
 permalink: /2007/06/04/on-vacation/

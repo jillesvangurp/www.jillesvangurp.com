@@ -2,7 +2,7 @@
 id: 153
 title: Places where I lived
 date: 2006-05-21T13:48:03+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/05/21/places-where-i-lived/
 permalink: /2006/05/21/places-where-i-lived/

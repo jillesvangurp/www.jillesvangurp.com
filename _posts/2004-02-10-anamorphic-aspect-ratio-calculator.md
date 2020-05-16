@@ -2,7 +2,7 @@
 id: 242
 title: Anamorphic aspect ratio calculator
 date: 2004-02-10T13:27:48+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2004/02/10/anamorphic-aspect-ratio-calculator/
 permalink: /2004/02/10/anamorphic-aspect-ratio-calculator/

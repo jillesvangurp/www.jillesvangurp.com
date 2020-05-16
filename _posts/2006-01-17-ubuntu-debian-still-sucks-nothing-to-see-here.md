@@ -2,7 +2,7 @@
 id: 98
 title: 'ubuntu: debian still sucks, nothing to see here'
 date: 2006-01-17T23:40:31+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=98
 permalink: /2006/01/17/ubuntu-debian-still-sucks-nothing-to-see-here/

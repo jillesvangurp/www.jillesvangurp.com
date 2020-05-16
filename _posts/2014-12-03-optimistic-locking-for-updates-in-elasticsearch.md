@@ -2,7 +2,7 @@
 id: 1689
 title: Optimistic locking for updates in Elasticsearch
 date: 2014-12-03T15:04:34+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1689
 permalink: /2014/12/03/optimistic-locking-for-updates-in-elasticsearch/

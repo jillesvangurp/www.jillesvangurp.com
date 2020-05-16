@@ -2,7 +2,7 @@
 id: 1782
 title: Functional tests and flakyness
 date: 2016-05-25T10:38:13+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1782
 permalink: /2016/05/25/functional-tests-and-flakyness/

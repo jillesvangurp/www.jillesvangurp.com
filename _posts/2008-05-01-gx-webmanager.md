@@ -2,7 +2,7 @@
 id: 406
 title: GX WebManager
 date: 2008-05-01T09:32:40+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=406
 permalink: /2008/05/01/gx-webmanager/

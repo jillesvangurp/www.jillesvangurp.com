@@ -2,7 +2,7 @@
 id: 324
 title: Head tracking
 date: 2007-08-18T16:27:44+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/08/18/head-tracking/
 permalink: /2007/08/18/head-tracking/

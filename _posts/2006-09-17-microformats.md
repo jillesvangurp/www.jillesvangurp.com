@@ -2,7 +2,7 @@
 id: 186
 title: Microformats
 date: 2006-09-17T16:08:05+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/09/17/microformats/
 permalink: /2006/09/17/microformats/

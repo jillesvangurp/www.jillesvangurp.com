@@ -2,7 +2,7 @@
 id: 1822
 title: '2084 &#8211; Dodging a Dystopian Future'
 date: 2017-01-09T14:27:22+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1822
 permalink: /2017/01/09/2084-dodging-a-dystopian-future/

@@ -2,7 +2,7 @@
 id: 1645
 title: Versioneye
 date: 2014-02-01T11:59:29+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1645
 permalink: /2014/02/01/versioneye/

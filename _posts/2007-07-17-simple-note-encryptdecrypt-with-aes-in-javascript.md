@@ -2,7 +2,7 @@
 id: 310
 title: simple note encrypt/decrypt with AES in javascript
 date: 2007-07-17T20:01:10+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/07/17/simple-note-encryptdecrypt-with-aes-in-javascript/
 permalink: /2007/07/17/simple-note-encryptdecrypt-with-aes-in-javascript/

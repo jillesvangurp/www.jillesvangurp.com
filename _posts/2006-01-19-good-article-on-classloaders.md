@@ -2,7 +2,7 @@
 id: 100
 title: Good article on classloaders
 date: 2006-01-19T19:01:53+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/01/19/good-article-on-classloaders/
 permalink: /2006/01/19/good-article-on-classloaders/

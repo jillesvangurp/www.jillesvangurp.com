@@ -2,7 +2,7 @@
 id: 267
 title: My online presence
 date: 2007-04-01T12:59:22+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: page
 guid: http://blog.jillesvangurp.com/my-other-sites/
 dsq_thread_id:

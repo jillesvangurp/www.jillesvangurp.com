@@ -2,7 +2,7 @@
 id: 138
 title: reinstalling windows sucks
 date: 2006-04-20T22:08:39+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/04/20/reinstalling-windows-sucks/
 permalink: /2006/04/20/reinstalling-windows-sucks/

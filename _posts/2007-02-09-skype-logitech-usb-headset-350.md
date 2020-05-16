@@ -2,7 +2,7 @@
 id: 240
 title: Skype + Logitech USB Headset 350
 date: 2007-02-09T20:22:36+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/02/09/skype-logitech-usb-headset-350/
 permalink: /2007/02/09/skype-logitech-usb-headset-350/

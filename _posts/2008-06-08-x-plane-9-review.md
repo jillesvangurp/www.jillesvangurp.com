@@ -2,7 +2,7 @@
 id: 417
 title: X-Plane 9 review
 date: 2008-06-08T19:09:05+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=417
 permalink: /2008/06/08/x-plane-9-review/

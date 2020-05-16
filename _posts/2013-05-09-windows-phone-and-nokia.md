@@ -2,7 +2,7 @@
 id: 1548
 title: Windows Phone and Nokia
 date: 2013-05-09T10:20:53+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1548
 permalink: /2013/05/09/windows-phone-and-nokia/

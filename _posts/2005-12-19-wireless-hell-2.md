@@ -2,7 +2,7 @@
 id: 83
 title: wireless hell (2)
 date: 2005-12-19T21:14:25+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=83
 permalink: /2005/12/19/wireless-hell-2/

@@ -2,7 +2,7 @@
 id: 1609
 title: De-globalization or why local matters
 date: 2013-10-07T18:44:43+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1609
 permalink: /2013/10/07/de-globalization-or-why-local-matters/

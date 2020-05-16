@@ -2,7 +2,7 @@
 id: 185
 title: Structured Blogging Test
 date: 2006-09-17T15:33:30+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/09/17/structured-blogging-test/
 permalink: /2006/09/17/structured-blogging-test/

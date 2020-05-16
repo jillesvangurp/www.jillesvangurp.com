@@ -2,7 +2,7 @@
 id: 1571
 title: Localstream demo at Wherecamp
 date: 2013-06-15T16:07:20+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1571
 permalink: /2013/06/15/localstream-demo-at-wherecamp/

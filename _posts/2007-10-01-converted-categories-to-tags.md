@@ -2,7 +2,7 @@
 id: 338
 title: converted categories to tags
 date: 2007-10-01T22:26:12+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/10/01/converted-categories-to-tags/
 permalink: /2007/10/01/converted-categories-to-tags/

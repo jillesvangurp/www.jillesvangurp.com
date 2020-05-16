@@ -2,7 +2,7 @@
 id: 386
 title: Publications
 date: 2008-03-15T10:54:02+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: page
 guid: http://blog.jillesvangurp.com/publications/
 aktt_notify_twitter:

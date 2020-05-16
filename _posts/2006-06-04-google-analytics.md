@@ -2,7 +2,7 @@
 id: 159
 title: Google analytics
 date: 2006-06-04T18:19:02+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/06/04/google-analytics/
 permalink: /2006/06/04/google-analytics/

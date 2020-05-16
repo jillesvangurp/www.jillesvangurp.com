@@ -2,7 +2,7 @@
 id: 422
 title: Off to Spain
 date: 2008-07-02T11:13:18+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=422
 permalink: /2008/07/02/off-to-spain/

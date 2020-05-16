@@ -2,7 +2,7 @@
 id: 211
 title: kml2html.xsl
 date: 2006-12-02T21:08:35+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/12/02/kml2htmlxsl/
 permalink: /2006/12/02/kml2htmlxsl/

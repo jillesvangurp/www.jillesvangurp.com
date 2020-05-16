@@ -2,7 +2,7 @@
 id: 199
 title: Publications site updated
 date: 2006-10-31T19:49:52+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/10/31/publications-site-updated/
 permalink: /2006/10/31/publications-site-updated/

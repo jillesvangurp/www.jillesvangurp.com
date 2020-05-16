@@ -2,7 +2,7 @@
 id: 684
 title: Missing the point
 date: 2010-02-10T21:44:49+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=684
 permalink: /2010/02/10/missing-the-point/

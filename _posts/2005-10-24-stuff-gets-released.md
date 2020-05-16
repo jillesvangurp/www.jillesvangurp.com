@@ -2,7 +2,7 @@
 id: 72
 title: stuff gets released
 date: 2005-10-24T19:06:20+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/?p=72
 permalink: /2005/10/24/stuff-gets-released/

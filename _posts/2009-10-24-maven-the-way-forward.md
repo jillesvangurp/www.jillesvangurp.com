@@ -2,7 +2,7 @@
 id: 646
 title: 'Maven: the way forward'
 date: 2009-10-24T11:06:45+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=646
 permalink: /2009/10/24/maven-the-way-forward/

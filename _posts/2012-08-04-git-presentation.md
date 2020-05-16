@@ -2,7 +2,7 @@
 id: 1089
 title: Git presentation
 date: 2012-08-04T09:48:59+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1089
 permalink: /2012/08/04/git-presentation/

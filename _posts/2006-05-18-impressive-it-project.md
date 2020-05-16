@@ -2,7 +2,7 @@
 id: 149
 title: Impressive IT project
 date: 2006-05-18T17:49:04+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2006/05/18/impressive-it-project/
 permalink: /2006/05/18/impressive-it-project/

@@ -2,7 +2,7 @@
 id: 1723
 title: Elasticsearch failed shard recovery
 date: 2015-02-18T19:00:31+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=1723
 permalink: /2015/02/18/elasticsearch-failed-shard-recovery/

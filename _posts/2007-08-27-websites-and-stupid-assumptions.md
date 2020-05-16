@@ -2,7 +2,7 @@
 id: 326
 title: websites and stupid assumptions
 date: 2007-08-27T21:34:47+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://blog.jillesvangurp.com/2007/08/27/websites-and-stupid-assumptions/
 permalink: /2007/08/27/websites-and-stupid-assumptions/

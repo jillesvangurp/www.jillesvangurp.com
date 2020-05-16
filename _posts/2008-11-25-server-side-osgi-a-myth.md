@@ -2,7 +2,7 @@
 id: 520
 title: server side osgi, a myth?
 date: 2008-11-25T17:56:17+00:00
-author: Jilles
+author: Jilles van Gurp
 layout: post
 guid: http://www.jillesvangurp.com/?p=520
 permalink: /2008/11/25/server-side-osgi-a-myth/
