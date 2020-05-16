@@ -12,7 +12,7 @@ tags:
   - SOAP
   - Software Engineering
 ---
-I've been writing a few papers over the past few months. Two of them are now on my <a href="http://publications.jillesvangurp.com">publications </a>site:
+I've been writing a few papers over the past few months. Two of them are now on my [publications ](http://publications.jillesvangurp.com)site:
 <ul>
 	<li><a href="http://publications.jillesvangurp.com/splc2006servicegridvariability.pdf">Service Grid Variability Realization</a></li>
 	<li><a href="http://publications.jillesvangurp.com/mosoa.pdf">Mobile Service Oriented Architectures (MOSOA)</a></li>

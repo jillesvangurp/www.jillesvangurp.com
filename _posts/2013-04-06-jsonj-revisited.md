@@ -25,7 +25,7 @@ tags:
   - Java Enterprise
   - python
 ---
-It's been nearly two years since I created the <a href="https://github.com/jillesvangurp/jsonj">jsonj project on github</a> and <a href="http://www.jillesvangurp.com/2011/05/31/jsonj/">blogged about it</a>. Inspired by my observation that dealing with json in Java kind of sucks, I set out to fix it. 
+It's been nearly two years since I created the [jsonj project on github](https://github.com/jillesvangurp/jsonj) and [blogged about it](https://www.jillesvangurp.com/2011/05/31/jsonj/). Inspired by my observation that dealing with json in Java kind of sucks, I set out to fix it. 
 
 As part of our ongoing work to build the LocalStream platform I've been eating my own dogfood and this has resulted in a lot of improvements to this project. So, I thought it was about time to write about jsonj again. 
 
@@ -35,7 +35,7 @@ As part of our ongoing work to build the LocalStream platform I've been eating m
 
 In short, I have a problem with the notion of representing just about any little json structure using a domain model that consists of tons of small domain classes that actually don't implement any useful functionality but yet suck up a lot of development time related to implementing them, testing they are implemented correctly (e.g. hashCode and equals are often a problem), refactoring them when the data changes, etc. I've dealt with several projects that had tons of domain classes and code littered with sets, gets. In one of the more extreme cases of mapping madness I've seen, xml came in via the API, was transformed into DTOs (data transfer objects) and from there into the domain model and from there into sql tables using hibernate. This kind of madness is why engineers have been fleeing from Java Enterprise solutions.
 
-I prefer schema-less designs instead. There is no such thing as a strongly typed domain model when you have a schema-less design. As <a href="http://martinfowler.com/articles/schemaless/">Marting Fowler has argued</a>, there is always an implicit schema in the form of code that assumes things about data (e.g. that it has a particular field) or validates that it is structured correctly. However, that is different from encoding that schema in a strongly typed, complex class hierarchy and defining a very finegrained mapping to and from json.
+I prefer schema-less designs instead. There is no such thing as a strongly typed domain model when you have a schema-less design. As [Marting Fowler has argued](http://martinfowler.com/articles/schemaless/), there is always an implicit schema in the form of code that assumes things about data (e.g. that it has a particular field) or validates that it is structured correctly. However, that is different from encoding that schema in a strongly typed, complex class hierarchy and defining a very finegrained mapping to and from json.
 
 Java makes schema less json quite hard because it lacks native lists and hashes like you would find in javascript, python, or ruby. 
 In those languages, manipulating json is extremely straightforward and supported well with lots of syntactic sugar. This makes it easy to prototype e.g. using a json driven API or implementing one. This is indeed one of the reasons why ruby and python are very popular for this kind of work.
@@ -95,14 +95,14 @@ This fromObject method is used in a quite a few other places so that you rarely 
 
 Another change is that a lot of the specialized methods in the three classes are now part of the JsonElement API. Using them on an object of the wrong type will result in an exception. However, not having to check whether a JsonElement is actually a JsonPrimitive before you call asDouble on it is very helpful. 
 
-Another thing that I worked on was making jsonj more memory friendly by representing strings (values and object keys) using utf-8 byte arrays and using my <a href="https://github.com/jillesvangurp/efficientstring">EfficientString</a> project for handling object keys. The reason I did this is because I use jsonj for a lot for data processing as well. Some of these jobs are pretty memory intensive because caching large amounts of data in memory helps speed things up considerably (as opposed to looking them up in a database). This change dramatically reduced the memory used by jsonj and allows me to cache much more data. 
+Another thing that I worked on was making jsonj more memory friendly by representing strings (values and object keys) using utf-8 byte arrays and using my [EfficientString](https://github.com/jillesvangurp/efficientstring) project for handling object keys. The reason I did this is because I use jsonj for a lot for data processing as well. Some of these jobs are pretty memory intensive because caching large amounts of data in memory helps speed things up considerably (as opposed to looking them up in a database). This change dramatically reduced the memory used by jsonj and allows me to cache much more data. 
 
 <b>Jruby and JsonJ</b>
 
-I currently use jsonj in a mixed Java and Jruby project. The problem with that is that on the jruby side, you actually want to convert things to normal ruby data structures. So, today I created a new github project called <a href="https://github.com/jillesvangurp/jsonj-integration">jsonj-integration</a>. 
+I currently use jsonj in a mixed Java and Jruby project. The problem with that is that on the jruby side, you actually want to convert things to normal ruby data structures. So, today I created a new github project called [jsonj-integration](https://github.com/jillesvangurp/jsonj-integration). 
 
 This is a jruby project that adds functions to the Hash, List ruby classes as well as the java JsonObject, and JsonArray classes. to These functions include some obvious ones: toJsonJ does what you would expect on any ruby hash or list. Likewise, toRuby does the reverse on JsonObjects and JsonArrays. I also threw in a to_s method that calls toString, which serializes to String. Finally, it also adds implementations for [] to JsonObject and JsonArray as well as a << method to JsonArray. This means you can pretty much treat those objects as if they are hashes and lists without actually converting them.
 
 This makes the integration seemless and allows me to parse data coming via the API in our Sinatra based API layer, hand it off to a Java service class, take the JsonJ object that comes back and return that from the API as json. All with a minimum of fuss. 
 
-If you are interested, JsonJ is available in my <a href="http://www.jillesvangurp.com/2013/02/27/maven-and-my-github-projects/">maven repository</a> and you can get <a href="http://rubygems.org/gems/jsonj-integration">jsonj-integration from rubygems</a>.
+If you are interested, JsonJ is available in my [maven repository](https://www.jillesvangurp.com/2013/02/27/maven-and-my-github-projects/) and you can get [jsonj-integration from rubygems](http://rubygems.org/gems/jsonj-integration).

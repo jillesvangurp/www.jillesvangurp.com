@@ -16,4 +16,4 @@ tags:
 ---
 A feature in Google Earth I was not aware of is the ability to add layers from external services. One such service is placeopedia that provides placemarks with a name and a link to the relevant wikipedia article.
 
-How does it work? Just open this link <a href="http://www.placeopedia.com/cgi-bin/kml.cgi/searchwithin.kml">http://www.placeopedia.com/cgi-bin/kml.cgi/searchwithin.kml</a>. It will open up in Google earth showing the latest 15 additions to placeopedia. Now move the map to an area you are interested in and it will automatically update.
+How does it work? Just open this link [http://www.placeopedia.com/cgi-bin/kml.cgi/searchwithin.kml](http://www.placeopedia.com/cgi-bin/kml.cgi/searchwithin.kml). It will open up in Google earth showing the latest 15 additions to placeopedia. Now move the map to an area you are interested in and it will automatically update.

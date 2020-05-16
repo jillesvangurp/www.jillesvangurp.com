@@ -19,7 +19,7 @@ tags:
   - smart space
   - WWLN
 ---
-I stumbled upon somebody writing about <a href="http://conversations.nokia.com/home/2008/07/the-way-we-live.html">Nokia's 2007 Way We Live Next</a> event in Oulu. This event was intended to give the outside world a view on what is going on in Nokia Research Center.
+I stumbled upon somebody writing about [Nokia's 2007 Way We Live Next](http://conversations.nokia.com/home/2008/07/the-way-we-live.html) event in Oulu. This event was intended to give the outside world a view on what is going on in Nokia Research Center.
 
 Nice quote
 <blockquote>Lots of interesting stuff was shown off during the course of the two days and the most interesting I came across was the <strong>indoor positioning</strong> concept. Using WiFi and specially created maps, the devices we were issued with were running the software which enabled you to move through the NRC building and pinpoint exactly where you were. So, if the next presentation was in room 101, the device would simply, and quickly show you the way. It instantly made me think of the frustration of trying to get where I want in <strong>huge shopping centres</strong> - and I figured this had to be the perfect solution.</blockquote>

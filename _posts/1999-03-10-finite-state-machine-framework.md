@@ -13,4 +13,4 @@ categories:
 tags:
   - createdbyjilles
 ---
-<a href="http://www.jillesvangurp.com/publications/FSMCodeExamples.zip">FSM framework</a>. 						    		This is a small demo framework for creating and manipulating finite 						    		state machines at run-time. The nice thing about it is that I separated 						    		control flow (i.e. the structure of states and transitions), data 						    		and functionality. It is referenced in one of my first articles which you can find on <a href="http://publications.jillesvangurp.com">publications.jillesvangurp.com</a>.
+[FSM framework](https://www.jillesvangurp.com/publications/FSMCodeExamples.zip). 						    		This is a small demo framework for creating and manipulating finite 						    		state machines at run-time. The nice thing about it is that I separated 						    		control flow (i.e. the structure of states and transitions), data 						    		and functionality. It is referenced in one of my first articles which you can find on [publications.jillesvangurp.com](http://publications.jillesvangurp.com).

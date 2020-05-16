@@ -24,7 +24,7 @@ tags:
   - SPL
   - ubuntu
 ---
-Below is a position paper I submitted to the upcoming <a href="http://www.dagstuhl.de/en/program/calendar/semhp/?semid=34153">Dagstuhl seminar</a> I am attending. It's not peer reviewed and it is not clear at this point if there will be any proceedings. So, as an experiment, I will just put the full text in a blog post as well as the <a href="http://www.jillesvangurp.com/static/FromIntegrationalSPLstoOpenCompositionalPlatforms.pdf">pdf</a> you can find on my <a href="/publications">publications</a> page. The reason I am doing this is twofold: I want people to read stuff I write and locking it up in some hard to find proceedings just isn't doing the trick. Secondly, this blog has a comment feature. Please feel free to use it.
+Below is a position paper I submitted to the upcoming [Dagstuhl seminar](http://www.dagstuhl.de/en/program/calendar/semhp/?semid=34153) I am attending. It's not peer reviewed and it is not clear at this point if there will be any proceedings. So, as an experiment, I will just put the full text in a blog post as well as the [pdf](https://www.jillesvangurp.com/static/FromIntegrationalSPLstoOpenCompositionalPlatforms.pdf) you can find on my [publications](/publications) page. The reason I am doing this is twofold: I want people to read stuff I write and locking it up in some hard to find proceedings just isn't doing the trick. Secondly, this blog has a comment feature. Please feel free to use it.
 
 <center><h1>From SPLs to Open, Compositional Platforms</h1>
 <p>

@@ -12,4 +12,4 @@ tags:
   - New publication
   - SPLC
 ---
-As promised a few months ago, I added the final versions of both SPLC workshop papers to my <a href="http://publications.jillesvangurp.com">publication </a>site. Also I took the opportunity to clean out the external links section and added a few links to all people I've co-authored stuff with. I hope to write some more stuff over the next few months and that too will find its way to this site, eventually.
+As promised a few months ago, I added the final versions of both SPLC workshop papers to my [publication ](http://publications.jillesvangurp.com)site. Also I took the opportunity to clean out the external links section and added a few links to all people I've co-authored stuff with. I hope to write some more stuff over the next few months and that too will find its way to this site, eventually.

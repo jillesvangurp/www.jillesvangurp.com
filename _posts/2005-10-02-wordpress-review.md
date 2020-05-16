@@ -29,7 +29,7 @@ TADA! Done.
 
 Migrating pivot.
 
-I had been using <a href="http://www.pivotlog.net/">pivot</a> for about half a year and had collected about 30 or so posts that I wanted to migrate to wordpress.
+I had been using [pivot](http://www.pivotlog.net/) for about half a year and had collected about 30 or so posts that I wanted to migrate to wordpress.
 
 Sadly import of pivot posts is not supported directly (well there is an unsupported migration script some guy wrote once) but the good news is that pivot has excellent RSS support and that wordpress can import RSS.
 

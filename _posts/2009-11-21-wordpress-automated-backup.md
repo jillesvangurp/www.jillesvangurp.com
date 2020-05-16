@@ -38,7 +38,7 @@ tags:
   - Time Machine
   - wordpress
 ---
-I finally sat down and wrote a little script to automatically backup my wordpress site and database. My site is hosted by <a href="http://www.pcextreme.nl">pcextreme.nl</a>, a nice Dutch startup providing hosting services that are perfect for a small site like mine. Part of the package they have is shell access via ssh, which makes this very straightforward. I use two scripts that do all the work:
+I finally sat down and wrote a little script to automatically backup my wordpress site and database. My site is hosted by [pcextreme.nl](http://www.pcextreme.nl), a nice Dutch startup providing hosting services that are perfect for a small site like mine. Part of the package they have is shell access via ssh, which makes this very straightforward. I use two scripts that do all the work:
 
 dumpdb.sh:
 
@@ -48,7 +48,7 @@ mysqldump -u user -ppassword \
      | gzip -9 > ~/wordpress.sql.gz
 </pre>
 
-This script is stored in my home dir on the web server. The --single-transaction is needed to get rid of an <a href="http://forums.mysql.com/read.php?10,108835,112951#msg-112951">error I ran into</a>. I run it remotely using a second script backupsite.sh:
+This script is stored in my home dir on the web server. The --single-transaction is needed to get rid of an [error I ran into](http://forums.mysql.com/read.php?10,108835,112951#msg-112951). I run it remotely using a second script backupsite.sh:
 
 <pre lang="bash">
 #!/bin/bash
@@ -62,4 +62,4 @@ rsync -i -v -a --delete \
 
 This first backups the db remotely and then rsyncs everything I have on the server to a local directory. This local directory in turn is backed up by Time Machine, which provides me with nice snapshots of my site. For this to work without interaction, I have of course set up ssh authentication using my public key.  I keep a little log in sitebackup.log to keep an eye on whether this all continues to work.
 
-Anyway, nice opportunity to show of the <a href="http://wordpress.org/extend/plugins/wp-syntax/">wp-syntax</a> plugin that I finally got around to installing in wordpress and which was actually the whole point of this blog post.
+Anyway, nice opportunity to show of the [wp-syntax](http://wordpress.org/extend/plugins/wp-syntax/) plugin that I finally got around to installing in wordpress and which was actually the whole point of this blog post.

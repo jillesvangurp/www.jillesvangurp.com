@@ -15,7 +15,7 @@ tags:
   - TB
   - Using Elastic Search
 ---
-Over the past few months we have been quietly working on the <a href="http://localstre.am">localstre.am</a> platform. As I have mentioned in a previous post, we are <a href="http://www.jillesvangurp.com/2013/01/15/using-elastic-search-as-a-key-value-store/">using elastic search as a key value store</a> and that's working pretty nicely for us. In addition to that we are also using it as a geospatial search engine.
+Over the past few months we have been quietly working on the [localstre.am](http://localstre.am) platform. As I have mentioned in a previous post, we are [using elastic search as a key value store](https://www.jillesvangurp.com/2013/01/15/using-elastic-search-as-a-key-value-store/) and that's working pretty nicely for us. In addition to that we are also using it as a geospatial search engine.
 
 Localstrea.am is going to be all about local and that means geospatial data and lots of it. That's not just POIs (points of interest) but also streets, cities, and areas of interest. In geospatial terms that means shapes: points, paths, and polygons. Doing geospatial search means searching through documents that have geospatial data associated with it using a query that also contains geospatial data. So given a shape, find every document with a shape that overlaps or intersects with it.
 
@@ -29,7 +29,7 @@ The end result was an index with a size of about 11GB. This too is pretty nice: 
 
 To understand this a bit better, I need to explain how spatial search actually works in elastic search. 
 
-Spatial search in <a href="http://lucene.apache.org/">Lucene</a> (and thus Elastic Search, which uses this library) is implemented using so-called prefix trees. There are two varieties of this data structure in Lucene. One is <a href="http://en.wikipedia.org/wiki/Geohash">geohash</a> based and the other is <a href="http://en.wikipedia.org/wiki/Quadtree">quad tree</a> based. The main difference between the two is the number of nodes per level in the tree. A quad tree has, as the name implies, nodes with four nodes below it. A geohash is a base32 encoded quad tree path of the interleaved bits of the latitude and longitude. Each level is a single character (with five bits) in that path and thus there are 32 nodes per level.  
+Spatial search in [Lucene](http://lucene.apache.org/) (and thus Elastic Search, which uses this library) is implemented using so-called prefix trees. There are two varieties of this data structure in Lucene. One is [geohash](http://en.wikipedia.org/wiki/Geohash) based and the other is [quad tree](http://en.wikipedia.org/wiki/Quadtree) based. The main difference between the two is the number of nodes per level in the tree. A quad tree has, as the name implies, nodes with four nodes below it. A geohash is a base32 encoded quad tree path of the interleaved bits of the latitude and longitude. Each level is a single character (with five bits) in that path and thus there are 32 nodes per level.  
 
 So, given a coordinate with a latitude and longitude you can calculate the path to a node in the prefix tree. In the case of the geohash implementation that is a Geohash string and in the case of the quad tree that is a bit set. In both cases, the path actually describes a rectangular area. All points in that area have the same prefix. If you increase the length of the prefix by 1 level, you descend a level in the tree and the rectangle breaks down into 32 smaller rectangles in the case of a geohash or 4 rectangles in the case of a quad tree.
 
@@ -43,4 +43,4 @@ Finally, I ran some queries to validate accuracy and speed. I used a polygon rep
 
 This little experiment made me pretty happy today. It provides some validation of our choice to use Elastic Search as a spatial search engine and key value store. Having one solution for this means I won't lose any sleep trying to keep two systems in sync. I can simply add data and a second later it will be available for search and my cluster will handle read and write traffic at the same time. Those are non trivial things with other solutions. I was expecting serious query execution delays while it was indexing. In fact it made no measurable impact on the response times and it seems to handle large amounts of data without breaking a sweat. That is nice to know. Add to this the sharding and replication capabilities and you have a combination that is pretty damn good for what we are planning to do.
 
-I love it when a <a href="http://www.youtube.com/watch?v=7GL6LH6ufhM">plan</a> comes together.
+I love it when a [plan](http://www.youtube.com/watch?v=7GL6LH6ufhM) comes together.

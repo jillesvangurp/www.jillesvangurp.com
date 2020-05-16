@@ -20,7 +20,7 @@ tags:
 ---
 Google and Yahoo have both posted a usability study for federated and openid logins. Basically both of them hint at keeping things simple and as easy to use for the user. Google has a quite nice suggestion about the UI but they all but stop at going all the way.
 
-We've done a lot of thinking on this topic regarding the <a href="http://www.jillesvangurp.com/2008/10/09/local-interaction-demo-on-youtube/">demo and youtube</a> movie I linked last week. We have a similar problem that our users have to login, somehow and then login again for OAuth like authentication with e.g. Facebook for extra features.
+We've done a lot of thinking on this topic regarding the [demo and youtube](https://www.jillesvangurp.com/2008/10/09/local-interaction-demo-on-youtube/) movie I linked last week. We have a similar problem that our users have to login, somehow and then login again for OAuth like authentication with e.g. Facebook for extra features.
 
 I really like Google's UI but would like to suggest a few simplifications:
 

@@ -11,4 +11,4 @@ dsq_thread_id:
 tags:
   - reviews
 ---
-<a href="http://codefromthe70s.org/desktopearth_dl.asp">Desktop Earth 2.0</a>I installed this yesterday. Totally useless but quite fun.
+[Desktop Earth 2.0](http://codefromthe70s.org/desktopearth_dl.asp)I installed this yesterday. Totally useless but quite fun.

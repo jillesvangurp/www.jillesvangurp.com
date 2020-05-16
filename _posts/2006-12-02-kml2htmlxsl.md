@@ -20,7 +20,7 @@ tags:
 ---
 A nice feature in Google Earth is that you can export your placemarks as a kmz file. This is just a zipfile with a .kml file inside. This file in turn is just a xml format that Google uses to list your placemarks.
 
-I spent some time creating <a href="http://www.jillesvangurp.com/places/kml2html.zip">a nice xsl</a> file with which you can use to convert these files to html. I use it to publish some of <a href="http://www.jillesvangurp.com/places">my own placemarks</a> on my website. Effectively, it turns Google Earth into a content management system for publishing information about places.
+I spent some time creating [a nice xsl](https://www.jillesvangurp.com/places/kml2html.zip) file with which you can use to convert these files to html. I use it to publish some of [my own placemarks](https://www.jillesvangurp.com/places) on my website. Effectively, it turns Google Earth into a content management system for publishing information about places.
 
 I do the transformation statically using an ant build file. But you can of course also let the browser do the transformation. However, search engines probably have difficulty handling the kml format. Also, not all browsers can do xsl, e.g. mobile browsers and screen readers. This is why I prefer to generate the html.
 

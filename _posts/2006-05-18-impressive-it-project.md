@@ -13,7 +13,7 @@ tags:
   - Sao Paulo
   - US
 ---
-The serverside.com, one of the sites I regularly visit for Java related news today posted a link to this <a href="http://www.infoq.com/articles/Brasilian-Healthcare-System">case study</a>.
+The serverside.com, one of the sites I regularly visit for Java related news today posted a link to this [case study](http://www.infoq.com/articles/Brasilian-Healthcare-System).
 
 The case study describes an EJB based software system that runs the health care system in Brasil. When I say "runs the health care system", I mean that for example in Sao Paulo, a city with 20 million inhabitants, all health centers are based on and interoperate with this system. That is a seriously impressive achievement.
 

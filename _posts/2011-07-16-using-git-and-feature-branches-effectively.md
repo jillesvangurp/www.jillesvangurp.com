@@ -18,7 +18,7 @@ tags:
   - Martin Fowler
   - Using Git
 ---
-There is a bit of a <a href="http://sarahtaraporewalla.com/design/experience-report-branch-by-feature/">debate</a> raging in the last few weeks that started when somebody commented on a few things that Martin Fowler wrote about git and using <a href="http://martinfowler.com/bliki/FeatureBranch.html">feature branches</a> and <a href="http://martinfowler.com/bliki/FeatureToggle.html">feature toggles</a>. Martin Fowler makes a few very good points about how feature branches can cause a lot of testing and integration headaches and lot of people seemed to have picked up on this one and there seems to be a bit of an anti-feature branch movement emerging. 
+There is a bit of a [debate](http://sarahtaraporewalla.com/design/experience-report-branch-by-feature/) raging in the last few weeks that started when somebody commented on a few things that Martin Fowler wrote about git and using [feature branches](http://martinfowler.com/bliki/FeatureBranch.html) and [feature toggles](http://martinfowler.com/bliki/FeatureToggle.html). Martin Fowler makes a few very good points about how feature branches can cause a lot of testing and integration headaches and lot of people seemed to have picked up on this one and there seems to be a bit of an anti-feature branch movement emerging. 
 
 <!--more-->
 

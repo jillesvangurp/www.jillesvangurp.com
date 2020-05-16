@@ -15,11 +15,11 @@ categories:
 tags:
   - oauth
 ---
-I compulsively sign up for all sorts of stuff I don't really need. Call it professional curiosity. Yesterday I was talking with a friend and he mentioned <a href="http://quora.com">quora</a>, a popular Q&amp;A site that I have never really bothered with. So, on a whim I did my thing and signed up. This blog post is about the bad stuff that happened after that. In short the experience was appalling and mildly offensive and illustrative of how some companies just don't get it.
+I compulsively sign up for all sorts of stuff I don't really need. Call it professional curiosity. Yesterday I was talking with a friend and he mentioned [quora](http://quora.com), a popular Q&amp;A site that I have never really bothered with. So, on a whim I did my thing and signed up. This blog post is about the bad stuff that happened after that. In short the experience was appalling and mildly offensive and illustrative of how some companies just don't get it.
 
 So, here's what happened.
 
-I went to their <a href="http://quora.com">home page</a>. Basically there's nothing there except a login box and a message stating "Quora connects you to everything you want to know about.". I thought I had Google for that. Whatever. Despite this shocking lack of information and spectacularly bad marketing, I went ahead and attempted to sign in using the Facebook button. So, I clicked that and did the oauth exchange with Facebook. So far so good. Many sites offer this style of signups with Google, Facebook, Twitter, and other sites and it is sort of convenient.
+I went to their [home page](http://quora.com). Basically there's nothing there except a login box and a message stating "Quora connects you to everything you want to know about.". I thought I had Google for that. Whatever. Despite this shocking lack of information and spectacularly bad marketing, I went ahead and attempted to sign in using the Facebook button. So, I clicked that and did the oauth exchange with Facebook. So far so good. Many sites offer this style of signups with Google, Facebook, Twitter, and other sites and it is sort of convenient.
 
 After that it showed me a page to create a password. Eh... didn't I just sign in?! Surely the intent of that was avoiding this. Annoyed, I just went ahead anyway and typed one of my  passwords that I reserve for sites I absolutely don't care about one bit.
 

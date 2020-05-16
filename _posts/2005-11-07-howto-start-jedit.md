@@ -20,7 +20,7 @@ tags:
   - Software in General
   - Windows Registry Editor Version
 ---
-At work I am (in)famous for being responsible for getting <a href="http://www.jedit.org">jEdit</a> onto everybodies desktop. Despite this everyone uses textpad :-/. These primitive souls are perfectly happy (or ignorant?) not using syntax highlighting, not having their xml validated, not being able to search and replace using regexs, not being able to indent their xml files, not having autocompletion, etc.
+At work I am (in)famous for being responsible for getting [jEdit](http://www.jedit.org) onto everybodies desktop. Despite this everyone uses textpad :-/. These primitive souls are perfectly happy (or ignorant?) not using syntax highlighting, not having their xml validated, not being able to search and replace using regexs, not being able to indent their xml files, not having autocompletion, etc.
 
 Anyway, one of the nastier aspects of jEdit is integrating properly with windows and configuring it. Older versions included a convenient but broken .exe frontend. Newer versions require some manual setup to get going.
 
@@ -64,4 +64,4 @@ function jedit() { java -Xms15M -jar /Applications/jEdit.app/Contents/Resources/
 
 <strong>Update 11-07-2011</strong>:
 
-The above line of .profile voodoo is now also available on <a href="https://gist.github.com/1004521">Gist</a>, the code snippet sharing site on Github.
+The above line of .profile voodoo is now also available on [Gist](https://gist.github.com/1004521), the code snippet sharing site on Github.

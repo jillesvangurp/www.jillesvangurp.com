@@ -14,4 +14,4 @@ tags:
   - Politics
   - SMS
 ---
-What is it with Finnish politics and SMS messages? First prime minister Vanhanen <a href="http://www.news24.com/News24/Entertainment/Off_Beat/0,,2-1225-2107_2038961,00.html">dumps his girlfriend by SMS</a> and now a foreign minister <a href="http://www.yle.fi/news/id86849.html">gets fired</a> over some SMS messages to a stripper.
+What is it with Finnish politics and SMS messages? First prime minister Vanhanen [dumps his girlfriend by SMS](http://www.news24.com/News24/Entertainment/Off_Beat/0,,2-1225-2107_2038961,00.html) and now a foreign minister [gets fired](http://www.yle.fi/news/id86849.html) over some SMS messages to a stripper.

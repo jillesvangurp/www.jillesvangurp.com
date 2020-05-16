@@ -18,7 +18,7 @@ tags:
   - python
   - webdevelopment
 ---
-It seems <a href="http://www.infoq.com/news/2007/10/big-java">infoq </a>picked up some stuff from <a href="http://www.theserverside.com/news/thread.tss?thread_id=47135#240685">a comment</a> I left on the serverside about one of my pet topics (Server side Java). 
+It seems [infoq ](http://www.infoq.com/news/2007/10/big-java)picked up some stuff from [a comment](http://www.theserverside.com/news/thread.tss?thread_id=47135#240685) I left on the serverside about one of my pet topics (Server side Java). 
 
 The infoq article also mentions that I work at Nokia. I indeed work for Nokia Research Center and it's a great place to work. Only they do require me to point out that when making such comments I'm not actually representing them. 
 

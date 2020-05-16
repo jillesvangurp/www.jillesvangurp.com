@@ -19,11 +19,11 @@ tags:
   - wordpress
   - WTF
 ---
-For some time I've been considering setting up some php development environment. Not that I like php but I want to play with some php stuff nevertheless (e.g. Drupal seems interesting). So I downloaded one of the popular all in one packages that combine apache, mysql and php: <a href="http://www.apachefriends.org/en/xampp.html">xampp</a>. I have actually set up apache, mysql and php manually once on windows and know that it is A) doable and B) very tedious, hence the integrated package this time.
+For some time I've been considering setting up some php development environment. Not that I like php but I want to play with some php stuff nevertheless (e.g. Drupal seems interesting). So I downloaded one of the popular all in one packages that combine apache, mysql and php: [xampp](http://www.apachefriends.org/en/xampp.html). I have actually set up apache, mysql and php manually once on windows and know that it is A) doable and B) very tedious, hence the integrated package this time.
 
 Xampp sure makes it really easy. Download, install, run xampp configuration tool, start mysql ... green, start apache ... ???!??!!! WTF, it won't start. So I go to localhost with the browser, blank page instead of the expected error. So I check my processes list, no sign of httpd. Now this is weird, some process is definitely listening on port 80. So, I run netstat to find out who is guilty of this crime. It turns out that skype is actually listening on port 80 for some stupid reason. That just sucks. Luckily there's an option in the skype preferences to turn it off but still, don't open port 80 if you are not a web server.
 
-Anyway, problem fixed and 2 minutes later I've created a database using phpmyadmin and installed <a href="http://drupal.org/">drupal 5.2</a> and configured it. That's just what I wanted: 2 minutes of work and *poof* instant website.
+Anyway, problem fixed and 2 minutes later I've created a database using phpmyadmin and installed [drupal 5.2](http://drupal.org/) and configured it. That's just what I wanted: 2 minutes of work and *poof* instant website.
 
 In case you are wondering, yes I am considering to dump wordpress. The reason is the lack of clear progress in getting proper openid, atompub and microformats support in wordpress. You can all sort of bolt it onto a wordpress install but not without editing php and default templates (and this tends to break during upgrades, i.e. every 2-3 months). Drupal seems much more feature rich and configurable than wordpress and it sure is tempting. Concerns I have include import/export of data (including e.g. uploads); openid support; comment & referral spam blocking; etc. 
 

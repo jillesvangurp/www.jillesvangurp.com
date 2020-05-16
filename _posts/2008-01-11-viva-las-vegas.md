@@ -14,7 +14,7 @@ tags:
   - photography
   - traveling
 ---
-<a href='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/sf-267.jpg' title='Viva las Vegas'>![Viva las Vegas](https://www.jillesvangurp.com/wp-content/uploads/2008/01/sf-267.jpg)</a>
-<a href='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/sf-279.jpg' title='The Venetian'>![The Venetian](https://www.jillesvangurp.com/wp-content/uploads/2008/01/sf-279.jpg)</a>
+[![Viva las Vegas](https://www.jillesvangurp.com/wp-content/uploads/2008/01/sf-267.jpg)](https://www.jillesvangurp.com/wp-content/uploads/2008/01/sf-267.jpg)
+[![The Venetian](https://www.jillesvangurp.com/wp-content/uploads/2008/01/sf-279.jpg)](https://www.jillesvangurp.com/wp-content/uploads/2008/01/sf-279.jpg)
 
 This place is crazy. Indoor canals + gondolas. Nuff said.

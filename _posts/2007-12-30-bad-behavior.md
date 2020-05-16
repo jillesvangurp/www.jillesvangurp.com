@@ -17,7 +17,7 @@ tags:
   - WELHO
   - wordpress
 ---
-My previous post was a bit short because I was basically calling the taxi to the airport at the same time. The reason for this was "<a href="http://wordpress.org/extend/plugins/bad-behavior/">Bad Behavior</a>", which is a wordpress plugin that got a little overzealous and locked me out of my own site stating that I had just been blacklisted. Consequently I spent most of the half hour before I left figuring out what the hell was wrong and cursing those damn bad behavior idiots.
+My previous post was a bit short because I was basically calling the taxi to the airport at the same time. The reason for this was "[Bad Behavior](http://wordpress.org/extend/plugins/bad-behavior/)", which is a wordpress plugin that got a little overzealous and locked me out of my own site stating that I had just been blacklisted. Consequently I spent most of the half hour before I left figuring out what the hell was wrong and cursing those damn bad behavior idiots.
 
 I didn't manage to figure that out entirely but did figure out that the problem was not on my side of the connection at least (lucky me). Figuring that out was easy since I just used my phone's 3G connection only to discover that that ip address also had been blacklisted. The chances of both my phone, PC and/or WELHO (cable) and Elisa (3G) providers being hacked and blacklisted correctly were pretty small. So bad behavior was misbehaving big time and software that misbehaves doesn't really last that long with me.
 

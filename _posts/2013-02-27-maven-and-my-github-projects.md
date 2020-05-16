@@ -77,7 +77,7 @@ tags:
   - LICENSE
   - maven
 ---
-I have several Java projects on <a href="https://github.com/jillesvangurp/">github</a>. Generally these projects require maven to build and some of them require each other.
+I have several Java projects on [github](https://github.com/jillesvangurp/). Generally these projects require maven to build and some of them require each other.
 
 Deploying to maven central would be the nice way to provide binaries to my users. However, the process that Sonatype imposes for pushing out binaries via their free repository is somewhat tedious (involves jira fiddling, pgp signing), hard to automate, and given the time it takes and the frequency with which I want to push out binaries, it's just not worth my time.
 

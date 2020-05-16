@@ -15,7 +15,7 @@ tags:
   - Wtf Germany
 ---
 Yesterday I was traveling by train and it struck me how poor connectivity is in Germany. Pretty much when traveling from Berlin to Hengelo (first stop across the border in NL), I typically plan to have no coverage whatsoever for what I guestimate is at least 80% plus of the trip. Apperently in places like Bad Bentheim, Rheine, and Osnabruck it is normal to have little or no coverage, even when the train stops on the damn railway station.
-I found this nice tweet in my twitter feed this morning mentioning that Deutsche Bahn is providing some nice open data files. <a href="http://data.deutschebahn.com/datasets/netzradar/">One of these files</a> maps coverage for the different mobile providers in Germany along the rail tracks. I downloaded the file and did some very low tech analysis on the file basically taking their stability metric and finding the number of non zero values for each provider using a bit of old school command line voodoo.
+I found this nice tweet in my twitter feed this morning mentioning that Deutsche Bahn is providing some nice open data files. [One of these files](http://data.deutschebahn.com/datasets/netzradar/) maps coverage for the different mobile providers in Germany along the rail tracks. I downloaded the file and did some very low tech analysis on the file basically taking their stability metric and finding the number of non zero values for each provider using a bit of old school command line voodoo.
 
 ```
 # metrics with non 0 value data points (higher is better)

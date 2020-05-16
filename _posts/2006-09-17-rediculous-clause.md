@@ -31,5 +31,5 @@ Actually I'm looking for a simple setup that:
 	<li>supports raid 5 (I want my data to survive failure of 1 disk)</li>
 	<li>is reliable as hell (I several drives currently and am terrified of the day they will fail)</li>
 </ul>
-Tips are welcome. Right now I am seriously interested in the <a href="http://www.synology.com/enu/products/CS406series/index.php">Synology CS-406</a>, which gets a really good review at <a href="http://www.tomsnetworking.com/2006/09/15/synology_cs406_cube_station_nas/">Tom's hardware</a>. The price is reasonable and it seems to meet all the listed criteria above and it comes with a whole bunch of very cool additional features.
+Tips are welcome. Right now I am seriously interested in the [Synology CS-406](http://www.synology.com/enu/products/CS406series/index.php), which gets a really good review at [Tom's hardware](http://www.tomsnetworking.com/2006/09/15/synology_cs406_cube_station_nas/). The price is reasonable and it seems to meet all the listed criteria above and it comes with a whole bunch of very cool additional features.
 <p align="right"></p>

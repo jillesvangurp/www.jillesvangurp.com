@@ -12,6 +12,6 @@ tags:
   - photography
   - traveling
 ---
-I've added about 60 photos to my <a href="http://photos.jillesvangurp.com/Album/2008/San%20Francisco%20and%20Las%20Vegas/index.html">photosite</a>.
+I've added about 60 photos to my [photosite](https://www.jillesvangurp.com/Album/2008/San%20Francisco%20and%20Las%20Vegas/index.html).
 
 ![There is hope ...](https://www.jillesvangurp.com/Album/2008/San%20Francisco%20and%20Las%20Vegas/slides/IMG_2826.jpg)

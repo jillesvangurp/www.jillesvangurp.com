@@ -15,9 +15,9 @@ tags:
   - ubuntu
   - WLAN
 ---
-If you've been following my ubuntu rants <a href="http://blog.jillesvangurp.com/2007/01/27/another-ubuntu-installation-test/">(one,</a> <a href="http://blog.jillesvangurp.com/2007/04/29/feisty-fawn/">two,</a> <a href="http://blog.jillesvangurp.com/2007/05/17/more-ubuntu/">three</a> + latest comment), you'll know that so far the experience has been not as FUCKING advertised (excuse the explicitive). Well, here's another rant:
+If you've been following my ubuntu rants [(one,](https://www.jillesvangurp.com/2007/01/27/another-ubuntu-installation-test/) [two,](https://www.jillesvangurp.com/2007/04/29/feisty-fawn/) [three](https://www.jillesvangurp.com/2007/05/17/more-ubuntu/) + latest comment), you'll know that so far the experience has been not as FUCKING advertised (excuse the explicitive). Well, here's another rant:
 
-After tracking down the kernel driver issue (mind you all my notes on installer usability still apply) that prevented my network from working, I had a way to get a working install. Since I no longer trust gparted to resize my ntfs partition (see post three) I opted for <a href="http://wubi-installer.org/">Wubi</a>. Wubi is a great idea, just install everything in a disk image file on your windows C:\ and add a item to the default windows xp bootloader to boot ubuntu. Brilliant. The installer works as advertised:
+After tracking down the kernel driver issue (mind you all my notes on installer usability still apply) that prevented my network from working, I had a way to get a working install. Since I no longer trust gparted to resize my ntfs partition (see post three) I opted for [Wubi](http://wubi-installer.org/). Wubi is a great idea, just install everything in a disk image file on your windows C:\ and add a item to the default windows xp bootloader to boot ubuntu. Brilliant. The installer works as advertised:
 <ul>
 	<li>You fill in some details</li>
 	<li>It downloads a custom ubuntu iso image for you (would be better if I wasn't forced to download it with the installer)</li>
@@ -35,7 +35,7 @@ As I know from previous times, ubuntu does not do a good job of installing my vi
 
 It gets worse.
 
-Then (after fixing sources.list which curiously had all entries twice?!) I did an update with synaptic: 260 MB. And promptly ran into this <a href="https://bugs.launchpad.net/bugs/104553">bug</a>. Oops broken pipe bla bla bla, upgrade failed: here's a bunch of really obscure errors, isn't synaptic great? Pasting the first line of where things went wrong into google brought me straight to this bug (lucky me). This was another of those opportunities where maybe ordinary users would give up. A rather obscure fix in the bug report helped (basically touch all the failed files and re-run apt-get upgrade). For the record, I did not install anything before running into this bug. Just install ubuntu in Finland + upgrade is enough to trigger this bug. Known since April apparently and related to timezones.
+Then (after fixing sources.list which curiously had all entries twice?!) I did an update with synaptic: 260 MB. And promptly ran into this [bug](https://bugs.launchpad.net/bugs/104553). Oops broken pipe bla bla bla, upgrade failed: here's a bunch of really obscure errors, isn't synaptic great? Pasting the first line of where things went wrong into google brought me straight to this bug (lucky me). This was another of those opportunities where maybe ordinary users would give up. A rather obscure fix in the bug report helped (basically touch all the failed files and re-run apt-get upgrade). For the record, I did not install anything before running into this bug. Just install ubuntu in Finland + upgrade is enough to trigger this bug. Known since April apparently and related to timezones.
 
 More later. The good news is that I have a bootable system and can probably resolve most remaining issues. The bad news is that so far the experience has been really, really, really bad. I've been struggling with things that should just work or fail more gracefully.
 

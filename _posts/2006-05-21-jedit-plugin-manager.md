@@ -15,7 +15,7 @@ tags:
   - problemsandsolutions
   - Utilities Global
 ---
-I tried to install some plugins in <a href="http://www.jedit.org">jEdit</a>, my favourite programming editor (for things other than Java, for that I use eclipse of course). I got some IO errors trying to install some plugins in the plugin manager. Since this has happened before, I looked into it and found a solution to the problem:
+I tried to install some plugins in [jEdit](http://www.jedit.org), my favourite programming editor (for things other than Java, for that I use eclipse of course). I got some IO errors trying to install some plugins in the plugin manager. Since this has happened before, I looked into it and found a solution to the problem:
 <ul>
 	<li>go to Utilities->Global options</li>
 	<li>Select plugin manager</li>

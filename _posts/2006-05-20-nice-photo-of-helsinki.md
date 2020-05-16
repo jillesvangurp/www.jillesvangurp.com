@@ -13,6 +13,6 @@ tags:
 ---
 I did not take it myself but it gives a good overview of where I live (click for fullsize photo):
 
-<a class="imagelink" title="Helsinki seen from above" href="http://blog.jillesvangurp.com/wp-content/uploads/2006/05/westhelsinki.jpg">![Helsinki seen from above](https://www.jillesvangurp.com/wp-content/uploads/2006/05/westhelsinki.jpg)</a>
+[![Helsinki seen from above](https://www.jillesvangurp.com/wp-content/uploads/2006/05/westhelsinki.jpg)](https://www.jillesvangurp.com/wp-content/uploads/2006/05/westhelsinki.jpg)
 
 As you can see, I live quite close to where I work. It's about a 15 minute walk. The historical center with the south and north harbor is a little further (top right).

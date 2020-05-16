@@ -10,6 +10,6 @@ tags:
   - reviews
   - TB
 ---
-I bought myself a nice <a href="http://www.lacie.com/products/product.htm?pid=10767">porsche</a> :-). The 1/2 TB type.
+I bought myself a nice [porsche](http://www.lacie.com/products/product.htm?pid=10767) :-). The 1/2 TB type.
 
 Currently the ntfs drive is formatting. I seems to be really quiet, compared to my maxtor external drive or my internal drive. Altogether I now have 1.1 TB of storage available. Should keep me happy for a while.

@@ -16,7 +16,7 @@ tags:
   - Software in General
   - Steve Bill
 ---
-Ouch, Forbes unleashes some <a href="http://www.forbes.com/2006/03/22/vista-microsoft-ballmer_cz_dl_0322microsoft.html?partner=links">criticism</a> on Microsoft. Well deserved IMHO. I don't see the result of six years of development by thousands of software engineers reflected in the currently marketed featureset.
+Ouch, Forbes unleashes some [criticism](http://www.forbes.com/2006/03/22/vista-microsoft-ballmer_cz_dl_0322microsoft.html?partner=links) on Microsoft. Well deserved IMHO. I don't see the result of six years of development by thousands of software engineers reflected in the currently marketed featureset.
 
 A few small predictions:
 <ul>

@@ -15,13 +15,13 @@ tags:
   - UI
   - URL
 ---
-I was at the first Berlin version of <a href="http://wherecamp.de/">Wherecamp</a> two years ago and it was great fun. So, when I learned it was in Berlin again this summer, the choice of going there was easy. Last time, I was a passive consumer of information. This time, me and my co-founder <a href="https://twitter.com/markmacmahon">Mark MacMahon</a> will be there to <strong>launch and promote the private beta for <a href="http://localstre.am">Localstream</a></strong>.
+I was at the first Berlin version of [Wherecamp](http://wherecamp.de/) two years ago and it was great fun. So, when I learned it was in Berlin again this summer, the choice of going there was easy. Last time, I was a passive consumer of information. This time, me and my co-founder [Mark MacMahon](https://twitter.com/markmacmahon) will be there to <strong>launch and promote the private beta for [Localstream](http://localstre.am)</strong>.
 
 <!--more-->
 
 <strong>What is Localstream?</strong>
 
-A lot of our Twitter followers, Facebook friends, LinkedIn connections, Google Plus circle members, and indeed real people might be wondering what we are up to with <a href="http://localstre.am">Localstream</a>. In this article I want to outline some of the key concepts we have implemented and will be demoing next week.
+A lot of our Twitter followers, Facebook friends, LinkedIn connections, Google Plus circle members, and indeed real people might be wondering what we are up to with [Localstream](http://localstre.am). In this article I want to outline some of the key concepts we have implemented and will be demoing next week.
 
 Localstream can be a lot of things to different people.
 <ul>
@@ -51,7 +51,7 @@ The more technical explanation of what we do is that we take web content (anythi
 
 The core concept in Localstream is the location graph. Graphs have nodes and relations between those nodes. In Localstream, the nodes are locations: things that have a name, a URL, geospatial information (optional), and other meta data; and locations are connected by their relations to each other.
 
-A simple example of a relation between two location nodes is the containment relation. The world consists of continents, countries, cities, neighborhoods, venues, streets, parks,  etc. If you go inside buildings, you might find rooms, shops, floors, cupboards, shelves, etc. All these things are locations. While Localstream is not focused on supporting indoor yet, doing so would be a logical extension of the platform and is indeed something we may do at some point in time. Also, there is nothing in the API stopping us from doing that and the few people familiar with my<a href="http://www.jillesvangurp.com/static/pervasivemag.pdf"> earlier work on indoor location based</a> services may indeed notice some conceptual overlap with the way that worked.
+A simple example of a relation between two location nodes is the containment relation. The world consists of continents, countries, cities, neighborhoods, venues, streets, parks,  etc. If you go inside buildings, you might find rooms, shops, floors, cupboards, shelves, etc. All these things are locations. While Localstream is not focused on supporting indoor yet, doing so would be a logical extension of the platform and is indeed something we may do at some point in time. Also, there is nothing in the API stopping us from doing that and the few people familiar with my[ earlier work on indoor location based](https://www.jillesvangurp.com/static/pervasivemag.pdf) services may indeed notice some conceptual overlap with the way that worked.
 
 Other relations are possible as well. For example, metro stations are connected by rail. Some cities have sister cities. Locations neighbor each other or are part of a group of locations, etc. Currently, containment and neighbor relations are the primary focus in Localstream and we are focused on providing world coverage for this. Once we have tackled this, we plan to enrich the graph with more relations.
 
@@ -89,4 +89,4 @@ The API will not be part of our private beta. We are currently eating our own do
 
 <strong>What's next?</strong>
 
-We are currently very busy rolling out the private beta to production and fixing bugs. The goal of the private beta is gathering feedback. This will enable us to improve the service and plan our next moves. Very soon we will start sending invitations and we will allow people to play with the UI and share some content. Over the summer we plan to improve the platform by gathering more content, tweaking the UI, improving our Location graph, perfecting the API, ironing out bugs, working on localization, etc. We expect the private beta will last at least several months. If you are interested, follow <a href="https://twitter.com/LocalstreamHQ">@LocalstreamHQ</a> on twitter, my blog,  visit our website <a href="http://localstre.am">http://localstre.am</a>, or talk to us at <a href="http://wherecamp.de/">Wherecamp</a>. We'll be posting instructions on how to get in soon.
+We are currently very busy rolling out the private beta to production and fixing bugs. The goal of the private beta is gathering feedback. This will enable us to improve the service and plan our next moves. Very soon we will start sending invitations and we will allow people to play with the UI and share some content. Over the summer we plan to improve the platform by gathering more content, tweaking the UI, improving our Location graph, perfecting the API, ironing out bugs, working on localization, etc. We expect the private beta will last at least several months. If you are interested, follow [@LocalstreamHQ](https://twitter.com/LocalstreamHQ) on twitter, my blog,  visit our website [http://localstre.am](http://localstre.am), or talk to us at [Wherecamp](http://wherecamp.de/). We'll be posting instructions on how to get in soon.

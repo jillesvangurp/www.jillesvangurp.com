@@ -11,7 +11,7 @@ categories:
 tags:
   - wordpress
 ---
-I upgraded to <a href="http://codex.wordpress.org/Version_2.3">wordpress 2.3</a>, which has as its main new feature support for tags. So I installed it and got busy converting my wordpress categories to tags using the wizard and then updating the theme to display them as discussed <a href="http://richgilchrest.com/how-to-add-wordpress-23-tags-to-your-current-theme/">here</a>. 
+I upgraded to [wordpress 2.3](http://codex.wordpress.org/Version_2.3), which has as its main new feature support for tags. So I installed it and got busy converting my wordpress categories to tags using the wizard and then updating the theme to display them as discussed [here](http://richgilchrest.com/how-to-add-wordpress-23-tags-to-your-current-theme/). 
 
 Currently all my old posts are rather poorly tagged. The intention is to not be restrained by fixed sets of categories and freely associate keywords with the posts. Things will get better over time as I add new content.
 

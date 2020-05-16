@@ -40,7 +40,7 @@ onto the external hd.</li>
 	<li>Now dowload, install, run & close itunes. It will create an itunes
 directory for you the first time it starts, that's where it will look for its files. Replace the stuff inside this directory (My Documents\My Music\iTunes) with the
 backups on your external hd (including the itunes music folder). Now here comes the tricky part. Thanks for
-<a href="http://www.brooks-bilson.com/blogs/rob/index.cfm?mode=entry&entry=6AE0A0A7-BD95-8DAB-DE16B46EB48026A9">this</a> post for putting me on the right track! DO NOT start itunes again until after the steps below.</li>
+[this](http://www.brooks-bilson.com/blogs/rob/index.cfm?mode=entry&entry=6AE0A0A7-BD95-8DAB-DE16B46EB48026A9) post for putting me on the right track! DO NOT start itunes again until after the steps below.</li>
 	<li>First fix the pathnames in the xml file. They still point to the old location. Open the file in a <a href="http://jedit.org">capable </a>editor, the thing to look for is search and replace functionality. Search and replace the parts of the path names that are now different: your itunes music folder and any other folders you imported in your old library. Save the file.</li>
 	<li>Now this is important: iTunes will ignore whatever path info is in the xml file! Unless the itl file becomes corrupted. We can fix that! Open the itl file in an editor, delete the gibberish inside, save. Your itl file is now corrupted, normally this is a bad thing. You still have the xml file though (and a backup of the itl).</li>
 	<li>Start itunes, it will 'import' your music and afterwards complain that the itl file is corrupted, let it fix it.</li>

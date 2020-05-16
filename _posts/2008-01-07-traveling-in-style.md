@@ -22,6 +22,6 @@ Me: Mustang sounds cool ....
 
 Whoa!!!
 
-<a href='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/mustang2.jpg' title='Mustang'>![Mustang](https://www.jillesvangurp.com/wp-content/uploads/2008/01/mustang2.jpg)</a><a href='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/mustang1.jpg' title='Traveling in style'>![Traveling in style](https://www.jillesvangurp.com/wp-content/uploads/2008/01/mustang1.jpg)</a>
+[![Mustang](https://www.jillesvangurp.com/wp-content/uploads/2008/01/mustang2.jpg)](https://www.jillesvangurp.com/wp-content/uploads/2008/01/mustang2.jpg)[![Traveling in style](https://www.jillesvangurp.com/wp-content/uploads/2008/01/mustang1.jpg)](https://www.jillesvangurp.com/wp-content/uploads/2008/01/mustang1.jpg)
 
 Screw Al Gore, this car is cool. I don't even want to know the mileage. 

@@ -17,7 +17,7 @@ tags:
   - photography
   - traveling
 ---
-<a href="http://www.geenstijl.nl/mt/archieven/2008/08/anp_doet_google_earth_na.html">GeenStijl : ANP doet Google Earth na</a>.
+[GeenStijl : ANP doet Google Earth na](http://www.geenstijl.nl/mt/archieven/2008/08/anp_doet_google_earth_na.html).
 
 Ten years ago, I was a computer science student in Utrecht who was about to leave the Netherlands to live in Sweden. At the time, I had been living for about a year in a very spacious (50m2) attic room on a top location: Domplein, complete with nice view over the square.
 
@@ -25,4 +25,4 @@ A Dutch reporter took some photos from a balloon which gives a nice perspective 
 
 ![](/static/photos/domplein.jpg)
 
-As you can see right next to my left there is a pretty big tower and half a cathedral. In fact this is the <a href="http://en.wikipedia.org/wiki/Dom_Tower_of_Utrecht">largest church tower</a> in the Netherlands and you can read all about the missing half of the cathedral on wikipedia. It was noisy too, especially at night. But you stop noticing after some time.
+As you can see right next to my left there is a pretty big tower and half a cathedral. In fact this is the [largest church tower](http://en.wikipedia.org/wiki/Dom_Tower_of_Utrecht) in the Netherlands and you can read all about the missing half of the cathedral on wikipedia. It was noisy too, especially at night. But you stop noticing after some time.

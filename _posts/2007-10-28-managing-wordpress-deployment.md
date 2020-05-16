@@ -18,7 +18,7 @@ tags:
   - versionmanagement
   - wordpress
 ---
-This little article is a summary of how I currently manage my wordpress blog. The wordpress.org site lists <a href="http://codex.wordpress.org/Installing/Updating_WordPress_with_Subversion">some advice</a> on how to manage a wordpress installation using subversion. However, I have a slightly more sophisticated setup that preserves my modifications (as long as they don't conflict) that I maintain in a private branch of wordpress.
+This little article is a summary of how I currently manage my wordpress blog. The wordpress.org site lists [some advice](http://codex.wordpress.org/Installing/Updating_WordPress_with_Subversion) on how to manage a wordpress installation using subversion. However, I have a slightly more sophisticated setup that preserves my modifications (as long as they don't conflict) that I maintain in a private branch of wordpress.
 
 I use rsync to push and pull changes remotely (using ssh, ftp should work as well). Since a good howto seems to be lacking online and since I spent a while figuring out how to do all this, I decided to share my little setup.
 <!--more-->
@@ -48,7 +48,7 @@ rsync -i -v -a -f "- .svn" -f "- wp-config.php" -f "- .htaccess" $FROMDIR $DESTD
 
 Note that this does not delete files that you svn deleted. To achieve that, you could add --delete to the rsync command or just cleanup manually.
 
-The wordpress documentation <a href="http://codex.wordpress.org/Installing/Updating_WordPress_with_Subversion">recommends </a>simply checking out the latest wordpress tag on the server and switching and updating that whenever a new tag is set in the repository. This works but you end up with all those .svn directories on the server which in my case means I'm wasting a lot of space that I'm paying for. Additionally it conflicts with my desire to maintain my site in subversion.
+The wordpress documentation [recommends ](http://codex.wordpress.org/Installing/Updating_WordPress_with_Subversion)simply checking out the latest wordpress tag on the server and switching and updating that whenever a new tag is set in the repository. This works but you end up with all those .svn directories on the server which in my case means I'm wasting a lot of space that I'm paying for. Additionally it conflicts with my desire to maintain my site in subversion.
 
 So, instead what I do is use svn diff to create a diff file like this:
 

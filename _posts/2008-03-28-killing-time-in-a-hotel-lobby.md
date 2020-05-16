@@ -16,7 +16,7 @@ tags:
   - traveling
   - WLAN
 ---
-In the past few days I've attended the Internet Of Things conference in Zurich. If you're keeping an eye on my <a href="http://flickr.com/photos/jillesvangurp/">flickr feed</a>, you might have noticed a few photos tagged with iot2008. I was responding to the invitation to put photos under that tag but so far I seem to be the only person bothering to do so.
+In the past few days I've attended the Internet Of Things conference in Zurich. If you're keeping an eye on my [flickr feed](http://flickr.com/photos/jillesvangurp/), you might have noticed a few photos tagged with iot2008. I was responding to the invitation to put photos under that tag but so far I seem to be the only person bothering to do so.
 
 This was sort of the core message behind the demo we did at this conference: people use the internet to check out places before they go there and again afterwards to e.g. upload photos but during your presence somewhere, the internet is pretty damn useless. Our demo presented our web based platform for smart places.
 

@@ -11,7 +11,7 @@ dsq_thread_id:
 tags:
   - x-plane
 ---
-More playing with <a href="http://www.x-plane.com">x-plane</a>. I found this very nice reference <a href="http://www.av8n.com/how/htm/">on flying an airplane</a>. I've learned quite a few useful things already. Just now, I made a silky smooth landing at JFK (New York) coming in at a nice and predictable 3 degree angle at a nice and predictable speed of 80 knots. That is largely due to reading the link above.
+More playing with [x-plane](http://www.x-plane.com). I found this very nice reference [on flying an airplane](http://www.av8n.com/how/htm/). I've learned quite a few useful things already. Just now, I made a silky smooth landing at JFK (New York) coming in at a nice and predictable 3 degree angle at a nice and predictable speed of 80 knots. That is largely due to reading the link above.
 
 <a title="Landing at JFK" class="imagelink" href="http://blog.jillesvangurp.com/wp-content/uploads/2006/03/smooth%20landing.jpg">![Landing at JFK](https://www.jillesvangurp.com/wp-content/uploads/2006/03/smooth%20landing.jpg)
 </a>

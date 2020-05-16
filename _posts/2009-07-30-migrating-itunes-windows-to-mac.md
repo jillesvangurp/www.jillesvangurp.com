@@ -20,7 +20,7 @@ tags:
 ---
 As part of my recent imac purchase came the chore of moving stuff over from my old hard drive which thankfully survived my old PC's premature demise. Part of the stuff that I naturally wanted to migrate is of course my iTunes library. 
 
-Last time I moved my iTunes library is 3.5 years ago, when I bought my then new and now broken PC. At the time I <a href="http://www.jillesvangurp.com/2006/01/09/new-pc-moving-itunes-library/">wrote up a little howto on iTunes migration</a> that over the years has gotten me tens of thousands of hits (dozens per day). Some people were kind enough to leave a message and apparently I helped out several of them with those instructions.
+Last time I moved my iTunes library is 3.5 years ago, when I bought my then new and now broken PC. At the time I [wrote up a little howto on iTunes migration](https://www.jillesvangurp.com/2006/01/09/new-pc-moving-itunes-library/) that over the years has gotten me tens of thousands of hits (dozens per day). Some people were kind enough to leave a message and apparently I helped out several of them with those instructions.
 
 So, here's the follow up. 
 

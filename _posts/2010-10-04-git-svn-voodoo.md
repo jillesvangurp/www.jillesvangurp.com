@@ -139,7 +139,7 @@ As discussed earlier on this site, I recently started using git in our svn centr
 
 <!--more-->
 
-Before getting started, make sure you have both git-core and git-svn installed (ubuntu) or that you have done a "sudo port install git-core +svn +bash_completion" if you have a mac. Also, you probably want to <a href="http://www.arthurkoziel.com/2008/05/02/git-configuration/">configure git properly</a>. Google is your friend, there are plenty of tutorials on the basics of git and svn that you might want to run through first.
+Before getting started, make sure you have both git-core and git-svn installed (ubuntu) or that you have done a "sudo port install git-core +svn +bash_completion" if you have a mac. Also, you probably want to [configure git properly](http://www.arthurkoziel.com/2008/05/02/git-configuration/). Google is your friend, there are plenty of tutorials on the basics of git and svn that you might want to run through first.
 
 Both git and svn use urls to identify repositories. For the sake of simplicity, I will use a very basic example involving three local repositories on my file system with file:// based urls but of course you can use http:// ssh+svn:// or git:// type urls just the same:
 <ul>

@@ -15,9 +15,9 @@ tags:
   - java
   - problemsandsolutions
 ---
-A second neat trick I did with Lucene this week was to wrap the StandardAnalyzer with my own analyzer (see <a href="http://www.jillesvangurp.com/2008/05/28/boosting-lucene-search-results-using-timestamps/">here</a> for the other post on Lucene I did a few days ago).
+A second neat trick I did with Lucene this week was to wrap the StandardAnalyzer with my own analyzer (see [here](https://www.jillesvangurp.com/2008/05/28/boosting-lucene-search-results-using-timestamps/) for the other post on Lucene I did a few days ago).
 
-The problem I was trying to address is very simple. I have a nice web service API for my search engine. The incoming query is handled by Lucene using the bundled QueryParser which has a quite nice and elaborate <a href="http://lucene.apache.org/java/docs/queryparsersyntax.html">query language</a> that covers most of my needs. However, a problem is that it uses the StandardAnalyzer on everything which means that all the terms in the query are being tokenized. For text this is a good thing. However, I also have fields in my index that are not text.
+The problem I was trying to address is very simple. I have a nice web service API for my search engine. The incoming query is handled by Lucene using the bundled QueryParser which has a quite nice and elaborate [query language](http://lucene.apache.org/java/docs/queryparsersyntax.html) that covers most of my needs. However, a problem is that it uses the StandardAnalyzer on everything which means that all the terms in the query are being tokenized. For text this is a good thing. However, I also have fields in my index that are not text.
 
 The Lucene solution to this is to use Untokenized fields in the index. Only problem, using untokenized fields in combination with the QueryParser is not recommended and tends to not work well since everything in the query is being tokenized. So, you should not use the QueryParser but programmatically construct your own Query. Nice but not what I want since it complicates my search API and I need to make complicated queries on the other end of it.
 

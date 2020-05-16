@@ -26,4 +26,4 @@ The last seven years were fun, very intense, and I learned a lot. I joined Nokia
 
 But now the time has come for me to move on and seek new challenges and I will leave Nokia at the end of November. I'll still be in Berlin, which has a very lively and interesting start-up scene, and I will be looking there and in other places for new exciting things for me to work on next.
 
-In the past few days, I've been busy polishing my CV and <a title="My LinkedIn Profile" href="http://linkedin.com/in/jillesvangurp ">linkedin profile</a>. If you know me, feel free to connect there; or if you don't contact me via linkedin or one of the other ways listed on my <a href="http://www.jillesvangurp.com/me/contact/">contact page</a>.
+In the past few days, I've been busy polishing my CV and [linkedin profile](http://linkedin.com/in/jillesvangurp ). If you know me, feel free to connect there; or if you don't contact me via linkedin or one of the other ways listed on my [contact page](https://www.jillesvangurp.com/me/contact/).

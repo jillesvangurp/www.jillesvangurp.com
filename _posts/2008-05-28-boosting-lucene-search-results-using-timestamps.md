@@ -15,7 +15,7 @@ tags:
   - java
   - problemsandsolutions
 ---
-Since I spent quite a bit of time looking into how to do this properly so here's a solution to a little problem that has been nagging me today: how make <a href="http://lucene.apache.org/java/docs/index.html">lucene</a> take into account timestamps when returning search results. I don't want to sort the results (that's easy) but instead when two results match a query and get the same score from lucene, I want to see the newest first.
+Since I spent quite a bit of time looking into how to do this properly so here's a solution to a little problem that has been nagging me today: how make [lucene](http://lucene.apache.org/java/docs/index.html) take into account timestamps when returning search results. I don't want to sort the results (that's easy) but instead when two results match a query and get the same score from lucene, I want to see the newest first.
 
 Basically in lucene this means influencing how it 'scores' entries against a query. So far I have been relying on the lucene QueryParser that implements a nice little query language with some cool features. However, the above requirement cannot be expressed as a query in that language. At best you might work with date ranges but that is not quite what I need.
 

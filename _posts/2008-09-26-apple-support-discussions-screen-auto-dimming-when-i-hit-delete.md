@@ -14,7 +14,7 @@ tags:
   - apple
   - LOL
 ---
-<a href="http://discussions.apple.com/thread.jspa?threadID=1714231&amp;tstart=0">Apple - Support - Discussions - Screen auto-dimming when I hit delete ...</a>.
+[Apple - Support - Discussions - Screen auto-dimming when I hit delete ...](http://discussions.apple.com/thread.jspa?threadID=1714231&amp;tstart=0).
 
 LOL, this had me puzzled for a bit. While playing with my mac, I noticed the screen dimmed everytime I hit the delete key.
 

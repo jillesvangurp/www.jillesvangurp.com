@@ -48,7 +48,7 @@ Ultimately, maven is just a stop gap. And not even particularly good at what it 
 
 <strong>update 27 October 2009</strong>
 
-Somebody produced a <a href="http://www.zeroturnaround.com/blog/the-build-tool-report-turnaround-times-using-ant-maven-eclipse-intellij-and-netbeans/">great study on how much time is spent on incremental builds</a> with various build tools. This stuff backs my key argument up really well. The most startling out come:
+Somebody produced a [great study on how much time is spent on incremental builds](http://www.zeroturnaround.com/blog/the-build-tool-report-turnaround-times-using-ant-maven-eclipse-intellij-and-netbeans/) with various build tools. This stuff backs my key argument up really well. The most startling out come:
 
 <blockquote>Java developers spend 1.5 to 6.5 work weeks a year (with an average of 3.8 work weeks,  or 152 hours, annually) waiting for builds, unless they are using Eclipse with compile-on-save.</blockquote>
 

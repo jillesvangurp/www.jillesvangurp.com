@@ -16,7 +16,7 @@ tags:
   - Thanks Google So
   - XFN
 ---
-OK, straight to the core. I assume you got your <a href="http://code.google.com/apis/socialgraph/docs/api.html">news</a> elsewhere.
+OK, straight to the core. I assume you got your [news](http://code.google.com/apis/socialgraph/docs/api.html) elsewhere.
 <ul>
 
 	<li>Link 1:outgoing links (as expressed on my blog using xfn): <a href="http://socialgraph.apis.google.com/lookup?pretty=1&q=http%3A//blog.jillesvangurp.com&edo=1">link</a>.</li>

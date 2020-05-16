@@ -22,7 +22,7 @@ tags:
 ---
 <strong>First impression</strong>: <a href="http://www.google.com/chrome">Google delivered</a>, I've never used a browser this fast. It's great.
 
-Yesterday, a <a href="http://www.google.com/googlebooks/chrome/">cartoon</a> was prematurely leaked detailing Google's vision for what a browser could look like. Now, 24 hours later I'm reviewing what until yesterday was a well kept secret.
+Yesterday, a [cartoon](http://www.google.com/googlebooks/chrome/) was prematurely leaked detailing Google's vision for what a browser could look like. Now, 24 hours later I'm reviewing what until yesterday was a well kept secret.
 
 So here's my first impressions.
 <ul>

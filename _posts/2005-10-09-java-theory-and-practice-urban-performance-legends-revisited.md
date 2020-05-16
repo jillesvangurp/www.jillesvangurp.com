@@ -13,7 +13,7 @@ tags:
   - IO
   - java
 ---
-I don't comment very often on java performance myth busting articles anymore (I used to do this a lot at slashdot and the javalobby). However, this: <a href="http://www-128.ibm.com/developerworks/java/library/j-jtp09275.html?ca=dgr-lnxw07JavaUrbanLegends">Java theory and practice: Urban performance legends, revisited</a> is an exceptionally good and informative article that focuses on memory management. The article explains how both memoray allocation and deallocation and stack usage vs heap usage are smarter in Java  then with the default C/C++ mechanisms for memory allocation. 
+I don't comment very often on java performance myth busting articles anymore (I used to do this a lot at slashdot and the javalobby). However, this: [Java theory and practice: Urban performance legends, revisited](http://www-128.ibm.com/developerworks/java/library/j-jtp09275.html?ca=dgr-lnxw07JavaUrbanLegends) is an exceptionally good and informative article that focuses on memory management. The article explains how both memoray allocation and deallocation and stack usage vs heap usage are smarter in Java  then with the default C/C++ mechanisms for memory allocation. 
 
 Of course the issue is that whereas there are a lot of performance myths, it is also undeniably true that many Java desktop applications are perceived as slow. On the server the debate is  pretty much over. Not in the least because C/C++ is not very suitable for building secure network applications for reasons which have a lot to do with how memory is managed (or rather not managed) in C/C++. All the competing server languages are either interpreted or dynamically compiled.
 

@@ -20,7 +20,7 @@ tags:
 ---
 If you are one of the handful of people not visiting this site for the first time (i.e. less than 10% of visitors), you'll notice that for the first time since I installed wordpress, I'm not running the default theme anymore. Basically one of my reasons for installing wordpress was that despite enjoying the fiddling with html and css I got a bit tired of working around IE and mozilla incompatibilities, the many limitations of CSS and all the weird issues you run into when trying to achieve perfectly simple things like three column layouts. If you are interested in this stuff, there are several nice sites where you can read a lot of stuff about these issues. 
 
-Now, instead of getting my hands dirty, I decided to install the sandbox theme for wordpress available at <a href="http://www.plaintxt.org/themes/sandbox/">plaintxt.org</a>. This is somewhat of an experiment for me, basically my requirement is that the thing shouldn't break down if I roll out upgrades for wordpress in the future. I simply want to keep that process as simple as possible: upload new wordpress php files and run the upgrade php script.
+Now, instead of getting my hands dirty, I decided to install the sandbox theme for wordpress available at [plaintxt.org](http://www.plaintxt.org/themes/sandbox/). This is somewhat of an experiment for me, basically my requirement is that the thing shouldn't break down if I roll out upgrades for wordpress in the future. I simply want to keep that process as simple as possible: upload new wordpress php files and run the upgrade php script.
 
 Basically, developing a wordpress theme means that these things become non trivial since with every update the theme needs to be tested again.
 

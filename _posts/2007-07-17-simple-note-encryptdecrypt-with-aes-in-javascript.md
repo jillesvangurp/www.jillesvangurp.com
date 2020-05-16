@@ -17,7 +17,7 @@ tags:
   - UI
   - webdevelopment
 ---
-Inspired by the hype surrounding the iphone and web applications, I hacked together a <a href="http://www.jillesvangurp.com/encdec/">nice little toy</a> to encrypt and decrypt text using aes.  I borrowed the aes implementation from <a href="http://www.movable-type.co.uk/scripts/aes.html">here</a> and basically wrote a somewhat nicer UI for it.  I still need to integrate sha1 hashing of passwords as the aes.js script author suggests that is a bit more secure than his current method. 
+Inspired by the hype surrounding the iphone and web applications, I hacked together a [nice little toy](https://www.jillesvangurp.com/encdec/) to encrypt and decrypt text using aes.  I borrowed the aes implementation from [here](http://www.movable-type.co.uk/scripts/aes.html) and basically wrote a somewhat nicer UI for it.  I still need to integrate sha1 hashing of passwords as the aes.js script author suggests that is a bit more secure than his current method. 
 
 I have no idea if it will work in the iphone browser since I've only tested in firefox. It partially works in IE7 and I have no desire to spend time finding out why it fucks up. Suggestions to improve my little javascript hacking are welcome of course.
 
