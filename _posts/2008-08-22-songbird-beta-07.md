@@ -22,7 +22,7 @@ tags:
 ---
 [Songbird Blog Ã‚Â» Songbird Beta is Released!](http://blog.songbirdnest.com/2008/08/20/songbird-beta-is-released/).
 
-Having played with several milestone builds of songbird, I was keen to try this one. This is a big milestone for this music player &amp; browser hybrid. Since I've blogged on this before, I will keep it short.
+Having played with several milestone builds of songbird, I was keen to try this one. This is a big milestone for this music player & browser hybrid. Since I've blogged on this before, I will keep it short.
 
 The good:
 

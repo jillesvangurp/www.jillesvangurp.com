@@ -37,7 +37,7 @@ All of this is mandated by the JavaBeans spec and tools actually depend on this 
 Java 5 has an interesting new feature called generics which is otherwise known as parametrized types. With parametrized types you can do nice stuff like this:
 
 ```java
-public class GenEvtMgr&lt;LT, T&gt; {
+public class GenEvtMgr<LT, T> {
   private final List listeners = new LinkedList();
 
   public void fire(T e) {
@@ -55,7 +55,7 @@ public class GenEvtMgr&lt;LT, T&gt; {
   }
 }
 
-public interface EvtListener&lt;ET&gt; extends EventListener {
+public interface EvtListener<ET> extends EventListener {
   void eventFired(ET e);
 }
 
@@ -73,10 +73,10 @@ And some code to test the above ...
 
 ```java
 public class EventTester implements GenEvtProducer {
-  private final GenEvtMgr&lt;EvtListener, SomeEvent&gt; mgr =
-    new GenEvtMgr&lt;EvtListener, SomeEvent&gt;();
+  private final GenEvtMgr<EvtListener, SomeEvent> mgr =
+    new GenEvtMgr<EvtListener, SomeEvent>();
 
-  public GenEvtMgr&lt;EvtListener, SomeEvent&gt; getEventManager() {
+  public GenEvtMgr<EvtListener, SomeEvent> getEventManager() {
     return mgr;
   }
 
@@ -86,7 +86,7 @@ public class EventTester implements GenEvtProducer {
 
   public static void main(String[] args) {
     EventTester test = new EventTester();
-    GenEvtMgr&lt;EvtListener, SomeEvent&gt; eventManager
+    GenEvtMgr<EvtListener, SomeEvent> eventManager
       = test.getEventManager();
     eventManager.addEventListener(new EvtListener () {
       public void eventFired(SomeEvent e) {

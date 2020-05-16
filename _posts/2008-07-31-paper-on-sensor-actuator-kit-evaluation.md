@@ -20,7 +20,7 @@ tags:
   - Sun Spot
   - workshop
 ---
-One of our interns, Filip Suba, presented a [paper](https://www.jillesvangurp.com/static/filipsuba-sensors.pdf) earlier this week in Turku at the Symposium on Applications &amp; the Internet. He's one of my former (since today) master thesis students that has been working in our team at NRC for the past few months. The paper he presented is actually based on his work a few months before that when he was working for us as a summer trainee (previous summer that is). His master thesis work (on a nice new security protocol) is likely to result in another paper, when we find the time to write it.
+One of our interns, Filip Suba, presented a [paper](https://www.jillesvangurp.com/static/filipsuba-sensors.pdf) earlier this week in Turku at the Symposium on Applications & the Internet. He's one of my former (since today) master thesis students that has been working in our team at NRC for the past few months. The paper he presented is actually based on his work a few months before that when he was working for us as a summer trainee (previous summer that is). His master thesis work (on a nice new security protocol) is likely to result in another paper, when we find the time to write it.
 
 Anyway, we hired him last year to learn a bit more about the state of the art in Sensor Actuator development kit with a particular focus on building applications and services that are kit independent and exposing their internals via a web API. This proved quite hard and we wrote a nice paper on our experiences.
 

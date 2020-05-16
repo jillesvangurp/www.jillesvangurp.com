@@ -45,7 +45,7 @@ Not having any domain classes means our code base is small and easy to maintain.
 
 **JsonJ overview**
 
-JsonJ represents json using the JsonElement interface, which is implemented by three classes: JsonObject, JsonArray, and JsonPrimitive. JsonObject implements the Map interface so it can behave just like any other Map&lt;JsonElement&gt;. Likewise JsonArray is a List&lt;JsonElement&gt; and finally JsonPrimitive uses Integer, Double, String and Boolean to represent primitive values.
+JsonJ represents json using the JsonElement interface, which is implemented by three classes: JsonObject, JsonArray, and JsonPrimitive. JsonObject implements the Map interface so it can behave just like any other Map<JsonElement>. Likewise JsonArray is a List<JsonElement> and finally JsonPrimitive uses Integer, Double, String and Boolean to represent primitive values.
 
 So far that is nothing special. The magic is that I added a lot of convenient methods to these classes that facilitate getting data in and out of their instances.
 

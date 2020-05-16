@@ -21,7 +21,7 @@ Since I'm quite happy with the mac at work. I'm half convinced that I might want
 
 I looked at the upgrade options. For 150$ I can upgrade from 2 to 4Gb. I know for a fact that these modules sell for around 30Ã¢â€šÂ¬ here in Finland, including 22% taxes. For 250$ I can upgrade the hd to 1TB (from 0.5). 1TB drives are going around 100-120Ã¢â€šÂ¬ here, including taxes. I can upgrade to a 512 Nvidia 8600GS. Gee, do they even sell these at nvidia? These are not upgrade options but an excessive price for what should be the standard, minimum configuration of a 2000Ã¢â€šÂ¬ PC.
 
-The point here is that for this kind of money, I want more upgrade options. I'm not buying a PC that can't handle memory modules on sale today. 4GB and 8GB modules are commonplace, 16 &amp; 32 GB modules are on the market as well. A decent PC should have 2-4 slots so a maximum of at least 16GB is what I expect today. Given the memory prices, I'd max the memory out too.
+The point here is that for this kind of money, I want more upgrade options. I'm not buying a PC that can't handle memory modules on sale today. 4GB and 8GB modules are commonplace, 16 & 32 GB modules are on the market as well. A decent PC should have 2-4 slots so a maximum of at least 16GB is what I expect today. Given the memory prices, I'd max the memory out too.
 
 1TB drives should be standard in a premium PC at the current prices.
 

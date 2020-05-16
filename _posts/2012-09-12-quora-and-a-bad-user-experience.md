@@ -15,7 +15,7 @@ categories:
 tags:
   - oauth
 ---
-I compulsively sign up for all sorts of stuff I don't really need. Call it professional curiosity. Yesterday I was talking with a friend and he mentioned [quora](http://quora.com), a popular Q&amp;A site that I have never really bothered with. So, on a whim I did my thing and signed up. This blog post is about the bad stuff that happened after that. In short the experience was appalling and mildly offensive and illustrative of how some companies just don't get it.
+I compulsively sign up for all sorts of stuff I don't really need. Call it professional curiosity. Yesterday I was talking with a friend and he mentioned [quora](http://quora.com), a popular Q&A site that I have never really bothered with. So, on a whim I did my thing and signed up. This blog post is about the bad stuff that happened after that. In short the experience was appalling and mildly offensive and illustrative of how some companies just don't get it.
 
 So, here's what happened.
 

@@ -26,4 +26,4 @@ which allthough enormously feature rich does not have an anamorphic setting buil
 
 *The [jar](https://www.jillesvangurp.com/nerdstuff/anamorphicratiocalculator/anamorphic.jar) file can be started by double clicking on it (windows, must have a Java 2 jvm installed of course) or running "java -jar anamorphic.jar" from the commandline. [Source code](https://www.jillesvangurp.com/nerdstuff/anamorphicratiocalculator/aspectratioconverter.zip) in the form of an eclipse project can be found here. *
 
-If this all sounds too nerdy, just download media player classic from sourceforge.net and use the options-&gt;pan&amp;scan-&gt;scale to 16:9 option to get the same effect.
+If this all sounds too nerdy, just download media player classic from sourceforge.net and use the options->pan&scan->scale to 16:9 option to get the same effect.

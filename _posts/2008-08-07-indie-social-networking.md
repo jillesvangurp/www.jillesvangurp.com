@@ -31,7 +31,7 @@ It's basically twitter minus some features (not yet implemented) with a few inte
 - It's completely open. It has all the hooks and obvious protocols implemented. For example, I microblog using a identi.ca contact in my jabber client (pidgin) over XMPP. There's RSS and probably some more stuff.
 - Your friends info is available as FOAF, thus enabling [Google's Social Graph search](http://code.google.com/apis/socialgraph/) to work with the data there and in other places (like e.g. your wordpress linkdump).
 - It's decentralized, you can have laconi.ca friends on different servers. Like email, there is no need for everybody to be on the same server.
-- It's written in PHP -&gt; you can probably install it on any decent hosting provider you can now run your own microblog just like you can run your own blog.
+- It's written in PHP -> you can probably install it on any decent hosting provider you can now run your own microblog just like you can run your own blog.
 
 Of course being low profile, there's only the usual suspects active: i.e. people like me.
 

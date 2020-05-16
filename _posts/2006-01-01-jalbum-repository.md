@@ -13,4 +13,4 @@ categories:
 tags:
   - createdbyjilles
 ---
-I updated my jalbum skin at the  [JAlbum repository](http://jrepository.engblom.org/default.asp?Action=viewskin&amp;GUID={4EE1887C-8EDC-48C4-98B0-6FB76D953873})
+I updated my jalbum skin at the  [JAlbum repository](http://jrepository.engblom.org/default.asp?Action=viewskin&GUID={4EE1887C-8EDC-48C4-98B0-6FB76D953873})
