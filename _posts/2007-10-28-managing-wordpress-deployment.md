@@ -52,7 +52,7 @@ The wordpress documentation [recommends ](http://codex.wordpress.org/Installing/
 
 So, instead what I do is use svn diff to create a diff file like this:
 
-<blockquote><code>svn diff http://svn.automattic.com/wordpress/tags/2.3/ http://svn.automattic.com/wordpress/tags/2.3.1/ > wppatch.diff</code></blockquote>
+> `svn diff http://svn.automattic.com/wordpress/tags/2.3/ http://svn.automattic.com/wordpress/tags/2.3.1/ > wppatch.diff`*
 
 This patch I then apply to my workdirectory using tortoisesvn or (commandline patch). This preserves any changes I have made to wordpress files (I have several minor changes that I like to keep) as long as they don't conflict with the changes coming from wordpress. Subversion simply merges the patch. After it is done, I can review what has changed; test it locally (to see if e.g. my plugins still work) and commit it. Then the above script pushes the changes to the live site and I run /admin/upgrade.php on the website.
 

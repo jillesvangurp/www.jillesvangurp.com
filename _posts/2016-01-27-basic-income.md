@@ -19,11 +19,11 @@ The notion of a basic income has been floating around for a while. It sounds lik
 
 So, I did a bid of googling and stumbled on a baffling [statistic](https://www.dekameronline.nl/artikel/25269) provided by the Dutch government that totally backs up my hunch that this kind of thing might actually work:
 
-<blockquote>Het totaal van de Nederlandse uitgaven aan sociale bescherming tegen ziekte, ouderdom en werkloosheid komt neer op 190 miljard euro in 2012 (het meest recente jaar waarover cijfers bekend zijn). Dat is ruim 11.200 euro per inwoner.</blockquote>
+> Het totaal van de Nederlandse uitgaven aan sociale bescherming tegen ziekte, ouderdom en werkloosheid komt neer op 190 miljard euro in 2012 (het meest recente jaar waarover cijfers bekend zijn). Dat is ruim 11.200 euro per inwoner.
 
 For you non dutch speakers:
 
-<blockquote>The total of dutch expenses for social protection against sickness, getting old, and unemployment amounts to 190 billion euro in 2012 (the most recent year for which figures are known). That’s over 11200 euro per inhabitant.</blockquote>
+> The total of dutch expenses for social protection against sickness, getting old, and unemployment amounts to 190 billion euro in 2012 (the most recent year for which figures are known). That’s over 11200 euro per inhabitant.
 
 That includes unemployment benefits, the state pension, healthcare cost, benefits for people that are not able to work due to sickness, and social welfare for pretty much anyone else unable, unwilling, or too old to work. In other words, the Dutch government spends an amount on helping a few million people in the Dutch society that per inhabitant actually amounts to a fairly decent basic income. Aside from a few homeless people, basically everyone is covered by this system already. People starving to death is essentially unheard off in the Netherlands (other than by choice).
 

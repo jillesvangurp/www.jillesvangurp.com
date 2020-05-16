@@ -50,10 +50,10 @@ Ultimately, maven is just a stop gap. And not even particularly good at what it 
 
 Somebody produced a [great study on how much time is spent on incremental builds](http://www.zeroturnaround.com/blog/the-build-tool-report-turnaround-times-using-ant-maven-eclipse-intellij-and-netbeans/) with various build tools. This stuff backs my key argument up really well. The most startling out come:
 
-<blockquote>Java developers spend 1.5 to 6.5 work weeks a year (with an average of 3.8 work weeks,  or 152 hours, annually) waiting for builds, unless they are using Eclipse with compile-on-save.</blockquote>
+> Java developers spend 1.5 to 6.5 work weeks a year (with an average of 3.8 work weeks,  or 152 hours, annually) waiting for builds, unless they are using Eclipse with compile-on-save.
 
 I suspect that where I work, we're close to 6.5 weeks. Oh yeah, they single out maven as the slowest option here:
 
-<blockquote>It is clear from this chart that Ant and Maven take significantly more time than IDE builds. Both take about 8 minutes an hour, which corresponds to 13% of total development time. There seems to be little difference between the two, perhaps because the projects where you have to use Ant or Maven for incremental builds are large and complex.</blockquote>
+> It is clear from this chart that Ant and Maven take significantly more time than IDE builds. Both take about 8 minutes an hour, which corresponds to 13% of total development time. There seems to be little difference between the two, perhaps because the projects where you have to use Ant or Maven for incremental builds are large and complex.
 
 So anyone who still doesn't get what I'm talking about here, build tools like maven are serious time wasters. There exist tools out there that reduce this time to close to 0. I repeat, Pyhton Django = edit, F5, edit F5. No build/restart time whatsoever.

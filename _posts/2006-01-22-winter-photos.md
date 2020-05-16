@@ -13,4 +13,4 @@ tags:
   - photography
 ---
 <p>It has been snowing, so I made some photo's on the <a href="http://maps.google.com/?ll=60.169012,24.912143&spn=0.018743,0.041628&t=k">beach </a>behind my house (500m): [2006 I Winter - Picture 002](https://www.jillesvangurp.com/Album/2006/2006%20I%20Winter/slides/Picture%20002.html)  
-<blockquote></blockquote>
+
