@@ -9,7 +9,9 @@ permalink: /2013/05/09/jruby-and-java-at-localstream/
 wp-syntax-cache-content:
   - |
     a:2:{i:1;s:4275:"
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code"><pre class="ruby" style="font-family:monospace;"><span style="color:#CC0066; font-weight:bold;">require</span> <span style="color:#996600;">'java'</span>
+    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+```
+<span style="color:#CC0066; font-weight:bold;">require</span> <span style="color:#996600;">'java'</span>
     &nbsp;
     <span style="color:#008000; font-style:italic;"># loads the java classes either from the maven target directory </span>
     <span style="color:#008000; font-style:italic;"># in backend or the production location in /opt/localstream/lib</span>
@@ -31,7 +33,9 @@ wp-syntax-cache-content:
     <span style="color:#9966CC; font-weight:bold;">else</span>
     <span style="color:#CC0066; font-weight:bold;">puts</span> <span style="color:#996600;">&quot;No jars found. Maybe you should do a maven clean install?&quot;</span>
     <span style="color:#9966CC; font-weight:bold;">end</span>
-    <span style="color:#9966CC; font-weight:bold;">end</span></pre></td></tr></table><p class="theCode" style="display:none;">require 'java'
+    <span style="color:#9966CC; font-weight:bold;">end</span>
+```
+</td></tr></table><p class="theCode" style="display:none;">require 'java'
     
     # loads the java classes either from the maven target directory
     # in backend or the production location in /opt/localstream/lib
@@ -55,9 +59,13 @@ wp-syntax-cache-content:
     end
     end</p></div>
     ;i:2;s:474:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code"><pre class="ruby" style="font-family:monospace;"><span style="color:#CC0066; font-weight:bold;">require</span> <span style="color:#996600;">'enable_java'</span>
+    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+```
+<span style="color:#CC0066; font-weight:bold;">require</span> <span style="color:#996600;">'enable_java'</span>
     &nbsp;
-    import com.<span style="color:#9900CC;">whatever</span>.<span style="color:#9900CC;">MyClass</span></pre></td></tr></table><p class="theCode" style="display:none;">require 'enable_java'
+    import com.<span style="color:#9900CC;">whatever</span>.<span style="color:#9900CC;">MyClass</span>
+```
+</td></tr></table><p class="theCode" style="display:none;">require 'enable_java'
     
     import com.whatever.MyClass</p></div>
     ";}
@@ -108,10 +116,12 @@ We struggled for a while to do this properly and I got sidetracked by a project 
 During development, the jars are in a predictable place (the maven target directory) and my Ruby script knows where to look for them. So all I need to do after changing some Java code is use maven to create a new and then simply restart fishwife.
 
 Here's the code that loads my jar files, enable_java.rb:
-<pre lang="ruby">
+
+```ruby
+
 require 'java'
 
-# loads the java classes either from the maven target directory 
+# loads the java classes either from the maven target directory
 # in backend or the production location in /opt/localstream/lib
 
 targetDir = Dir["../backend/target/lib/*.jar"]
@@ -119,8 +129,8 @@ targetDir = Dir["../backend/target/lib/*.jar"]
 if targetDir.length > 0
   puts "using jars from backend/target"
   # development
-  targetDir.each { |jar| 
-    require jar 
+  targetDir.each { |jar|
+    require jar
   }
   require '../backend/target/localstream-1.0-SNAPSHOT.jar'
 else
@@ -132,14 +142,18 @@ else
     puts "No jars found. Maybe you should do a maven clean install?"
   end
 end
-</pre>
+
+```
 
 Anywhere I need Java stuff, all I need to do is 
-<pre lang="ruby">
+
+```ruby
+
 require 'enable_java'
 
 import com.whatever.MyClass
-</pre>
+
+```
 
 I considered putting this up on github but it is not much of a project IMHO and somewhat specific to our deployment.
 

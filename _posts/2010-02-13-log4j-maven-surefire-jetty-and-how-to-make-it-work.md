@@ -11,19 +11,25 @@ dsq_thread_id:
 wp-syntax-cache-content:
   - |
     a:2:{i:1;s:1798:"
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code"><pre class="xml" style="font-family:monospace;"><span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;exclusions<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
+    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+```
+<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;exclusions<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;exclusion<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;groupId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>commons-logging<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/groupId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;artifactId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>commons-logging<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/artifactId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/exclusion<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/exclusions<span style="color: #000000; font-weight: bold;">&gt;</span></span></span></pre></td></tr></table><p class="theCode" style="display:none;">&lt;exclusions&gt;
+    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/exclusions<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
+```
+</td></tr></table><p class="theCode" style="display:none;">&lt;exclusions&gt;
     &lt;exclusion&gt;
     &lt;groupId&gt;commons-logging&lt;/groupId&gt;
     &lt;artifactId&gt;commons-logging&lt;/artifactId&gt;
     &lt;/exclusion&gt;
     &lt;/exclusions&gt;</p></div>
     ;i:2;s:4903:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code"><pre class="xml" style="font-family:monospace;"><span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;dependency<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
+    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+```
+<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;dependency<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;groupId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>org.slf4j<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/groupId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;artifactId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>slf4j-api<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/artifactId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;version<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>1.5.10<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/version<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
@@ -37,7 +43,9 @@ wp-syntax-cache-content:
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;groupId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>org.slf4j<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/groupId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;artifactId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>slf4j-log4j12<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/artifactId<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;version<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>1.5.10<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/version<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/dependency<span style="color: #000000; font-weight: bold;">&gt;</span></span></span></pre></td></tr></table><p class="theCode" style="display:none;">&lt;dependency&gt;
+    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/dependency<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
+```
+</td></tr></table><p class="theCode" style="display:none;">&lt;dependency&gt;
     &lt;groupId&gt;org.slf4j&lt;/groupId&gt;
     &lt;artifactId&gt;slf4j-api&lt;/artifactId&gt;
     &lt;version&gt;1.5.10&lt;/version&gt;
@@ -84,8 +92,16 @@ So, good advice, but less than satisfactory. To fix the problem properly, make s
 That's it. Here's what I had to do to get a properly working configuration:
 
 1. Use mvn dependency:tree to find out which dependencies are transitively/directly depending on commons-logging.
-1. fix all of these dependencies with a  <pre lang="xml"> <exclusions>     <exclusion>         <groupId>commons-logging</groupId>         <artifactId>commons-logging</artifactId>     </exclusion> </exclusions> </pre>  
-1. You might have to iterate fixing the dependencies and rerunning mvn dependency:tree since only the first instance of commons-logging found will used transitively.  	<li>Now add these dependencies to your pom.xml: <pre lang="xml"> <dependency>     <groupId>org.slf4j</groupId>     <artifactId>slf4j-api</artifactId>     <version>1.5.10</version> </dependency>                 <dependency>     <groupId>org.slf4j</groupId>     <artifactId>jcl-over-slf4j</artifactId>     <version>1.5.10</version> </dependency> <dependency>     <groupId>org.slf4j</groupId>     <artifactId>slf4j-log4j12</artifactId>     <version>1.5.10</version> </dependency> </pre> 
+1. fix all of these dependencies with a  
+```xml
+<exclusions>     <exclusion>         <groupId>commons-logging</groupId>         <artifactId>commons-logging</artifactId>     </exclusion> </exclusions>
+```
+  
+1. You might have to iterate fixing the dependencies and rerunning mvn dependency:tree since only the first instance of commons-logging found will used transitively.  	<li>Now add these dependencies to your pom.xml: 
+```xml
+<dependency>     <groupId>org.slf4j</groupId>     <artifactId>slf4j-api</artifactId>     <version>1.5.10</version> </dependency>                 <dependency>     <groupId>org.slf4j</groupId>     <artifactId>jcl-over-slf4j</artifactId>     <version>1.5.10</version> </dependency> <dependency>     <groupId>org.slf4j</groupId>     <artifactId>slf4j-log4j12</artifactId>     <version>1.5.10</version> </dependency>
+```
+ 
 1. Maven plugins have their own dependencies, separately from your normal dependencies. Make that you add the three slf4j dependencies to surefire, jetty, and other relevant plugins. At least jetty seems to already depend on slf4j.
 1. Finally make sure that your plugins have system properties defining log4j.configuration=file:[log4j config location]. Most of the googled advice on this topic covers this (and not much else). Some plugins can be a bit hard to configure due to the fact that they fork off separate processes.
 

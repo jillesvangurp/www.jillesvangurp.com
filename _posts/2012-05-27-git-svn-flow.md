@@ -53,19 +53,31 @@ Unfortunately, git-svn is a bit of a headache when it comes to using the git bas
 A svn merge applies diffs to files. A git merge combines graphs of commits into a graph that has the commits from both graphs. Git users synchronize by exchanging their changes to this graph. Svn history is linear: each commit has only one ancestor. Git history is a directed acyclic graph (if you use merge) and commits can have several ancestors. Git svn dcommitting a non linear history of commits to svn is impossible/very hard and very easy to get wrong.
 
 Suppose we have a branch with some work
-<pre>branch     E
-          / 
-master A--B--C--D</pre>
+
+```
+branch     E
+          /
+master A--B--C--D
+```
+
 A git merge would produce the following graph:
-<pre>branch     ------E
+
+```
+branch     ------E
           /       \
-master A--B--C--D--F</pre>
+master A--B--C--D--F
+```
+
 The branch is merged into the master with a special commit F that has D and E as its ancestors. In case of conflicts, the resolution to those conflicts is part of F as well. If you read the articles on the git work flows I linked above, you'll learn that merging like this is very common in the git world. Unfortunately, svn merges work quite different and it is not possible/recommended to git svn dcommit non linear commit graphs.
 
 A git rebase on the other hand would produce a different history:
-<pre>branch     E
-          / 
-master A--B--E--C--D</pre>
+
+```
+branch     E
+          /
+master A--B--E--C--D
+```
+
 Note there is no F commit. Basically it rewinds the changes on the master until B, applies the commit from the branch (E), and then re-applies the remaining commits that were on the master. History gets rewritten. When you do a git svn rebase, it does exactly the same: rewind the local git commits, apply the upstream svn commits, and then reapply the local git commits. This allows you to git svn dcommit your commits without conflicts.
 
 **Limitations of git-svn**
@@ -112,27 +124,37 @@ The model I outlined here combines the Linux kernel and Git-Hub model. Changes a
 As an example, we'll run through a scenario and review the state of the various git branches in the central git repository, the git-svn clone of trunk and svn.
 
 **Step 1: create a branch and do some work**
-<pre>branch1          x--x--x
+
+```
+branch1          x--x--x
                 /
                |
 svnro       *--*
 
 git-svn     *--*
 
-trunk       *--*</pre>
+trunk       *--*
+```
+
 Two commits from svn are pushed onto svnro in central. Somebody creates a branch and does some work.
 
 The owner of branch1 does something like:
-<pre>git fetch origin
+
+```
+git fetch origin
 git checkout svnro
 git checkout -b branch1
 ...
 git commit -m 'work'
-git push branch1</pre>
+git push branch1
+```
+
 **Step 2: create another branch and do more work**
 
 &nbsp;
-<pre>branch2                      x--x--x--y--y
+
+```
+branch2                      x--x--x--y--y
                             /
                            |
 branch1          x--x--x   |
@@ -142,11 +164,15 @@ svnro       *--*--*--*--*--*
 
 git-svn     *--*--*--*--*--*
 
-svn trunk   *--*--*--*--*--*</pre>
+svn trunk   *--*--*--*--*--*
+```
+
 Another user creates a branch applies the changes from branch1 and commits some additional changes. Meanwhile several commits have happened in svn and both branches are slightly behind now.
 
 The owner of branch2 does something like
-<pre>git fetch origin
+
+```
+git fetch origin
 git checkout branch
 git format-patch -n -3
 git checkout svnro
@@ -154,11 +180,15 @@ git checkout -b branch2
 git am *patch
 ...
 git commit -m'work'
-git push branch2</pre>
+git push branch2
+```
+
 **Step 3: apply the new work from branch2 on branch1 and do more work**
 
 &nbsp;
-<pre>branch2                      x--x--x--y--y
+
+```
+branch2                      x--x--x--y--y
                             /
                            |
 branch1                    |          x--x--x--y--y--z
@@ -168,9 +198,13 @@ svnro       *--*--*--*--*--*--*--*--*
 
 git-svn     *--*--*--*--*--*--*--*--*
 
-svn trunk   *--*--*--*--*--*--*--*--*</pre>
+svn trunk   *--*--*--*--*--*--*--*--*
+```
+
 The owner of branch1 rebases against svnro and applies changes from branch2 and does an additional commit.
-<pre>git fetch
+
+```
+git fetch
 git checkout branch2
 git format-patch -n -2
 git checkout branch1
@@ -178,17 +212,25 @@ git am *patch
 git rebase svnro
 ...
 git commit -m 'work'
-git push branch1 --force</pre>
+git push branch1 --force
+```
+
 **Step 4: dcommit the change and remove the branches**
 
 &nbsp;
-<pre>svnro       *--*--*--*--*--*--*--*--*
+
+```
+svnro       *--*--*--*--*--*--*--*--*
 
 git-svn     *--*--*--*--*--*--*--*--*--*--x--x--x--y--y--z
 
-svn trunk   *--*--*--*--*--*--*--*--*--*--x--x--x--y--y--z</pre>
+svn trunk   *--*--*--*--*--*--*--*--*--*--x--x--x--y--y--z
+```
+
 Branch1 and branch2 are deleted and someone applies the changes on branch1 on the git-svn master, tests, and then dcommits to trunk.
-<pre>git fetch origin
+
+```
+git fetch origin
 git checkout branch
 git format-patch -N -6
 git checkout master
@@ -197,7 +239,9 @@ git am *patch
 # build and test
 git svn dcommit
 git push :branch2
-git push :bramch1</pre>
+git push :bramch1
+```
+
 **Summary**
 
 The above method works fine. We have manually collaborated on a couple of change sets following this process. Git is a very powerful tool and there are many variations that one can experiment with and that may work equally well. Also git has loads of additional options to manipulate commits that I haven't really explored yet. Despite using it for a couple of years, I've barely scratched the surface of its feature set, which is quite extensive. I'm by no means an expert user.

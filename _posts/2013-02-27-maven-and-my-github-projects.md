@@ -9,7 +9,9 @@ permalink: /2013/02/27/maven-and-my-github-projects/
 wp-syntax-cache-content:
   - |
     a:1:{i:1;s:8550:"
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code"><pre class="xml" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">&lt;!-- this bit goes into the profiles section --&gt;</span>
+    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+```
+<span style="color: #808080; font-style: italic;">&lt;!-- this bit goes into the profiles section --&gt;</span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;profile<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;id<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>jillesvangurp<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/id<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;repositories<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
@@ -39,7 +41,9 @@ wp-syntax-cache-content:
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;activeProfiles<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;activeProfile<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>sonatype<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/activeProfile<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
     <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;activeProfile<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>jillesvangurp<span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/activeProfile<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
-    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/activeProfiles<span style="color: #000000; font-weight: bold;">&gt;</span></span></span></pre></td></tr></table><p class="theCode" style="display:none;">&lt;!-- this bit goes into the profiles section --&gt;
+    <span style="color: #009900;"><span style="color: #000000; font-weight: bold;">&lt;/activeProfiles<span style="color: #000000; font-weight: bold;">&gt;</span></span></span>
+```
+</td></tr></table><p class="theCode" style="display:none;">&lt;!-- this bit goes into the profiles section --&gt;
     &lt;profile&gt;
     &lt;id&gt;jillesvangurp&lt;/id&gt;
     &lt;repositories&gt;
@@ -84,7 +88,9 @@ Deploying to maven central would be the nice way to provide binaries to my users
 Basically I want to code, check that it builds, commit, release, deploy and move on with the minimum amount of fuss.
 
 So, I set up my own maven repository. This is good enough for what we do in LocalStre.am. If you wish to use some of my github projects, you may utilize this repository by adding the following snippet to your maven settings.xml.
-<pre lang="xml">
+
+```xml
+
 <!-- this bit goes into the profiles section -->
 <profile>
     <id>jillesvangurp</id>
@@ -116,7 +122,9 @@ So, I set up my own maven repository. This is good enough for what we do in Loca
     <activeProfile>sonatype</activeProfile>
     <activeProfile>jillesvangurp</activeProfile>
 </activeProfiles>
-</pre>
+
+```
+
 **Disclaimer.** This repository is provided as is. Particularly the snapshot part is basically there to support my own builds. I may clean it out at any time and there is no guarantee that snapshots of my github projects are there or up to date. Likewise, the releases repository is there to support my own builds. I will likely only keep recent releases there and you shouldn't use older releases of my projects in any case. Binaries in either maven repository may broken and do untold amounts of damage (which the LICENSE tells you is your problem).
 
 If this worries you, you can always build from source of course. Simply check out the github project (and any dependencies) and maven clean install it or deploy it to your own maven repository.

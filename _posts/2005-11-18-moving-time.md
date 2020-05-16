@@ -25,7 +25,8 @@ I had my last day at GX last wednesday. Currently I am packing some stuff and to
 
 On a side note, ever since I got the strange idea of moving to Finland I've frequently been humming/whistling/etc. the Finland song: 
 
-<pre>
+```
+
 Finland, Finland, Finland,
 The country where I want to be,
 Pony trekking or camping,
@@ -66,7 +67,9 @@ Finland, Finland, Finland.
 Finland has it all.
 
 Finland has it all.
-</pre>
+
+```
+
  (Monthy Python). Great song.
 
 For those I won't see anymore: it was nice knowing you and maybe we'll meet again.

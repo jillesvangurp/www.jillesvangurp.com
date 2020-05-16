@@ -9,12 +9,24 @@ permalink: /2013/04/06/jsonj-revisited/
 wp-syntax-cache-content:
   - |
     a:3:{i:1;s:576:"
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code"><pre class="java" style="font-family:monospace;"><span style="color: #000066; font-weight: bold;">int</span> i<span style="color: #339933;">=</span>o.<span style="color: #006633;">getInt</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;a&quot;</span>,<span style="color: #0000ff;">&quot;b&quot;</span><span style="color: #009900;">&#41;</span></pre></td></tr></table><p class="theCode" style="display:none;">int i=o.getInt(&quot;a&quot;,&quot;b&quot;)</p></div>
+    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+```
+<span style="color: #000066; font-weight: bold;">int</span> i<span style="color: #339933;">=</span>o.<span style="color: #006633;">getInt</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;a&quot;</span>,<span style="color: #0000ff;">&quot;b&quot;</span><span style="color: #009900;">&#41;</span>
+```
+</td></tr></table><p class="theCode" style="display:none;">int i=o.getInt(&quot;a&quot;,&quot;b&quot;)</p></div>
     ;i:2;s:858:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code"><pre class="java" style="font-family:monospace;">o.<span style="color: #006633;">getOrCreateArray</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;a&quot;</span>,<span style="color: #0000ff;">&quot;b&quot;</span>,<span style="color: #0000ff;">&quot;c&quot;</span>,<span style="color: #0000ff;">&quot;d&quot;</span>,<span style="color: #0000ff;">&quot;e&quot;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">add</span><span style="color: #009900;">&#40;</span><span style="color: #cc66cc;">43</span><span style="color: #009900;">&#41;</span></pre></td></tr></table><p class="theCode" style="display:none;">o.getOrCreateArray(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;).add(43)</p></div>
+    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+```
+o.<span style="color: #006633;">getOrCreateArray</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;a&quot;</span>,<span style="color: #0000ff;">&quot;b&quot;</span>,<span style="color: #0000ff;">&quot;c&quot;</span>,<span style="color: #0000ff;">&quot;d&quot;</span>,<span style="color: #0000ff;">&quot;e&quot;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">add</span><span style="color: #009900;">&#40;</span><span style="color: #cc66cc;">43</span><span style="color: #009900;">&#41;</span>
+```
+</td></tr></table><p class="theCode" style="display:none;">o.getOrCreateArray(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;).add(43)</p></div>
     ;i:3;s:1530:
-    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code"><pre class="java" style="font-family:monospace;"><span style="color: #003399;">String</span> json<span style="color: #339933;">=</span> object<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">put</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;a&quot;</span>,<span style="color: #cc66cc;">42</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">put</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;b&quot;</span>,array<span style="color: #009900;">&#40;</span><span style="color: #cc66cc;">1</span>,<span style="color: #cc66cc;">2</span>,<span style="color: #0000ff;">&quot;three&quot;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">get</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">toString</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
-    <span style="color: #666666; font-style: italic;">// {&quot;a&quot;:42,&quot;b&quot;:[1,2,&quot;three&quot;]}</span></pre></td></tr></table><p class="theCode" style="display:none;">String json= object().put(&quot;a&quot;,42).put(&quot;b&quot;,array(1,2,&quot;three&quot;).get().toString();
+    <div class="wp_syntax" style="position:relative;"><table><tr><td class="code">
+```
+<span style="color: #003399;">String</span> json<span style="color: #339933;">=</span> object<span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">put</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;a&quot;</span>,<span style="color: #cc66cc;">42</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">put</span><span style="color: #009900;">&#40;</span><span style="color: #0000ff;">&quot;b&quot;</span>,array<span style="color: #009900;">&#40;</span><span style="color: #cc66cc;">1</span>,<span style="color: #cc66cc;">2</span>,<span style="color: #0000ff;">&quot;three&quot;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">get</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span>.<span style="color: #006633;">toString</span><span style="color: #009900;">&#40;</span><span style="color: #009900;">&#41;</span><span style="color: #339933;">;</span>
+    <span style="color: #666666; font-style: italic;">// {&quot;a&quot;:42,&quot;b&quot;:[1,2,&quot;three&quot;]}</span>
+```
+</td></tr></table><p class="theCode" style="display:none;">String json= object().put(&quot;a&quot;,42).put(&quot;b&quot;,array(1,2,&quot;three&quot;).get().toString();
     // {&quot;a&quot;:42,&quot;b&quot;:[1,2,&quot;three&quot;]}</p></div>
     ";}
 categories:
@@ -61,25 +73,33 @@ JsonJ represents json using the JsonElement interface, which is implemented by t
 So far that is nothing special. The magic is that I added a lot of convenient methods to these classes that facilitate getting data in and out of their instances.
 
 For example given some json&nbsp;{"a":{"b":42}} in a JsonObject o, you can get to the nested integer with a statement this way: 
-<pre lang="java">
+
+```java
+
 int i=o.getInt("a","b")
-</pre>
+
+```
 
 This utilizes java's varargs feature for passing in a variable number of parameters. Additionally it does all the null checks (the object might not have "a" or "b" and takes care of converting from a JsonPrimitive to an int. This is the type of code has given Java a reputation for being very verbose and JsonJ makes that problem go away.
 
 Another example is modifying existing objects:
-<pre lang="java">
+
+```java
+
 o.getOrCreateArray("a","b","c","d","e").add(43)
-</pre>
+
+```
 
 This ensures a list is added to the json object along with the objects "c" and "d" that are not there yet. And then it appends 43 to the list. If the list existed already, it would simply append 43 to that. The method basically gets rid of all the boiler plate code of first extracting b and checking whether it has c element, and checking if it is a list, etc. A similar method exists for adding or creating objects. 
 
 Additionally, jsonj comes with a builder class that makes constructing complex json documents very straightforward.&nbsp;So you can write nice little oneliners to quickly create an object and serialize it:
 
-<pre lang="java">
+```java
+
 String json= object().put("a",42).put("b",array(1,2,"three").get().toString();
 // {"a":42,"b":[1,2,"three"]}
-</pre>
+
+```
 
 While still somewhat more verbose than the equivalent ruby code, writing code like this is actually pretty easy in a decent IDE because most Java IDEs do autocompletion very well.
 

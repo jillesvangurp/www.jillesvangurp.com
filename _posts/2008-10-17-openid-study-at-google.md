@@ -27,10 +27,14 @@ I really like Google's UI but would like to suggest a few simplifications:
 Basically the site should ask:
 
 With what openid identity, email address or username do you wish to login (excuse ascii art)?
-<pre><code>-------------------------</code><code>-------</code><code> ------
+
+```
+<code>-------------------------</code><code>-------</code><code> ------
 | http://www.jillesvangurp.com | | OK |
 -------------------------------- ------
-</code></pre>
+</code>
+```
+
 The user will enter whatever seems right and the server will make a best effort to authenticate with whatever the user provides. Then the server checks the following rules (using AJAX of course) against the address/username
 
 - address/username known, not an IDP -&gt; ask for the password

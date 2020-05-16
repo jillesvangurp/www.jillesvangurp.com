@@ -21,15 +21,17 @@ Basically in lucene this means influencing how it 'scores' entries against a que
 
 So I had to dive into lucene architecture a bit more and after lots of digging came up with the following code:
 
-<pre>
-String query="foo" 
+```
+
+String query="foo"
 QueryParser parser =new QueryParser("name", new StandardAnalyzer());
 Query q = parser.parse(query);
 Sort updatedSort = new Sort();
 FieldScoreQuery dateBooster = new FieldScoreQuery("timestampscore", FieldScoreQuery.Type.FLOAT);
-CustomScoreQuery customQuery = new CustomScoreQuery(q, dateBooster);				
+CustomScoreQuery customQuery = new CustomScoreQuery(q, dateBooster);
 Hits results = getSearcher().search(customQuery, updatedSort);
-</pre>
+
+```
 
 The FieldScoreQuery is a recent addition to lucene. I had to upgrade from 2.1 to 2.3 to get it. Essentially what it does is interpret a field as a float and deriving a score from it. Then the CustomScoreQuery combines the score with the score from my original query.
 

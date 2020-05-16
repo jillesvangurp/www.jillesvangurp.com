@@ -31,25 +31,37 @@ A crucial thing is to provide enough memory AND specify a small enough minimum h
 Another crucial setting is -reuseview which will allow you to reuse already running jedit windows for opening new files.
 
 Use the following settings for a shortcut:
-<pre><code>
+
+```
+<code>
 javaw.exe -Xms10M -Xmx256M
 -jar "C:/Program Files/jEdit 4.2/jedit.jar" -reuseview
-</code></pre>
+</code>
+```
+
 I also have a nice cygwin shell script to be able to open a file straight into jEdit.
-<pre><code>
+
+```
+<code>
 #!/bin/bash
 currentpath=`pwd`
 javaw -Xms10M -Xmx256M
 -jar "c:/Program Files/jEdit 4.2/jedit.jar" -reuseview `cygpath -w $currentpath/$1` &
-</code></pre>
+</code>
+```
+
 An 'open in jedit' context menu option can be obtained by importing this registry setting (create text file jedit.reg and paste stuff below, save, double click on the file)
-<pre><code>
+
+```
+<code>
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT*shellOpen with jEdit]
 
 [HKEY_CLASSES_ROOT*shellOpen with jEditcommand]
-@="javaw -Xms40M -Xmx256M -jar \"C:\\Program Files\\jEdit 4.2\\jedit.jar\" -reuseview \"%l\""</code></pre>
+@="javaw -Xms40M -Xmx256M -jar \"C:\\Program Files\\jEdit 4.2\\jedit.jar\" -reuseview \"%l\""</code>
+```
+
 Edited as suggested in the comments, wordpress conveniently removes slashes when you save the text :-(.
 
 **Update 02-04-2011**:
@@ -57,9 +69,13 @@ Edited as suggested in the comments, wordpress conveniently removes slashes when
 It's been a while since I wrote this and when I hit my own post accidentally with a Google query, I knew it was time to do a little update. All of the above is still valid as far as I know, except I now use a mac. For a mac, or in fact any linux/unix type installation, there's a convenient way to start jEdit from a bash function. Just include the line below in your .profile or .bashrc (adjust paths as needed of course):
 
 <code>
-<pre>
+
+```
+
 function jedit() { java -Xms15M -jar /Applications/jEdit.app/Contents/Resources/Java/jedit.jar -reuseview "$@" &}
-</pre>
+
+```
+
 </code>
 
 **Update 11-07-2011**:

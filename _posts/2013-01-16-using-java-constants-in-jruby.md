@@ -20,15 +20,16 @@ So, I want to use the same constants I have in Java in jruby. Additionally, I do
 
 So, I came up with the following which allows me to define a CommonFields module and simply include that wherever I need it.
 
-<pre>
+```
+
 require 'jbundler'
 require 'singleton'
 
 java_import my.package.Fields
 
 # hack to get some level of type safety
-# simply include the Fields module where you need to use 
-# field names and  then you can simply use the defined 
+# simply include the Fields module where you need to use
+# field names and  then you can simply use the defined
 #fields as if they were methods that return a string
 module CommonFields
     @rubySpecificFields=[
@@ -38,9 +39,9 @@ module CommonFields
     @rubySpecificFields.each do |field|
       CommonFields.send(:define_method, field.to_s) do
         return field.to_s
-      end  
+      end
     end
-    
+
     Fields.constants.each do | field |
       CommonFields.send(:define_method, Fields.const_get(field)) do
         return Fields.const_get(field)
@@ -49,9 +50,10 @@ module CommonFields
 end
 
 include CommonFields
-  
+
 puts foooo, email, display_name
-</pre>
+
+```
 
 Basically all this does is add the Java constants (email and display_name are two of the constants) to the module dynamically when you include it. After that, you just use the constant names and it just works (tm). I also added a list of ruby symbols so, I can have fields that I don't yet have on the java side. This works pretty OK and I'm hoping jruby does the right things with respect to inlining the method calls. Most importantly, any typo will lead to an interpreter error about the method not existing. This is good enough as it will cause tests to fail and be highly visible, which is what I wanted.
 

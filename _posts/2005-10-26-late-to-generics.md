@@ -35,7 +35,9 @@ The problem(s) with this approach:
 All of this is mandated by the JavaBeans spec and tools actually depend on this (through reflection) to hook event sources up to event sinks.
 
 Java 5 has an interesting new feature called generics which is otherwise known as parametrized types. With parametrized types you can do nice stuff like this:
-<pre><code>
+
+```
+<code>
 public class GenEvtMgr&lt;LT, T&gt; {
 	private final List listeners = new LinkedList();
 
@@ -61,14 +63,18 @@ public interface EvtListener&lt;ET&gt; extends EventListener {
 public interface GenEvtProducer {
 	GenEvtMgr getEventManager();
 }
-</code></pre>
+</code>
+```
+
 What this does is actually pretty simple. It defines a reusable GenEvtMgr to handle the bureaucracy of handling all the
 Listeners. It's a generic class with two parameters, a LT and T where T is the actual event type and LT is an EvtListener parametrized with T again.
 
 EvtListener is a generic event listener with only one method to handle events of type T. Finally producers of T events need to be able to provide a manager so there's a GenEvtProducer interface as well.
 
 And some code to test the above ...
-<pre><code>
+
+```
+<code>
 public class EventTester implements GenEvtProducer {
 	private final GenEvtMgr</code><code>&lt;</code><code>EvtListener</code><code>, SomeEvent&gt; mgr =
 		new GenEvtMgr</code><code>&lt;</code><code>EvtListener</code><code>, SomeEvent</code><code>&gt;</code><code>();
@@ -100,7 +106,9 @@ public class EventTester implements GenEvtProducer {
 	}
 }
 
-</code></pre>
+</code>
+```
+
 So we create implementation of GenEvtProducer. The implementation has a GenEvtMgr object parametrized with SomeEvent which is our EventObject subclass (not listed above). We can add listeners, remove listeners and fire events simply by calling the manager. Finally in the main method two listeners are created and calling the go method produces foo bar as expected.
 
 Is this ideal? No. There's several problems.
