@@ -11,13 +11,13 @@ categories:
 tags:
   - Christian Kniep
 ---
-Recently, Docker released version 1.12 which includes swarm functionality. When I went to a meetup about this last week, <a href="http://qnib.org/2016/08/17/consul-es-kopf-service/">Christian Kniep</a> demoed his solution for running consul and elasticsearch using this. Unfortunately, his solution relies on some custom docker images that he created and I spent quite a bit of time replicating what he did without relying on his docker images. 
+Recently, Docker released version 1.12 which includes swarm functionality. When I went to a meetup about this last week, [Christian Kniep](http://qnib.org/2016/08/17/consul-es-kopf-service/) demoed his solution for running consul and elasticsearch using this. Unfortunately, his solution relies on some custom docker images that he created and I spent quite a bit of time replicating what he did without relying on his docker images. 
 
 In this article, I show how you can run consul using docker swarm mode using the official consul docker image. The advantage of this is that other services in the swarm can rely on the dns name that swarm associates with the consul service. This way you can integrate consul for service discovery and configuration and containers can simply ask for what they need without having to worry about where to find consul.
 
 Note, this is a minimalistic example and probably not the best way to run things in a production environment but it proves that it is possible. In any case, docker 1.12 is rather new and they are still ironing out bugs and issues.
 
-Before you continue, you may want to<a href="https://docs.docker.com/engine/swarm/swarm-tutorial/"> read up on how to get a docker swarm going</a>. In my test setup, I'm using a simple vagrant cluster with three vms each running docker 1.12.1 with the docker swarm already up and running. I strongly recommend to configure a logging driver so you can see what is going on. I used the syslog driver so I can simply tail the syslog on each vm.
+Before you continue, you may want to[ read up on how to get a docker swarm going](https://docs.docker.com/engine/swarm/swarm-tutorial/). In my test setup, I'm using a simple vagrant cluster with three vms each running docker 1.12.1 with the docker swarm already up and running. I strongly recommend to configure a logging driver so you can see what is going on. I used the syslog driver so I can simply tail the syslog on each vm.
 
 Briefly, this approach is based on the idea of running two docker services for consul that can find each other via their round robined service names in the swarm. 
 

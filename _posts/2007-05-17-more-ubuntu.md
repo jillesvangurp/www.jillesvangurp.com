@@ -27,10 +27,9 @@ Part two of my misery started when I started messing around with gparted. Basica
 It took me about half an hour to figure that out and I'm now running my old windows desktop again.
 
 So I have three conclusions to add to my review a few weeks ago:
-<ul>
-	<li>The networking subsystem has huge compatibility issues that likely affect many users. From what I encountered while googling, I learned that there are many different issues. The fixes I tried didn't work which suggest that these many issues are different from my specific issue. Not good. The same modem and pc have booted older ubuntu releases (dapper) so it is a regression! My modem is quite common so likely thousands of users are affected.</li>
-	<li>Gparted has some nasty issues and should not be used to resize ntfs partitions. You will risk losing all your data. I guess any partition resizer is better than none but this crap should not be put in front of end users.</li>
-	<li>In this form, ubuntu is guaranteed to cause lots of users to have a very negative introduction to linux.</li>
-</ul>
+
+- The networking subsystem has huge compatibility issues that likely affect many users. From what I encountered while googling, I learned that there are many different issues. The fixes I tried didn't work which suggest that these many issues are different from my specific issue. Not good. The same modem and pc have booted older ubuntu releases (dapper) so it is a regression! My modem is quite common so likely thousands of users are affected.
+- Gparted has some nasty issues and should not be used to resize ntfs partitions. You will risk losing all your data. I guess any partition resizer is better than none but this crap should not be put in front of end users.
+- In this form, ubuntu is guaranteed to cause lots of users to have a very negative introduction to linux.
 
 I will try a future version again. For now, I've had enough.

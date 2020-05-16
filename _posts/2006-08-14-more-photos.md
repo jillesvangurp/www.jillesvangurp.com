@@ -9,4 +9,4 @@ permalink: /2006/08/14/more-photos/
 tags:
   - photography
 ---
-I've visited my good friend Michel Jaring in Oulu this weekend to check out his nice place, eat some makkara and admire the latest member of his family. 12 photos is of course a piece of cake compared to 190 so I <a href="http://photos.jillesvangurp.com/Album/2006/2006%20VIII%20Oulu/index.html">put them online </a>already.
+I've visited my good friend Michel Jaring in Oulu this weekend to check out his nice place, eat some makkara and admire the latest member of his family. 12 photos is of course a piece of cake compared to 190 so I [put them online ](https://www.jillesvangurp.com/Album/2006/2006%20VIII%20Oulu/index.html)already.

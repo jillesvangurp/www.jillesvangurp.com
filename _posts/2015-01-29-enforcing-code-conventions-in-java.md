@@ -7,12 +7,12 @@ layout: post
 guid: http://www.jillesvangurp.com/?p=1716
 permalink: /2015/01/29/enforcing-code-conventions-in-java/
 categories:
-  - Blog Posts
+ - Blog Posts
 tags:
-  - eclipse
-  - IDE
-  - java
-  - maven
+ - eclipse
+ - IDE
+ - java
+ - maven
 ---
 After many years of working with Java, I finally got around to enforcing code conventions in our project. The problem with code conventions is not agreeing on them (actually this is hard since everybody seems to have their own preferences but that's beside the point) but enforcing them. For the purpose of enforcing conventions you can choose from a wide variety of code checkers such as checkstyle, pmd, and others. My problem with this approach is that checkers usually end up being a combination of too strict, too verbose, or too annoying. In any case nobody ever checks their output and you need to have the discipline to fix things yourself for any issues detected. Most projects I've tried checkstyle on, it finds thousands of stupid issues using the out of the box configuration. Pretty much every Java project I've ever been involved with had somewhat vague guidelines on code conventions and a very loose attitude to enforcing these. So, you end up with loads of variation in whitespace, bracket placement, etc. Eventually people stop caring. It's not a problem worthy of a lot of brain cycles and we are all busy.
 
@@ -20,20 +20,20 @@ Anyway, I finally found [a solution](https://code.google.com/p/maven-java-format
 
 ```
 <plugin><!-- mvn java-formatter:format -->
-	<groupId>com.googlecode.maven-java-formatter-plugin</groupId>
-	<artifactId>maven-java-formatter-plugin</artifactId>
-	<version>0.4</version>
-	<configuration>
-		<configFile>${project.basedir}/inbot-formatter.xml</configFile>
-	</configuration>
+ <groupId>com.googlecode.maven-java-formatter-plugin</groupId>
+ <artifactId>maven-java-formatter-plugin</artifactId>
+ <version>0.4</version>
+ <configuration>
+ <configFile>${project.basedir}/inbot-formatter.xml</configFile>
+ </configuration>
 
-	<executions>
-		<execution>
-			<goals>
-				<goal>format</goal>
-			</goals>
-		</execution>
-	</executions>
+ <executions>
+ <execution>
+ <goals>
+ <goal>format</goal>
+ </goals>
+ </execution>
+ </executions>
 </plugin>
 ```
 

@@ -18,12 +18,11 @@ tags:
 Over the past few weeks, I've dived into the wonderful world called OSGi. OSGi is a standardized (by a consortium and soon also JCP) set of java interfaces and specifications that effectively layer a component model on top of Java. By component I don't mean that it replaces JavaBeans with something else but that it provides a much improved way of modularizing Java software into blobs that can be deployed independently.
 
 OSGi is currently the closest thing to having support for the stuff that is commonly modeled using architecture description languages. ADLs have been used in industry to manage large software bases. Many ADLs are homegrown systems (e.g. Philips' KOALA) or simply experimental tools created in a university context (e.g. XADL). OSGi is similar to these languages because:
-<ul>
-	<li>It has a notion of a component (bundles)</li>
-	<li>Dependencies between components</li>
-	<li>Provided and required APIs</li>
-	<li>API versioning</li>
-</ul>
+
+- It has a notion of a component (bundles)
+- Dependencies between components
+- Provided and required APIs
+- API versioning
 
 Making such things explicit, first class citizens in a software system is a good thing. It improves manageability and consistency. Over the past few weeks I've certainly enjoyed exploring the OSGi framework and its concepts while working on actual code. However, it struck me that a lot of things are needlessly complicated or difficult.
 

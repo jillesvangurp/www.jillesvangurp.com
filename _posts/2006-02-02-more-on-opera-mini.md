@@ -16,7 +16,7 @@ tags:
   - reviews
   - wordpress
 ---
-The reason my previous blog post was rather short was that I was running into the maximum amount of character limit imposed by <a href="http://mini.opera.com">opera mini</a>. I think it's a bit odd to have this limit for a textarea but I suppose there's a reason for it.
+The reason my previous blog post was rather short was that I was running into the maximum amount of character limit imposed by [opera mini](http://mini.opera.com). I think it's a bit odd to have this limit for a textarea but I suppose there's a reason for it.
 
 Anyway, I really like this browser. It's good enough that you can actually load the wordpress userinterface in it. It's even usable! Though navigating it is a bit hard because opera mini basically transforms the page into a one column layout intended for small screens. So that means that all the controls are on a separate row. This works best for pages that are accessible and have the important content before the navigation. Of course the content of the wordpress userinterface is the various controls and there are a lot of those (30+)!
 

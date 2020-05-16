@@ -67,7 +67,7 @@ Configuring the screen properly.
 
 60 hz will give me a headache so that needs to be changed. Upfront I'm not very hopeful that tools have improved to the point where this can be done without manually editing X configuration files. But lets see how things have improved in the past few years.
 
-Not much apparently. The good news is that there is a resolution tool in the system-&gt;preferences. It even has a dropdown for the refreshrate. Only one item is in it: 60HZ. Doh!
+Not much apparently. The good news is that there is a resolution tool in the system->preferences. It even has a dropdown for the refreshrate. Only one item is in it: 60HZ. Doh!
 
 This is linux at its worst. It's not working and the provided tools are too crappy to solve the problem at hand. A search on the ubuntu site confirms that monitor configuration is undocumented. In other words, I'm on my own. Google brings up the solution which indeed involves the commandline and hoping that the autorecognition will magically work when tried again.
 
@@ -97,7 +97,7 @@ And of course the installer fails to install the commercial nvidia driver (or ev
 
 OK on to the rest of the system.
 
-Read only ntfs has been possible for years and even some experimental rw capabilities are possible these days. Not in ubuntu. Both my ntfs partitions are nowhere to be found. The system-&gt;administration-&gt;disks tool is as useless as the resolution tool. It fails to 'enable' the partitions. Yes I know how to mount stuff from the commandline. But as for Joe average, he can't get to his ntfs files with ubuntu. Bad but I can probably fix this.
+Read only ntfs has been possible for years and even some experimental rw capabilities are possible these days. Not in ubuntu. Both my ntfs partitions are nowhere to be found. The system->administration->disks tool is as useless as the resolution tool. It fails to 'enable' the partitions. Yes I know how to mount stuff from the commandline. But as for Joe average, he can't get to his ntfs files with ubuntu. Bad but I can probably fix this.
 
 Lets see about the sound card. It's soundblaster audigy. But there's also a motherboard sound card (I actually uses both under windows). Pleasant surprise, ubuntus seems to have configured this correctly. Succeeding where, so far, every version of knoppix has failed.
 

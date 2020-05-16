@@ -14,6 +14,6 @@ tags:
   - reviews
   - TB
 ---
-<a href="http://blog.jillesvangurp.com/2007/01/29/bought-a-porsche/">1/2 TB</a> ought to be enough for anyone. So I bought another one :-) For backup, you know.
+[1/2 TB](https://www.jillesvangurp.com/2007/01/29/bought-a-porsche/) ought to be enough for anyone. So I bought another one :-) For backup, you know.
 
 At 100Ã¢â€šÂ¬, it's not really something to consider for very long. Data must be safe, so more is better.

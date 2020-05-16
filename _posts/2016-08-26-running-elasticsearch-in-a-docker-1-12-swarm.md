@@ -36,7 +36,6 @@ docker service create --name esm2 --network es \
   -Des.discovery.zen.minimum_master_nodes=2 \
   -Des.transport.tcp.port=9302
 
-
 docker service create --name esm3 --network es \
   -p 9203:9200 -p 9303:9303 \
   elasticsearch -Des.network.publish_host=_eth0_ \

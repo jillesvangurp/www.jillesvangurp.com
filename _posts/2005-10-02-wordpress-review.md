@@ -29,7 +29,7 @@ TADA! Done.
 
 Migrating pivot.
 
-I had been using <a href="http://www.pivotlog.net/">pivot</a> for about half a year and had collected about 30 or so posts that I wanted to migrate to wordpress.
+I had been using [pivot](http://www.pivotlog.net/) for about half a year and had collected about 30 or so posts that I wanted to migrate to wordpress.
 
 Sadly import of pivot posts is not supported directly (well there is an unsupported migration script some guy wrote once) but the good news is that pivot has excellent RSS support and that wordpress can import RSS.
 
@@ -53,6 +53,4 @@ Visitors can leave comments on the site. The behaviour can be configured such th
 The user interface is quite clean and functional. Oddly, the wordpress developers prefer the use of serif fonts. This gives wordpress a rather pleasing, unconventional & conservative (contradiction, I know :-)), newspaper like look and feel. The letters are big (1 em) and readability is excellent. When you think about it, this is kind of important for a tool intended to process text. The font communicates an important design philosophy: this tool is about getting content out for people to read and nothing else. It is not about feature creep, complexity or in your face flash & javascript enabled GUIs.
 
 Aside from the look and feel, this tool has all the features you'd expect from a blog tool. The functionality is organized in a number of self explanatory tabs like 'write' and 'users'.  The default settings are probably ok for a novice user and a more advanced user can easily change the behaviour of posting, comments, templates, etc.
-
-
 

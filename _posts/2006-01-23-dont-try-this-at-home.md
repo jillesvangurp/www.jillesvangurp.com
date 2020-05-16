@@ -9,7 +9,6 @@ permalink: /2006/01/23/dont-try-this-at-home/
 tags:
   - Odd stuff
 ---
-<a href="http://www.thesneeze.com/mt-archives/cat_steve_dont_eat_it.php">Steve, Don't eat it</a>
+[Steve, Don't eat it](http://www.thesneeze.com/mt-archives/cat_steve_dont_eat_it.php)
 
 There's some filthy stuff out there on the internet but this beats everything.
-<blockquote />

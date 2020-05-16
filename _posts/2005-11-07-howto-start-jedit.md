@@ -20,7 +20,7 @@ tags:
   - Software in General
   - Windows Registry Editor Version
 ---
-At work I am (in)famous for being responsible for getting <a href="http://www.jedit.org">jEdit</a> onto everybodies desktop. Despite this everyone uses textpad :-/. These primitive souls are perfectly happy (or ignorant?) not using syntax highlighting, not having their xml validated, not being able to search and replace using regexs, not being able to indent their xml files, not having autocompletion, etc.
+At work I am (in)famous for being responsible for getting [jEdit](http://www.jedit.org) onto everybodies desktop. Despite this everyone uses textpad :-/. These primitive souls are perfectly happy (or ignorant?) not using syntax highlighting, not having their xml validated, not being able to search and replace using regexs, not being able to indent their xml files, not having autocompletion, etc.
 
 Anyway, one of the nastier aspects of jEdit is integrating properly with windows and configuring it. Older versions included a convenient but broken .exe frontend. Newer versions require some manual setup to get going.
 
@@ -31,37 +31,50 @@ A crucial thing is to provide enough memory AND specify a small enough minimum h
 Another crucial setting is -reuseview which will allow you to reuse already running jedit windows for opening new files.
 
 Use the following settings for a shortcut:
-<pre><code>
+
+```bash
+
 javaw.exe -Xms10M -Xmx256M
 -jar "C:/Program Files/jEdit 4.2/jedit.jar" -reuseview
-</code></pre>
+
+```
+
 I also have a nice cygwin shell script to be able to open a file straight into jEdit.
-<pre><code>
+
+```bash
+
 #!/bin/bash
 currentpath=`pwd`
 javaw -Xms10M -Xmx256M
 -jar "c:/Program Files/jEdit 4.2/jedit.jar" -reuseview `cygpath -w $currentpath/$1` &
-</code></pre>
+
+```
+
 An 'open in jedit' context menu option can be obtained by importing this registry setting (create text file jedit.reg and paste stuff below, save, double click on the file)
-<pre><code>
+
+```text
+
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT*shellOpen with jEdit]
 
 [HKEY_CLASSES_ROOT*shellOpen with jEditcommand]
-@="javaw -Xms40M -Xmx256M -jar \"C:\\Program Files\\jEdit 4.2\\jedit.jar\" -reuseview \"%l\""</code></pre>
+@="javaw -Xms40M -Xmx256M -jar \"C:\\Program Files\\jEdit 4.2\\jedit.jar\" -reuseview \"%l\""
+```
+
 Edited as suggested in the comments, wordpress conveniently removes slashes when you save the text :-(.
 
-<strong>Update 02-04-2011</strong>:
+**Update 02-04-2011**:
 
 It's been a while since I wrote this and when I hit my own post accidentally with a Google query, I knew it was time to do a little update. All of the above is still valid as far as I know, except I now use a mac. For a mac, or in fact any linux/unix type installation, there's a convenient way to start jEdit from a bash function. Just include the line below in your .profile or .bashrc (adjust paths as needed of course):
 
-<code>
-<pre>
+
+```bash
+
 function jedit() { java -Xms15M -jar /Applications/jEdit.app/Contents/Resources/Java/jedit.jar -reuseview "$@" &}
-</pre>
-</code>
 
-<strong>Update 11-07-2011</strong>:
+```
 
-The above line of .profile voodoo is now also available on <a href="https://gist.github.com/1004521">Gist</a>, the code snippet sharing site on Github.
+**Update 11-07-2011**:
+
+The above line of .profile voodoo is now also available on [Gist](https://gist.github.com/1004521), the code snippet sharing site on Github.

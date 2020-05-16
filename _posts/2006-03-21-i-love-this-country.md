@@ -14,4 +14,4 @@ tags:
   - sweden
   - TV
 ---
-An event I've ignored for years and tactically zapped around on the TV is the eurovision song festival. When I was in Sweden, Sweden happened to win it (1999?). I heard about this while partying in BÃƒÂ¥gen, a very lousy night club in Ronneby. This year, I might keep an eye on the TV because <a title="A very ugly monster" href="http://www.monstereo.fi/monimages/lordi10.jpg">this</a> guy and his <a title="Lordi" href="http://www.lordi.org/">friends</a> are going to represent Finland at this years edition. Wow ....! I hope they win :-).
+An event I've ignored for years and tactically zapped around on the TV is the eurovision song festival. When I was in Sweden, Sweden happened to win it (1999?). I heard about this while partying in BÃƒÂ¥gen, a very lousy night club in Ronneby. This year, I might keep an eye on the TV because [this](http://www.monstereo.fi/monimages/lordi10.jpg) guy and his [friends](http://www.lordi.org/) are going to represent Finland at this years edition. Wow ....! I hope they win :-).

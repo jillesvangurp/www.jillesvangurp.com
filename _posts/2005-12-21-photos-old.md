@@ -16,5 +16,4 @@ tags:
   - finland
   - photography
 ---
-<p>Between the now frequent disconnects, I managed to upload some <a href="http://photos.jillesvangurp.com/Album/2005/2005%20V%20Finland%20Apartment/index.html">photos </a>of my new apartment with my stuff inside.
-</p>
+<Between the now frequent disconnects, I managed to upload some [photos ](https://www.jillesvangurp.com/Album/2005/2005%20V%20Finland%20Apartment/index.html) of my new apartment with my stuff inside.

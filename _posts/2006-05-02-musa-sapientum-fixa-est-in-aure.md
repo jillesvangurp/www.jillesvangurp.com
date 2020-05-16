@@ -12,8 +12,8 @@ tags:
   - finland
   - Odd stuff
 ---
-A long time ago, I learned Latin in school. Latin is a dead language, and other than appreciating sites like <a title="some nice latin quotes" href="http://www.tam-lin.org/abby/latin.html">this</a>, it is of little use to me. In fact, I've forgotten most of what I learned.
+A long time ago, I learned Latin in school. Latin is a dead language, and other than appreciating sites like [this](http://www.tam-lin.org/abby/latin.html), it is of little use to me. In fact, I've forgotten most of what I learned.
 
-But today I discovered a <a href="http://www.yleradio1.fi/nuntii/id90.shtml">nice web</a> site, kindly provided by the Finnish broadcasting company, that might be useful to me. My Finnish is still maginitudes worse than my skill in many other languages, including swedish, greek, portughese, spanish, french, italian, latin and rivalled only by my ignorance of e.g. japanese and chinese. So reading the news in Latin might actually work for me :-).
+But today I discovered a [nice web](http://www.yleradio1.fi/nuntii/id90.shtml) site, kindly provided by the Finnish broadcasting company, that might be useful to me. My Finnish is still maginitudes worse than my skill in many other languages, including swedish, greek, portughese, spanish, french, italian, latin and rivalled only by my ignorance of e.g. japanese and chinese. So reading the news in Latin might actually work for me :-).
 
 Sola lingua bona est lingua mortua

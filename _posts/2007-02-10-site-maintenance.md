@@ -13,20 +13,18 @@ tags:
   - wordpress
 ---
 I've cleaned up the static part of my website:
-<ul>
-	<li>Deleted most pages. Where appropriate, I've moved content to my blog.
-<ul>
-	<li>Stuff I created in the past has been backdated and posted to my blog under the createdbyjilles label</li>
-	<li>There's a new 'about' me page</li>
-	<li>The rest was so out of date, I just removed it.</li>
-</ul>
-</li>
-	<li>Updated the layout slightly.
-<ul>
-	<li>I've adopted a more readable color scheme for links</li>
-	<li>I've used a wider banner photo so that it looks good on pages of 1600 pixels wide before it starts repeating.</li>
-	<li>I've tweaked the html slightly.</li>
-</ul>
-</li>
-</ul>
+
+- Deleted most pages. Where appropriate, I've moved content to my blog. - Stuff I created in the past has been backdated and posted to my blog under the createdbyjilles label
+- There's a new 'about' me page
+- The rest was so out of date, I just removed it.
+
+
+- Updated the layout slightly.
+
+- I've adopted a more readable color scheme for links
+- I've used a wider banner photo so that it looks good on pages of 1600 pixels wide before it starts repeating.
+- I've tweaked the html slightly.
+
+
+
 That's about it. If you miss old content or see broken links, let me know.

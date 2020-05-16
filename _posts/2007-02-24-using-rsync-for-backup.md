@@ -30,7 +30,7 @@ This data is stored in specific directories on my C drive and also a directory o
 
 All this is done using commands like this:
 
-<code>rsync -i -v -a --delete ~/photos/ /cygdrive/e/backup/photos  >> /cygdrive/e/backup/photos-rsync.txt</code>
+`rsync -i -v -a --delete ~/photos/ /cygdrive/e/backup/photos  >> /cygdrive/e/backup/photos-rsync.txt`*
 
 This probably looks a bit alien to a windows user. I use cygwin, a port of much of the gnu/linux tool chain that layers a more linux like filesystem on top of the windows filesystem. So /cygdrive/c is just the equivalent of good old c:\. One of the ported tools is ln, which I've used to make symbolic links in my cygwin home directory to stuff I want to backup. So ~/photos actually points to the familiar My Pictures directory.
 
@@ -42,7 +42,7 @@ Of course typing this command is both error prone and tedious. For that reason I
 
 Part of my backup script is also creating a dump from my subversion repository. I store a lot of stuff in a subversion repository these days: my google earth placemarks; photos; documents and also some source code. The subversion work directories are spread across my harddrive but the repository itself sits in a single directory on my cdrive. Technically I could just back that up using rsync. However, using 
 
-<code>svnadmin dump c:/svnrepo | gzip > /cygdrive/e/backup/svnrepo.gz</code> 
+`svnadmin dump c:/svnrepo | gzip > /cygdrive/e/backup/svnrepo.gz`* 
 
 to dump the repository allows me to actually recreate the repository in any version of subversion from the dump. Also the dump file tends to be nicely compressed compared to either the work directory or the repository directory. Actually, the work directory is the largest because it contains 3 copies of each file. In the repository, everything is stored incrementally and in the dump gzip squeezes it even further. The nice thing of a version repository is of course that you preserve also the version history.
 

@@ -14,16 +14,16 @@ tags:
   - London
   - photography
 ---
-I've uploaded two batches of photos to my photo site: <a href="http://photos.jillesvangurp.com">photos.jillesvangurp.com</a> from a recent trip to <a href="http://photos.jillesvangurp.com/Album/2007/2007-10%20-%20Stockholm/index.html">Stockholm</a> and some photos I took from <a href="http://photos.jillesvangurp.com/Album/2007/2007-08%20-%20Seurasaari/index.html">Seurasaari</a> just behind my house.
+I've uploaded two batches of photos to my photo site: [photos.jillesvangurp.com](https://www.jillesvangurp.com) from a recent trip to [Stockholm](https://www.jillesvangurp.com/Album/2007/2007-10%20-%20Stockholm/index.html) and some photos I took from [Seurasaari](https://www.jillesvangurp.com/Album/2007/2007-08%20-%20Seurasaari/index.html) just behind my house.
 
 Here's a few samples:
 
-<a href="http://photos.jillesvangurp.com/Album/2007/2007-08%20-%20Seurasaari/IMG_2340.jpg"><img src="http://photos.jillesvangurp.com/Album/2007/2007-08%20-%20Seurasaari/IMG_2340.jpg" alt="My neighbourhood seen from Seurasaari." /></a>
+[![My neighbourhood seen from Seurasaari.](https://www.jillesvangurp.com/Album/2007/2007-08%20-%20Seurasaari/IMG_2340.jpg)](https://www.jillesvangurp.com/Album/2007/2007-08%20-%20Seurasaari/IMG_2340.jpg)
 
 This beautiful picture was taken in August when me and my friend Mark who was over for a weekend visited the open air museum on Seurasari which is behind my house on a island connected to the mainland by a bridge. To get to where I took this photo is a very nice 5 KM walk along the coast. In the distance you can see Hietaniemie beach and a few rows of buildings. One of the rooftops behind the electricity pole on the right is where I live.
 
-<a href="http://photos.jillesvangurp.com/Album/2007/2007-10%20-%20Stockholm/IMG_2381c.jpg"><img src="http://photos.jillesvangurp.com/Album/2007/2007-10%20-%20Stockholm/IMG_2381c.jpg" alt="View of stockholm" /></a>
+[![View of stockholm](https://www.jillesvangurp.com/Album/2007/2007-10%20-%20Stockholm/IMG_2381c.jpg)](https://www.jillesvangurp.com/Album/2007/2007-10%20-%20Stockholm/IMG_2381c.jpg)
 
-The panorama photo above was taken from the Katarinahissen on the photo below during a visit to Stockholm where I spent a weekend with my father. The Katarinahissen connects lower SÃƒÂ¶dermalm to the bit of the city situated on top of the 20 meter hill. Sadly the elevator was out of order so we took the stairs. My father and I have been on several trips in the past few years. We went to <a href="http://photos.jillesvangurp.com/Album/2005/2005%20I%20Berlin/index.html">Berlin</a> and <a href="http://photos.jillesvangurp.com/Album/2005/2005%20IV%20London/index.html">London</a> in 2005.
+The panorama photo above was taken from the Katarinahissen on the photo below during a visit to Stockholm where I spent a weekend with my father. The Katarinahissen connects lower SÃƒÂ¶dermalm to the bit of the city situated on top of the 20 meter hill. Sadly the elevator was out of order so we took the stairs. My father and I have been on several trips in the past few years. We went to [Berlin](https://www.jillesvangurp.com/Album/2005/2005%20I%20Berlin/index.html) and [London](https://www.jillesvangurp.com/Album/2005/2005%20IV%20London/index.html) in 2005.
 
-<a href="http://photos.jillesvangurp.com/Album/2007/2007-10%20-%20Stockholm/IMG_2390.jpg"><img src="http://photos.jillesvangurp.com/Album/2007/2007-10%20-%20Stockholm/IMG_2390.jpg" alt="Gondolen" /></a>
+[![Gondolen](https://www.jillesvangurp.com/Album/2007/2007-10%20-%20Stockholm/IMG_2390.jpg)](https://www.jillesvangurp.com/Album/2007/2007-10%20-%20Stockholm/IMG_2390.jpg)

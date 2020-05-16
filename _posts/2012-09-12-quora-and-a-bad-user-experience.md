@@ -15,11 +15,11 @@ categories:
 tags:
   - oauth
 ---
-I compulsively sign up for all sorts of stuff I don't really need. Call it professional curiosity. Yesterday I was talking with a friend and he mentioned <a href="http://quora.com">quora</a>, a popular Q&amp;A site that I have never really bothered with. So, on a whim I did my thing and signed up. This blog post is about the bad stuff that happened after that. In short the experience was appalling and mildly offensive and illustrative of how some companies just don't get it.
+I compulsively sign up for all sorts of stuff I don't really need. Call it professional curiosity. Yesterday I was talking with a friend and he mentioned [quora](http://quora.com), a popular Q&A site that I have never really bothered with. So, on a whim I did my thing and signed up. This blog post is about the bad stuff that happened after that. In short the experience was appalling and mildly offensive and illustrative of how some companies just don't get it.
 
 So, here's what happened.
 
-I went to their <a href="http://quora.com">home page</a>. Basically there's nothing there except a login box and a message stating "Quora connects you to everything you want to know about.". I thought I had Google for that. Whatever. Despite this shocking lack of information and spectacularly bad marketing, I went ahead and attempted to sign in using the Facebook button. So, I clicked that and did the oauth exchange with Facebook. So far so good. Many sites offer this style of signups with Google, Facebook, Twitter, and other sites and it is sort of convenient.
+I went to their [home page](http://quora.com). Basically there's nothing there except a login box and a message stating "Quora connects you to everything you want to know about.". I thought I had Google for that. Whatever. Despite this shocking lack of information and spectacularly bad marketing, I went ahead and attempted to sign in using the Facebook button. So, I clicked that and did the oauth exchange with Facebook. So far so good. Many sites offer this style of signups with Google, Facebook, Twitter, and other sites and it is sort of convenient.
 
 After that it showed me a page to create a password. Eh... didn't I just sign in?! Surely the intent of that was avoiding this. Annoyed, I just went ahead anyway and typed one of my  passwords that I reserve for sites I absolutely don't care about one bit.
 
@@ -32,10 +32,10 @@ Then I started getting emails like X is now following you on Quora. Apparently, 
 I just deactivated my account to prevent more damage and because frankly I felt offended. If you got spammed, sorry.
 
 There are a couple of patterns here that I observed with other sites:
-<ul>
-	<li>Signup is needlessly complex. Every extra mouse click loses you customers. Every usability expert knows this. Don't do this. At this point even having an email signup + password is fairly pointless for most users. Make it optional, if you bother implementing this at all (why would you?).</li>
-	<li>The site is useless without signup. So how am I to decide I want to sign up at all? Give me samples or partial access.</li>
-	<li>The site assumes you want to receive loads of email notifications. Off is a good default for any such notifications except the truly urgent ones. If I didn't turn shit like this off, my inbox would have hundreds of new messages every morning from all sorts of sites I really don't care about. Sorry, you are not the most important thing in my life.</li>
-	<li>The site hijacks your Facebook feed to promote itself. No I don't endorse your shitty site and I certainly don't want you anywhere near my friends until I've had a chance to evaluate what you are about. I clicked the sign in button to sign in, not to give you permission to abuse privileges you sneaked in with that request. If you are going to post to my Facebook feed, make sure I know it is going to happen and have an opportunity to prevent it.</li>
-</ul>
+
+- Signup is needlessly complex. Every extra mouse click loses you customers. Every usability expert knows this. Don't do this. At this point even having an email signup + password is fairly pointless for most users. Make it optional, if you bother implementing this at all (why would you?).
+- The site is useless without signup. So how am I to decide I want to sign up at all? Give me samples or partial access.
+- The site assumes you want to receive loads of email notifications. Off is a good default for any such notifications except the truly urgent ones. If I didn't turn shit like this off, my inbox would have hundreds of new messages every morning from all sorts of sites I really don't care about. Sorry, you are not the most important thing in my life.
+- The site hijacks your Facebook feed to promote itself. No I don't endorse your shitty site and I certainly don't want you anywhere near my friends until I've had a chance to evaluate what you are about. I clicked the sign in button to sign in, not to give you permission to abuse privileges you sneaked in with that request. If you are going to post to my Facebook feed, make sure I know it is going to happen and have an opportunity to prevent it.
+
 Quora failed on all four points and displayed a level of arrogance and aggressiveness that may or may not have been intended that caused me to de-activate my account right away.

@@ -14,8 +14,7 @@ tags:
   - QT
   - Windows Phone
 ---
-I just posted a comment to <a href="http://www.zdnet.com/nokia-investors-patience-wearing-thin-ceo-says-windows-phone-to-the-bitter-end-no-plan-b-7000015011/">this article</a> about Nokia shareholders getting impatient with the current CEO, Stephen Elop. It's a quite long comment and people might overlook it in what seems to be a long thread already. So I decided to post it here as well. Part of the text reuses some arguments I <a href="http://www.jillesvangurp.com/2013/03/29/mobile-linux/">posted earlier</a>.
-
+I just posted a comment to [this article](http://www.zdnet.com/nokia-investors-patience-wearing-thin-ceo-says-windows-phone-to-the-bitter-end-no-plan-b-7000015011/) about Nokia shareholders getting impatient with the current CEO, Stephen Elop. It's a quite long comment and people might overlook it in what seems to be a long thread already. So I decided to post it here as well. Part of the text reuses some arguments I [posted earlier](https://www.jillesvangurp.com/2013/03/29/mobile-linux/).
 
 So here it goes ...
 <!--more-->
@@ -36,7 +35,7 @@ Killing that was the second blunder. Again Nokia bankrolled the competition. QT 
 
 At the time of the Meego announcements, the reasoning was that scaling Meego business would take another two years. Those two years have now passed and it is now clear that Nokia overestimated how soon it could ramp up Windows Phone business, underestimated how much quicker Symbian would decline. They could have easily matched Windows Phone's current market share with Meego. 
 
-So the question that begs answering is what would have happened if they'd adjusted their Meego strategy instead. People think of Android as a separate platform. It's not. <a href="http://www.jillesvangurp.com/2013/03/29/mobile-linux/">It's mobile Linux</a>. Just like Meego. 
+So the question that begs answering is what would have happened if they'd adjusted their Meego strategy instead. People think of Android as a separate platform. It's not. [It's mobile Linux](https://www.jillesvangurp.com/2013/03/29/mobile-linux/). Just like Meego. 
 
 Throughout Meego and Maemo's history, Nokia devices for those platforms have been able to run Android and other mobile Linux variants. Early Maemo devices were sort of the darling of developers for the simple reason that they were 100% compatible with Linux already and could trivially be repurposed to run just about anything, unlike pretty much everything else in the market. I ran Nitdroid (the Android port for Maemo phones) on an N800. This was in 2008 when Android devices were barely starting to ship. Probably the N800 was the first device on the market that you could actually run Android on even. Basically, as soon as Google published the source code people were running it on their Maemo devices. So, there is no question about Nokia being able to run Android on its existing devices at any time if it had chosen to do so. All the hard work for that had already been done.
 

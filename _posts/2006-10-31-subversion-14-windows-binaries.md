@@ -17,11 +17,11 @@ For a few weeks I've been waiting for cygwin to update their subversion binaries
 Naturally I found this out after upgrading tortoise svn to 1.4 :-).
 
 Luckily, you don't need cygwin binaries. So here's what you can do instead:
-<ul>
-	<li>download the win32 commandline subversion tools from <a href="http://subversion.tigris.org/">tigris </a>and install it.</li>
-	<li>modify your path to add the bin directory</li>
-	<li>uninstall the obsolete cygwin subversion version</li>
-</ul>
+
+- download the win32 commandline subversion tools from [tigris ](http://subversion.tigris.org/)and install it.
+- modify your path to add the bin directory
+- uninstall the obsolete cygwin subversion version
+
 Of course the win32 version doesn't handle cygwin paths too well. Luckily subversion handles moving of repositories pretty well. In my case my repositories were in /svnrepo which in reality is this path on windows c:\cygwin\svnrepo. Since I use the svn+ssh protocol, the urls for all my workdirectories were svn+ssh://localhost/svnrepo/... These urls of course broke due to the fact that the win32 binaries interpret the path /svnrepo differently than the cygwin version. Solution: mv /svnrepo /cygdrive/c.
 
 This allows me to continue to use the same subversion urls and all my tools now work. Also, in the future I won't have to wait for cygwin to upgrade their subversion binaries and can get them straight from tigris.

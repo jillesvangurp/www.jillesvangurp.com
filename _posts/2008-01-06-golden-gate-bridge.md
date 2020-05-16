@@ -17,4 +17,4 @@ tags:
 ---
 Yesterday was another shitty day weather wise. I amused myself by visiting the De Young museum and the Legion of Honor museum (both of which are very much worth a visit) using just one ticket from my city pass. After that the weather seemed to clear up and I headed for the Golden Gate bridge.
 
-<a href='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/sf-076.jpg' title='Me and GG Bridge'><img src='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/sf-076.jpg' alt='Me and GG Bridge' /></a><a href='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/sf-068.jpg' title='Golden Gate'><img src='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/sf-068.jpg' alt='Golden Gate' /></a>
+[![Me and GG Bridge](https://www.jillesvangurp.com/wp-content/uploads/2008/01/sf-076.jpg)](https://www.jillesvangurp.com/wp-content/uploads/2008/01/sf-076.jpg)[![Golden Gate](https://www.jillesvangurp.com/wp-content/uploads/2008/01/sf-068.jpg)](https://www.jillesvangurp.com/wp-content/uploads/2008/01/sf-068.jpg)

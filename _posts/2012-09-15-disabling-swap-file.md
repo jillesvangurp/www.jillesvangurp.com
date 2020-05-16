@@ -26,7 +26,7 @@ I had already half decided to buy a new mac to 'solve' this problem by simply ge
 
 Basically the primary reason for slowness on macs is swapping. You may think you have enough RAM, and you may in fact have plenty of available RAM. It doesn't matter, your mac will swap applications to disk even when you don't need the memory. That takes time. Especially on fragmented disks. Basically on my machine it got to a point where the disk would be churning for minutes every time I opened applications and there was considerable lag when switching applications that I had already opened. All this despite still having a full GB of memory available. So even though I am nowhere close to running out of memory, the OS decides to spend time swapping stuff to and from disk almost constantly. Reason: it was designed well over a decade ago during a time when 16MB was massive amount of memory. I have about 250x that amount.
 
-I found <a href="http://wiki.summercode.com/how_to_disable_or_enable_swapping_in_mac_os_x">this nice post</a> explaining how to turn swapping off (you have to reboot for this to work). Now there are all sorts of reasons why swapping and virtual memory are good things in theory and all sorts of advice warning that all sorts of evil things can and will happen if you mess with it. 
+I found [this nice post](http://wiki.summercode.com/how_to_disable_or_enable_swapping_in_mac_os_x) explaining how to turn swapping off (you have to reboot for this to work). Now there are all sorts of reasons why swapping and virtual memory are good things in theory and all sorts of advice warning that all sorts of evil things can and will happen if you mess with it. 
 
 Consider yourself warned. 
 

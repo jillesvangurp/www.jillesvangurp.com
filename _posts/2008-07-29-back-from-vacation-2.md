@@ -15,7 +15,7 @@ tags:
   - Spain
   - traveling
 ---
-I more or less executed the plan listed in my <a href="http://www.jillesvangurp.com/2008/07/02/off-to-spain/">previous post</a> to the letter. I flew to Spain, spent a few days at Christian del Rosso's place in Madrid and took the opportunity to benefit from the relatively mild weather (32 degrees or so) to see most of Madrid's major touristic attractions.
+I more or less executed the plan listed in my [previous post](https://www.jillesvangurp.com/2008/07/02/off-to-spain/) to the letter. I flew to Spain, spent a few days at Christian del Rosso's place in Madrid and took the opportunity to benefit from the relatively mild weather (32 degrees or so) to see most of Madrid's major touristic attractions.
 
 After that, I went back to the airport to pick up the car from the rental agency and then drove around 3500 km in the next few weeks. Main goal of this post is to document the places I visited since I am otherwise likely to forget where I've been in a matter of weeks. Been there before. Secondary goal is to serve as a nice itinerary for west side of Spain if anyone plans to go there.Ã‚Â  Which is of course highly recommended if you can handle the lack of beaches and the associated mob of beach tourism and associated bad food, service, and prices.
 

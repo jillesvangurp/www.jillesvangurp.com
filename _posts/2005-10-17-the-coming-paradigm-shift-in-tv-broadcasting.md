@@ -17,7 +17,7 @@ tags:
   - Software in General
   - TV
 ---
-<a href="http://arstechnica.com/news.ars/post/20051017-5441.html">The coming paradigm shift in TV broadcasting</a>
+[The coming paradigm shift in TV broadcasting](http://arstechnica.com/news.ars/post/20051017-5441.html)
 The coming paradigm shift in TV broadcasting
 
 This article comments on Apple's latest move to offer video content through their iTunes and how this is a logical and inevitable move with some far ranging effects.

@@ -10,4 +10,4 @@ tags:
   - java
 ---
 Slightly related to my post on Java performance yesterday:
-<a href="http://it.slashdot.org/comments.pl?sid=164835&cid=13757787">Java or C: Is One More Secure?</a>. Sorry couldn't resist :-).
+[Java or C: Is One More Secure?](http://it.slashdot.org/comments.pl?sid=164835&cid=13757787). Sorry couldn't resist :-).
