@@ -28,6 +28,6 @@ If it had a bit more flash memory I would probably buy one. 60+ GB would be abou
 
 Right now I'm relaxing a bit in my hotel room, sipping a coke and enjoying the free (!) wifi. Of course I am taking lots of pictures (despite the weather). I've gimped up one, the rest will follow when I'm back home and can use photoshop (the Gimp is comparatively useless/unusable):
 
-<a href='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/sanfrancisco-020.jpg' title='Alcatrez seen from pier 39'>![Alcatrez](https://www.jillesvangurp.com/wp-content/uploads/2008/01/sanfrancisco-020.jpg Alcatrez)</a>
+<a href='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/sanfrancisco-020.jpg' title='Alcatrez seen from pier 39'><img src='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/sanfrancisco-020.jpg' alt='Alcatrez' /></a>
 
 I might post a few more over the next few days.

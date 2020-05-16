@@ -39,3 +39,5 @@ Then (after fixing sources.list which curiously had all entries twice?!) I did a
 
 More later. The good news is that I have a bootable system and can probably resolve most remaining issues. The bad news is that so far the experience has been really, really, really bad. I've been struggling with things that should just work or fail more gracefully.
 
+
+

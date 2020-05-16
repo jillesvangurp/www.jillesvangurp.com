@@ -12,3 +12,4 @@ tags:
 <a href="http://www.thesneeze.com/mt-archives/cat_steve_dont_eat_it.php">Steve, Don't eat it</a>
 
 There's some filthy stuff out there on the internet but this beats everything.
+<blockquote />

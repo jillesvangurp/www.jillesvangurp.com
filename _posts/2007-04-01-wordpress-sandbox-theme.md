@@ -35,3 +35,6 @@ The sandbox theme has a few nice characteristics:
 
 Rather than develop my own CSS file for wordpress, I've decided to just pick one of the defaults that come with sandbox. I like the spartan skin since it is minimalistic and also tries to improve readability of the actual text. Overall it is quite nice to work with. Adding alternative sandbox css skins is particularly easy and I might actually do that since the spartan look is not quite minimalistic enough for my taste and also has a handful of issues with too small margins and paddings. On the other hand, I said the same about the wordpress theme when I migrated my blog to wordpress over a year ago (i.e. never happened). We'll see what happens.
 
+
+
+

@@ -28,3 +28,5 @@ technologies, we present our architecture for ubiquitous applications in smart s
 
 The article is a nice milestone in our very your research group. An earlier position paper already outlined our <a href="http://blog.jillesvangurp.com/2007/03/21/towards-effective-smart-space-application-development-impediments-and-research-challenges/">vision for software development in smart spaces</a>. This article builds on that vision and makes public a few details of the software we are building in the research group. 
 
+
+

@@ -54,3 +54,5 @@ The user interface is quite clean and functional. Oddly, the wordpress developer
 
 Aside from the look and feel, this tool has all the features you'd expect from a blog tool. The functionality is organized in a number of self explanatory tabs like 'write' and 'users'.  The default settings are probably ok for a novice user and a more advanced user can easily change the behaviour of posting, comments, templates, etc.
 
+
+

@@ -18,6 +18,7 @@ tags:
 ---
 I submitted a nice position paper to the variability management workshop here in Helsinki next month.
 
+
 Abstract:<blockquote>This position paper reflects on the implications for variability management related practices in SPL development when adopting a compositional style of development. We observe that large scale software development is increasingly conducted in a decentralized fashion and on a global scale with little or no central coordination. However, much of the current SPL and variability practices seem to have strong focus on centrally maintained artifacts such as feature and architecture models. We conclude that in principle it should be possible to decentralize these practices and identify a number of related research challenges that we intend to follow up on in future research.</blockquote>
 
 Full details are on my publication site and you can download the <a href="http://publications.jillesvangurp.com/SVMhelsinki2007r.pdf">pdf </a>from there as well.

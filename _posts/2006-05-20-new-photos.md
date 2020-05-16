@@ -18,6 +18,6 @@ Check <a href="http://photos.jillesvangurp.com/Album/2006/2006%20IV%20April%20He
 
 Paticularly the Tallinn photos are very nice. The weather was a bit grey at first but turned quite nice at the end of the afternoon.
 
-<a title="click for full size picture" href="http://photos.jillesvangurp.com/Album/2006/2006%20VI%20Tallinn/slides/IMG_0193.jpg">![market square](https://www.jillesvangurp.com/Album/2006/2006%20VI%20Tallinn/slides/IMG_0193.jpg market square)</a>
+<a title="click for full size picture" href="http://photos.jillesvangurp.com/Album/2006/2006%20VI%20Tallinn/slides/IMG_0193.jpg"><img alt="market square" title="market square" src="http://photos.jillesvangurp.com/Album/2006/2006%20VI%20Tallinn/slides/IMG_0193.jpg" /></a>
 
-<a title="click for fullsize picture" href="http://photos.jillesvangurp.com/Album/2006/2006%20VI%20Tallinn/slides/IMG_0215.jpg">![](https://www.jillesvangurp.com/Album/2006/2006%20VI%20Tallinn/slides/IMG_0215.jpg )</a>
+<a title="click for fullsize picture" href="http://photos.jillesvangurp.com/Album/2006/2006%20VI%20Tallinn/slides/IMG_0215.jpg"><img src="http://photos.jillesvangurp.com/Album/2006/2006%20VI%20Tallinn/slides/IMG_0215.jpg" /></a>

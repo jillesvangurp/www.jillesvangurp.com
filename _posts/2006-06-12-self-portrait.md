@@ -13,7 +13,7 @@ categories:
 tags:
   - photography
 ---
-<div style="text-align: center">![Selfportrait to show off new glasses](https://www.jillesvangurp.com/images/selfportrait.jpg Selfportrait to show off new glasses)</div>
+<div style="text-align: center"><img title="Selfportrait to show off new glasses" alt="Selfportrait to show off new glasses" src="http://www.jillesvangurp.com/images/selfportrait.jpg" /></div>
 I'm not in the habit of making self portraits. Doing so is a quite hard and somehow vaguely embarrassing. I removed my previous attempt from my homepage after repeated warnings from friends and family that the photo was not exactly a masterpiece.
 
 But circumstances forced me to make a new one. You see, I'm getting a bit older now and recently I started noticing my eyes felt really tired after a day of staring at the computer screen which made it hard to do the same in the evenings. So, I had my eyes checked and I now have some glasses with a small prisma and spherical correction which appears to be doing the trick.

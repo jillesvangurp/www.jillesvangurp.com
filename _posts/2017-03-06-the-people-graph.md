@@ -112,3 +112,5 @@ The people graph allows us to scale trust based mediation to a global scale and 
 
 The Inbot People Graph can provide this as a service to anyone, and for anything and this is pretty much our long term goal. We want to be at the core of the networked economy where people can find each other more effectively than they can today.
 
+
+

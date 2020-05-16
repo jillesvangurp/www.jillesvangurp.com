@@ -16,6 +16,7 @@ tags:
 ---
 I just posted a comment to <a href="http://www.zdnet.com/nokia-investors-patience-wearing-thin-ceo-says-windows-phone-to-the-bitter-end-no-plan-b-7000015011/">this article</a> about Nokia shareholders getting impatient with the current CEO, Stephen Elop. It's a quite long comment and people might overlook it in what seems to be a long thread already. So I decided to post it here as well. Part of the text reuses some arguments I <a href="http://www.jillesvangurp.com/2013/03/29/mobile-linux/">posted earlier</a>.
 
+
 So here it goes ...
 <!--more-->
 
