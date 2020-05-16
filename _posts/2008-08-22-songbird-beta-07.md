@@ -33,7 +33,7 @@ The good:
 
 The bad (or not so good since I have no big gripes):
 
-- Still no support for the iTunes invented but highly useful compilation flag (<a href="http://bugzilla.songbirdnest.com/show_bug.cgi?id=9090">bug 9090</a>). This means that my well organized library is now filled with all sorts of obscure artists that I barely know but apparently have one or two songs from. iTunes sorts these into compilation corner and I use this feature to keep a nice overview of artists and complete albums.
+- Still no support for the iTunes invented but highly useful compilation flag ([bug 9090](http://bugzilla.songbirdnest.com/show_bug.cgi?id=9090)). This means that my well organized library is now filled with all sorts of obscure artists that I barely know but apparently have one or two songs from. iTunes sorts these into compilation corner and I use this feature to keep a nice overview of artists and complete albums.
 - Despite being a media player with extension support, there appears to be no features related to sound quality. Not even an equalizer. Not even as an extension. This is a bit puzzling because this used to be a key strength of winamp, the AOL product that the songbird founders used to be involved with.
 - Despite being a browser, common browser features are missing. So no bookmarks, no apparent RSS feed, no Google preconfigured in the search bar, etc. Some of these things are easily fixed with extensions.
 

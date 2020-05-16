@@ -28,7 +28,7 @@ The sandbox theme has a few nice characteristics:
 
 - It is skinnable using ordinary CSS (i.e. like the good people at W3C have intended all web sites to be skinnable).
 - It generates particularly nice HTML. This always annoyed me in default wordpress and sort of took away my motivation to do something about making it look nicer in the browser.
-- Including nice little <a href="http://www.microformats.org">microformat </a>class names for html elements where that makes a lot of sense.
+- Including nice little [microformat ](http://www.microformats.org)class names for html elements where that makes a lot of sense.
 - It's quite popular which means lots of people use it (so it is well tested) and which also means that it is likely to be updated as wordpress evolves.
 
 Rather than develop my own CSS file for wordpress, I've decided to just pick one of the defaults that come with sandbox. I like the spartan skin since it is minimalistic and also tries to improve readability of the actual text. Overall it is quite nice to work with. Adding alternative sandbox css skins is particularly easy and I might actually do that since the spartan look is not quite minimalistic enough for my taste and also has a handful of issues with too small margins and paddings. On the other hand, I said the same about the wordpress theme when I migrated my blog to wordpress over a year ago (i.e. never happened). We'll see what happens.

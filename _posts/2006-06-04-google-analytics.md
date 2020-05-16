@@ -17,9 +17,9 @@ One of the new google services is [http://www.google.com/analytics/](http://www.
 
 I installed it into three of my sites (maximum is five) using three profiles:
 
-- This <a href="http://blog.jillesvangurp.com">blog</a>
-- My <a href="http://publications.jillesvangurp.com">publications </a>site
-- And my <a href="http://www.jillesvangurp.com">main </a>site
+- This [blog](https://www.jillesvangurp.com)
+- My [publications ](http://publications.jillesvangurp.com)site
+- And my [main ](https://www.jillesvangurp.com)site
 
 For the moment, I won't install it on the photo site (too much work). So far, it's working fine on my blog thanks to [this great wordpress plugin](http://cavemonkey50.com/code/google-analyticator/). Also it is working fine on my publications site. But even though the html is almost exactly the same (based on the same template) it won't work on my main site. It just keeps telling me I need to add the javascript (which is there already). It seems more people are running into this problem so lets just see what happens. Apparently the problem might just fix it self in a couple of days.
 

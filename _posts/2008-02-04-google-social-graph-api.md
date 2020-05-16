@@ -18,9 +18,9 @@ tags:
 ---
 OK, straight to the core. I assume you got your [news](http://code.google.com/apis/socialgraph/docs/api.html) elsewhere.
 
-- Link 1:outgoing links (as expressed on my blog using xfn): <a href="http://socialgraph.apis.google.com/lookup?pretty=1&q=http%3A//blog.jillesvangurp.com&edo=1">link</a>.
-- Link 2: outgoing links from outgoing links (as linked on my blog): <a href="http://socialgraph.apis.google.com/lookup?pretty=1&q=http%3A//blog.jillesvangurp.com&fme=1">link</a>. 
-- Link 3: incoming links (using xfn): <a href="http://socialgraph.apis.google.com/lookup?pretty=1&q=http%3A//blog.jillesvangurp.com&edi=1">link</a> (thanks Christian, others use XFN already ....).
+- Link 1:outgoing links (as expressed on my blog using xfn): [link](http://socialgraph.apis.google.com/lookup?pretty=1&q=http%3A//blog.jillesvangurp.com&edo=1).
+- Link 2: outgoing links from outgoing links (as linked on my blog): [link](http://socialgraph.apis.google.com/lookup?pretty=1&q=http%3A//blog.jillesvangurp.com&fme=1). 
+- Link 3: incoming links (using xfn): [link](http://socialgraph.apis.google.com/lookup?pretty=1&q=http%3A//blog.jillesvangurp.com&edi=1) (thanks Christian, others use XFN already ....).
 
 Thanks Google! So simple, so nice to have.
 

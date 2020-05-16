@@ -25,7 +25,7 @@ My mistake was to assume that this is a hardware/bios problem. So I kept checkin
 
 This morning I googled for "force s3 standby" and ended up on [this ](http://www.thegreenbutton.com/community/shwmessage.aspx?ForumID=41&MessageID=76021&TopicPage=2)site. I learned a things here:
 
-- My system supporst S3 just fine, I checked using this <a href="http://www.passmark.com/products/sleeper.htm">sleeper </a>tool.
+- My system supporst S3 just fine, I checked using this [sleeper ](http://www.passmark.com/products/sleeper.htm)tool.
 - Users with completely different hardware are experiencing the exact same issue (and are equally frustrated).
 - There's a registry hack you can do but it doesn't do much good on its own.
 - There's lots of useless advice on enabling/disabling wake up from standby options on usb devices (my mouse and keyboard are ps/2!).

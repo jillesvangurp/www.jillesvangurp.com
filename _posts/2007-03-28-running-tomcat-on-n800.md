@@ -37,7 +37,7 @@ Now you can run tomcat on the N800:
 <ul>
 	<li>download tomcat 5.0.30beta from tomcat.apache.org. This is the last version that does not require java 1.5.</li>
 	<li>upload it to N800</li>
-	<li>download this zip file with <a href="http://blog.jillesvangurp.com/wp-content/uploads/2007/03/jamvm.zip" title="configuration for tomcat with jamvm">configuration for tomcat with jamvm</a></li>
+	<li>download this zip file with [configuration for tomcat with jamvm](https://www.jillesvangurp.com/wp-content/uploads/2007/03/jamvm.zip)</li>
 	<li>copy provided server.xml to the tomcat conf directory. This configures tomcat to be a bit more lightweight than out of the box. It also disables mbeans which seem to require classes not in the gnu classpath. You can reduce footprint further by stripping stuff from the webapps dir (e.g. documentation + examples)</li>
 	<li>use provided jamvmtomcat.sh script to start tomcat (you'll need to adjust the paths inside). I don't have a stop script but should be trivial to add.</li>
 

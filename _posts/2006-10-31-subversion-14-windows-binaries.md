@@ -18,7 +18,7 @@ Naturally I found this out after upgrading tortoise svn to 1.4 :-).
 
 Luckily, you don't need cygwin binaries. So here's what you can do instead:
 
-- download the win32 commandline subversion tools from <a href="http://subversion.tigris.org/">tigris </a>and install it.
+- download the win32 commandline subversion tools from [tigris ](http://subversion.tigris.org/)and install it.
 - modify your path to add the bin directory
 - uninstall the obsolete cygwin subversion version
 

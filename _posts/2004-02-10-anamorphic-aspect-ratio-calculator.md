@@ -24,6 +24,6 @@ What you can do instead is change the aspect ratio of the movie and let the tv s
 calculate it with [this](https://www.jillesvangurp.com/nerdstuff/anamorphicratiocalculator/anamorphic.jar) neat little calculator I created. You can enter the results in [bsplayer](http://www.bsplayer.org/),
 which allthough enormously feature rich does not have an anamorphic setting built in (at the moment of writing) and play your movie using the full available resolution and enjoy the extra detail :-).
 
-*The <a href="http://www.jillesvangurp.com/nerdstuff/anamorphicratiocalculator/anamorphic.jar">jar</a> file can be started by double clicking on it (windows, must have a Java 2 jvm installed of course) or running "java -jar anamorphic.jar" from the commandline. [Source code](https://www.jillesvangurp.com/nerdstuff/anamorphicratiocalculator/aspectratioconverter.zip) in the form of an eclipse project can be found here. *
+*The [jar](https://www.jillesvangurp.com/nerdstuff/anamorphicratiocalculator/anamorphic.jar) file can be started by double clicking on it (windows, must have a Java 2 jvm installed of course) or running "java -jar anamorphic.jar" from the commandline. [Source code](https://www.jillesvangurp.com/nerdstuff/anamorphicratiocalculator/aspectratioconverter.zip) in the form of an eclipse project can be found here. *
 
 If this all sounds too nerdy, just download media player classic from sourceforge.net and use the options-&gt;pan&amp;scan-&gt;scale to 16:9 option to get the same effect.

@@ -18,9 +18,9 @@ tags:
 ---
 I've blogged several times already about my problems connecting my pc to the internet:
 
-- Getting a <a href="http://blog.jillesvangurp.com/2005/10/07/back-online/">cable modem was easy</a>.
-- I mistakenly bought a <a href="http://blog.jillesvangurp.com/2005/12/19/wireless-hell-2/">Siemens wireless</a> network USB stick. Solution don't buy crap and use a decent brand. Currently I'm using an smc pci card; my ibm/lenovo's laptop's built in network card and my Nokia e70 with its wlan support.
-- The driver software going <a href="http://blog.jillesvangurp.com/2006/01/15/wlan-gone-paranoid/">paranoid</a> from time to time.
+- Getting a [cable modem was easy](https://www.jillesvangurp.com/2005/10/07/back-online/).
+- I mistakenly bought a [Siemens wireless](https://www.jillesvangurp.com/2005/12/19/wireless-hell-2/) network USB stick. Solution don't buy crap and use a decent brand. Currently I'm using an smc pci card; my ibm/lenovo's laptop's built in network card and my Nokia e70 with its wlan support.
+- The driver software going [paranoid](https://www.jillesvangurp.com/2006/01/15/wlan-gone-paranoid/) from time to time.
 
 A remaining problem that has been annoying me for months is that my cable modem, a Motorola sbg900e, has some issues. Most of the time it works fine except when applications like bittorrent run. Then it just resets more or less continuously. Motorola apparently does not believe it is important to support their customers with useful advice or firmware updates so that basically meant no bittorrent for the past few months. Bittorrent is a resource intensive protocol and it probably represents a worse case scenario for the modem in terms of number of connections, bandwidth consumed etc.
 Some googling ("motorola modem reset bittorrent"), once again, brought me a work around. It is not the first time that I find out the hard way that solving a technical problem is just a matter of providing google with the right keywords. Believe me I've been searching many times using the type number of my modem in the query bringing up nothing but unrelated problems and advertisement material.

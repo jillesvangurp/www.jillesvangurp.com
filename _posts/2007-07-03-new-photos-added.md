@@ -19,8 +19,8 @@ As ever the panorama's were produced with [hugin](http://hugin.sourceforge.net/)
 
 Here's an overview of some sites related to photography that I have found extremely useful and informative:
 
-- <a href="http://www.cambridgeincolour.com/tutorials.htm">www.cambridgeincolour.com</a> - This web site is worth spending some time on, especially if you own a decent camera.
-- <a href="http://www.luminous-landscape.com/">www.luminous-landscape.com</a> - This site offers lots of tutorials of varying quality. I found some of the material in the understanding series quite informative.
-- <a href="http://digital-photography-school.com">digital-photography-school.com</a> - This is a site with lots of tutorials and opinions on digital photography.
-- <a href="http://del.icio.us/jillesvangurp/photoshop">My del.icio.us links related to photography</a> - I'm trying to keep this up to date as I find more sites.
+- [www.cambridgeincolour.com](http://www.cambridgeincolour.com/tutorials.htm) - This web site is worth spending some time on, especially if you own a decent camera.
+- [www.luminous-landscape.com](http://www.luminous-landscape.com/) - This site offers lots of tutorials of varying quality. I found some of the material in the understanding series quite informative.
+- [digital-photography-school.com](http://digital-photography-school.com) - This is a site with lots of tutorials and opinions on digital photography.
+- [My del.icio.us links related to photography](http://del.icio.us/jillesvangurp/photoshop) - I'm trying to keep this up to date as I find more sites.
 
