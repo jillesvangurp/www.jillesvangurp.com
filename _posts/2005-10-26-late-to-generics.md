@@ -71,13 +71,12 @@ EvtListener is a generic event listener with only one method to handle events of
 
 And some code to test the above ...
 
-```
-<code>
+```java
 public class EventTester implements GenEvtProducer {
-  private final GenEvtMgr</code><code>&lt;</code><code>EvtListener</code><code>, SomeEvent&gt; mgr =
-    new GenEvtMgr</code><code>&lt;</code><code>EvtListener</code><code>, SomeEvent</code><code>&gt;</code><code>();
+  private final GenEvtMgr&lt;EvtListener, SomeEvent&gt; mgr =
+    new GenEvtMgr&lt;EvtListener, SomeEvent&gt;();
 
-  public GenEvtMgr&lt;</code><code>EvtListener</code><code>, SomeEvent</code><code>&gt;</code><code> getEventManager() {
+  public GenEvtMgr&lt;EvtListener, SomeEvent&gt; getEventManager() {
     return mgr;
   }
 
@@ -87,7 +86,7 @@ public class EventTester implements GenEvtProducer {
 
   public static void main(String[] args) {
     EventTester test = new EventTester();
-    GenEvtMgr</code><code>&lt;</code><code>EvtListener</code><code>, SomeEvent</code><code>&gt;</code><code> eventManager
+    GenEvtMgr&lt;EvtListener, SomeEvent&gt; eventManager
       = test.getEventManager();
     eventManager.addEventListener(new EvtListener () {
       public void eventFired(SomeEvent e) {
@@ -104,7 +103,7 @@ public class EventTester implements GenEvtProducer {
   }
 }
 
-</code>
+
 ```
 
 So we create implementation of GenEvtProducer. The implementation has a GenEvtMgr object parametrized with SomeEvent which is our EventObject subclass (not listed above). We can add listeners, remove listeners and fire events simply by calling the manager. Finally in the main method two listeners are created and calling the go method produces foo bar as expected.

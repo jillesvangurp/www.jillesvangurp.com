@@ -6,29 +6,6 @@ author: Jilles
 layout: post
 guid: http://www.jillesvangurp.com/?p=1525
 permalink: /2013/04/06/jsonj-revisited/
-wp-syntax-cache-content:
-  - |
-    a:3:{i:1;s:576:"
-    
-```
-int i=o.getInt&#40;&quot;a&quot;,&quot;b&quot;&#41;
-```
-int i=o.getInt(&quot;a&quot;,&quot;b&quot;)
-    ;i:2;s:858:
-    
-```
-o.getOrCreateArray&#40;&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;&#41;.add&#40;43&#41;
-```
-o.getOrCreateArray(&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;).add(43)
-    ;i:3;s:1530:
-    
-```
-String json= object&#40;&#41;.put&#40;&quot;a&quot;,42&#41;.put&#40;&quot;b&quot;,array&#40;1,2,&quot;three&quot;&#41;.get&#40;&#41;.toString&#40;&#41;;
-    // {&quot;a&quot;:42,&quot;b&quot;:[1,2,&quot;three&quot;]}
-```
-String json= object().put(&quot;a&quot;,42).put(&quot;b&quot;,array(1,2,&quot;three&quot;).get().toString();
-    // {&quot;a&quot;:42,&quot;b&quot;:[1,2,&quot;three&quot;]}
-    ";}
 categories:
   - Blog Posts
 tags:

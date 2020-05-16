@@ -28,7 +28,7 @@ Oddly, the database backup plugin is no longer included. I'll look for a replace
 
 In terms of functionality, there doesn't seem to be that many features that are vastly different.
 
-<strike>The editor is not working as advertised. It isn't autosaving and the wysiwyg is missing in action. I actually like the current non wysiwyg version better, but still. I'm wondering if I did anything wrong.</strike>
+~~The editor is not working as advertised. It isn't autosaving and the wysiwyg is missing in action. I actually like the current non wysiwyg version better, but still. I'm wondering if I did anything wrong.~~
 
 **Update 2**.
 

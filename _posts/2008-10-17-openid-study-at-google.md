@@ -28,11 +28,11 @@ Basically the site should ask:
 
 With what openid identity, email address or username do you wish to login (excuse ascii art)?
 
-```
-<code>-------------------------</code><code>-------</code><code> ------
+```text
+-------------------------------- ------
 | http://www.jillesvangurp.com | | OK |
 -------------------------------- ------
-</code>
+
 ```
 
 The user will enter whatever seems right and the server will make a best effort to authenticate with whatever the user provides. Then the server checks the following rules (using AJAX of course) against the address/username
@@ -47,7 +47,7 @@ This is as simple as it gets. Basically, the only problem is the user entering a
 The failure should look like this.
 Login failed because the user and password are incorrect. You can either:
 
--  try another password
+- try another password
 - try another openidurl, email address or username
 - sign up with us or one of these Identity providers: XXX, YYY, ZZZ
 
@@ -59,4 +59,3 @@ Advantages:
 - Using OpenID is rewarded by easy login
 - Worst case, user still has to provide a password.
 - Can support any kind of authentication, including non password based ones.
-

@@ -6,69 +6,7 @@ author: Jilles
 layout: post
 guid: http://www.jillesvangurp.com/?p=1544
 permalink: /2013/05/09/jruby-and-java-at-localstream/
-wp-syntax-cache-content:
-  - |
-    a:2:{i:1;s:4275:"
-    
-```
-require 'java'
-    &nbsp;
-    # loads the java classes either from the maven target directory 
-    # in backend or the production location in /opt/localstream/lib
-    &nbsp;
-    targetDir = Dir&#91;&quot;../backend/target/lib/*.jar&quot;&#93;
-    # manually load the classpath
-    if targetDir.length &gt; 0
-    puts &quot;using jars from backend/target&quot;
-    # development
-    targetDir.each &#123; |jar|
-    require jar
-    &#125;
-    require '../backend/target/localstream-1.0-SNAPSHOT.jar'
-    else
-    # production
-    if Dir&#91;&quot;/opt/localstream/lib/*.jar&quot;&#93;.length &gt; 0
-    puts &quot;using jars from /opt/localstream/lib&quot;
-    Dir&#91;&quot;/opt/localstream/lib/*.jar&quot;&#93;.each &#123; |jar| require jar &#125;
-    else
-    puts &quot;No jars found. Maybe you should do a maven clean install?&quot;
-    end
-    end
-```
-require 'java'
-    
-    # loads the java classes either from the maven target directory
-    # in backend or the production location in /opt/localstream/lib
-    
-    targetDir = Dir[&quot;../backend/target/lib/*.jar&quot;]
-    # manually load the classpath
-    if targetDir.length &gt; 0
-    puts &quot;using jars from backend/target&quot;
-    # development
-    targetDir.each { |jar|
-    require jar
-    }
-    require '../backend/target/localstream-1.0-SNAPSHOT.jar'
-    else
-    # production
-    if Dir[&quot;/opt/localstream/lib/*.jar&quot;].length &gt; 0
-    puts &quot;using jars from /opt/localstream/lib&quot;
-    Dir[&quot;/opt/localstream/lib/*.jar&quot;].each { |jar| require jar }
-    else
-    puts &quot;No jars found. Maybe you should do a maven clean install?&quot;
-    end
-    end
-    ;i:2;s:474:
-    
-```
-require 'enable_java'
-    &nbsp;
-    import com.whatever.MyClass
-```
-require 'enable_java'
-    
-    import com.whatever.MyClass
-    ";}
+
 categories:
   - Blog Posts
 tags:
@@ -165,11 +103,11 @@ Luckily, dependency injection is extremely easy in ruby. You don't need any fram
 
 You could use a hash but that is not the ruby way. Instead, I have a register method that creates a new function that returns the registered instance. This follows the [DIY dependency injection design pattern](http://misko.hevery.com/2010/05/26/do-it-yourself-dependency-injection/). All you are doing is separating your glue code from your business logic, which is a good thing regardless of the language: mixing the two is always a bad idea. 
 
-When the context initializes, it also accesses the Spring context on the Java side, lists the beans registered there, and registers them in this context class. From then on, I can access any registered object (ruby or spring bean) at will simply by typing `AppContext.instance.objectName</code>. Additionally, I can register any new ruby object using <code>AppContext.instance.register(objectName, instance)`*
+When the context initializes, it also accesses the Spring context on the Java side, lists the beans registered there, and registers them in this context class. From then on, I can access any registered object (ruby or spring bean) at will simply by typing `AppContext.instance.objectName`. Additionally, I can register any new ruby object using `AppContext.instance.register(objectName, instance)`*
 
 We use this in Sinatra controllers to give them access to the various Java services, which do most of the heavy-lifting. We don't have Sinatra views because our application is a client side MVC application rather than a server side MVC application. So Json comes in, gets handed off to java, comes back to the controller, which serializes it out with some headers. Things like authorization and authentication get handled on the Ruby side as well. All interaction with elastic search ([our storage layer](https://www.jillesvangurp.com/2013/01/15/using-elastic-search-as-a-key-value-store/)) is encapsulated with Java services that are exposed as Spring beans.
 
-That leaves the question of how to start Spring. Since we don't use a traditional application server, I have a Java class that creates a Spring context for me the old fashioned way: `new AnnotationConfigApplicationContext(SpringConfig.class); `*. The context that comes back is stored in a static global variable, which is initialized only once. From there it is business as usual. SpringConfig is a Spring 3 configuration class that defines the beans (i.e. no XML involved). The rest of my code is free of any spring stuff, as it should be. 
+That leaves the question of how to start Spring. Since we don't use a traditional application server, I have a Java class that creates a Spring context for me the old fashioned way: `new AnnotationConfigApplicationContext(SpringConfig.class);`. The context that comes back is stored in a static global variable, which is initialized only once. From there it is business as usual. SpringConfig is a Spring 3 configuration class that defines the beans (i.e. no XML involved). The rest of my code is free of any spring stuff, as it should be. 
 
 **Configuration**
 

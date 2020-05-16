@@ -8,37 +8,6 @@ guid: http://www.jillesvangurp.com/?p=660
 permalink: /2009/11/21/wordpress-automated-backup/
 dsq_thread_id:
   - "336378112"
-wp-syntax-cache-content:
-  - |
-    a:2:{i:1;s:831:"
-    
-```
-mysqldump -u user -ppassword \
-    -h host db --single-transaction \
-    | gzip -9 &gt; ~/wordpress.sql.gz
-```
-mysqldump -u user -ppassword \
-    -h host db --single-transaction \
-    | gzip -9 &gt; ~/wordpress.sql.gz
-    ;i:2;s:1705:
-    
-```
-#!/bin/bash
-    BACKUPDIR=/Users/jilles/backup
-    date &gt;&gt; $BACKUPDIR/sitebackup.log
-    ssh user@host sh ~/dumpdb.sh
-    rsync -i -v -a --delete \
-    user@host:~ $BACKUPDIR \
-    &gt;&gt; $BACKUPDIR/sitebackup.log
-```
-#!/bin/bash
-    BACKUPDIR=/Users/jilles/backup
-    date &gt;&gt; $BACKUPDIR/sitebackup.log
-    ssh user@host sh ~/dumpdb.sh
-    rsync -i -v -a --delete \
-    user@host:~ $BACKUPDIR \
-    &gt;&gt; $BACKUPDIR/sitebackup.log
-    ";}
 categories:
   - Blog Posts
 tags:
