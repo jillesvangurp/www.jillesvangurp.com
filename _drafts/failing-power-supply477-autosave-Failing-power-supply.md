@@ -15,4 +15,4 @@ In a few weeks my new Macbook Pro should arrive at work (ordered yesterday). I w
 
 Feel free to recommend a decent PSU. Has to power a Nvidia 7800, 2 drives, lots of USB hardware and a amd 4400+ dualcore CPU.
 
-<strong>Update.</strong> I ended up installing a ZALMAN ZM600-HP. Seems to have a few good reviews <a rel="nofollow" href="http://www.tweaknews.net/reviews/zm600hp/">http://www.tweaknews.net/reviews/zm600hp/</a>. ItÃ¢â‚¬â„¢s expensive, over qualified for the job and supposedly really good and quiet. Sadly the rest of my machine is rather noisy.
+<strong>Update.</strong> I ended up installing a ZALMAN ZM600-HP. Seems to have a few good reviews <a rel="nofollow" href="http://www.tweaknews.net/reviews/zm600hp/">http://www.tweaknews.net/reviews/zm600hp/</a>. It's expensive, over qualified for the job and supposedly really good and quiet. Sadly the rest of my machine is rather noisy.

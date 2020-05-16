@@ -29,8 +29,8 @@ In case you are wondering, yes I am considering to dump wordpress. The reason is
 
 <strong>Update.</strong>
 
-After playing with drupal 5.2 and a development snapshot of 6.0, IÃ¢â‚¬â„¢ve decided not to migrate because simply the migration is too hard currently. There is only a seriously outdated module for drupal 4.7 which can only migrate wordpress version 2.0. In other words, this is unlikely to work for my blog without a lot of tinkering. Additionally, moving from drupal to something else is likely not exactly trivial either. I migrated from pivot to wordpress early 2006. That was quite painless since wordpress has excellent import feature. Drupal lacks such features and wordpress has no Drupal import as far as I know (would be hard due to the generic node datastructure in drupal).
+After playing with drupal 5.2 and a development snapshot of 6.0, I've decided not to migrate because simply the migration is too hard currently. There is only a seriously outdated module for drupal 4.7 which can only migrate wordpress version 2.0. In other words, this is unlikely to work for my blog without a lot of tinkering. Additionally, moving from drupal to something else is likely not exactly trivial either. I migrated from pivot to wordpress early 2006. That was quite painless since wordpress has excellent import feature. Drupal lacks such features and wordpress has no Drupal import as far as I know (would be hard due to the generic node datastructure in drupal).
 
-BTW. IÃ¢â‚¬â„¢ve spent some time researching the topic. This link here is the most informative I was able to find: http://drupal.org/node/69706. Be sure to also check the comments.
+BTW. I've spent some time researching the topic. This link here is the most informative I was able to find: http://drupal.org/node/69706. Be sure to also check the comments.
 
-IÃ¢â‚¬â„¢ve taken a brief look at joomla too. Interesting product but not really designed for Blogs. Overall, IÃ¢â‚¬â„¢m pretty happy with wordpress. ItÃ¢â‚¬â„¢s just that I want proper openid support.
+I've taken a brief look at joomla too. Interesting product but not really designed for Blogs. Overall, I'm pretty happy with wordpress. It's just that I want proper openid support.
