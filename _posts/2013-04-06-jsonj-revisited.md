@@ -31,7 +31,7 @@ As part of our ongoing work to build the LocalStream platform I've been eating m
 
 <!--more-->
 
-<b>Why did I create JsonJ?</b>
+**Why did I create JsonJ?**
 
 In short, I have a problem with the notion of representing just about any little json structure using a domain model that consists of tons of small domain classes that actually don't implement any useful functionality but yet suck up a lot of development time related to implementing them, testing they are implemented correctly (e.g. hashCode and equals are often a problem), refactoring them when the data changes, etc. I've dealt with several projects that had tons of domain classes and code littered with sets, gets. In one of the more extreme cases of mapping madness I've seen, xml came in via the API, was transformed into DTOs (data transfer objects) and from there into the domain model and from there into sql tables using hibernate. This kind of madness is why engineers have been fleeing from Java Enterprise solutions.
 
@@ -46,7 +46,7 @@ Finally, Java actually lacks json support. This means you need a third party lib
 
 JsonJ is my attempt to address all of these problems as best as possible within the constraints of the Java language.
 
-<b>How do we use JsonJ in Localstream?</b>
+**How do we use JsonJ in Localstream?**
 
 As you may know from my previous articles on Localstream, we are using Elastic search as a key value store and do not use e.g. mysql or some other relational database. The Localstream platform is a hybrid Jruby/java application. We use jruby for implementing our RESTful API layer using the Sinatra framework. 
 
@@ -54,7 +54,7 @@ Our REST API accepts and returns json and Elastic search uses json as well for i
 
 Not having any domain classes means our code base is small and easy to maintain. JsonJ has been critical for this. It's very easy for us to add new APIs, modify existing objects or add new ones. Like with any decent RESTful API, Localstream has gone through quite a few design iterations and JsonJ has helped us do this with the minimum of fuss. Not having a ton of domain classes means that such changes are extremely straightforward.
 
-<b>JsonJ overview</b>
+**JsonJ overview**
 
 JsonJ represents json using the JsonElement interface, which is implemented by three classes: JsonObject, JsonArray, and JsonPrimitive. JsonObject implements the Map interface so it can behave just like any other Map&lt;JsonElement&gt;. Likewise JsonArray is a List&lt;JsonElement&gt; and finally JsonPrimitive uses Integer, Double, String and Boolean to represent primitive values.
 
@@ -83,7 +83,7 @@ String json= object().put("a",42).put("b",array(1,2,"three").get().toString();
 
 While still somewhat more verbose than the equivalent ruby code, writing code like this is actually pretty easy in a decent IDE because most Java IDEs do autocompletion very well.
 
-<b>Recent improvements</b>
+**Recent improvements**
 
 This was pretty much the state of jsonj when I put it up on Github originally. Over the past six months or so, I've made numerous improvements as I ran into bugs and scratched the inevitable itches that arose from using it on a daily basis. The net result is that it has become vastly more usable.
 
@@ -97,7 +97,7 @@ Another change is that a lot of the specialized methods in the three classes are
 
 Another thing that I worked on was making jsonj more memory friendly by representing strings (values and object keys) using utf-8 byte arrays and using my [EfficientString](https://github.com/jillesvangurp/efficientstring) project for handling object keys. The reason I did this is because I use jsonj for a lot for data processing as well. Some of these jobs are pretty memory intensive because caching large amounts of data in memory helps speed things up considerably (as opposed to looking them up in a database). This change dramatically reduced the memory used by jsonj and allows me to cache much more data. 
 
-<b>Jruby and JsonJ</b>
+**Jruby and JsonJ**
 
 I currently use jsonj in a mixed Java and Jruby project. The problem with that is that on the jruby side, you actually want to convert things to normal ruby data structures. So, today I created a new github project called [jsonj-integration](https://github.com/jillesvangurp/jsonj-integration). 
 

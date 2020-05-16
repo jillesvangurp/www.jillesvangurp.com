@@ -26,7 +26,7 @@ tags:
 
 **Update 2: The [serverside has linked](http://www.theserverside.com/news/thread.tss?thread_id=47614) here as well. Readers coming from there, the version on Javalobby linked above is the latest and also has some discussion attached.**
 
-About an hour ago, Google released some additional information on the [SDK for Android](http://code.google.com/android/), its new mobile platform. Since I work for Nokia (whom I of course not represent when writing things on my <em>personal</em> blog, usual disclaimers apply), I'm naturally interested in new software platforms for mobile phones. Additionally, since I'm a Java developer, I'm particularly interested in this one.
+About an hour ago, Google released some additional information on the [SDK for Android](http://code.google.com/android/), its new mobile platform. Since I work for Nokia (whom I of course not represent when writing things on my *personal* blog, usual disclaimers apply), I'm naturally interested in new software platforms for mobile phones. Additionally, since I'm a Java developer, I'm particularly interested in this one.
 
 I spent the past half hour glancing through the API documentation, just to see what is there. This does not provide me with enough information for a really detailed review but it does allow me to extract some highlights that in my view will matter enormously for platform adoption:
 <ul>
