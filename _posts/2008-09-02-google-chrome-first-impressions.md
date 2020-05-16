@@ -36,13 +36,13 @@ So here's my first impressions.
 - mouse &amp; keyboard. Mostly like in Firefox. Happy to see middle click works. However, / does not work and you need to type ctrl+f to get in page search
 
 </li>
-	<li>**URL bar.** So far so good, seems to copy most of the relevant features from Firefox 3. I like Firefox 3's behaviour better though.</li>
-	<li>**RSS feeds.** There does not seem to be any support for subscribing to, or reading feeds. Strange. If I somehow missed it, there's a huge usability issue here. If not, I assume it will be added.</li>
-	<li>**Bookmarks.** An important feature for any browser. Google has partially duplicated Firefox 3's behaviour with a little star icon but no tagging.</li>
-	<li>**Extensions.** none whatsoever :-(. If I end up not switching, this will be the reason. I need my extensions.</li>
-	<li>**Import Firefox Profile.** Seems pretty good, passwords, browsing history, bookmarks, etc. were all imported. Except for my cookies.</li>
-	<li>**Home screen.** Seems nicer than a blank page but nothing I'd miss. Looks a bit empty on my 1600x1200 screen.</li>
-	<li>**Missing in action.** No spelling control, no search plugins (at least no obvious way for me to use them even though all my firefox search plugins are listed in the options screen), no print preview, no bookmarks management, no menu bar (good, don't miss it)</li>
+  <li>**URL bar.** So far so good, seems to copy most of the relevant features from Firefox 3. I like Firefox 3's behaviour better though.</li>
+  <li>**RSS feeds.** There does not seem to be any support for subscribing to, or reading feeds. Strange. If I somehow missed it, there's a huge usability issue here. If not, I assume it will be added.</li>
+  <li>**Bookmarks.** An important feature for any browser. Google has partially duplicated Firefox 3's behaviour with a little star icon but no tagging.</li>
+  <li>**Extensions.** none whatsoever :-(. If I end up not switching, this will be the reason. I need my extensions.</li>
+  <li>**Import Firefox Profile.** Seems pretty good, passwords, browsing history, bookmarks, etc. were all imported. Except for my cookies.</li>
+  <li>**Home screen.** Seems nicer than a blank page but nothing I'd miss. Looks a bit empty on my 1600x1200 screen.</li>
+  <li>**Missing in action.** No spelling control, no search plugins (at least no obvious way for me to use them even though all my firefox search plugins are listed in the options screen), no print preview, no bookmarks management, no menu bar (good, don't miss it)</li>
 </ul>
 <div>So Google delivers on promises they never made. Just out of the blue there is Chrome and the rest of the browser world has some catching up to do. Firefox and Safari are both working on the right things of course and have been a huge influence on Chrome (which Google gives them plenty of credit for). However, the fact is that Google is showing both of them that they can do much better.Ã‚Â </div>
 <div>Technically I think the key innovation here is using multiple processes to handle tabs from different domains. This is a good idea from both a security point of view as from a performance point of view. Other browsers try to be clever here and do everything in one process with less than stellar results. I see Firefox 3 still block the entire UI regularly and that is just inherent to its architecture. This simply won't happen with Chrome. Worst case is that one of the tabs becomes unusable and you just close it. Technically, you might wonder if they could not have done this with threads instead of processes.</div>

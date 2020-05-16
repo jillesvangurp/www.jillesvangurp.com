@@ -23,7 +23,8 @@ Here are the solutions I applied:
 
 - Look for firmware upgrade. In my case there wasn't any but if there is this may be your solution
 - Look for driver updates for your wireless card/usb stick. Generally the software on the cd is obsolete. This applies to any hardware you buy.
-- See if you can live without the wireless monitor thing that was installed along with the driver. <ul> 	<li>Uninstall the software and driver
+- See if you can live without the wireless monitor thing that was installed along with the driver. 
+- Uninstall the software and driver
 - make sure you have the (downloaded) driver somewhere on disk
 - reboot
 - windows may recognize your usb stick on boot, opt to select the driver yourself and then to locate the driver yourself
@@ -31,11 +32,10 @@ Here are the solutions I applied:
 - If all goes well, you can now configure your wireless connection through the default windows wizard. It is less feature rich than your monitor app, which is just fine if all you want is a network connection.
 - Some of the more advanced/non-standard features may not be available to you. Most notably, non standard speeds such as 108mbps. This does not really as matter as much as you might think since those speeds are based on compression rather than actual bits. Hard to compress data like multimedia, photos and compressed binaries do not really benefit that much from this network layer compression.
 
-</li>
-	<li>You may have disabled upnp in the past. In it self this is a good thing because you probably don't need it. Unfortunately, in my case the driver depends on this service. So, go to control panel-administrative tools-services and set the upnp service from disabled to automatic (this means it will start if it is required).</li>
-	<li>If connectivity problems remain the reason may be interference from other devices. Most wifi cards default to channel 1 (this is a busy channel). Depending on where you live you may select from 11 or 13 channels. Some of these channels have overlapping frequencies. Channels 1, 6 and 11 do not overlap. You can configure the channel on your router and may need to configure it elsewhere to. I set the channel to 11 and the number of disconnects has dropped substantially.</li>
-	<li>Figure out type and brand of the faulty hardware (and possibly of the chipset in that hardware) and google for your problem. Likely you will find this site if you have the same hardware as me: a motorola sbg900e cable modem and a siemens gigaset 108 usb wlan stick. You may find it useful anyway even if you don't have the same hardware.</li>
-</ul>
+- You may have disabled upnp in the past. In it self this is a good thing because you probably don't need it. Unfortunately, in my case the driver depends on this service. So, go to control panel-administrative tools-services and set the upnp service from disabled to automatic (this means it will start if it is required).</li>
+- If connectivity problems remain the reason may be interference from other devices. Most wifi cards default to channel 1 (this is a busy channel). Depending on where you live you may select from 11 or 13 channels. Some of these channels have overlapping frequencies. Channels 1, 6 and 11 do not overlap. You can configure the channel on your router and may need to configure it elsewhere to. I set the channel to 11 and the number of disconnects has dropped substantially.</li>
+- Figure out type and brand of the faulty hardware (and possibly of the chipset in that hardware) and google for your problem. Likely you will find this site if you have the same hardware as me: a motorola sbg900e cable modem and a siemens gigaset 108 usb wlan stick. You may find it useful anyway even if you don't have the same hardware.</li>
+
 This more or less solved my problems. I still encounter the occasional disconnect. But it now reconnects immediately, by itself. A smart download manager, gaim and most media players should survive the brief disconnect without intervention.
 
 If the above does not solve your problem, bring back the hardware to the store and change it for a different brand. Seriously, having to go through all of the above constitutes a really bad end user experience. Things are definately not working as advertised and you are entitled to complain, loudly! Most shop people are totally incompetent so be understanding of their ignorance but insist on a replacement or refund. Don't accept the same brand unless you are sure you had a hardware failure. If you do so anyway, make a deal with the shop that if the replacement doesn't work either he'll refund.

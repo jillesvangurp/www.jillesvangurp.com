@@ -19,7 +19,7 @@ I've cleaned up the static part of my website:
 - The rest was so out of date, I just removed it.
 
 </li>
-	<li>Updated the layout slightly.
+  <li>Updated the layout slightly.
 
 - I've adopted a more readable color scheme for links
 - I've used a wider banner photo so that it looks good on pages of 1600 pixels wide before it starts repeating.

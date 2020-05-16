@@ -36,34 +36,32 @@ All of this is mandated by the JavaBeans spec and tools actually depend on this 
 
 Java 5 has an interesting new feature called generics which is otherwise known as parametrized types. With parametrized types you can do nice stuff like this:
 
-```
-<code>
+```java
 public class GenEvtMgr&lt;LT, T&gt; {
-	private final List listeners = new LinkedList();
+  private final List listeners = new LinkedList();
 
-	public void fire(T e) {
-		for (EvtListener i : listeners) {
-			i.eventFired(e);
-		}
-	}
+  public void fire(T e) {
+   for (EvtListener i : listeners) {
+      i.eventFired(e);
+    }
+  }
 
-	public void addEventListener(LT l) {
-		listeners.add(l);
-	}
+  public void addEventListener(LT l) {
+    listeners.add(l);
+  }
 
-	public void removeEventListener(LT l) {
-		listeners.remove(l);
-	}
+  public void removeEventListener(LT l) {
+    listeners.remove(l);
+  }
 }
 
 public interface EvtListener&lt;ET&gt; extends EventListener {
-	void eventFired(ET e);
+  void eventFired(ET e);
 }
 
 public interface GenEvtProducer {
-	GenEvtMgr getEventManager();
+  GenEvtMgr getEventManager();
 }
-</code>
 ```
 
 What this does is actually pretty simple. It defines a reusable GenEvtMgr to handle the bureaucracy of handling all the
@@ -76,34 +74,34 @@ And some code to test the above ...
 ```
 <code>
 public class EventTester implements GenEvtProducer {
-	private final GenEvtMgr</code><code>&lt;</code><code>EvtListener</code><code>, SomeEvent&gt; mgr =
-		new GenEvtMgr</code><code>&lt;</code><code>EvtListener</code><code>, SomeEvent</code><code>&gt;</code><code>();
+  private final GenEvtMgr</code><code>&lt;</code><code>EvtListener</code><code>, SomeEvent&gt; mgr =
+    new GenEvtMgr</code><code>&lt;</code><code>EvtListener</code><code>, SomeEvent</code><code>&gt;</code><code>();
 
-	public GenEvtMgr&lt;</code><code>EvtListener</code><code>, SomeEvent</code><code>&gt;</code><code> getEventManager() {
-		return mgr;
-	}
+  public GenEvtMgr&lt;</code><code>EvtListener</code><code>, SomeEvent</code><code>&gt;</code><code> getEventManager() {
+    return mgr;
+  }
 
-	public void go() {
-		mgr.fire(new SomeEvent(this));
-	}
+  public void go() {
+    mgr.fire(new SomeEvent(this));
+  }
 
-	public static void main(String[] args) {
-		EventTester test = new EventTester();
-		GenEvtMgr</code><code>&lt;</code><code>EvtListener</code><code>, SomeEvent</code><code>&gt;</code><code> eventManager
-			= test.getEventManager();
-		eventManager.addEventListener(new EvtListener () {
-			public void eventFired(SomeEvent e) {
-				System.err.println("Foo");
-			}
-		});
-		eventManager.addEventListener(new EvtListener () {
-			public void eventFired(SomeEvent e) {
-				System.err.println("Bar");
-			}
-		});
+  public static void main(String[] args) {
+    EventTester test = new EventTester();
+    GenEvtMgr</code><code>&lt;</code><code>EvtListener</code><code>, SomeEvent</code><code>&gt;</code><code> eventManager
+      = test.getEventManager();
+    eventManager.addEventListener(new EvtListener () {
+      public void eventFired(SomeEvent e) {
+        System.err.println("Foo");
+      }
+    });
+    eventManager.addEventListener(new EvtListener () {
+      public void eventFired(SomeEvent e) {
+        System.err.println("Bar");
+      }
+    });
 
-		test.go();
-	}
+    test.go();
+  }
 }
 
 </code>

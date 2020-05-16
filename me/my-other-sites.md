@@ -14,11 +14,11 @@ sharing_disabled:
 ---
 Aside from my <a href="http://blog.jillesvangurp.com">blog</a>, I maintain a few other sites:
 <ul>
-	<li><a title="My website" href="http://www.jillesvangurp.com" rel="me">www.jillesvangurp.com</a>. You are looking at it.</li>
-	<li><a title="My presence on the Nokia Research site" href="http://research.nokia.com/people/jilles_van_gurp/index.html" rel="me">research.nokia.com</a>. I have my own page on research.nokia.com.</li>
-	<li><a title="Various photos" href="http://photos.jillesvangurp.com">photos.jillesvangurp.com</a>. This is my online photo album with photos of vacations and other occasions where I felt compelled to snap lots of photos.</li>
-	<li><a title="Overview of things I created that you might be able to use" href="http://blog.jillesvangurp.com/tag/createdbyjilles/" rel="me">Stuff made by me</a>. I recently moved some stuff from the old static html page to my blog and gave it a tag: stuff-i-made.</li>
-	<li><a title="Exorted Google Earth placemarks" href="http://www.jillesvangurp.com/places" rel="me">My Google Earth Placemarks</a> One of the things I created generates html content from my Google Earth placemarks which I put in this corner of my website.</li>
+  <li><a title="My website" href="http://www.jillesvangurp.com" rel="me">www.jillesvangurp.com</a>. You are looking at it.</li>
+  <li><a title="My presence on the Nokia Research site" href="http://research.nokia.com/people/jilles_van_gurp/index.html" rel="me">research.nokia.com</a>. I have my own page on research.nokia.com.</li>
+  <li><a title="Various photos" href="http://photos.jillesvangurp.com">photos.jillesvangurp.com</a>. This is my online photo album with photos of vacations and other occasions where I felt compelled to snap lots of photos.</li>
+  <li><a title="Overview of things I created that you might be able to use" href="http://blog.jillesvangurp.com/tag/createdbyjilles/" rel="me">Stuff made by me</a>. I recently moved some stuff from the old static html page to my blog and gave it a tag: stuff-i-made.</li>
+  <li><a title="Exorted Google Earth placemarks" href="http://www.jillesvangurp.com/places" rel="me">My Google Earth Placemarks</a> One of the things I created generates html content from my Google Earth placemarks which I put in this corner of my website.</li>
 </ul>
 Aside from that I have profiles on a whole bunch of sites:
 <h1>Facebook</h1>
@@ -84,17 +84,17 @@ Aside from that I have profiles on a whole bunch of sites:
 <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/jillesvangurp.json?callback=twitterCallback2&amp;count=10"></script>
 <h1>I Also ...</h1>
 <ul>
-	<li>do microblogging on <a href="http://identi.ca/jillesvangurp">Identi.ca</a></li>
-	<li>Follow other people using <a href="http://whoisi.com/p/4061">Whoisi</a> and <a href="http://friendfeed.com/jillesvangurp">Friendster</a></li>
-	<li>Chat with people as jillesvangurp on Skype, Google Talk, Nokia Chat, and MSN</li>
-	<li>have <a href="http://www.jillesvangurp.com/2008/02/04/google-social-graph-api/">XFN relations</a> to other people (according to Google)</li>
-	<li>share stories from <a href="http://www.google.com/reader/shared/18224876845254110763">Google Reader</a></li>
-	<li>post on various websites (irregularly these days):
+  <li>do microblogging on <a href="http://identi.ca/jillesvangurp">Identi.ca</a></li>
+  <li>Follow other people using <a href="http://whoisi.com/p/4061">Whoisi</a> and <a href="http://friendfeed.com/jillesvangurp">Friendster</a></li>
+  <li>Chat with people as jillesvangurp on Skype, Google Talk, Nokia Chat, and MSN</li>
+  <li>have <a href="http://www.jillesvangurp.com/2008/02/04/google-social-graph-api/">XFN relations</a> to other people (according to Google)</li>
+  <li>share stories from <a href="http://www.google.com/reader/shared/18224876845254110763">Google Reader</a></li>
+  <li>post on various websites (irregularly these days):
 <ul>
-	<li><a href="http://slashdot.org/~jilles/">slashdot.org</a></li>
-	<li><a href="http://java.dzone.com/users/jilles">javalobby.org</a></li>
-	<li>theserverside.com</li>
-	<li>and random blogs</li>
+  <li><a href="http://slashdot.org/~jilles/">slashdot.org</a></li>
+  <li><a href="http://java.dzone.com/users/jilles">javalobby.org</a></li>
+  <li>theserverside.com</li>
+  <li>and random blogs</li>
 </ul>
 </li>
 </ul>
