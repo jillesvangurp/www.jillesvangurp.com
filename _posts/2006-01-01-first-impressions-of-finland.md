@@ -15,5 +15,5 @@ tags:
   - finland
   - photography
 ---
-<p>Some first impressions of Finland: [2005 photos](https://www.jillesvangurp.com/Album/2005/2005%20VI%20Finland%20First%20Impression/index.html). I took these photos in November but hadn't gotten around to fixing them in photoshop. And that was really necessary because of the poor light conditions that my aging powershot A40 can't handle. I'm probably going to buy the new [Canon S80](http://www.dpreview.com/reviews/canons80/) soon.
-</p>
+Some first impressions of Finland: [2005 photos](https://www.jillesvangurp.com/Album/2005/2005%20VI%20Finland%20First%20Impression/index.html). I took these photos in November but hadn't gotten around to fixing them in photoshop. And that was really necessary because of the poor light conditions that my aging powershot A40 can't handle. I'm probably going to buy the new [Canon S80](http://www.dpreview.com/reviews/canons80/) soon.
+

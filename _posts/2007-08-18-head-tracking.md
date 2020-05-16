@@ -17,17 +17,10 @@ I stumbled on two interesting programs that effectively turn my webcam into a he
 
 Why is this interesting?
 
-<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/07Pd4EbwRQ4"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/07Pd4EbwRQ4" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object>
-(cachya, sightseeing)
-
-<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/_WP0PY2j9OM"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/_WP0PY2j9OM" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object>
-(cachya, dogfight)
-
-<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/9NQOSpTIqjQ"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/9NQOSpTIqjQ" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object>
-(freetrack)
-
-<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/n7mdu6Zj3FY"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/n7mdu6Zj3FY" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object>
-(freetrack with a race game)
+- [cachya, sightseeing](http://www.youtube.com/v/07Pd4EbwRQ4)
+- [cachya, dogfight](http://www.youtube.com/v/_WP0PY2j9OM)
+- [freetrack](http://www.youtube.com/v/9NQOSpTIqjQ)
+- [freetrack with a race game](http://www.youtube.com/v/n7mdu6Zj3FY)
 
 So, basically this stuff allows you to look around while flying around in your flight simulator. Since I spend quite some time in [x-plane](http://x-plane.com) that is highly interesting.
 

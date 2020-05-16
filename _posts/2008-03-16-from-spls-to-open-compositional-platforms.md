@@ -27,12 +27,12 @@ tags:
 Below is a position paper I submitted to the upcoming [Dagstuhl seminar](http://www.dagstuhl.de/en/program/calendar/semhp/?semid=34153) I am attending. It's not peer reviewed and it is not clear at this point if there will be any proceedings. So, as an experiment, I will just put the full text in a blog post as well as the [pdf](https://www.jillesvangurp.com/static/FromIntegrationalSPLstoOpenCompositionalPlatforms.pdf) you can find on my [publications](/publications) page. The reason I am doing this is twofold: I want people to read stuff I write and locking it up in some hard to find proceedings just isn't doing the trick. Secondly, this blog has a comment feature. Please feel free to use it.
 
 <center><h1>From SPLs to Open, Compositional Platforms</h1>
-<p>
+
 Jilles van Gurp &amp; Christian Prehofer 
 Smart Space Lab 
 Nokia Research Center 
 Helsinki, Finland 
-</p>
+
 </center>
 
 ***Abstract**. In this position paper we reflect on how software development in large organizations such as ours is slowly changing from being top down managed, as is common in SPL organizations, towards something that increasingly resembles what is happening in large open source organizations. Additionally, we highlight what this means in terms of organization and tooling.*
