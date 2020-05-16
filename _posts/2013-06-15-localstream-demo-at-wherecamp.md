@@ -24,11 +24,11 @@ I was at the first Berlin version of [Wherecamp](http://wherecamp.de/) two years
 A lot of our Twitter followers, Facebook friends, LinkedIn connections, Google Plus circle members, and indeed real people might be wondering what we are up to with [Localstream](http://localstre.am). In this article I want to outline some of the key concepts we have implemented and will be demoing next week.
 
 Localstream can be a lot of things to different people.
-<ul>
-	<li>For end users it is a **location-based content sharing and discovery** platform that allows them to share information about locations. You can share youtube videos, souncloud clips, blog articles, news, or simply type some text.</li>
-	<li>For content publishers it is that but also a platform with which they can **push and promote their own content about a location**. Doing so makes it easier for people to find their content.</li>
-	<li>For developers it is an **API</strong> that they can use to easily **add location relevant content** to their applications or <strong>publish their own content to Localstream**. The Localstream platform is ideally suited for quickly building pretty much any type of location-based application.</li>
-</ul>
+
+- For end users it is a **location-based content sharing and discovery** platform that allows them to share information about locations. You can share youtube videos, souncloud clips, blog articles, news, or simply type some text.
+- For content publishers it is that but also a platform with which they can **push and promote their own content about a location**. Doing so makes it easier for people to find their content.
+- For developers it is an **API</strong> that they can use to easily **add location relevant content** to their applications or <strong>publish their own content to Localstream**. The Localstream platform is ideally suited for quickly building pretty much any type of location-based application.
+
 **Why are we building Localstream?**
 
 A lot of location-based services exist already and even more are under development in numerous start-ups around the world. Location based services are great and we love using them. They allow us to share photos, tweet, read restaurant reviews, navigate our cars, find out cool stuff about the world around us, check in, find deals, etc.
@@ -62,10 +62,10 @@ Since Localstream is a web platform, locations are HTTP resources with a unique 
 **Publishing content to the location graph**
 
 Publishing content in Localstream is very straightforward:
-<ul>
-	<li>Select a location</li>
-	<li>Share something.</li>
-</ul>
+
+- Select a location
+- Share something.
+
 Selecting a location is different from simply telling us the GPS coordinates. Instead we want to know the URL of the location node in our location graph that best matches the content you are sharing. Selecting locations is easy with the Localstream UI, which allows you to explore the location graph. By default, we use your GPS coordinates to find the nearest node in our graph. From there you can either navigate through the graph by clicking related locations or use the search box to find something else.
 
 Once you have selected the right location, you can simply paste a link to something you want to share or enter some text. We automatically reach out to get meta data for the links you share. And, of course you can share what you publish on Localstream with other sharing platforms or linking to it from your own blog or web site.
@@ -79,12 +79,12 @@ We automatically rank content based on the location graph and based on what you 
 **The Localstream API**
 
 Anything you can do with the UI, our API supports as well:
-<ul>
-	<li>You can explore the location graph</li>
-	<li>Find the most appropriate location node for a GPS coordinate</li>
-	<li>Get a feed of content for a particular combination of locations and tags</li>
-	<li>Publish content to a location</li>
-</ul>
+
+- You can explore the location graph
+- Find the most appropriate location node for a GPS coordinate
+- Get a feed of content for a particular combination of locations and tags
+- Publish content to a location
+
 The API will not be part of our private beta. We are currently eating our own dog food by building the Localstream UI using our own API. However, if you are interested in using our API, learning more about it, or partnering with us, get in touch with us directly. We plan to have the API ready for action by Q3 this year and are in fact looking for cool projects to pilot our API with.
 
 **What's next?**

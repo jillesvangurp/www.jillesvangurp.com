@@ -18,12 +18,11 @@ tags:
   - workshop
 ---
 As you saw in yesterday's post, my publication site has [moved to this blog](/publications). I also took the opportunity to update the page with recent work:
-<ul>
-	<li>Our book chapter on compositional development was published in January in <a href="http://www.amazon.com/Emerging-Technologies-Management-Software-Engineering/dp/0470085711">Emerging Methods, Technologies and Process Management in Software Engineering</a> by Wiley.</li>
-	<li>I wrote a short position paper on the same topic for the upcoming Dagstuhl seminar on <a href="http://www.dagstuhl.de/en/program/calendar/semhp/?semid=34153">Combining the Advantages of Product Lines and Open Source</a>. As mentioned in the paper, we're also working on a more extensive version of this article.</li>
-	<li>We're giving a demo at <a href="http://www.the-internet-of-things.org/">The Internet of Things</a>  in Zurich in two weeks.</li>
-	<li>And finally, I replaced the draft pdf of the CCNC paper that I added there a few months ago by the IEEE published version. This paper gives a little more background on the demo in Zurich.</li>
-</ul>
+
+- Our book chapter on compositional development was published in January in <a href="http://www.amazon.com/Emerging-Technologies-Management-Software-Engineering/dp/0470085711">Emerging Methods, Technologies and Process Management in Software Engineering</a> by Wiley.
+- I wrote a short position paper on the same topic for the upcoming Dagstuhl seminar on <a href="http://www.dagstuhl.de/en/program/calendar/semhp/?semid=34153">Combining the Advantages of Product Lines and Open Source</a>. As mentioned in the paper, we're also working on a more extensive version of this article.
+- We're giving a demo at <a href="http://www.the-internet-of-things.org/">The Internet of Things</a>  in Zurich in two weeks.
+- And finally, I replaced the draft pdf of the CCNC paper that I added there a few months ago by the IEEE published version. This paper gives a little more background on the demo in Zurich.
 
 You can download the pdfs and find the full refs from here: [publications](/publications). 
 

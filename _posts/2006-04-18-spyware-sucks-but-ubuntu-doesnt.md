@@ -27,9 +27,9 @@ But the point is that it would work very well. I booted into the live dvd image.
 Then I had to mount the ntfs partition. I tried to use the disk tool but it is useless (you can mount but not access the partition unless you are root which is not very convenient in ubuntu where you can't log in as root). I had to do some googling to make the correct changes to fstab manually and then proceeded to mount using the good old commandline. That worked. Then I sshed (using nautilus) into my windows box (which runs cygwin) and I'm currently uploading some crucial files. After that completes, I'll wipe the laptop and be sure to lock it down properly this time.
 
 lessons learned:
-<ul>
-	<li>no auto update + no firewall + unsecured wlan = very bad idea</li>
-	<li>firefox + router != enough protection</li>
-	<li>adaware and spybot are not good enough for recovery, these are fine prevention tools however</li>
-	<li>ubuntu doesn't suck, it's a nice addition to any system administrators toolbox :-)</li>
-</ul>
+
+- no auto update + no firewall + unsecured wlan = very bad idea
+- firefox + router != enough protection
+- adaware and spybot are not good enough for recovery, these are fine prevention tools however
+- ubuntu doesn't suck, it's a nice addition to any system administrators toolbox :-)
+

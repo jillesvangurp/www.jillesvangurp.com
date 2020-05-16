@@ -32,10 +32,10 @@ Then I started getting emails like X is now following you on Quora. Apparently, 
 I just deactivated my account to prevent more damage and because frankly I felt offended. If you got spammed, sorry.
 
 There are a couple of patterns here that I observed with other sites:
-<ul>
-	<li>Signup is needlessly complex. Every extra mouse click loses you customers. Every usability expert knows this. Don't do this. At this point even having an email signup + password is fairly pointless for most users. Make it optional, if you bother implementing this at all (why would you?).</li>
-	<li>The site is useless without signup. So how am I to decide I want to sign up at all? Give me samples or partial access.</li>
-	<li>The site assumes you want to receive loads of email notifications. Off is a good default for any such notifications except the truly urgent ones. If I didn't turn shit like this off, my inbox would have hundreds of new messages every morning from all sorts of sites I really don't care about. Sorry, you are not the most important thing in my life.</li>
-	<li>The site hijacks your Facebook feed to promote itself. No I don't endorse your shitty site and I certainly don't want you anywhere near my friends until I've had a chance to evaluate what you are about. I clicked the sign in button to sign in, not to give you permission to abuse privileges you sneaked in with that request. If you are going to post to my Facebook feed, make sure I know it is going to happen and have an opportunity to prevent it.</li>
-</ul>
+
+- Signup is needlessly complex. Every extra mouse click loses you customers. Every usability expert knows this. Don't do this. At this point even having an email signup + password is fairly pointless for most users. Make it optional, if you bother implementing this at all (why would you?).
+- The site is useless without signup. So how am I to decide I want to sign up at all? Give me samples or partial access.
+- The site assumes you want to receive loads of email notifications. Off is a good default for any such notifications except the truly urgent ones. If I didn't turn shit like this off, my inbox would have hundreds of new messages every morning from all sorts of sites I really don't care about. Sorry, you are not the most important thing in my life.
+- The site hijacks your Facebook feed to promote itself. No I don't endorse your shitty site and I certainly don't want you anywhere near my friends until I've had a chance to evaluate what you are about. I clicked the sign in button to sign in, not to give you permission to abuse privileges you sneaked in with that request. If you are going to post to my Facebook feed, make sure I know it is going to happen and have an opportunity to prevent it.
+
 Quora failed on all four points and displayed a level of arrogance and aggressiveness that may or may not have been intended that caused me to de-activate my account right away.

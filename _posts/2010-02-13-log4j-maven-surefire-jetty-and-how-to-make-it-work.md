@@ -77,48 +77,16 @@ A decent workaround in that case is to define a file appender, which will be fre
 
 So, good advice, but less than satisfactory. To fix the problem properly, make sure you don't have commons-logging on the classpath. At all. This will break all the stuff that depends on it being there. Fix that by using slf4j instead. Slf4j comes in several maven modules. I used the following ones:
 
-<ol>
-	<li>jcl-over-slf4j is a drop-in, API compatible replacement for commons logging. It writes messages logged through commons-logging using slf4j, which is similar to commons-logging  but behaves much nicer (i.e. it actually works). It's designed to fix the problem we are dealing with  here. The only reason it exists is because commons-logging is hopelessly broken.</li>
-	<li>slf4j-api is used by dependencies already depending on slf4j</li>
-	<li>slf4j-log4j12 the backend for log4j. If this is on the classpath slf4j will use log4j for its output. You want this.</li>
-</ol>
+1. jcl-over-slf4j is a drop-in, API compatible replacement for commons logging. It writes messages logged through commons-logging using slf4j, which is similar to commons-logging  but behaves much nicer (i.e. it actually works). It's designed to fix the problem we are dealing with  here. The only reason it exists is because commons-logging is hopelessly broken.
+1. slf4j-api is used by dependencies already depending on slf4j
+1. slf4j-log4j12 the backend for log4j. If this is on the classpath slf4j will use log4j for its output. You want this.
 
 That's it. Here's what I had to do to get a properly working configuration:
 
-<ol>
-	<li>Use mvn dependency:tree to find out which dependencies are transitively/directly depending on commons-logging.</li>
-	<li>fix all of these dependencies with a 
-<pre lang="xml">
-<exclusions>
-    <exclusion>
-        <groupId>commons-logging</groupId>
-        <artifactId>commons-logging</artifactId>
-    </exclusion>
-</exclusions>
-</pre> 
-</li>
-	<li>You might have to iterate fixing the dependencies and rerunning mvn dependency:tree since only the first instance of commons-logging found will used transitively.
- 	<li>Now add these dependencies to your pom.xml:
-<pre lang="xml">
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-api</artifactId>
-    <version>1.5.10</version>
-</dependency>                
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>jcl-over-slf4j</artifactId>
-    <version>1.5.10</version>
-</dependency>
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-log4j12</artifactId>
-    <version>1.5.10</version>
-</dependency>
-</pre>
-</li>          
-	<li>Maven plugins have their own dependencies, separately from your normal dependencies. Make that you add the three slf4j dependencies to surefire, jetty, and other relevant plugins. At least jetty seems to already depend on slf4j.</li>
-	<li>Finally make sure that your plugins have system properties defining log4j.configuration=file:[log4j config location]. Most of the googled advice on this topic covers this (and not much else). Some plugins can be a bit hard to configure due to the fact that they fork off separate processes.</li>
-</ol>
+1. Use mvn dependency:tree to find out which dependencies are transitively/directly depending on commons-logging.
+1. fix all of these dependencies with a  <pre lang="xml"> <exclusions>     <exclusion>         <groupId>commons-logging</groupId>         <artifactId>commons-logging</artifactId>     </exclusion> </exclusions> </pre>  
+1. You might have to iterate fixing the dependencies and rerunning mvn dependency:tree since only the first instance of commons-logging found will used transitively.  	<li>Now add these dependencies to your pom.xml: <pre lang="xml"> <dependency>     <groupId>org.slf4j</groupId>     <artifactId>slf4j-api</artifactId>     <version>1.5.10</version> </dependency>                 <dependency>     <groupId>org.slf4j</groupId>     <artifactId>jcl-over-slf4j</artifactId>     <version>1.5.10</version> </dependency> <dependency>     <groupId>org.slf4j</groupId>     <artifactId>slf4j-log4j12</artifactId>     <version>1.5.10</version> </dependency> </pre> 
+1. Maven plugins have their own dependencies, separately from your normal dependencies. Make that you add the three slf4j dependencies to surefire, jetty, and other relevant plugins. At least jetty seems to already depend on slf4j.
+1. Finally make sure that your plugins have system properties defining log4j.configuration=file:[log4j config location]. Most of the googled advice on this topic covers this (and not much else). Some plugins can be a bit hard to configure due to the fact that they fork off separate processes.
 
 That should do the trick, assuming you have log4j on the classpath of course.

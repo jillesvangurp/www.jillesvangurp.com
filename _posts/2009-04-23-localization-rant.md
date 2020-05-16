@@ -35,11 +35,10 @@ It's of course unfair to single out Google here. Other examples are iTunes which
 So, this is madness. A series of broken assumptions leads to Apple losing revenue and Google and others annoying the hell out of people.
 
 So here's a localization guideline for dummies:
-<ul>
-	<li>Offer a way out. Likely a large percentage of your guesses as to what the language of your users is, is going to be wrong. The smaller the amount of native speakers the more likely you will get it wrong. Languages like Finnish or Chinese are notoriously hard to learn. So, design your localized sites such that a non native speaker of such languages can get your fully localized sites set to something more reasonable.</li>
-	<li>Respect people's preferences. Profiles override anything you might detect. People move around so your assumptions are likely broken if they deviate from the profile settings.</li>
-	<li>Language is not location. People travel around and generally don't unlearn the language they used to speak. Additionally, most countries have sizable populations of non native speakers as well as hordes of tourists and travelers.</li>
-	<li>If people managed to sign up, that's a strong clue that whatever the language of the UI was at the time is probably a language that the user has mastered well enough to understand the UI (or otherwise you'd have blind monkeys signing up all the time). So there's no valid use case for suggesting an alternative language here. Never mind defaulting to one.</li>
-</ul>
+
+- Offer a way out. Likely a large percentage of your guesses as to what the language of your users is, is going to be wrong. The smaller the amount of native speakers the more likely you will get it wrong. Languages like Finnish or Chinese are notoriously hard to learn. So, design your localized sites such that a non native speaker of such languages can get your fully localized sites set to something more reasonable.
+- Respect people's preferences. Profiles override anything you might detect. People move around so your assumptions are likely broken if they deviate from the profile settings.
+- Language is not location. People travel around and generally don't unlearn the language they used to speak. Additionally, most countries have sizable populations of non native speakers as well as hordes of tourists and travelers.
+- If people managed to sign up, that's a strong clue that whatever the language of the UI was at the time is probably a language that the user has mastered well enough to understand the UI (or otherwise you'd have blind monkeys signing up all the time). So there's no valid use case for suggesting an alternative language here. Never mind defaulting to one.
 
 Anyway, end of rant. 

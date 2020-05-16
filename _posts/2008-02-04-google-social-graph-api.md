@@ -17,14 +17,10 @@ tags:
   - XFN
 ---
 OK, straight to the core. I assume you got your [news](http://code.google.com/apis/socialgraph/docs/api.html) elsewhere.
-<ul>
 
-	<li>Link 1:outgoing links (as expressed on my blog using xfn): <a href="http://socialgraph.apis.google.com/lookup?pretty=1&q=http%3A//blog.jillesvangurp.com&edo=1">link</a>.</li>
-
-	<li>Link 2: outgoing links from outgoing links (as linked on my blog): <a href="http://socialgraph.apis.google.com/lookup?pretty=1&q=http%3A//blog.jillesvangurp.com&fme=1">link</a>.
-</li>
-	<li>Link 3: incoming links (using xfn): <a href="http://socialgraph.apis.google.com/lookup?pretty=1&q=http%3A//blog.jillesvangurp.com&edi=1">link</a> (thanks Christian, others use XFN already ....).</li>
-</ul>
+- Link 1:outgoing links (as expressed on my blog using xfn): <a href="http://socialgraph.apis.google.com/lookup?pretty=1&q=http%3A//blog.jillesvangurp.com&edo=1">link</a>.
+- Link 2: outgoing links from outgoing links (as linked on my blog): <a href="http://socialgraph.apis.google.com/lookup?pretty=1&q=http%3A//blog.jillesvangurp.com&fme=1">link</a>. 
+- Link 3: incoming links (using xfn): <a href="http://socialgraph.apis.google.com/lookup?pretty=1&q=http%3A//blog.jillesvangurp.com&edi=1">link</a> (thanks Christian, others use XFN already ....).
 
 Thanks Google! So simple, so nice to have.
 

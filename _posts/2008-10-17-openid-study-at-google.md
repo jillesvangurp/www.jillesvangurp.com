@@ -32,27 +32,27 @@ With what openid identity, email address or username do you wish to login (excus
 -------------------------------- ------
 </code></pre>
 The user will enter whatever seems right and the server will make a best effort to authenticate with whatever the user provides. Then the server checks the following rules (using AJAX of course) against the address/username
-<ul>
-	<li>address/username known, not an IDP -&gt; ask for the password</li>
-	<li>address//username known &amp; an IDP -&gt; redirect to IDP. Let user choose username optionally when returning to the site so the user can login with either short login name or IDP identifier.</li>
-	<li>not known &amp; an IDP -&gt; redirect to IDP, on return create an account on the fly with info IDP provides</li>
-	<li>not known, not an IDP -&gt; show create account form, let user pick a  username if email address was entered. Optionally, point out how to sign up with an OpenID provider and of course allow login with a different ID.</li>
-</ul>
+
+- address/username known, not an IDP -&gt; ask for the password
+- address//username known &amp; an IDP -&gt; redirect to IDP. Let user choose username optionally when returning to the site so the user can login with either short login name or IDP identifier.
+- not known &amp; an IDP -&gt; redirect to IDP, on return create an account on the fly with info IDP provides
+- not known, not an IDP -&gt; show create account form, let user pick a  username if email address was entered. Optionally, point out how to sign up with an OpenID provider and of course allow login with a different ID.
+
 This is as simple as it gets. Basically, the only problem is the user entering a username that is in use by somebody else. A password field will show and login will fail.
 
 The failure should look like this.
 Login failed because the user and password are incorrect. You can either:
-<ul>
-	<li> try another password</li>
-	<li>try another openidurl, email address or username</li>
-	<li>sign up with us or one of these Identity providers: XXX, YYY, ZZZ</li>
-</ul>
+
+-  try another password
+- try another openidurl, email address or username
+- sign up with us or one of these Identity providers: XXX, YYY, ZZZ
+
 This is as simple as it gets and it still supports a wide variety of login mechanisms.
 
 Advantages:
-<ul>
-	<li>Only one question that the user should be able to answer: who am I?</li>
-	<li>Using OpenID is rewarded by easy login</li>
-	<li>Worst case, user still has to provide a password.</li>
-	<li>Can support any kind of authentication, including non password based ones.</li>
-</ul>
+
+- Only one question that the user should be able to answer: who am I?
+- Using OpenID is rewarded by easy login
+- Worst case, user still has to provide a password.
+- Can support any kind of authentication, including non password based ones.
+

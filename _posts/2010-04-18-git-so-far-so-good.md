@@ -15,23 +15,21 @@ tags:
   - IT
 ---
 I started using git two months ago. Basically, colleagues around me fall into three categories:
-<ul>
-	<li>Those that already use git or mercurial (a small minority).</li>
-	<li>Those that are considering to start using it like me a few months ago (a few).</li>
-	<li>Those that don't get it (the majority).</li>
-</ul>
+
+- Those that already use git or mercurial (a small minority).
+- Those that are considering to start using it like me a few months ago (a few).
+- Those that don't get it (the majority).
 
 To those that don't get it: time to update your skill sets. Not getting it is never good in IT and keeping your skill set current is vital to survival long term. Git is still new enough that you can get away with not getting it but I don't think that will last long.
 
 The truth of the matter is that git mostly works as advertised and there are a few real benefits to using it and a few real problems with not using it. To start with the problems:
-<ul>
-	<li>Not using git limits you to one branch: trunk. Don't fool yourself into thinking otherwise. I've seen branching in svn a couple of times and it was not pretty.</li>
-	<li>Not using git forces you to either work in small, non invasive increments or accept pro-longed instability on trunk with lots of disruptive change coming in. Most teams tend to have a release heart beat where trunk is close to useless except when a release is coming.</li>
-	<li>Not using git limits size of the group of people that can work effectively on the same code base. Having too many people commit on the same code will increase the number conflicting changes.</li>
-	<li>Not using git exposes you regularly to merge problems and conflicts when you upgrade your work copy from trunk.</li>
-	<li>Not using git forces a style of working that avoids the above problems: you don't branch; people get angry when trunk breaks (which it does, often); you avoid making disruptive changes and when you do, you work for prolonged periods of time without committing; when you finally commit, you find that some a**hole introduced conflicting changes on trunk while you weren't committing; once you have committed other people find that their uncommitted work now conflicts with trunk etc.</li>
-	<li>Given the above problems, people avoid the type of changes that causes them to run into these problems. This is the real problem. Not refactoring because of potential conflicts is an anti-pattern. Not doing a change because it would take too long to stabilize means that necessary changes get delayed.</li> 
-</ul>
+
+- Not using git limits you to one branch: trunk. Don't fool yourself into thinking otherwise. I've seen branching in svn a couple of times and it was not pretty.
+- Not using git forces you to either work in small, non invasive increments or accept pro-longed instability on trunk with lots of disruptive change coming in. Most teams tend to have a release heart beat where trunk is close to useless except when a release is coming.
+- Not using git limits size of the group of people that can work effectively on the same code base. Having too many people commit on the same code will increase the number conflicting changes.
+- Not using git exposes you regularly to merge problems and conflicts when you upgrade your work copy from trunk.
+- Not using git forces a style of working that avoids the above problems: you don't branch; people get angry when trunk breaks (which it does, often); you avoid making disruptive changes and when you do, you work for prolonged periods of time without committing; when you finally commit, you find that some a**hole introduced conflicting changes on trunk while you weren't committing; once you have committed other people find that their uncommitted work now conflicts with trunk etc.
+- Given the above problems, people avoid the type of changes that causes them to run into these problems. This is the real problem. Not refactoring because of potential conflicts is an anti-pattern. Not doing a change because it would take too long to stabilize means that necessary changes get delayed.
 
 All of those problems are real and the worst part is that people think they are normal. Git is hardly a silver bullet but it does take away these specific problems. And that's a real benefit. Because it is a real benefit, more and more people are starting to use git, which puts all those people not using it at a disadvantage. So, not getting it is causing you real problems now (which you may not even be aware off). Just because you don't get it doesn't stop people who do get it from competing with you. 
 

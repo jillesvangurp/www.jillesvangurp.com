@@ -142,11 +142,10 @@ As discussed earlier on this site, I recently started using git in our svn centr
 Before getting started, make sure you have both git-core and git-svn installed (ubuntu) or that you have done a "sudo port install git-core +svn +bash_completion" if you have a mac. Also, you probably want to [configure git properly](http://www.arthurkoziel.com/2008/05/02/git-configuration/). Google is your friend, there are plenty of tutorials on the basics of git and svn that you might want to run through first.
 
 Both git and svn use urls to identify repositories. For the sake of simplicity, I will use a very basic example involving three local repositories on my file system with file:// based urls but of course you can use http:// ssh+svn:// or git:// type urls just the same:
-<ul>
-	<li>file:///Users/jilles/test/svnrepo - A little svn repository. Generally this will be your central svn repo with years of work inside it.</li>
-	<li>file:///Users/jilles/test/git1 - A git repository that we'll create using git svn.</li>
-	<li>file:///Users/jilles/test/git2 - Another git repository that we will create using git clone.</li>
-</ul>
+
+- file:///Users/jilles/test/svnrepo - A little svn repository. Generally this will be your central svn repo with years of work inside it.
+- file:///Users/jilles/test/git1 - A git repository that we'll create using git svn.
+- file:///Users/jilles/test/git2 - Another git repository that we will create using git clone.
 
 Lets start by creating a simple svn repo, checking out a svn work copy, and committing some stuff using svn:
 <pre lang="bash">
@@ -252,9 +251,9 @@ Now git1, git2, and svn are in sync and have the same history. If you examine th
 I've demonstrated that git1 and git2 can pull changes from each other and that you can rebase and dcommit against the central svn repository. You needn't be afraid of double commits or lost commits. Git all sorts it out. From git's point of view, a central svn is just another repository. Git is decentralized and throwing svn in the mix doesn't make much of a difference. It just integrates more or less seamlessly. So, you and your git using co-workers can go off and do all the cool stuff git users do, while all staying in sync with the central svn repository.
 
 Random things you probably want to play with next:
-<ul>
-	<li>git svn clone your svn repository; or git clone it from one of your git using colleagues and manually add the svn remote</li>
-	<li>use git daemon to set up a network daemon that your colleagues can pull changes from remotely</li>
-        <li>create a local branch and integrate changes from your colleagues there before merging back to your git master and dcommitting the change to svn</li>
-        <li>allow others to pull your experimental branch</li>
-</ul>
+
+- git svn clone your svn repository; or git clone it from one of your git using colleagues and manually add the svn remote
+- use git daemon to set up a network daemon that your colleagues can pull changes from remotely
+- create a local branch and integrate changes from your colleagues there before merging back to your git master and dcommitting the change to svn
+- allow others to pull your experimental branch
+

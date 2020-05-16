@@ -18,14 +18,12 @@ tags:
 If you've been following my ubuntu rants [(one,](https://www.jillesvangurp.com/2007/01/27/another-ubuntu-installation-test/) [two,](https://www.jillesvangurp.com/2007/04/29/feisty-fawn/) [three](https://www.jillesvangurp.com/2007/05/17/more-ubuntu/) + latest comment), you'll know that so far the experience has been not as FUCKING advertised (excuse the explicitive). Well, here's another rant:
 
 After tracking down the kernel driver issue (mind you all my notes on installer usability still apply) that prevented my network from working, I had a way to get a working install. Since I no longer trust gparted to resize my ntfs partition (see post three) I opted for [Wubi](http://wubi-installer.org/). Wubi is a great idea, just install everything in a disk image file on your windows C:\ and add a item to the default windows xp bootloader to boot ubuntu. Brilliant. The installer works as advertised:
-<ul>
-	<li>You fill in some details</li>
-	<li>It downloads a custom ubuntu iso image for you (would be better if I wasn't forced to download it with the installer)</li>
-	<li>it adds an item to the bootloader</li>
-	<li>it reboots</li>
-	<li>it boots into a loopback filesystem on the disk image on your windows drive</li>
 
-</ul>
+- You fill in some details
+- It downloads a custom ubuntu iso image for you (would be better if I wasn't forced to download it with the installer)
+- it adds an item to the bootloader
+- it reboots
+- it boots into a loopback filesystem on the disk image on your windows drive
 
 Here Wubi's job ends and Ubuntus text installer takes over (so bye bye usability, welcome to the wonderful world of text based installers). Unlike the normal installation you have 0 control so naturally all the same things go wrong. I.e. it got stuck at "scanning the mirrors" again. This time I unplugged the network cable and killed a few processes in one of the other terminals (ctrl+alt+f2, nice trick I remember from slackware days) hoping the installer would pick up the hint. Surprisingly it did, although it did mess up the apt sources.list in the process. Anyway, the installer completed, I rebooted and configured the WLAN, which does work, unlike on many other people's hardware. One reboot later (sounds like windows doesn't it :-). I was looking at the ubuntu desktop.
 

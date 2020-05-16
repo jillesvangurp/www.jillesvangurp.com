@@ -21,15 +21,15 @@ warranty.</div>
 Eh, excuse me? The whole point of buying a raid 5 setup is being able to fix a disk failure by replacing it with a new one without powering down the unit (which according to another quote in the same manual is an extremely bad idea in the event of disk failure). So I guess no Lacie for me (hey that rimes!).
 
 Actually I'm looking for a simple setup that:
-<ul>
-	<li>uses little power (It's going to be inactive pretty much most of the time).</li>
-	<li>makes no/little noise (it's going to be in my living room)</li>
-	<li>comes without drives (so I can install some myself)</li>
-	<li>is easy to maintain, particularly in the eventuality of drive failure</li>
-	<li>is easy to connect (USB 2 or gigabit ethernet).</li>
-	<li>allows for at least four drives (more is better)</li>
-	<li>supports raid 5 (I want my data to survive failure of 1 disk)</li>
-	<li>is reliable as hell (I several drives currently and am terrified of the day they will fail)</li>
-</ul>
+
+- uses little power (It's going to be inactive pretty much most of the time).
+- makes no/little noise (it's going to be in my living room)
+- comes without drives (so I can install some myself)
+- is easy to maintain, particularly in the eventuality of drive failure
+- is easy to connect (USB 2 or gigabit ethernet).
+- allows for at least four drives (more is better)
+- supports raid 5 (I want my data to survive failure of 1 disk)
+- is reliable as hell (I several drives currently and am terrified of the day they will fail)
+
 Tips are welcome. Right now I am seriously interested in the [Synology CS-406](http://www.synology.com/enu/products/CS406series/index.php), which gets a really good review at [Tom's hardware](http://www.tomsnetworking.com/2006/09/15/synology_cs406_cube_station_nas/). The price is reasonable and it seems to meet all the listed criteria above and it comes with a whole bunch of very cool additional features.
 <p align="right"></p>

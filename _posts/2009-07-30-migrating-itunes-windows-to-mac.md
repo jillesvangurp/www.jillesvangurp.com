@@ -29,10 +29,9 @@ Circumstances are slightly different now. I "consolidated" my library ages ago, 
 So, I started out by following the original instructions of three years ago. This nearly works, except the music is not playable from iTunes for some vague reason. So no longer up to date despite a comment of some person who successfully managed a win to mac migration the "old" way.
 
 Next I tried something that I didn't believe would work but which worked anyway:
-<ul>
-	<li>Copy library from former C drive to where it is supposed to be on your mac (all files & dirs)</li>
-        <li>Don't modify a single file, they're fine as they are.</li>
-	<li>Start itunes</li>
-</ul>
+
+- Copy library from former C drive to where it is supposed to be on your mac (all files & dirs)
+- Don't modify a single file, they're fine as they are.
+- Start itunes
 
 Right after it starts it "updates" the library and that's it. That's a lot faster & easier. Play counts, play lists, ratings, you name it. It's there. Thanks Apple, this is a lot better than three years ago and exactly the way it is supposed to work.

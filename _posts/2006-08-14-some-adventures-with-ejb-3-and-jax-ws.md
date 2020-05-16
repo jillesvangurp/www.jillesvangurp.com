@@ -27,17 +27,17 @@ Next on the agenda was creating a stateless session bean to encapsulate the busi
 So I figured I should create a nice ear file (enterprise application archive). This step btw is missing in action from the [nice JBoss tutorial](http://docs.jboss.org/ejb3/app-server/tutorial/) I had been glancing through. OK it's just a zip file with some stuff in it and a pretty straightforward. Essential is the application.xml which you shouldn't need but which JBoss needs anyway and crucial is the little jboss-app.xml which only needs to contain a few lines to trick it into deploying the session beans with the ejb3 deployer. Similarly the war file with my servlet needs a jboss-web.xml. Anyway, the whole point of an ear is tricking jboss into deploying jar files with the right deployer. None of the info in application.xml and jboss-app.xml actually tell jboss something it couldn't figure out itself.
 The above took quite a few hours of trial and error. I wrote all java code in under 5 minutes however. The rest of this time was spent googling for the right bits and pieces. Any mistake leads to obscure errors such as a null pointer error when using the entity manager which should have been injected but wasn't. Anyway it now works and I managed to JAX WS 2.0 enable my code with a mere two annotations. Two simple annotations to expose a session bean as a webservice is way more cool than generating wsdl + crappy stub code using axis and hooking up your code to it. I'm definately going to use this some more.
 The good:
-<ul>
-	<li>It actually all works as advertised.</li>
-	<li>Writing the java code is considerably easier when you don't have to worry about boilerplate stuff for setting up database connections, transactions, etc.</li>
-	<li>I will be able to do all of the above in ten minutes in future projects.</li>
-	<li>JAX WS is getting quite close to how I want to work with web services: i.e. keep the stinking WSDL out of my sight.</li>
-</ul>
+
+- It actually all works as advertised.
+- Writing the java code is considerably easier when you don't have to worry about boilerplate stuff for setting up database connections, transactions, etc.
+- I will be able to do all of the above in ten minutes in future projects.
+- JAX WS is getting quite close to how I want to work with web services: i.e. keep the stinking WSDL out of my sight.
+
 The bad
-<ul>
-	<li>Plenty of container specific gotchas left but much less than there used to be.</li>
-	<li>Still some pointless configuration files that I want to get rid off. Application.xml; jboss-*.xml; persistence.xml; web.xml all could be simplified or removed entirely. IMHO the jboss-* files are there because the specs omit important features related to deployment. If the spec were improved there would be no need for these files.</li>
-	<li>There's likely to be a few issues I just have not ran into yet.</li>
-	<li>Documentation is sketchy, misleading and incomplete. The tutorial not explaining how to hook an ejb up to a servlet (kind of essential) without annotation support has cost me quite a bit of time. Since I first had to figure out why the ejb wasn't being deployed and then how to fix that.</li>
-</ul>
+
+- Plenty of container specific gotchas left but much less than there used to be.
+- Still some pointless configuration files that I want to get rid off. Application.xml; jboss-*.xml; persistence.xml; web.xml all could be simplified or removed entirely. IMHO the jboss-* files are there because the specs omit important features related to deployment. If the spec were improved there would be no need for these files.
+- There's likely to be a few issues I just have not ran into yet.
+- Documentation is sketchy, misleading and incomplete. The tutorial not explaining how to hook an ejb up to a servlet (kind of essential) without annotation support has cost me quite a bit of time. Since I first had to figure out why the ejb wasn't being deployed and then how to fix that.
+
 Overall, I'm positive and will continue to use this stuff.

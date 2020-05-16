@@ -20,18 +20,18 @@ Better late than never. I've been trying my hand at using Java generics to solve
 You have been warned.
 
 First of all my generic replacement is not a drop in replacement because it breaks the JavaBeans spec. It has to do that because the folks that produced this spec embedded typenames into method names and interface names (instead of using generics which was not part of Java at the time). This is roughly how it works now:
-<ul>
-	<li>Create a subclass of EventObject (there is no interface!!!): FooEvent</li>
-	<li>Create an interface FooEventListener with a method foo(FooEvent e)</li>
-	<li>Now in the class that produces the FooEvents, add two methods: addFooEventListener(FooEventListener l) and removeFooEventListener(FooEventListener l)</li>
-	<li>Also add a fireEvents method that iterates over all the listeners and calls the foo method</li>
-</ul>
+
+- Create a subclass of EventObject (there is no interface!!!): FooEvent
+- Create an interface FooEventListener with a method foo(FooEvent e)
+- Now in the class that produces the FooEvents, add two methods: addFooEventListener(FooEventListener l) and removeFooEventListener(FooEventListener l)
+- Also add a fireEvents method that iterates over all the listeners and calls the foo method
+
 The problem(s) with this approach:
-<ul>
-	<li>The three methods you add to the event producer are always the same, except for the name which has the name of the Listener interface embedded!</li>
-	<li>Worse they should be threadsafe. Many developers actually don't know this and produce thead unsafe code!</li>
-	<li>Oh and the Listener interface has the type of the event embedded in its name as well!</li>
-</ul>
+
+- The three methods you add to the event producer are always the same, except for the name which has the name of the Listener interface embedded!
+- Worse they should be threadsafe. Many developers actually don't know this and produce thead unsafe code!
+- Oh and the Listener interface has the type of the event embedded in its name as well!
+
 All of this is mandated by the JavaBeans spec and tools actually depend on this (through reflection) to hook event sources up to event sinks.
 
 Java 5 has an interesting new feature called generics which is otherwise known as parametrized types. With parametrized types you can do nice stuff like this:
@@ -104,10 +104,10 @@ public class EventTester implements GenEvtProducer {
 So we create implementation of GenEvtProducer. The implementation has a GenEvtMgr object parametrized with SomeEvent which is our EventObject subclass (not listed above). We can add listeners, remove listeners and fire events simply by calling the manager. Finally in the main method two listeners are created and calling the go method produces foo bar as expected.
 
 Is this ideal? No. There's several problems.
-<ul>
-	<li>It's not threadsafe, that's easy to fix.</li>
-	<li>The type of GenEvtMgr is a bit complicated, eclipse makes it easy though with infer type and autocomplete.</li>
-	<li>All users of the manager class have access to the fireEvent method as well which is something you may not necessarily want to expose.</li>
-	<li>The Listener interface only has one method, the JavaBeans specallows for more than one.</li>
-</ul>
+
+- It's not threadsafe, that's easy to fix.
+- The type of GenEvtMgr is a bit complicated, eclipse makes it easy though with infer type and autocomplete.
+- All users of the manager class have access to the fireEvent method as well which is something you may not necessarily want to expose.
+- The Listener interface only has one method, the JavaBeans specallows for more than one.
+
 The last problem might be a bit hard to solve but you might wonder how desirable that is. It's sort of logical to have one handler per event. Most of the time, Listeners with multiple methods are in fact an attempt to avoid having to deal with implementing multiple events and the associated bureaucracy of having to create all sorts of code for registering and calling listeners. With the code above this is now a lot easier. Some trivial extensions of the code above are to create an event producer that can produce events of multiple types, each with their own manager and listeners (e.g. use a map of T.class to GenEvtMgr).  But I'll leave that sort of thing as an exercise to the reader.

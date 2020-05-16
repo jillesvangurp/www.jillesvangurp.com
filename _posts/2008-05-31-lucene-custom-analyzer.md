@@ -26,9 +26,9 @@ What I wanted is to match a url field against either the whole or part of the ur
 This was working reasonably well for me. However, this week I ran into a nice borderline case where my url ended in ..../s.a. Tokenization happens on characters like . and /. On top of that, the StandardAnalyzer that I use with the QueryParser also filters out stopwords like a, the, etc. Normally this is good (with text at least). But in my case it meant the last a was dropped and my query was getting full matches against entries with a similar link ending in e.g. s.b. Not good.
 
 Of course what I really wanted is to be able to use untokenized fields with the QueryParser. Instead what I did this week was create a tokenizer that for selected fields skips tokenization and treats the entire field content as a single token. I won't put the code for that here but it is quite easy:
-<ul>
-	<li>extend Analyzer</li>
-	<li>override tokenStream(String field, Reader r)</li>
-	<li>if field matches any of your special fields, return a custom TokenStream that returns the entire content of the Reader as a single Token, else just delegate to a StandardAnalyzer instance.</li>
-</ul>
+
+- extend Analyzer
+- override tokenStream(String field, Reader r)
+- if field matches any of your special fields, return a custom TokenStream that returns the entire content of the Reader as a single Token, else just delegate to a StandardAnalyzer instance.
+
 This is a great way to influence the tokenization and also enables a few more interesting hacks that I might explore later on.

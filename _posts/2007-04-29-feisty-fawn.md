@@ -15,18 +15,16 @@ tags:
   - ubuntu
 ---
 I tried ([again](https://www.jillesvangurp.com/2007/01/27/another-ubuntu-installation-test/)) to install ubuntu and ran into a critical bug that would have left my system unbootable if it weren't for the fact that I know how to undo the damage the installer does. Since this will no doubt piss off the average linux fanboy, let me elaborate.
-<ul>
-	<li>I ran into the "scanning the mirrors" bug. Google for "scanning the mirrors" + ubuntu and you will find plenty of material. </li>
-	<li>This means the installer hangs indefinitely trying to scan remote mirrors of apt repositories.</li>
-	<li>Predictably the servers are under quite a bit of load currently: this is extremely likely to not work for a lot of people right now. I recall running into the same issue a month ago with edgy when there was no such excuse.</li>
-	<li>The bug is that the installer should detect that things are not working and fail gracefully</li>
-	<li>Gracefully in the sense that it should
-<ul>
-	<li>Allow the user to skip this step (I only had a close button, which was my only option to interrupt the scanning the mirrors procedure)</li>
-	<li>Never ever, ever, ever, let the user exit the installer *AFTER* removing the bootflag on the ntfs partition but before installing an alternative bootloader.</li>
-	<li>Recover from the fact that the network times out/servers are down. There's no excuse for not handling something as common as network failure. Retry is generally a stupid strategy after the second or third attempt.</li>
-	<li>I actually ran ifdown to shut the network down (to force it into detecting there was no connection) and it still didn't detect network failure!</li>
-</ul>
+
+- I ran into the "scanning the mirrors" bug. Google for "scanning the mirrors" + ubuntu and you will find plenty of material. 
+- This means the installer hangs indefinitely trying to scan remote mirrors of apt repositories.
+- Predictably the servers are under quite a bit of load currently: this is extremely likely to not work for a lot of people right now. I recall running into the same issue a month ago with edgy when there was no such excuse.
+- The bug is that the installer should detect that things are not working and fail gracefully
+- Gracefully in the sense that it should <ul> 	<li>Allow the user to skip this step (I only had a close button, which was my only option to interrupt the scanning the mirrors procedure)
+- Never ever, ever, ever, let the user exit the installer *AFTER* removing the bootflag on the ntfs partition but before installing an alternative bootloader.
+- Recover from the fact that the network times out/servers are down. There's no excuse for not handling something as common as network failure. Retry is generally a stupid strategy after the second or third attempt.
+- I actually ran ifdown to shut the network down (to force it into detecting there was no connection) and it still didn't detect network failure!
+
 </li>
 </ul>
 

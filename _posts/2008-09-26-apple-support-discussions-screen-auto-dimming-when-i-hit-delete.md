@@ -19,13 +19,13 @@ tags:
 LOL, this had me puzzled for a bit. While playing with my mac, I noticed the screen dimmed everytime I hit the delete key.
 
 What happened:
-<ul>
-	<li>the mac book pro adjust screen brightness to the ambient light</li>
-	<li>it has two light sensors in the stereo speakers</li>
-	<li>when pressing the delete, your hand covers one of them</li>
-	<li>normally this is not a problem</li>
-	<li>... unless you are in a dark room with a desk light to the right of the mac</li>
-</ul>
+
+- the mac book pro adjust screen brightness to the ambient light
+- it has two light sensors in the stereo speakers
+- when pressing the delete, your hand covers one of them
+- normally this is not a problem
+- ... unless you are in a dark room with a desk light to the right of the mac
+
 Hehe.
 
 Otherwise things are fine with my new Mac. Annoying things include having to learn new keybindings and our annoying windows based intranet stuff.
