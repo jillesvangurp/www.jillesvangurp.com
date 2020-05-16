@@ -23,7 +23,7 @@ Convenience finally won me over. I made my first online music purchase with iTun
 
 The album I just purchased is Blue Finger, by Black Francis, aka. Frank Black. The price is somewhat high but I wanted to have this album nevertheless and it is only available online so far. People who know my music taste probably know this guy is well represented in my collection with just about any album he ever produced under any alias. Most of these albums I actually have on good old CD. However, in recent years his music has gotten less interesting. What I heard so far from Blue Finger he seems to have changed style again. The sound is more raw and much more pleasing to my untrained ear. 
 
-<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/9pnvprcRt2o&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/9pnvprcRt2o&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
+[Tight black rubber](http://www.youtube.com/v/9pnvprcRt2o&rel=1)
 
 "Tight black rubber" is track 5 on this album and one of the better songs on it with a catchy but simplistic bass line. 
 

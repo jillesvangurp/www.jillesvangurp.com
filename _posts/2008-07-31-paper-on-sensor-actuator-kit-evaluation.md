@@ -25,6 +25,6 @@ One of our interns, Filip Suba, presented a [paper](https://www.jillesvangurp.co
 Anyway, we hired him last year to learn a bit more about the state of the art in Sensor Actuator development kit with a particular focus on building applications and services that are kit independent and exposing their internals via a web API. This proved quite hard and we wrote a nice paper on our experiences.
 
 In short, wireless sensor actuator kits are a mess. Above the radio level very little is standardized and the little there is is rarely interoperable. Innovation here is very rapid though. The future looks bright though. I watched this nice video about Sun Spot earlier this week for example:
-<p style="text-align: center;"><object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/fGSObzubTfY&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/fGSObzubTfY&hl=en&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object>
+[Sun Spot](http://www.youtube.com/v/fGSObzubTfY&hl=en&fs=1)
 
 The notion of making writing on Sensor node software as simple as creating a J2ME Midlet is in my view quite an improvement over hacking C using some buggy toolkit, cross compiling to obscure hardware and hoping it works.
