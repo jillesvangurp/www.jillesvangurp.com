@@ -20,9 +20,8 @@ Picking up the car from Hertz this morning.
 Hertz Guy? what car do you want? I've got X, Y, and a two seat mustang
 Me: Mustang sounds cool ....
 
-
 Whoa!!!
 
-<a href='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/mustang2.jpg' title='Mustang'><img src='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/mustang2.jpg' alt='Mustang' /></a><a href='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/mustang1.jpg' title='Traveling in style'><img src='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/mustang1.jpg' alt='Traveling in style' /></a>
+<a href='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/mustang2.jpg' title='Mustang'>![Mustang](https://www.jillesvangurp.com/wp-content/uploads/2008/01/mustang2.jpg)</a><a href='http://blog.jillesvangurp.com/wp-content/uploads/2008/01/mustang1.jpg' title='Traveling in style'>![Traveling in style](https://www.jillesvangurp.com/wp-content/uploads/2008/01/mustang1.jpg)</a>
 
 Screw Al Gore, this car is cool. I don't even want to know the mileage. 

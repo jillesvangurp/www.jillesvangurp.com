@@ -14,4 +14,4 @@ tags:
 ---
 I've added about 60 photos to my <a href="http://photos.jillesvangurp.com/Album/2008/San%20Francisco%20and%20Las%20Vegas/index.html">photosite</a>.
 
-<img src="http://photos.jillesvangurp.com/Album/2008/San%20Francisco%20and%20Las%20Vegas/slides/IMG_2826.jpg" alt="There is hope ..." />
+![There is hope ...](https://www.jillesvangurp.com/Album/2008/San%20Francisco%20and%20Las%20Vegas/slides/IMG_2826.jpg)
