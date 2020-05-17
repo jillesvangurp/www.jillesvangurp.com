@@ -12,3 +12,7 @@ RewriteRule ^(.*)$ https://www.jillesvangurp.com/ [R=301,L]
 RewriteCond %{HTTP_HOST} ^publications\.jillesvangurp\.com$ [NC]
 RewriteRule ^(.*)$ https://www.jillesvangurp.com/work/publications [R=301,L]
 
+
+
+RewriteRule ^.+/([0-9]+)/([0-9]+)/([0-9]+)/([^/]+?)/?$ https://www.jillesvangurp.com/blog/$1-$2-$3-$4.html [R,L]
+
