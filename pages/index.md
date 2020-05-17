@@ -6,7 +6,7 @@ author: Jilles van Gurp
 layout: page
 guid: http://blog.jillesvangurp.com/publications/
 ---
-<img alt="Jilles van Gurp photo" src="https://en.gravatar.com/userimage/227586/49ce2cb62cc80e45d963cc055ce6edb8.jpg?size=300" style="float:right;"/>
+<img alt="Jilles van Gurp photo" src="https://en.gravatar.com/userimage/227586/49ce2cb62cc80e45d963cc055ce6edb8.jpg?size=300" style="float:right;margin-left:1em;margin-bottom:1em;"/>
 I’m an experienced backend software specialist, innovator, technical leader/CTO, and (former) software engineering researcher. In recent years I've worked as a very hands on CTO,  worked as a freelancer applying my skills related to (Elastic)search, Stellar, backend development, and related topics. I also maintain the Kotlin clients for [Stellar](https://github.com/jillesvangurp/stellar-kotlin-client) and [Elasticsearch](https://github.com/jillesvangurp/es-kotlin-wrapper-client).
 
 For the last decade or so, I've been based in Berlin, Germany and have also lived in Finland, Sweden, and the Netherlands (my home country).

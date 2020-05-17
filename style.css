@@ -2,6 +2,9 @@
 header > ul {
   float: left;
   list-style-type: square;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
 
 footer {
