@@ -22,13 +22,13 @@ $endif$
   <body>
     <header>
       <h1>$title$</h1>
+      $if(image)$
+        <img src="..$image$" />      
+      $endif$
     </header>
     
     
     <section id="main-content">
-      $if(image)$
-        <img src="..$image$" />      
-      $endif$
       $for(include-before)$
 $include-before$
 $endfor$

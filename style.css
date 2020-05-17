@@ -7,7 +7,6 @@ ul {
 }
 
 @media print {
-
   blockquote,
   img,
   pre,
@@ -67,6 +66,7 @@ ul {
     page-break-after: avoid
   }
 }
+/* end print */
 
 html {
   font-size: 12px
@@ -80,7 +80,7 @@ html {
 
 @media screen and (min-width:48rem) {
   html {
-    font-size: 16px
+    font-size: 20px
   }
 }
 
@@ -88,16 +88,11 @@ body {
   line-height: 1.85
 }
 
-.air-p,
 p {
   font-size: 1rem;
   margin-bottom: 1.3rem
 }
 
-.air-h1,
-.air-h2,
-.air-h3,
-.air-h4,
 h1,
 h2,
 h3,
@@ -107,38 +102,31 @@ h4 {
   line-height: 1.42
 }
 
-.air-h1,
 h1 {
   margin-top: 0;
   font-size: 3.998rem
 }
 
-.air-h2,
 h2 {
   font-size: 2.827rem
 }
 
-.air-h3,
 h3 {
   font-size: 1.999rem
 }
 
-.air-h4,
 h4 {
   font-size: 1.414rem
 }
 
-.air-h5,
 h5 {
   font-size: 1.121rem
 }
 
-.air-h6,
 h6 {
   font-size: .88rem
 }
 
-.air-small,
 small {
   font-size: .707em
 }
@@ -166,7 +154,7 @@ section {
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 300;
   margin: 6rem auto 1rem;
-  max-width: 80rem;
+  max-width: 60rem;
 }
 
 img {
