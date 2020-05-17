@@ -1,9 +1,6 @@
 ---
-id: 386
 title: Jilles van Gurp
-date: 2008-03-15T10:54:02+00:00
 author: Jilles van Gurp
-layout: page
 guid: http://blog.jillesvangurp.com/publications/
 ---
 <img alt="Jilles van Gurp photo" src="https://en.gravatar.com/userimage/227586/49ce2cb62cc80e45d963cc055ce6edb8.jpg?size=300" style="float:right;margin-left:1em;margin-bottom:1em;"/>
@@ -33,5 +30,3 @@ A little guide for contacting me:
 1. I prefer emails but please don’t add me to mailing-lists.
 1. I generally don’t connect to people I don’t know on Linkedin, Skype, Facebook, etc. Don’t take it personally and if I decline your invitation for this reason. See #1.
 1. Phone calls are just rude these days. Unless it is an emergency or you know me well: don’t call. Especially if you are a recruiter. And especially not during office hours in which case, yes it is inconvenient. See #1.
-
-
