@@ -1,3 +1,14 @@
 RewriteEngine On
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://test.jillesvangurp.com/$1 [R,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^jillesvangurp\.com$ [NC]
+RewriteRule ^(.*)$ https://www.jillesvangurp.com/ [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^blog\.jillesvangurp\.com$ [NC]
+RewriteRule ^(.*)$ https://www.jillesvangurp.com/ [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^publications\.jillesvangurp\.com$ [NC]
+RewriteRule ^(.*)$ https://www.jillesvangurp.com/work/publications [R=301,L]
+
