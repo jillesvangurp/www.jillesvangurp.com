@@ -1,3 +1,9 @@
+
+header > ul {
+  float: left;
+  list-style-type: square;
+}
+
 blockquote,
 li,
 ol,
@@ -5,68 +11,6 @@ pre,
 ul {
   text-align: left
 }
-
-@media print {
-  blockquote,
-  img,
-  pre,
-  tr {
-    page-break-inside: avoid
-  }
-
-  *,
-  :after,
-  :before {
-    background: 0 0 !important;
-    color: #000 !important;
-    box-shadow: none !important;
-    text-shadow: none !important
-  }
-
-  a,
-  a:visited {
-    text-decoration: underline
-  }
-
-  a[href]:after {
-    content: " ("attr(href) ")"
-  }
-
-  abbr[title]:after {
-    content: " ("attr(title) ")"
-  }
-
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: ""
-  }
-
-  blockquote,
-  pre {
-    border: 1px solid #999
-  }
-
-  thead {
-    display: table-header-group
-  }
-
-  img {
-    max-width: 100% !important
-  }
-
-  h2,
-  h3,
-  p {
-    orphans: 3;
-    widows: 3
-  }
-
-  h2,
-  h3 {
-    page-break-after: avoid
-  }
-}
-/* end print */
 
 html {
   font-size: 12px
@@ -214,3 +158,65 @@ code span.st { color: #008080; } /* String */
 code span.va { } /* Variable */
 code span.vs { color: #008080; } /* VerbatimString */
 code span.wa { color: #008000; font-weight: bold; } /* Warning */
+
+@media print {
+  blockquote,
+  img,
+  pre,
+  tr {
+    page-break-inside: avoid
+  }
+
+  *,
+  :after,
+  :before {
+    background: 0 0 !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline
+  }
+
+  a[href]:after {
+    content: " ("attr(href) ")"
+  }
+
+  abbr[title]:after {
+    content: " ("attr(title) ")"
+  }
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""
+  }
+
+  blockquote,
+  pre {
+    border: 1px solid #999
+  }
+
+  thead {
+    display: table-header-group
+  }
+
+  img {
+    max-width: 100% !important
+  }
+
+  h2,
+  h3,
+  p {
+    orphans: 3;
+    widows: 3
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid
+  }
+}
+/* end print */

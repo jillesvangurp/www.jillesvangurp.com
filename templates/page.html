@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html$if(lang)$ lang="$lang$"$endif$$if(dir)$ dir="$dir$"$endif$>
+  <head>
+    <title>$title$</title>
+    <meta charset='utf-8'>
+    <meta name="generator" content="pandoc">
+$for(author-meta)$
+    <meta name="author" content="$author-meta$">
+$endfor$
+$if(date-meta)$
+    <meta name="dcterms.date" content="$date-meta$">
+$endif$
+$if(description)$
+    <meta name="description" content="$description$">
+$endif$
+$if(tags)$
+    <meta name="keywords" content="$for(tags)$$tags$$sep$, $endfor$">
+$endif$
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/publications.html">Publications</a></li>
+      </ul>
+      <h1>$title$</h1>
+      $if(image)$
+        <img src="..$image$" />      
+      $endif$
+    </header>
+    
+    
+    <section id="main-content">
+      $for(include-before)$
+$include-before$
+$endfor$
+$body$
+$for(include-after)$
+$include-after$
+$endfor$
+    </section>
+  </body>
+</html>

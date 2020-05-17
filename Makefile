@@ -6,11 +6,29 @@ clean:
 
 .PHONY: public
 public:
-	mkdir public
-	./pd.sh
+	mkdir -p public/blog
+	# link so we can develop
+	cp style.css public
+	cp .htaccess public
+	cp -R static public
+	cp -R wp-content public
+	./pd-pages.sh
+
+.PHONY: blog
+blog:
+	./pd-articles.sh
+
+.PHONY: run
+run:
+	docker run -dit --name jilles-httpd -p 8080:80 -v "$(shell pwd)/public":/usr/local/apache2/htdocs/ httpd
+
+.PHONY: stop
+
+stop:
+	docker kill jilles-httpd
 
 .PHONY: all
-all: clean public
+all: clean public blog
 	
 
 
