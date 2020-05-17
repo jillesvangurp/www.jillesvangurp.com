@@ -14,8 +14,12 @@ public:
 	cp -R wp-content public
 	./pd-pages.sh
 
+.PHONY: blogindex
+blogindex:
+	./indexgenerator.sh
+
 .PHONY: blog
-blog:
+blog: blogindex
 	./pd-articles.sh
 
 .PHONY: run

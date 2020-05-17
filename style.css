@@ -4,6 +4,14 @@ header > ul {
   list-style-type: square;
 }
 
+footer {
+  text-align: center;
+}
+
+section > p {
+  text-align: justify;
+}
+
 blockquote,
 li,
 ol,
@@ -85,7 +93,7 @@ video {
   max-width: 100%
 }
 
-header {
+header,footer {
   color: #444;
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 300;

@@ -11,11 +11,11 @@ I’m an experienced backend software specialist, innovator, technical leader/CT
 
 For the last decade or so, I've been based in Berlin, Germany and have also lived in Finland, Sweden, and the Netherlands (my home country).
 
-Highlights/buzzwords
+Highlights/buzzwords:
+
 - Expert on Kotlin/Java (24 years experience), Spring/Spring boot, and many related tools and frameworks.
 - Elasticsearch and associated tools and technology. I'm also a proponent of observable software and have architected solutions using the full Elastic stack for logging, auditing, KPIs, metrics, and live insights of what users are doing.
-- Stellar blockchain
-- NoSql - CouchDB, Voldemort, Solr, misc. Nokia in house solutions
+- Stellar blockchain - I'm not a crypto investor but have done a fair bit of development work against Stellar in two startups to support various use cases.
 - I deal with many different tech stacks on various projects including Go, Scala, Python, Ruby/Jruby, some frontend javascript/typescript, ... while not an expert on all these stacks, I learn quickly.
 
 Recently I've focused on helping multiple customers with their Elasticsearch setups. I've worked with both small and large companies. I typically come in as a specialist and can get results fast and adapt to whatever technology stack the customer is using.
@@ -33,3 +33,5 @@ A little guide for contacting me:
 1. I prefer emails but please don’t add me to mailing-lists.
 1. I generally don’t connect to people I don’t know on Linkedin, Skype, Facebook, etc. Don’t take it personally and if I decline your invitation for this reason. See #1.
 1. Phone calls are just rude these days. Unless it is an emergency or you know me well: don’t call. Especially if you are a recruiter. And especially not during office hours in which case, yes it is inconvenient. See #1.
+
+
