@@ -22,7 +22,7 @@ tags:
   - Pervasive Computing
   - research
 ---
-It's been a while, but now that the last two big journal articles I had in the pipeline for ages are printed, I finally updated my [publications](https://www.jillesvangurp.com/publications/) page with proper references and pdfs. 
+It's been a while, but now that the last two big journal articles I had in the pipeline for ages are printed, I finally updated my [publications](/publications.html) page with proper references and pdfs. 
 
 For those who got to know me more recently (or don't know me at all). I have been moving back and forth between academic jobs and non academic jobs for about twelve years. The last two years I've been employed in a strictly non-academic role, which I enjoy very much. Before that I was working (and publishing) at the Nokia Research Center. In that job, I squeezed out several not so important workshop articles and book chapters as well as two major, big journal articles (which in the academic world is all that counts). Those articles took a long time to write and even longer to get reviewed, edited, re-reviewed, re-edited, accepted, re-edited, approved, edited by a professional editor, approved, pre-published, and finally printed. 
 

@@ -8,7 +8,7 @@ for article in $(ls ../es-kotlin-wrapper-client/manual); do
   pandoc --from markdown_github+smart+yaml_metadata_block+auto_identifiers \
         "../es-kotlin-wrapper-client/manual/$article" \
         -o "$output" \
-        --template templates/article.html	\
+        --template templates/kotlin-manual.html	\
         -V year="$(date +%Y)" \
         -V navigation="$navigation" \
         --metadata title="$title" \
