@@ -16,8 +16,12 @@ EOF
 echo "$HEADER" > _index.md
 echo "" >> _index.md
 
-for name in $(find wordpress-articles -type f -exec basename {} \; | sort -ur | sed 's/\.md//'); do
-  echo "- [$(echo $name | sed 's/-/ /')](/blog/${name}.html)" >> _index.md
+for name in $(find articles -type f -exec basename {} \; | sort -ur | sed 's/\.md//'); do
+  year=$(echo $name | sed -E 's/([0-9]{4})-([0-9]{2})-([0-9]{2})-(.*)/\1/')
+  month=$(echo $name | sed -E 's/([0-9]{4})-([0-9]{2})-([0-9]{2})-(.*)/\2/')
+  day=$(echo $name | sed -E 's/([0-9]{4})-([0-9]{2})-([0-9]{2})-(.*)/\3/')
+  title=$(echo $name | sed -E 's/([0-9]{4})-([0-9]{2})-([0-9]{2})-(.*)/\4/')
+  echo "- [$year-$month-$day $(echo ${title:0:1} | tr  '[a-z]' '[A-Z]' | sed -e 's/-/ /g')${title:1}](/$year/$month/$day/$title)" >> _index.md
 
 done
 

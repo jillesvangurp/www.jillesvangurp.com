@@ -16,18 +16,29 @@ $endif$
 $if(tags)$
     <meta name="keywords" content="$for(tags)$$tags$$sep$, $endfor$">
 $endif$
-    <link rel="stylesheet" href="../style.css" type="text/css" />
+    <meta property="og:author" content="Jilles van Gurp" />
+    <meta property="og:title" content="$title$" />
+$if(description)$
+    <meta property="og:description" content="$description$" />
+$endif$
+    <meta property="og:article:published_time" content="$publishdate$" />
+$if(image)$
+    <meta property="og:image" content="..$image$" />
+$endif$
+<link rel="stylesheet" href="../style.css" type="text/css" />
   </head>
 
   <body>
-    <header>
+    <nav>
       $navigation$
+      <div class="published" Published: <b>$publishdate$</b></div>
+    </nav>
+    <header>      
       <h1>$title$</h1>
       $if(image)$
         <img src="..$image$" />      
       $endif$
     </header>
-    
     
     <section id="main-content">
       $for(include-before)$

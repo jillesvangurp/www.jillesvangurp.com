@@ -17,7 +17,7 @@ tags:
 I just stumbled on a [nice article that Martin Fowler has had on his website](http://martinfowler.com/articles/nonDeterminism.html) for a few years about non deterministic tests. It's a good read and it addresses something that I have encountered in multiple projects. Flaky test are indeed a problem in many places and I've had the 'pleasure' of dealing with such tests myself on a couple of occasions (often of my own making even). 
 
 Martin Fowler lists a few ways to mitigate this problem and his suggestions are excellent and well worth reading. But I have a few things to add that are not covered in that article. 
-<!--more-->
+
 
 **There are only two types of functional tests**
 

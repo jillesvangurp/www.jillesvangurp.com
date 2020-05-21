@@ -31,7 +31,7 @@ Ruby purist might wonder why you'd want to use Java at all. Likewise, Java puris
 
 The Java ecosystem provides a lot of good, very well supported technology. This includes the jvm itself but also libraries such as Google's guava, misc. Apache frameworks such as httpclient, commons-lang, commons-io, commons-compress, the Spring framework, icu4j, and many others. Equivalents exist for Ruby, but mostly those equivalents leave a lot to be desired in terms of features, performance, design, etc. It didn't take me long to conclude that a lot of the ruby stuff out there is sub-standard and not quite up to my level of expectations. That's why I use Jruby instead of Ruby: it allows me to get the best of both worlds. The value of ruby is in its simplicity and the language. The value of Java is access to an enormous amount of good software. Jruby allows me to have both.
 
-<!--more-->
+
 
 **Server**
 

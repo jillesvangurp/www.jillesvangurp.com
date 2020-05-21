@@ -24,7 +24,7 @@ Time for a long overdue Saturday morning blog post.
 
 Lately, I've been involved in some interesting new development at work that is all about key value stores, [Json](http://www.json.org/), [Solr](http://lucene.apache.org/solr/) and a few other technologies I might have mentioned a few times. In other words, I'm having loads of fun at work doing stuff I really like. We've effectively tossed out XML and SQL and are now all about Json blobs that live in KVs and are indexed in Solr. Nothing revolutionary, except it is if you have been exposed to the wonderfully bloated and complicated world of Java Enterprise Edition and associated technologies. I've found that there is a bunch of knee-jerk reflexes that causes Java developers to be biased to be doing all the wrong things here. This is symptomatic of the growing gap between the enterprise Java people on one side and the cool hip kids wielding cool new languages and tools on the other hand.
 
-<!--more-->
+
 
 **The problem with Json in Java**
 

@@ -18,7 +18,7 @@ It's been nearly two years since I created the [jsonj project on github](https:/
 
 As part of our ongoing work to build the LocalStream platform I've been eating my own dogfood and this has resulted in a lot of improvements to this project. So, I thought it was about time to write about jsonj again. 
 
-<!--more-->
+
 
 **Why did I create JsonJ?**
 

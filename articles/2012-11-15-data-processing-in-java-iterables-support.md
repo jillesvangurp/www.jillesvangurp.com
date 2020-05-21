@@ -26,7 +26,7 @@ So, there's a tradeoff between convenience, performance, expressiveness, and oth
 
 Java as a language is of course a bit outdated and not quite as fashionable as it once was. But despite the emergence of more powerful languages, it can be made to do quite useful things still and it can compensate for it's lack of language hipster-ness with robustness, performance and tons of libraries and add on features and the hands down best by far IDE support for any language. It's still got a lot going for it.
 
-<!--more-->
+
 
 So, in my recent projects, I've switched back to using Java for my data crunching. I had several reasons for this:
 

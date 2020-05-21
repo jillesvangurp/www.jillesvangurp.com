@@ -21,7 +21,7 @@ tags:
 This little article is a summary of how I currently manage my wordpress blog. The wordpress.org site lists [some advice](http://codex.wordpress.org/Installing/Updating_WordPress_with_Subversion) on how to manage a wordpress installation using subversion. However, I have a slightly more sophisticated setup that preserves my modifications (as long as they don't conflict) that I maintain in a private branch of wordpress.
 
 I use rsync to push and pull changes remotely (using ssh, ftp should work as well). Since a good howto seems to be lacking online and since I spent a while figuring out how to do all this, I decided to share my little setup.
-<!--more-->
+
 I maintain my website and lots of other stuff in my own local subversion repository. My blog with wordpress, theme plugins, files and modified files is maintained there as well.
 
 To pull changes from remote, I use rsync like this:

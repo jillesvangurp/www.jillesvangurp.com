@@ -22,7 +22,7 @@ I have over the past year been a bit less active blogging and posting in forums.
 
 This post is intended to pull all of it together in a bit more grand vision and reflect a bit on what a post revolution software engineering world might look like. I don't like or believe much in revolutions but I do recognize that getting from where we are to where I think we need to be amounts to one. The more likely outcome is an evolutionary development where the bits and pieces where I was not completely and utterly wrong might actually happen. At some point. Maybe.
 
-<!--more-->**The Problem: Files
+**The Problem: Files
 **
 
 Software engineering practice is stuck in abstractions and concepts dating back decades. Because it is stuck, it is not really moving forward as fast as it could be towards being more capable of dealing with scale in numbers of people, amount of software, and amount of evolutionary change per time unit. This annoys me and has done so for years. It is the main motivation for writing this article.

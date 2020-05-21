@@ -17,7 +17,7 @@ tags:
 ---
 I was at the first Berlin version of [Wherecamp](http://wherecamp.de/) two years ago and it was great fun. So, when I learned it was in Berlin again this summer, the choice of going there was easy. Last time, I was a passive consumer of information. This time, me and my co-founder [Mark MacMahon](https://twitter.com/markmacmahon) will be there to **launch and promote the private beta for [Localstream](http://localstre.am)**.
 
-<!--more-->
+
 
 **What is Localstream?**
 

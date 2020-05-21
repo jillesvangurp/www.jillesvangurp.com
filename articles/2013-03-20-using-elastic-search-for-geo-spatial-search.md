@@ -21,7 +21,7 @@ Localstrea.am is going to be all about local and that means geospatial data and 
 
 Since elastic search is still very new and rapidly evolving (especially the geospatial functionality), I had some worries about whether it would work as advertised. So, after months of coding it was about time to see if it could actually take a decent data set and work as advertised instead of falling over and dying in a horrible way. 
 
-<!--more-->
+
 
 I actually have a dataset of about 30M pois that is very suitable for this kind of test. So, I launched elastic search on my laptop. Then I pointed my bulk indexing script at the 3GB of compressed json and hit enter. The script calls the bulk index API in elastic search with 500 json documents in one request and uses six threads to keep on sending it data. This enables elastic search to use multiple threads to index the data and with the recent Lucene 4.x release this the recommended way to index large amounts of data. This took about one hour. That translates into a bit under 10K documents per second. That is pretty good. I might be able to tune the throughput a bit more by fiddling with the bulk size, number of threads and other parameters. 
 

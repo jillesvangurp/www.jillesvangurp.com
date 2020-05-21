@@ -17,7 +17,7 @@ tags:
 ---
 I know that dozens of perfectly good git-svn tutorials are a mere Google search away. So I won't bother repeating those (or indeed myself). Instead, this post is about listing a few ways of working with git-svn that help you avoid some pitfalls.
 
-<!--more-->
+
 
 **Don't git merge or rebase stuff you intend to dcommit**
 

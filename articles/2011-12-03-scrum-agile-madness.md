@@ -22,7 +22,7 @@ tags:
 ---
 Like most in our industry I've been exposed to agile, scrum and related hypes over the past decade. Unlike most in our industry, I have a little bit of background in software engineering research as well. During my Ph. D., which was in the early days of agile when Kent Beck published his book on extreme programming and I was writing my thesis on software architecture, I had the privilege of seeing a lot of different companies from the inside and talked to tech leads, architects and other leaders across a nice range of companies doing software product development. Ultimately after wrapping up my thesis, I decided that I lacked the experience to speak authoritatively on the subject of software development and moved over to the software industry to get some experience.
 
-<!--more-->
+
 
 In recent years I've observed people making outrageous claims about the supposed benefits of things like scrum or kanban while in fact they were actively making things less agile. I've experienced first hand some botched roll outs of scrum. And the software engineering researcher inside of me has been itching for a while to write up my perspective on the whole thing. So, here it goes.
 

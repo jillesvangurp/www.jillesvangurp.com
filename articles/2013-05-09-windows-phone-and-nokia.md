@@ -17,7 +17,7 @@ tags:
 I just posted a comment to [this article](http://www.zdnet.com/nokia-investors-patience-wearing-thin-ceo-says-windows-phone-to-the-bitter-end-no-plan-b-7000015011/) about Nokia shareholders getting impatient with the current CEO, Stephen Elop. It's a quite long comment and people might overlook it in what seems to be a long thread already. So I decided to post it here as well. Part of the text reuses some arguments I [posted earlier](https://www.jillesvangurp.com/2013/03/29/mobile-linux/).
 
 So here it goes ...
-<!--more-->
+
 
 I'm an ex Nokia employee and I'm about to state some very harsh things about my former employer. 
 

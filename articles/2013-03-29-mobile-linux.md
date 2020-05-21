@@ -31,7 +31,7 @@ A lot has been written about mobile and embedded device platforms lately (aka. '
 
 Recently this three way battle (or two way battle really, depending on your views regarding Windows Phone), has gotten a lot more interesting. However, my in view this 'war' was actually concluded nearly a decade ago before it even started and mobile linux won in a very unambiguous way. What is really interesting is how this is changing the market right now.
 
-<!--more-->
+
 
 IOS and Windows Phone (and to a much lesser extent RIM's latest effort at continuing to be a company) are anomalies in a market that is otherwise completely and utterly dominated by Linux already. Reason: it's free and continually improves through being used and being worked on by those who use it. After 20 years of evolving this way, it's pretty good and there are few commercial incentives left for any company to even try to compete with it. While these anomalies are interesting, they are in my view a temporary and minor distraction in a extremely large device market that is mostly Linux based today. There are actually very few companies left that ship something with a chip in it that don't use Linux. Mostly these are either specialized embedded systems or left overs from last century's IT bubble (i.e. Microsoft and Apple). While that is still a multi billion dollar market, the Linux market as a whole is much larger and growing rapidly.
 

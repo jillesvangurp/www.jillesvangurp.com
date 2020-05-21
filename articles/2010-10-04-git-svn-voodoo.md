@@ -18,7 +18,7 @@ tags:
 ---
 As discussed earlier on this site, I recently started using git in our svn centric organization. Since I'm trying to convince some co-workers to do the same, I would like to share a bit of git voodoo for working with multiple git repositories and a central svn repository. Most git tutorials don't really show how to do this, even though it is quite easy. The approach below gives you all the flexibility with git that you need while allowing you to inter-operate seamlessly with your svn using colleagues.
 
-<!--more-->
+
 
 Before getting started, make sure you have both git-core and git-svn installed (ubuntu) or that you have done a "sudo port install git-core +svn +bash_completion" if you have a mac. Also, you probably want to [configure git properly](http://www.arthurkoziel.com/2008/05/02/git-configuration/). Google is your friend, there are plenty of tutorials on the basics of git and svn that you might want to run through first.
 

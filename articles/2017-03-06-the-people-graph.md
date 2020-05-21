@@ -36,7 +36,7 @@ Initially, Inbot started out as a disruptive play to make CRMs find and provide 
 
 Since last August, we have rolled out a community that we hope will one day rival that of Linkedin but yet works very differently. 
 
-<!--more-->
+
 
 # The Inbot People Graph
 

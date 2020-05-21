@@ -20,7 +20,7 @@ tags:
 ---
 There is a bit of a [debate](http://sarahtaraporewalla.com/design/experience-report-branch-by-feature/) raging in the last few weeks that started when somebody commented on a few things that Martin Fowler wrote about git and using [feature branches](http://martinfowler.com/bliki/FeatureBranch.html) and [feature toggles](http://martinfowler.com/bliki/FeatureToggle.html). Martin Fowler makes a few very good points about how feature branches can cause a lot of testing and integration headaches and lot of people seemed to have picked up on this one and there seems to be a bit of an anti-feature branch movement emerging. 
 
-<!--more-->
+
 
 The main problem I have with this is that these people are confusing problems and causes here and effectively blaming a solution they have for causing a problem they have. Roughly the argument goes as follows: feature branches cause people to accumulate change that then becomes very disruptive when it lands on the main branch. There will be CI breakage and lots of problems for people on other feature branches that are suddenly faced with merge issues. I think Martin Fowler actually gets it but some of his followers seem to be confused. By all means, feature toggles are a great way to get changes in early and have them exposed. It's a powerful tool that you can use to get changes out earlier. Early is good: use it. However, it is not the case that if you use feature branches there has to be a lot of pain for everybody. In other words, feature branches are not inherently evil and don't have to be problematic.
 

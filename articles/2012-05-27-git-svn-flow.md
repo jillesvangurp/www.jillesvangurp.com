@@ -26,7 +26,7 @@ A reason for the popularity of git is that it enables a lot of new and different
 
 In this blog post I present some ideas for implementing a git work flow that allows for something else than the centralized work flow that is common for projects with a central subversion repository, like the project I am currently working on, while still keeping the central subversion repository.
 
-<!--more-->
+
 
 **Git workflows**
 
