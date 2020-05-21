@@ -16,16 +16,13 @@ $endif$
 $if(tags)$
     <meta name="keywords" content="$for(tags)$$tags$$sep$, $endfor$">
 $endif$
+    <meta property="og:type" content="website" />
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
 
   <body>
     <header>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/publications.html">Academic Work</a></li>
-        <li><a href="/blog/index.html">Articles</a></li>
-      </ul>
+      $navigation$
       <h1>$title$</h1>
       $if(image)$
         <img src="..$image$" />      

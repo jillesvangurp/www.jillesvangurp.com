@@ -4,8 +4,8 @@
 clean:
 	rm -rf public
 
-.PHONY: public
-public:
+.PHONY: pages
+pages:
 	mkdir -p public/blog
 	# link so we can develop
 	cp style.css public
@@ -22,14 +22,22 @@ blogindex:
 blog: blogindex
 	./pd-articles.sh
 
+.PHONY: es-kotlin-manual
+es-kotlin-manual:
+	./pd-es-kotlin.sh
+
 .PHONY: run
 run:
 	docker run -dit --name jilles-httpd -p 8080:80 -v "$(shell pwd)/public":/usr/local/apache2/htdocs/ httpd
 
 .PHONY: stop
-
 stop:
 	docker kill jilles-httpd
+
+.PHONY: minify
+minify:
+	# https://github.com/tdewolff/minify/tree/master/cmd/minify
+	minify style.css -o public/style.css
 
 .PHONY: deploy
 deploy:
@@ -37,7 +45,7 @@ deploy:
 	rsync -azp --delete-after  public/.htaccess jillesvangurpcom@ftp.jillesvangurp.com:/srv/home/jillesvangurpcom/domains/jillesvangurp.com/htdocs
 
 .PHONY: all
-all: clean public blog
+all: clean pages blog es-kotlin-manual minify
 	
 
 
