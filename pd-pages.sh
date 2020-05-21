@@ -6,7 +6,7 @@ for page in $(ls pages); do
     -o "public/$(basename $page .md).html" \
     --template templates/page.html\
     -V year="$(date +%Y)" \
-    -V navigation="$navigation" 
-
+    -V navigation="$(cat navigation.html)" \
+    -V footer="$(cat footer.html)"
 done
 

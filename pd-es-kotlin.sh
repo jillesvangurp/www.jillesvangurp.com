@@ -1,6 +1,5 @@
 #! /usr/bin/env bash
 mkdir -p public/es-kotlin-manual
-export navigation=$(cat navigation.html)
 for article in $(ls ../es-kotlin-wrapper-client/manual); do 
   export title=$(echo "$article" | sed -e 's/.md//' | sed -e 's/-/ /g')
   export title="$(echo ${title:0:1} | tr  '[a-z]' '[A-Z]')${title:1}"
@@ -10,7 +9,8 @@ for article in $(ls ../es-kotlin-wrapper-client/manual); do
         -o "$output" \
         --template templates/kotlin-manual.html	\
         -V year="$(date +%Y)" \
-        -V navigation="$navigation" \
+        -V navigation="$(cat navigation.html)" \
+        -V footer="$(cat footer.html)" \
         --metadata title="$title" \
         --metadata author="Jilles van Gurp"
   sed -i ' ' 's/\.md/\.html/g' "$output"
