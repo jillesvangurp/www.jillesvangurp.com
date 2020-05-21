@@ -8,7 +8,6 @@ for article in $(ls ../es-kotlin-wrapper-client/manual); do
         "../es-kotlin-wrapper-client/manual/$article" \
         -o "$output" \
         --template templates/kotlin-manual.html	\
-        -V year="$(date +%Y)" \
         -V navigation="$(cat navigation.html)" \
         -V footer="$(cat footer.html)" \
         --metadata title="$title" \
