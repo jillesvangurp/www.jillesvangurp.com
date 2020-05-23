@@ -1,4 +1,6 @@
-With the exception of the markdown files, all other files are licensed as outlined below. The markdown for the site is excluded because this is my website.
+With the exception of the content of the website, i.e. the markdown files, 
+images, pdfs and contents of the static directory, etc. all code needed 
+to generate the website are licensed as outlined below. 
 
 Copyright (c) 1999-2020, Jilles van Gurp
 
