@@ -1,10 +1,10 @@
 ---
-id: 163
+
 title: Whoohoo vacation!
 date: 2006-06-22T20:04:19+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/06/22/whoohoo-vacation/
+
+
 permalink: /2006/06/22/whoohoo-vacation/
 categories:
   - Blog Posts

@@ -1,10 +1,10 @@
 ---
-id: 284
+
 title: More ubuntu
 date: 2007-05-17T12:29:22+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/05/17/more-ubuntu/
+
+
 permalink: /2007/05/17/more-ubuntu/
 dsq_thread_id:
   - "336377094"

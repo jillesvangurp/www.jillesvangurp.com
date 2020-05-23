@@ -1,10 +1,10 @@
 ---
-id: 493
+
 title: macbook pro, cons and pros
 date: 2008-10-16T21:58:53+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=493
+
+
 permalink: /2008/10/16/macbook-pro-cons-and-pros/
 dsq_thread_id:
   - "336377700"

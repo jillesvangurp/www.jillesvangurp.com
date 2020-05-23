@@ -1,10 +1,10 @@
 ---
-id: 89
+
 title: First impressions of Finland
 date: 2006-01-01T15:25:19+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/?p=89
+
+
 permalink: /2006/01/01/first-impressions-of-finland/
 dsq_thread_id:
   - "402015694"

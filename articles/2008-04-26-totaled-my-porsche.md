@@ -1,10 +1,10 @@
 ---
-id: 405
+
 title: Totaled my Porsche
 date: 2008-04-26T13:08:20+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=405
+
+
 permalink: /2008/04/26/totaled-my-porsche/
 dsq_thread_id:
   - "359365311"

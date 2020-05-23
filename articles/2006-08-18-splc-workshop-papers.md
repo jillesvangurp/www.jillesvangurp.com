@@ -1,10 +1,10 @@
 ---
-id: 173
+
 title: SPLC workshop papers
 date: 2006-08-18T10:04:29+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/08/18/splc-workshop-papers/
+
+
 permalink: /2006/08/18/splc-workshop-papers/
 dsq_thread_id:
   - "414428386"
@@ -32,4 +32,4 @@ I submitted a paper to the [Managing Variability for Software Product Lines: Wor
 > Open source projects have a characteristic set of development practices that is, in many cases, very different from the way many Software Product Families are developed. Yet the problems these practices are tailored for are very similar. This paper examines what these practices are and how they might be integrated into Software Product Family development.
 This paper was accepted for the [First International Workshop on Open Source Software and Product Lines](http://www.dsi.unifi.it/osspl06/).
 
-I will update my [publications ](http://publications.jillesvangurp.com)page after the conference after it is clear how and where the papers will be published.
+I will update my [publications ](https://www.jillesvangurp.com/publications.html)page after the conference after it is clear how and where the papers will be published.

@@ -1,10 +1,10 @@
 ---
-id: 554
+
 title: Time for a little update
 date: 2009-04-01T23:48:39+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=554
+
+
 permalink: /2009/04/01/time-for-a-little-update/
 dsq_thread_id:
   - "369384421"

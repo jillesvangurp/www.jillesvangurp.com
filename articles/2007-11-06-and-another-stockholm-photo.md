@@ -1,10 +1,10 @@
 ---
-id: 353
+
 title: And another Stockholm photo
 date: 2007-11-06T01:14:32+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/11/06/and-another-stockholm-photo/
+
+
 permalink: /2007/11/06/and-another-stockholm-photo/
 categories:
   - Blog Posts

@@ -1,10 +1,10 @@
 ---
-id: 499
+
 title: OpenID study at Google
 date: 2008-10-17T19:31:34+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=499
+
+
 permalink: /2008/10/17/openid-study-at-google/
 dsq_thread_id:
   - "336377710"

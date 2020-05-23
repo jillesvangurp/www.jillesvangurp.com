@@ -1,10 +1,10 @@
 ---
-id: 416
+
 title: Lucene Custom Analyzer
 date: 2008-05-31T12:03:16+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=416
+
+
 permalink: /2008/05/31/lucene-custom-analyzer/
 dsq_thread_id:
   - "336377561"

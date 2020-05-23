@@ -1,10 +1,10 @@
 ---
-id: 150
+
 title: New photos
 date: 2006-05-20T11:17:38+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/05/20/new-photos/
+
+
 permalink: /2006/05/20/new-photos/
 categories:
   - Blog Posts

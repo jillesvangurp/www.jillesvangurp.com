@@ -1,10 +1,10 @@
 ---
-id: 331
+
 title: 'ubuntu &#8211; the story continues'
 date: 2007-09-11T22:37:22+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/09/11/ubuntu-the-story-continues/
+
+
 permalink: /2007/09/11/ubuntu-the-story-continues/
 tags:
   - finland

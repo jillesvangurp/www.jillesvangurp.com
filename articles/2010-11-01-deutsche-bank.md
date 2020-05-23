@@ -1,10 +1,10 @@
 ---
-id: 780
+
 title: Deutsche bank
 date: 2010-11-01T23:47:30+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=780
+
+
 permalink: /2010/11/01/deutsche-bank/
 aktt_notify_twitter:
   - 'no'

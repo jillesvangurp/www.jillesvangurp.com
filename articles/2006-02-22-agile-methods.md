@@ -1,10 +1,10 @@
 ---
-id: 111
+
 title: Agile methods
 date: 2006-02-22T19:16:32+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/02/22/agile-methods/
+
+
 permalink: /2006/02/22/agile-methods/
 dsq_thread_id:
   - "336375958"

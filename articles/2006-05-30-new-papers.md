@@ -1,10 +1,10 @@
 ---
-id: 158
+
 title: New papers
 date: 2006-05-30T20:56:14+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/05/30/new-papers/
+
+
 permalink: /2006/05/30/new-papers/
 tags:
   - New publication
@@ -12,10 +12,10 @@ tags:
   - SOAP
   - Software Engineering
 ---
-I've been writing a few papers over the past few months. Two of them are now on my [publications ](http://publications.jillesvangurp.com)site:
+I've been writing a few papers over the past few months. Two of them are now on my [publications ](https://www.jillesvangurp.com/publications.html)site:
 
-- [Service Grid Variability Realization](http://publications.jillesvangurp.com/splc2006servicegridvariability.pdf)
-- [Mobile Service Oriented Architectures (MOSOA)](http://publications.jillesvangurp.com/mosoa.pdf)
+- [Service Grid Variability Realization](https://www.jillesvangurp.com/publications.html/splc2006servicegridvariability.pdf)
+- [Mobile Service Oriented Architectures (MOSOA)](https://www.jillesvangurp.com/publications.html/mosoa.pdf)
 
 Both papers are about service oriented architectures. The first one tries to bridge my earlier work on variability to the domain of web services and service grids. I see the latter as the emerging defacto integration technology. This facts makes it a likely candidate for becoming the backbone of many software product families and populations. Barring real time constraints, web service technology is really well suited for integrating large sets of independently developed subsystems and components. The second paper presents our views on mobile architectures and how to integrate services on the mobile client.
 You may have noticed a few SOAP related blog posts here over the past few months. I've been learning a lot both about the technical and architectural aspects of web service technology over the past few months. As you may have noticed in these previous posts, I have some mixed feelings about the current standards and especially their implementations. On one hand they solve real problems; on the other hand the level of complexity for the simple use cases is unacceptable.

@@ -1,10 +1,10 @@
 ---
-id: 1763
+
 title: Basic income
 date: 2016-01-27T23:55:10+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1763
+
+
 permalink: /2016/01/27/basic-income/
 categories:
   - Blog Posts

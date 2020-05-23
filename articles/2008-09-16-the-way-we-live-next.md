@@ -1,10 +1,10 @@
 ---
-id: 485
+
 title: The Way We Live Next
 date: 2008-09-16T21:18:19+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=485
+
+
 permalink: /2008/09/16/the-way-we-live-next/
 categories:
   - Blog Posts

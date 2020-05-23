@@ -1,10 +1,10 @@
 ---
-id: 269
+
 title: Antec SmartPower 2.0 500 Watt review
 date: 2007-04-11T18:36:21+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/04/11/antec-smartpower-20-500-watt-review/
+
+
 permalink: /2007/04/11/antec-smartpower-20-500-watt-review/
 dsq_thread_id:
   - "363091086"

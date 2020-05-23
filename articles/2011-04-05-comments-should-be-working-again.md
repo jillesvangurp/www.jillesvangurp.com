@@ -1,10 +1,10 @@
 ---
-id: 844
+
 title: Comments should be working again
 date: 2011-04-05T19:51:18+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=844
+
+
 permalink: /2011/04/05/comments-should-be-working-again/
 aktt_notify_twitter:
   - 'no'

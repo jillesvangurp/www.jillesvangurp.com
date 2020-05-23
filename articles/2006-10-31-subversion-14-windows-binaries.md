@@ -1,10 +1,10 @@
 ---
-id: 200
+
 title: Subversion 1.4 windows binaries
 date: 2006-10-31T20:24:53+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/10/31/subversion-14-windows-binaries/
+
+
 permalink: /2006/10/31/subversion-14-windows-binaries/
 dsq_thread_id:
   - "337383769"

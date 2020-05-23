@@ -1,10 +1,10 @@
 ---
-id: 144
+
 title: WSDL Hell and other WS stuff
 date: 2006-05-03T17:57:45+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/05/03/wsdl-hell-and-other-ws-stuff/
+
+
 permalink: /2006/05/03/wsdl-hell-and-other-ws-stuff/
 dsq_thread_id:
   - "336376332"

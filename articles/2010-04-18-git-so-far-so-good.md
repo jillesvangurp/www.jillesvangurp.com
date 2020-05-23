@@ -1,10 +1,10 @@
 ---
-id: 723
+
 title: 'Git: so far, so good'
 date: 2010-04-18T09:30:21+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=723
+
+
 permalink: /2010/04/18/git-so-far-so-good/
 dsq_thread_id:
   - "336378411"

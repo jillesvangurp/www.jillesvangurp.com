@@ -1,10 +1,10 @@
 ---
-id: 1449
+
 title: Using Elastic Search as a Key Value store
 date: 2013-01-15T21:39:52+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1449
+
+
 permalink: /2013/01/15/using-elastic-search-as-a-key-value-store/
 categories:
   - Blog Posts

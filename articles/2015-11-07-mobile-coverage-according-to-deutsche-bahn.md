@@ -1,10 +1,10 @@
 ---
-id: 1756
+
 title: Mobile Coverage according to Deutsche Bahn
 date: 2015-11-07T11:54:11+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1756
+
+
 permalink: /2015/11/07/mobile-coverage-according-to-deutsche-bahn/
 categories:
   - Blog Posts

@@ -1,10 +1,10 @@
 ---
-id: 1799
+
 title: Running Elasticsearch in a Docker 1.12 Swarm
 date: 2016-08-26T11:09:58+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1799
+
+
 permalink: /2016/08/26/running-elasticsearch-in-a-docker-1-12-swarm/
 tags:
   - DNS

@@ -1,10 +1,10 @@
 ---
-id: 355
+
 title: Dutch beer
 date: 2007-11-07T22:47:40+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/11/07/dutch-beer/
+
+
 permalink: /2007/11/07/dutch-beer/
 dsq_thread_id:
   - "336377344"

@@ -1,10 +1,10 @@
 ---
-id: 361
+
 title: traveling
 date: 2007-12-22T14:11:56+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/12/22/traveling/
+
+
 permalink: /2007/12/22/traveling/
 categories:
   - Blog Posts

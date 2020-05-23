@@ -1,10 +1,10 @@
 ---
-id: 365
+
 title: Storm of the decade
 date: 2008-01-05T18:55:52+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2008/01/05/storm-of-the-decade/
+
+
 permalink: /2008/01/05/storm-of-the-decade/
 categories:
   - Blog Posts

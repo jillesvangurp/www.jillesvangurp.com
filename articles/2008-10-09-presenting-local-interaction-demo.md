@@ -1,10 +1,10 @@
 ---
-id: 492
+
 title: Presenting Local Interaction Demo
 date: 2008-10-09T22:18:52+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/2008/10/09/presenting-local-interaction-demo/
+
+
 permalink: /2008/10/09/presenting-local-interaction-demo/
 dsq_thread_id:
   - "869577767"

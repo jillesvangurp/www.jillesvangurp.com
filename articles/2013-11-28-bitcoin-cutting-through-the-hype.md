@@ -1,10 +1,10 @@
 ---
-id: 1627
+
 title: 'Bitcoin: cutting through the hype'
 date: 2013-11-28T08:18:56+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1627
+
+
 permalink: /2013/11/28/bitcoin-cutting-through-the-hype/
 categories:
   - Blog Posts

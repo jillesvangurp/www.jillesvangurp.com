@@ -1,7 +1,7 @@
 ---
 title: Jilles van Gurp
 author: Jilles van Gurp
-guid: http://blog.jillesvangurp.com/publications/
+
 ---
 <img alt="Jilles van Gurp photo" src="https://en.gravatar.com/userimage/227586/49ce2cb62cc80e45d963cc055ce6edb8.jpg?size=300" style="float:right;margin-left:1em;margin-bottom:1em;"/>
 

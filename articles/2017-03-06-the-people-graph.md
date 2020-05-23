@@ -1,10 +1,10 @@
 ---
-id: 1826
+
 title: The People Graph
 date: 2017-03-06T20:12:46+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1826
+
+
 permalink: /2017/03/06/the-people-graph/
 image: /wp-content/uploads/2017/03/20110221_IMG_0996_01-1000x288.jpg
 categories:

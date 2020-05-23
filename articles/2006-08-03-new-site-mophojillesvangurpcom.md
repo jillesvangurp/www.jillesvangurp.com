@@ -1,10 +1,10 @@
 ---
-id: 167
+
 title: 'new site: mopho.jillesvangurp.com'
 date: 2006-08-03T20:05:47+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/08/03/new-site-mophojillesvangurpcom/
+
+
 permalink: /2006/08/03/new-site-mophojillesvangurpcom/
 dsq_thread_id:
   - "336376719"

@@ -1,10 +1,10 @@
 ---
-id: 789
+
 title: 'Updated my publications page &#8230;'
 date: 2010-11-11T19:51:35+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=789
+
+
 permalink: /2010/11/11/updated-my-publications-page/
 aktt_notify_twitter:
   - 'no'

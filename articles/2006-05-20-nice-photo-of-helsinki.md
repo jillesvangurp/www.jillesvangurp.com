@@ -1,10 +1,10 @@
 ---
-id: 152
+
 title: Nice Photo of Helsinki
 date: 2006-05-20T13:07:54+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/05/20/nice-photo-of-helsinki/
+
+
 permalink: /2006/05/20/nice-photo-of-helsinki/
 dsq_thread_id:
   - "340423946"

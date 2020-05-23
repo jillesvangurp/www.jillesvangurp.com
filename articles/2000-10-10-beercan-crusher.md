@@ -1,10 +1,10 @@
 ---
-id: 245
+
 title: Beercan crusher
 date: 2000-10-10T12:00:14+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2000/10/10/beercan-crusher/
+
+
 permalink: /2000/10/10/beercan-crusher/
 tags:
  - beer

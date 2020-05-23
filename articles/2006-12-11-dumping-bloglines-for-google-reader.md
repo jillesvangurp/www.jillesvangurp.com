@@ -1,10 +1,10 @@
 ---
-id: 216
+
 title: Dumping bloglines for google reader
 date: 2006-12-11T19:49:04+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/12/11/dumping-bloglines-for-google-reader/
+
+
 permalink: /2006/12/11/dumping-bloglines-for-google-reader/
 dsq_thread_id:
   - "467898187"

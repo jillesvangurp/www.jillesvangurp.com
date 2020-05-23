@@ -1,10 +1,10 @@
 ---
-id: 368
+
 title: Golden Gate Bridge
 date: 2008-01-06T18:13:55+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2008/01/06/golden-gate-bridge/
+
+
 permalink: /2008/01/06/golden-gate-bridge/
 dsq_thread_id:
   - "678778545"

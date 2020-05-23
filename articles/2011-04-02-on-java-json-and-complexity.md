@@ -1,10 +1,10 @@
 ---
-id: 818
+
 title: On Java, Json, and complexity
 date: 2011-04-02T13:21:26+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=818
+
+
 permalink: /2011/04/02/on-java-json-and-complexity/
 aktt_notify_twitter:
   - 'yes'

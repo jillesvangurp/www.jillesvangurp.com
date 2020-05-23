@@ -1,10 +1,10 @@
 ---
-id: 135
+
 title: PDFCreator
 date: 2006-04-03T17:29:39+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/04/03/pdfcreator/
+
+
 permalink: /2006/04/03/pdfcreator/
 tags:
   - reviews

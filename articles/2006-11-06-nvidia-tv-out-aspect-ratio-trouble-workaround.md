@@ -1,10 +1,10 @@
 ---
-id: 201
+
 title: 'Nvidia tv out aspect ratio trouble &#038; workaround'
 date: 2006-11-06T23:37:08+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/11/06/nvidia-tv-out-aspect-ratio-trouble-workaround/
+
+
 permalink: /2006/11/06/nvidia-tv-out-aspect-ratio-trouble-workaround/
 dsq_thread_id:
   - "336376734"

@@ -1,10 +1,10 @@
 ---
-id: 346
+
 title: Spam users
 date: 2007-10-17T19:20:08+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/10/17/spam-users/
+
+
 permalink: /2007/10/17/spam-users/
 dsq_thread_id:
   - "866897172"

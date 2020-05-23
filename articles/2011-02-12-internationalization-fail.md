@@ -1,10 +1,10 @@
 ---
-id: 811
+
 title: Internationalization fail
 date: 2011-02-12T16:27:56+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=811
+
+
 permalink: /2011/02/12/internationalization-fail/
 aktt_notify_twitter:
   - 'no'

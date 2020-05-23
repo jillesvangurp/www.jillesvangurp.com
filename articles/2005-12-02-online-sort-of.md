@@ -1,10 +1,10 @@
 ---
-id: 79
+
 title: online, sort of
 date: 2005-12-02T16:56:44+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/?p=79
+
+
 permalink: /2005/12/02/online-sort-of/
 dsq_thread_id:
   - "336375745"

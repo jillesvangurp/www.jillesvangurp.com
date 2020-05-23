@@ -1,10 +1,10 @@
 ---
-id: 643
+
 title: 'maven: good ideas gone wrong'
 date: 2009-10-16T22:22:47+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=643
+
+
 permalink: /2009/10/16/maven-good-ideas-gone-wrong/
 dsq_thread_id:
   - "336378004"

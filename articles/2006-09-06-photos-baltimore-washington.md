@@ -1,10 +1,10 @@
 ---
-id: 179
+
 title: 'Photos Baltimore &#038; Washington'
 date: 2006-09-06T23:34:20+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/09/06/photos-baltimore-washington/
+
+
 permalink: /2006/09/06/photos-baltimore-washington/
 categories:
   - Blog Posts

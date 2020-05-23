@@ -1,10 +1,10 @@
 ---
-id: 339
+
 title: 'OpenID &#038; Microformats in WordPress'
 date: 2007-10-01T23:09:24+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/10/01/openid-microformats-in-wordpress/
+
+
 permalink: /2007/10/01/openid-microformats-in-wordpress/
 dsq_thread_id:
   - "336377299"

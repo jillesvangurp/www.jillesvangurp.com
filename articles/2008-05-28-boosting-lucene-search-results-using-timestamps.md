@@ -1,10 +1,10 @@
 ---
-id: 414
+
 title: Boosting Lucene search results using timestamps
 date: 2008-05-28T18:00:41+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=414
+
+
 permalink: /2008/05/28/boosting-lucene-search-results-using-timestamps/
 dsq_thread_id:
   - "336377533"

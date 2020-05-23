@@ -1,10 +1,10 @@
 ---
-id: 29
+
 title: x-plane vs ms flightsimulator
 date: 2005-06-28T18:20:00+00:00
 author: Jilles van Gurp
-layout: post
-guid: 24@http://blog.jillesvangurp.com/
+
+
 permalink: /2005/06/28/x-plane-vs-ms-flightsimulator/
 dsq_thread_id:
   - "336375592"

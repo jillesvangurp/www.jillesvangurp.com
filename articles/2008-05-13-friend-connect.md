@@ -1,10 +1,10 @@
 ---
-id: 410
+
 title: Friend Connect
 date: 2008-05-13T21:51:11+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=410
+
+
 permalink: /2008/05/13/friend-connect/
 dsq_thread_id:
   - "336377518"

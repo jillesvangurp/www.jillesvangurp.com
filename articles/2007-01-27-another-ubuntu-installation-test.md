@@ -1,10 +1,10 @@
 ---
-id: 232
+
 title: another ubuntu installation test
 date: 2007-01-27T14:15:18+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/01/27/another-ubuntu-installation-test/
+
+
 permalink: /2007/01/27/another-ubuntu-installation-test/
 dsq_thread_id:
   - "336376803"

@@ -1,10 +1,10 @@
 ---
-id: 192
+
 title: Photos from Paris
 date: 2006-10-17T18:14:15+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/10/17/photos-from-paris/
+
+
 permalink: /2006/10/17/photos-from-paris/
 categories:
   - Blog Posts

@@ -1,10 +1,10 @@
 ---
-id: 1118
+
 title: Quora and a bad user experience
 date: 2012-09-12T12:25:25+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1118
+
+
 permalink: /2012/09/12/quora-and-a-bad-user-experience/
 aktt_notify_twitter:
   - 'no'

@@ -1,10 +1,10 @@
 ---
-id: 50
+
 title: subclipse
 date: 2005-02-23T17:08:00+00:00
 author: Jilles van Gurp
-layout: post
-guid: 3@http://blog.jillesvangurp.com/
+
+
 permalink: /2005/02/23/subclipse/
 tags:
   - eclipse

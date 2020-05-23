@@ -1,10 +1,10 @@
 ---
-id: 277
+
 title: Feisty fawn
 date: 2007-04-29T09:32:19+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/04/29/feisty-fawn/
+
+
 permalink: /2007/04/29/feisty-fawn/
 tags:
   - google

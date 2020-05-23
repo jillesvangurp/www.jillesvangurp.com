@@ -1,10 +1,10 @@
 ---
-id: 1661
+
 title: Nokia Android Phone
 date: 2014-02-10T22:42:53+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1661
+
+
 permalink: /2014/02/10/nokia-android-phone/
 categories:
   - Blog Posts

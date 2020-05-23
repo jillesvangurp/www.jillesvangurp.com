@@ -1,10 +1,10 @@
 ---
-id: 73
+
 title: Generic event code
 date: 2005-10-26T22:30:02+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/?p=73
+
+
 permalink: /2005/10/26/late-to-generics/
 dsq_thread_id:
   - "337534094"

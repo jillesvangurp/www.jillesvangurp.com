@@ -1,10 +1,10 @@
 ---
-id: 1750
+
 title: 'Asana &#8211; killer issue tracker'
 date: 2015-07-30T09:52:58+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1750
+
+
 permalink: /2015/07/30/asana-killer-issue-tracker/
 categories:
   - Blog Posts

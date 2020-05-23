@@ -1,10 +1,10 @@
 ---
-id: 394
+
 title: Nice article by Neal Stephenson
 date: 2008-03-30T22:53:22+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=394
+
+
 permalink: /2008/03/30/nice-article-by-neal-stephenson/
 dsq_thread_id:
   - "431842474"

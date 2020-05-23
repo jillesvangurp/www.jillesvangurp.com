@@ -1,10 +1,10 @@
 ---
-id: 1705
+
 title: Accessing Elasticsearch clusters via a localhost node
 date: 2014-12-06T12:31:23+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1705
+
+
 permalink: /2014/12/06/accessing-elasticsearch-clusters-via-a-localhost-node/
 categories:
   - Blog Posts

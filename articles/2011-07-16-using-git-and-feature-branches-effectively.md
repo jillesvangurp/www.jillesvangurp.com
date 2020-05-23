@@ -1,10 +1,10 @@
 ---
-id: 927
+
 title: Using Git and feature branches effectively
 date: 2011-07-16T12:19:49+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=927
+
+
 permalink: /2011/07/16/using-git-and-feature-branches-effectively/
 aktt_notify_twitter:
   - 'no'

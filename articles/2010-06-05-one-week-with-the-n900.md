@@ -1,10 +1,10 @@
 ---
-id: 735
+
 title: One week with the N900
 date: 2010-06-05T16:57:54+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=735
+
+
 permalink: /2010/06/05/one-week-with-the-n900/
 dsq_thread_id:
   - "336378483"

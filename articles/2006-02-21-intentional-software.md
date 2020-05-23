@@ -1,10 +1,10 @@
 ---
-id: 110
+
 title: Intentional Software
 date: 2006-02-21T18:40:20+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/02/21/intentional-software/
+
+
 permalink: /2006/02/21/intentional-software/
 tags:
   - Charles Simonyi

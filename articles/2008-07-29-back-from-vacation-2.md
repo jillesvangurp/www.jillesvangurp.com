@@ -1,10 +1,10 @@
 ---
-id: 423
+
 title: Back from vacation
 date: 2008-07-29T20:44:42+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=423
+
+
 permalink: /2008/07/29/back-from-vacation-2/
 categories:
   - Blog Posts

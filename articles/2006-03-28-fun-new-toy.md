@@ -1,10 +1,10 @@
 ---
-id: 131
+
 title: Fun new toy
 date: 2006-03-28T19:24:25+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/03/28/fun-new-toy/
+
+
 permalink: /2006/03/28/fun-new-toy/
 dsq_thread_id:
   - "528897249"

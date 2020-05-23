@@ -1,10 +1,10 @@
 ---
-id: 75
+
 title: In search of the One True Layout
 date: 2005-11-03T20:11:37+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/?p=75
+
+
 permalink: /2005/11/03/in-search-of-the-one-true-layout/
 dsq_thread_id:
   - "393177182"

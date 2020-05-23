@@ -1,10 +1,10 @@
 ---
-id: 235
+
 title: porsche gets some good testdrive
 date: 2007-01-31T23:50:52+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/01/31/porsche-gets-some-good-testdrive/
+
+
 permalink: /2007/01/31/porsche-gets-some-good-testdrive/
 categories:
   - Blog Posts

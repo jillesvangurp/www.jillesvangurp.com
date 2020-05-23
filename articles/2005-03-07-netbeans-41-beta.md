@@ -1,10 +1,10 @@
 ---
-id: 42
+
 title: Netbeans 4.1 Beta
 date: 2005-03-07T22:02:00+00:00
 author: Jilles van Gurp
-layout: post
-guid: 11@http://blog.jillesvangurp.com/
+
+
 permalink: /2005/03/07/netbeans-41-beta/
 tags:
   - eclipse

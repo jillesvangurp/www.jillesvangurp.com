@@ -1,10 +1,10 @@
 ---
-id: 171
+
 title: Some adventures with ejb 3 and jax ws
 date: 2006-08-14T20:50:47+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/08/14/some-adventures-with-ejb-3-and-jax-ws/
+
+
 permalink: /2006/08/14/some-adventures-with-ejb-3-and-jax-ws/
 dsq_thread_id:
   - "338139687"

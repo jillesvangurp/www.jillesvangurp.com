@@ -1,10 +1,10 @@
 ---
-id: 184
+
 title: 'Citizendium &#8211; horrible name but good idea'
 date: 2006-09-17T10:40:01+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/09/17/citizendium-horrible-name-but-good-idea/
+
+
 permalink: /2006/09/17/citizendium-horrible-name-but-good-idea/
 categories:
   - Blog Posts

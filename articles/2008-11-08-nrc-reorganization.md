@@ -1,10 +1,10 @@
 ---
-id: 510
+
 title: NRC Reorganization
 date: 2008-11-08T12:33:10+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=510
+
+
 permalink: /2008/11/08/nrc-reorganization/
 dsq_thread_id:
   - "439152713"

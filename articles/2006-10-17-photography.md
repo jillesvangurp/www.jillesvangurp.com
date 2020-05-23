@@ -1,10 +1,10 @@
 ---
-id: 193
+
 title: Photography
 date: 2006-10-17T22:19:27+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/10/17/photography/
+
+
 permalink: /2006/10/17/photography/
 categories:
   - Blog Posts

@@ -1,10 +1,10 @@
 ---
-id: 49
+
 title: tomcat and iis
 date: 2005-02-23T17:23:00+00:00
 author: Jilles van Gurp
-layout: post
-guid: 4@http://blog.jillesvangurp.com/
+
+
 permalink: /2005/02/23/tomcat-and-iis/
 tags:
   - java

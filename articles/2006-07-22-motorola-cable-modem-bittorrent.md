@@ -1,10 +1,10 @@
 ---
-id: 166
+
 title: 'motorola cable modem &#038; bittorrent'
 date: 2006-07-22T14:23:24+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/07/22/motorola-cable-modem-bittorrent/
+
+
 permalink: /2006/07/22/motorola-cable-modem-bittorrent/
 dsq_thread_id:
   - "338602468"

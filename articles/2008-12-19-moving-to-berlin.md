@@ -1,10 +1,10 @@
 ---
-id: 538
+
 title: Moving to Berlin
 date: 2008-12-19T23:08:48+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=538
+
+
 permalink: /2008/12/19/moving-to-berlin/
 dsq_thread_id:
   - "337112492"

@@ -1,10 +1,10 @@
 ---
-id: 1525
+
 title: jsonj revisited
 date: 2013-04-06T00:51:45+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1525
+
+
 permalink: /2013/04/06/jsonj-revisited/
 categories:
   - Blog Posts

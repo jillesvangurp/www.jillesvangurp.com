@@ -1,10 +1,10 @@
 ---
-id: 313
+
 title: Workshop paper
 date: 2007-07-20T17:43:18+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/07/20/workshop-paper/
+
+
 permalink: /2007/07/20/workshop-paper/
 categories:
   - Blog Posts
@@ -19,7 +19,7 @@ tags:
 ---
 Together with my two colleagues [Christian Prehofer](http://www.prehofer.de) and [Cristiano di Flora](http://research.nokia.com/people/cristiano_di_flora/index.html), I wrote a nice workshop paper for the upcoming [Second Workshop on Requirements and Solutions for Pervasive Software Infrastructures (RSPSI)](http://www.igd.fhg.de/igd-a1/RSPSI2/), at UBICOMB 2007, Innsbruck, 16-19 Sebtember, 2007. 
 
-[Towards the Web as a Platform for Ubiquitous Applications in Smart Spaces](http://publications.jillesvangurp.com/WebSmartSpaces.pdf) (pdf).
+[Towards the Web as a Platform for Ubiquitous Applications in Smart Spaces](https://www.jillesvangurp.com/publications.html/WebSmartSpaces.pdf) (pdf).
 
 Abstract:
 

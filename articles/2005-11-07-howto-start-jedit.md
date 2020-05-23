@@ -1,10 +1,10 @@
 ---
-id: 76
+
 title: Howto start jEdit
 date: 2005-11-07T21:28:38+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/?p=76
+
+
 permalink: /2005/11/07/howto-start-jedit/
 aktt_notify_twitter:
   - 'no'

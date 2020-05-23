@@ -1,10 +1,10 @@
 ---
-id: 1407
+
 title: LocalStream
 date: 2012-12-01T12:24:19+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1407
+
+
 permalink: /2012/12/01/localstream/
 categories:
   - Blog Posts

@@ -1,10 +1,10 @@
 ---
-id: 25
+
 title: '&#8230; and back again'
 date: 2005-09-04T19:38:00+00:00
 author: Jilles van Gurp
-layout: post
-guid: 28@http://blog.jillesvangurp.com/
+
+
 permalink: /2005/09/04/and-back-again/
 categories:
   - Blog Posts

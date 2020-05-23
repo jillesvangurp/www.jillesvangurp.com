@@ -1,10 +1,10 @@
 ---
-id: 1599
+
 title: Httpclient 4.3 with FutureRequestExecutionService
 date: 2013-09-16T16:55:07+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1599
+
+
 permalink: /2013/09/16/httpclient-4-3-with-futurerequestexecutionservice/
 categories:
   - Blog Posts

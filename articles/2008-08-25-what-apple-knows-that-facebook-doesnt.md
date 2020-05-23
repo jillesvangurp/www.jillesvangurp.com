@@ -1,10 +1,10 @@
 ---
-id: 460
+
 title: 'What Apple Knows That Facebook Doesn&#8217;t'
 date: 2008-08-25T18:54:21+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=460
+
+
 permalink: /2008/08/25/what-apple-knows-that-facebook-doesnt/
 dsq_thread_id:
   - "339788224"

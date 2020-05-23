@@ -1,10 +1,10 @@
 ---
-id: 108
+
 title: more on opera mini
 date: 2006-02-02T09:42:49+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/02/02/more-on-opera-mini/
+
+
 permalink: /2006/02/02/more-on-opera-mini/
 dsq_thread_id:
   - "472197024"

@@ -1,10 +1,10 @@
 ---
-id: 177
+
 title: Hugin review
 date: 2006-08-26T20:18:32+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/08/26/hugin-review/
+
+
 permalink: /2006/08/26/hugin-review/
 dsq_thread_id:
   - "338268555"

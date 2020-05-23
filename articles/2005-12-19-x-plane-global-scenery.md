@@ -1,10 +1,10 @@
 ---
-id: 84
+
 title: X-plane Global Scenery
 date: 2005-12-19T21:47:56+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/?p=84
+
+
 permalink: /2005/12/19/x-plane-global-scenery/
 dsq_thread_id:
   - "336375819"

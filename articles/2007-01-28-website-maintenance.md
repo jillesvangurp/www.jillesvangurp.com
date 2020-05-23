@@ -1,10 +1,10 @@
 ---
-id: 233
+
 title: Website maintenance
 date: 2007-01-28T10:53:21+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/01/28/website-maintenance/
+
+
 permalink: /2007/01/28/website-maintenance/
 categories:
   - Blog Posts

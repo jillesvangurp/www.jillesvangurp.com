@@ -1,10 +1,10 @@
 ---
-id: 126
+
 title: this is so true
 date: 2006-03-18T12:30:39+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/03/18/this-is-so-true/
+
+
 permalink: /2006/03/18/this-is-so-true/
 dsq_thread_id:
   - "336376012"

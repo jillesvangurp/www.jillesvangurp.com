@@ -1,10 +1,10 @@
 ---
-id: 407
+
 title: Ubuntu at work
 date: 2008-05-05T20:56:35+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=407
+
+
 permalink: /2008/05/05/ubuntu-at-work/
 dsq_thread_id:
   - "341104459"

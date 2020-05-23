@@ -1,10 +1,10 @@
 ---
-id: 90
+
 title: JAlbum repository
 date: 2006-01-01T16:18:41+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/?p=90
+
+
 permalink: /2006/01/01/jalbum-repository/
 dsq_thread_id:
   - "351973898"

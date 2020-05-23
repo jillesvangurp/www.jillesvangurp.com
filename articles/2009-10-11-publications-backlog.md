@@ -1,10 +1,10 @@
 ---
-id: 638
+
 title: Publications backlog
 date: 2009-10-11T11:18:15+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=638
+
+
 permalink: /2009/10/11/publications-backlog/
 dsq_thread_id:
   - "348366995"

@@ -1,10 +1,10 @@
 ---
-id: 349
+
 title: Bought my first online album
 date: 2007-10-25T23:06:02+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/10/25/bought-my-first-online-album/
+
+
 permalink: /2007/10/25/bought-my-first-online-album/
 dsq_thread_id:
   - "336377326"

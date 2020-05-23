@@ -1,10 +1,10 @@
 ---
-id: 364
+
 title: San Francisco
 date: 2008-01-04T02:43:37+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2008/01/04/san-francisco/
+
+
 permalink: /2008/01/04/san-francisco/
 categories:
   - Blog Posts

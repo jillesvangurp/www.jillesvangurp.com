@@ -1,10 +1,10 @@
 ---
-id: 1447
+
 title: Mobile Linux
 date: 2013-03-29T14:10:50+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1447
+
+
 permalink: /2013/03/29/mobile-linux/
 categories:
   - Blog Posts

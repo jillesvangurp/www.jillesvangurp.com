@@ -1,10 +1,10 @@
 ---
-id: 729
+
 title: 'Re: bear shaving'
 date: 2010-05-10T09:01:50+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=729
+
+
 permalink: /2010/05/10/re-bear-shaving/
 dsq_thread_id:
   - "336378437"

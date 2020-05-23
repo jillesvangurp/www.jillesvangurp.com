@@ -1,10 +1,10 @@
 ---
-id: 32
+
 title: Pojo + ajax = KISS
 date: 2005-04-11T18:00:00+00:00
 author: Jilles van Gurp
-layout: post
-guid: 21@http://blog.jillesvangurp.com/
+
+
 permalink: /2005/04/11/pojo-ajax-kiss/
 tags:
   - AJAX

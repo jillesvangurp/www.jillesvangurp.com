@@ -1,10 +1,10 @@
 ---
-id: 396
+
 title: Finnish politics and SMS
 date: 2008-04-01T18:37:19+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=396
+
+
 permalink: /2008/04/01/finnish-politics-and-sms/
 categories:
   - Blog Posts

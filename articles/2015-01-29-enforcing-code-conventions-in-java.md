@@ -1,10 +1,10 @@
 ---
-id: 1716
+
 title: Enforcing code conventions in Java
 date: 2015-01-29T11:36:10+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1716
+
+
 permalink: /2015/01/29/enforcing-code-conventions-in-java/
 categories:
  - Blog Posts

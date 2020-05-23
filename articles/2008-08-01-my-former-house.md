@@ -1,10 +1,10 @@
 ---
-id: 433
+
 title: My former house
 date: 2008-08-01T18:20:15+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=433
+
+
 permalink: /2008/08/01/my-former-house/
 dsq_thread_id:
   - "432965123"

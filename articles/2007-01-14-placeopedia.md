@@ -1,10 +1,10 @@
 ---
-id: 224
+
 title: Placeopedia
 date: 2007-01-14T11:39:05+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/01/14/placeopedia/
+
+
 permalink: /2007/01/14/placeopedia/
 dsq_thread_id:
   - "355252991"

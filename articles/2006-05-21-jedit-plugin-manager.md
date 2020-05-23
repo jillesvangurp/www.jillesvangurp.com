@@ -1,10 +1,10 @@
 ---
-id: 155
+
 title: jedit plugin manager
 date: 2006-05-21T15:46:37+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/05/21/jedit-plugin-manager/
+
+
 permalink: /2006/05/21/jedit-plugin-manager/
 dsq_thread_id:
   - "340870888"

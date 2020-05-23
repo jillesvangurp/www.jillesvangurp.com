@@ -1,10 +1,10 @@
 ---
-id: 36
+
 title: Berlin photos
 date: 2005-03-26T12:24:00+00:00
 author: Jilles van Gurp
-layout: post
-guid: 17@http://blog.jillesvangurp.com/
+
+
 permalink: /2005/03/26/berlin-photos/
 categories:
   - Blog Posts

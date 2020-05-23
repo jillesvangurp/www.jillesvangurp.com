@@ -1,10 +1,10 @@
 ---
-id: 183
+
 title: rediculous clause
 date: 2006-09-17T10:36:34+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/09/17/rediculous-clause/
+
+
 permalink: /2006/09/17/rediculous-clause/
 tags:
   - Drive Bay

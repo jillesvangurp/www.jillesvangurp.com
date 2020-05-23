@@ -1,10 +1,10 @@
 ---
-id: 426
+
 title: Paper on Sensor Actuator Kit evaluation
 date: 2008-07-31T19:17:36+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=426
+
+
 permalink: /2008/07/31/paper-on-sensor-actuator-kit-evaluation/
 dsq_thread_id:
   - "397329451"

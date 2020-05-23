@@ -1,10 +1,10 @@
 ---
-id: 402
+
 title: Photos Zurich and Dagstuhl
 date: 2008-04-07T19:31:58+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=402
+
+
 permalink: /2008/04/07/photos-zurich-and-dagstuhl/
 dsq_thread_id:
   - "593012865"

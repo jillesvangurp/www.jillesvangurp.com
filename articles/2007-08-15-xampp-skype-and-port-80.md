@@ -1,10 +1,10 @@
 ---
-id: 321
+
 title: xampp, skype and port 80
 date: 2007-08-15T23:01:34+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/08/15/xampp-skype-and-port-80/
+
+
 permalink: /2007/08/15/xampp-skype-and-port-80/
 dsq_thread_id:
   - "336377207"

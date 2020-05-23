@@ -1,10 +1,10 @@
 ---
-id: 92
+
 title: Testing performancing
 date: 2006-01-01T17:02:06+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/?p=92
+
+
 permalink: /2006/01/01/testing-performancing/
 tags:
   - extension

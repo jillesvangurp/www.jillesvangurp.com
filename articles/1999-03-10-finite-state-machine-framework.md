@@ -1,10 +1,10 @@
 ---
-id: 246
+
 title: Finite State Machine Framework
 date: 1999-03-10T12:00:28+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/1999/03/10/finite-state-machine-framework/
+
+
 permalink: /1999/03/10/finite-state-machine-framework/
 dsq_thread_id:
  - "581866934"

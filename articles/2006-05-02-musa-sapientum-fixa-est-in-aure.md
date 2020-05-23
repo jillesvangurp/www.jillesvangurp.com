@@ -1,10 +1,10 @@
 ---
-id: 145
+
 title: Musa sapientum fixa est in aure
 date: 2006-05-02T17:40:05+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/05/02/musa-sapientum-fixa-est-in-aure/
+
+
 permalink: /2006/05/02/musa-sapientum-fixa-est-in-aure/
 dsq_thread_id:
   - "337825257"

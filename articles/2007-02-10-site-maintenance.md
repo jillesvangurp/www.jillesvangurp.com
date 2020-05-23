@@ -1,10 +1,10 @@
 ---
-id: 249
+
 title: Site maintenance
 date: 2007-02-10T14:37:41+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/02/10/site-maintenance/
+
+
 permalink: /2007/02/10/site-maintenance/
 categories:
   - Blog Posts

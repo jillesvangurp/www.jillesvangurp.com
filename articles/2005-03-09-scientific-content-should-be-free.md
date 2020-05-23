@@ -1,10 +1,10 @@
 ---
-id: 41
+
 title: Scientific content should be free
 date: 2005-03-09T18:33:00+00:00
 author: Jilles van Gurp
-layout: post
-guid: 12@http://blog.jillesvangurp.com/
+
+
 permalink: /2005/03/09/scientific-content-should-be-free/
 tags:
   - ACM

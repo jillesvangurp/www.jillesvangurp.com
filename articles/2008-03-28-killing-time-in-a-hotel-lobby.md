@@ -1,10 +1,10 @@
 ---
-id: 393
+
 title: Killing time in a hotel lobby
 date: 2008-03-28T17:40:51+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/2008/03/28/killing-time-in-a-hotel-lobby/
+
+
 permalink: /2008/03/28/killing-time-in-a-hotel-lobby/
 dsq_thread_id:
   - "374690432"

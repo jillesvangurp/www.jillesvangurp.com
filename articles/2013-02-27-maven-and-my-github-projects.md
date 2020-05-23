@@ -1,10 +1,10 @@
 ---
-id: 1504
+
 title: Maven and my GitHub projects
 date: 2013-02-27T16:31:47+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=1504
+
+
 permalink: /2013/02/27/maven-and-my-github-projects/
 categories:
   - Blog Posts

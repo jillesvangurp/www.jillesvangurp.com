@@ -1,10 +1,10 @@
 ---
-id: 95
+
 title: 'New PC &#038; moving itunes library'
 date: 2006-01-09T20:39:18+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/?p=95
+
+
 permalink: /2006/01/09/new-pc-moving-itunes-library/
 dsq_thread_id:
   - "336375914"

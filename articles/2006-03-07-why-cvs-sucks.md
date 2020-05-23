@@ -1,10 +1,10 @@
 ---
-id: 116
+
 title: why cvs sucks
 date: 2006-03-07T14:02:00+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/03/07/why-cvs-sucks/
+
+
 permalink: /2006/03/07/why-cvs-sucks/
 dsq_thread_id:
   - "337720654"

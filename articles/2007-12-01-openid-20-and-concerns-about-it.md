@@ -1,10 +1,10 @@
 ---
-id: 359
+
 title: OpenID 2.0 and concerns about it
 date: 2007-12-01T13:04:27+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2007/12/01/openid-20-and-concerns-about-it/
+
+
 permalink: /2007/12/01/openid-20-and-concerns-about-it/
 dsq_thread_id:
   - "401718728"
@@ -44,4 +44,4 @@ So ironically, even though there are many millions of openids out there, most of
 
 The reason I hope OpenID does get some adoption is because if it isn't it will take a very long term for something similar to emerge. This means that the current very undesirable situation is prolonged for a very long time. In my view a vast improvement is needed over the current situation and besides OpenID, there seems to be very little in terms of solutions that can realistically be used today. 
 
-The reason I am posting this is because over the past few months me and my colleagues have been struggling with how to do security in decentralized smart spaces. If you check my [publications web site](http://publications.jillesvangurp.com), you will see several recent workshop papers that provide a high level overview of what we are building. Most of these papers are pretty quiet on security so far even though obviously security and privacy is a huge concern in a world where user devices use each others services and mash them up with commercial services in both the local network and internet. Well, the solution we are applying in our research platform is a mix of OpenID, OAuth and some  rather cool add-ons that we have invented to those. Unfortunately I can't detail too much about our solutions yet except that I am very excited about them. Over the next year, we should be able to push out more information into the public.
+The reason I am posting this is because over the past few months me and my colleagues have been struggling with how to do security in decentralized smart spaces. If you check my [publications web site](https://www.jillesvangurp.com/publications.html), you will see several recent workshop papers that provide a high level overview of what we are building. Most of these papers are pretty quiet on security so far even though obviously security and privacy is a huge concern in a world where user devices use each others services and mash them up with commercial services in both the local network and internet. Well, the solution we are applying in our research platform is a mix of OpenID, OAuth and some  rather cool add-ons that we have invented to those. Unfortunately I can't detail too much about our solutions yet except that I am very excited about them. Over the next year, we should be able to push out more information into the public.

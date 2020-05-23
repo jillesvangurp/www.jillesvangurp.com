@@ -1,10 +1,10 @@
 ---
-id: 81
+
 title: 'Now I&#8217;m really online'
 date: 2005-12-15T20:56:37+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/?p=81
+
+
 permalink: /2005/12/15/now-im-really-online/
 categories:
   - Blog Posts

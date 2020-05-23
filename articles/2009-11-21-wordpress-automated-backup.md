@@ -1,10 +1,10 @@
 ---
-id: 660
+
 title: WordPress automated backup
 date: 2009-11-21T13:19:36+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=660
+
+
 permalink: /2009/11/21/wordpress-automated-backup/
 dsq_thread_id:
   - "336378112"

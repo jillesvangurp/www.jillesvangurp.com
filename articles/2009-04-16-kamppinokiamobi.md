@@ -1,10 +1,10 @@
 ---
-id: 586
+
 title: kamppi.nokia.mobi
 date: 2009-04-16T20:29:54+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://www.jillesvangurp.com/?p=586
+
+
 permalink: /2009/04/16/kamppinokiamobi/
 dsq_thread_id:
   - "336377753"

@@ -1,10 +1,10 @@
 ---
-id: 120
+
 title: x-plane graphics tweaks
 date: 2006-03-11T16:52:39+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/03/11/x-plane-graphics-tweaks/
+
+
 permalink: /2006/03/11/x-plane-graphics-tweaks/
 dsq_thread_id:
   - "336966054"

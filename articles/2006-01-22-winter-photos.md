@@ -1,10 +1,10 @@
 ---
-id: 102
+
 title: winter photos
 date: 2006-01-22T22:25:17+00:00
 author: Jilles van Gurp
-layout: post
-guid: http://blog.jillesvangurp.com/2006/01/22/winter-photos/
+
+
 permalink: /2006/01/22/winter-photos/
 categories:
   - Blog Posts
