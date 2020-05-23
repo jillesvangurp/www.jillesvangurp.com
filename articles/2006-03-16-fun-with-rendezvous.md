@@ -1,5 +1,4 @@
 ---
-
 title: fun with rendezvous
 date: 2006-03-16T22:04:39+00:00
 author: Jilles van Gurp

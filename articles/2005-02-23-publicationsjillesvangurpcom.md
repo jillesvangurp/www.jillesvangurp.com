@@ -1,5 +1,4 @@
 ---
-
 title: publications.jillesvangurp.com
 date: 2005-02-23T18:55:00+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Ubuntu at work
 date: 2008-05-05T20:56:35+00:00
 author: Jilles van Gurp

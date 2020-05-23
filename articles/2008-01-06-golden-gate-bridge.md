@@ -1,5 +1,4 @@
 ---
-
 title: Golden Gate Bridge
 date: 2008-01-06T18:13:55+00:00
 author: Jilles van Gurp

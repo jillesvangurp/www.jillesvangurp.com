@@ -1,5 +1,4 @@
 ---
-
 title: 'Asana &#8211; killer issue tracker'
 date: 2015-07-30T09:52:58+00:00
 author: Jilles van Gurp

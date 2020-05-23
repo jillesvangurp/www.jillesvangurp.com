@@ -1,5 +1,4 @@
 ---
-
 title: 'Maven: the way forward'
 date: 2009-10-24T11:06:45+00:00
 author: Jilles van Gurp

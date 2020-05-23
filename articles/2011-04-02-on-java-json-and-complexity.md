@@ -1,5 +1,4 @@
 ---
-
 title: On Java, Json, and complexity
 date: 2011-04-02T13:21:26+00:00
 author: Jilles van Gurp

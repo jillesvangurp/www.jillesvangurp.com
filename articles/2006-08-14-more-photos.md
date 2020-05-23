@@ -1,5 +1,4 @@
 ---
-
 title: More photos
 date: 2006-08-14T18:35:09+00:00
 author: Jilles van Gurp

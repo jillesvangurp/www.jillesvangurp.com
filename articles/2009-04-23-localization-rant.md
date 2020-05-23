@@ -1,5 +1,4 @@
 ---
-
 title: Localization rant
 date: 2009-04-23T22:38:43+00:00
 author: Jilles van Gurp

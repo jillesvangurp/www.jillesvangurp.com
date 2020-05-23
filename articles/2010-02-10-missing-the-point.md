@@ -1,5 +1,4 @@
 ---
-
 title: Missing the point
 date: 2010-02-10T21:44:49+00:00
 author: Jilles van Gurp

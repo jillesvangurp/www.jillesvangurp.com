@@ -1,5 +1,4 @@
 ---
-
 title: this is so true
 date: 2006-03-18T12:30:39+00:00
 author: Jilles van Gurp

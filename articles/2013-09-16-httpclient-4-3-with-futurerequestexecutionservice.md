@@ -1,5 +1,4 @@
 ---
-
 title: Httpclient 4.3 with FutureRequestExecutionService
 date: 2013-09-16T16:55:07+00:00
 author: Jilles van Gurp

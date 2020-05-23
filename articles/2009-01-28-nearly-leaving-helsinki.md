@@ -1,5 +1,4 @@
 ---
-
 title: Nearly leaving Helsinki
 date: 2009-01-28T23:39:24+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Maven and my GitHub projects
 date: 2013-02-27T16:31:47+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: that must hurt
 date: 2006-03-22T20:55:22+00:00
 author: Jilles van Gurp

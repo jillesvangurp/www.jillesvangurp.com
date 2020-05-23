@@ -1,5 +1,4 @@
 ---
-
 title: Using Elastic Search as a Key Value store
 date: 2013-01-15T21:39:52+00:00
 author: Jilles van Gurp

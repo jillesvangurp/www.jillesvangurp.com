@@ -1,5 +1,4 @@
 ---
-
 title: jedit plugin manager
 date: 2006-05-21T15:46:37+00:00
 author: Jilles van Gurp

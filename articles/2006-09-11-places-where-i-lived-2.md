@@ -1,5 +1,4 @@
 ---
-
 title: Places where I lived (2)
 date: 2006-09-11T11:20:14+00:00
 author: Jilles van Gurp

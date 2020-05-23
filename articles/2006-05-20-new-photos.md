@@ -1,5 +1,4 @@
 ---
-
 title: New photos
 date: 2006-05-20T11:17:38+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Vacation photos
 date: 2008-08-16T16:41:14+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: winter photos
 date: 2006-01-22T22:25:17+00:00
 author: Jilles van Gurp

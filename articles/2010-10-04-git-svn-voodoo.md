@@ -1,5 +1,4 @@
 ---
-
 title: Git svn voodoo
 date: 2010-10-04T23:53:40+00:00
 author: Jilles van Gurp

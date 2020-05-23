@@ -1,5 +1,4 @@
 ---
-
 title: Moving to Berlin
 date: 2008-12-19T23:08:48+00:00
 author: Jilles van Gurp

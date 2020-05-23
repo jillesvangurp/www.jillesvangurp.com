@@ -1,5 +1,4 @@
 ---
-
 title: X-plane on an iPhone
 date: 2008-09-13T11:10:08+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Accessing Elasticsearch clusters via a localhost node
 date: 2014-12-06T12:31:23+00:00
 author: Jilles van Gurp

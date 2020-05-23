@@ -1,5 +1,4 @@
 ---
-
 title: Photos Rome
 date: 2009-09-09T22:12:27+00:00
 author: Jilles van Gurp

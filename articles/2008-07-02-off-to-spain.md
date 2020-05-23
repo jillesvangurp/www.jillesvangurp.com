@@ -1,5 +1,4 @@
 ---
-
 title: Off to Spain
 date: 2008-07-02T11:13:18+00:00
 author: Jilles van Gurp

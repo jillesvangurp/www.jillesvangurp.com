@@ -3,7 +3,6 @@ title: Libra, blockchains, and the meaning of it all
 description: Recently, Facebook announced their plans for launching their own blockchain platform and crypto currency, the Libra. In this longish article I want to explore what I think is happening and what it all means. As such, it is severely at risk of being both late and somewhat redundant as world plus dog seems to have an opinion on this. In writing this article, I want to reflect a bit on the bigger picture and also intend to distance myself a bit from the alarmist and populist hyperbole that has been circulating since Facebook announced Libra.
 tags: libra, blockchain, opinion
 ---
-
 Originally published on [dev.to](https://dev.to/jillesvangurp/libra-blockchains-and-the-meaning-of-it-all-1clc).
 
 Recently, Facebook announced their plans for launching their own blockchain platform and crypto currency, the Libra. As I have done the technical work for [Inbot](https://inbot.io) to launch our own token on the Stellar blockchain, I'm of course very interested in what they are doing, why,  and how.

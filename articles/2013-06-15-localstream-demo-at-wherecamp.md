@@ -1,5 +1,4 @@
 ---
-
 title: Localstream demo at Wherecamp
 date: 2013-06-15T16:07:20+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Supermarket beers in Finland
 date: 2006-03-10T23:36:30+00:00
 author: Jilles van Gurp

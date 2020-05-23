@@ -1,5 +1,4 @@
 ---
-
 title: 'spyware sucks, but ubuntu doesn&#8217;t'
 date: 2006-04-18T19:28:54+00:00
 author: Jilles van Gurp

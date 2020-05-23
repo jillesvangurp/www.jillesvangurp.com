@@ -1,5 +1,4 @@
 ---
-
 title: OpenID study at Google
 date: 2008-10-17T19:31:34+00:00
 author: Jilles van Gurp
@@ -32,7 +31,6 @@ With what openid identity, email address or username do you wish to login (excus
 -------------------------------- ------
 | http://www.jillesvangurp.com | | OK |
 -------------------------------- ------
-
 ```
 
 The user will enter whatever seems right and the server will make a best effort to authenticate with whatever the user provides. Then the server checks the following rules (using AJAX of course) against the address/username

@@ -1,5 +1,4 @@
 ---
-
 title: Winter has come
 date: 2007-01-23T10:17:54+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Moving time
 date: 2005-11-18T15:46:02+00:00
 author: Jilles van Gurp

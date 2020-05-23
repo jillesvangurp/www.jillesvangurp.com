@@ -1,5 +1,4 @@
 ---
-
 title: Leaving Nokia
 date: 2012-08-16T14:54:24+00:00
 author: Jilles van Gurp

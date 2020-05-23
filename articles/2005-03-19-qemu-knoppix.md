@@ -1,5 +1,4 @@
 ---
-
 title: 'qemu & knoppix'
 date: 2005-03-19T11:06:00+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: '&#8230; and back again'
 date: 2005-09-04T19:38:00+00:00
 author: Jilles van Gurp

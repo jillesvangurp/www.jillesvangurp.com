@@ -1,5 +1,4 @@
 ---
-
 title: 'ubuntu &#8211; the story continues'
 date: 2007-09-11T22:37:22+00:00
 author: Jilles van Gurp

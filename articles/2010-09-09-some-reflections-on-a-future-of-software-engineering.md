@@ -1,5 +1,4 @@
 ---
-
 title: Some reflections on a future of software engineering
 date: 2010-09-09T09:02:47+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Fun new toy
 date: 2006-03-28T19:24:25+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: GX WebManager
 date: 2008-05-01T09:32:40+00:00
 author: Jilles van Gurp

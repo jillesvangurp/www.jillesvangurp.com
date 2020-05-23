@@ -1,5 +1,4 @@
 ---
-
 title: 'Towards Effective Smart Space Application Development: Impediments and Research Challenges'
 date: 2007-03-21T23:20:15+00:00
 author: Jilles van Gurp

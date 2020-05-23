@@ -1,5 +1,4 @@
 ---
-
 title: rediculous clause
 date: 2006-09-17T10:36:34+00:00
 author: Jilles van Gurp

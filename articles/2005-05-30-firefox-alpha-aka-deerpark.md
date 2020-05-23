@@ -1,5 +1,4 @@
 ---
-
 title: FireFox Alpha a.k.a Deerpark
 date: 2005-05-30T19:33:00+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Mobile Linux
 date: 2013-03-29T14:10:50+00:00
 author: Jilles van Gurp

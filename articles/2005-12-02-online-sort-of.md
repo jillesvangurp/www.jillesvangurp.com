@@ -1,5 +1,4 @@
 ---
-
 title: online, sort of
 date: 2005-12-02T16:56:44+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Photos Stockholm and Seurasaari
 date: 2007-11-05T21:59:37+00:00
 author: Jilles van Gurp

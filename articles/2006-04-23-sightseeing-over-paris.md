@@ -1,5 +1,4 @@
 ---
-
 title: sightseeing over paris
 date: 2006-04-23T13:18:41+00:00
 author: Jilles van Gurp

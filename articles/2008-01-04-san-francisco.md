@@ -1,5 +1,4 @@
 ---
-
 title: San Francisco
 date: 2008-01-04T02:43:37+00:00
 author: Jilles van Gurp

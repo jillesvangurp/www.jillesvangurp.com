@@ -1,5 +1,4 @@
 ---
-
 title: Updated my photo site
 date: 2008-02-04T00:26:06+00:00
 author: Jilles van Gurp

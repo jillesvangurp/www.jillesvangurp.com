@@ -1,5 +1,4 @@
 ---
-
 title: 'Scrum: Agile madness'
 date: 2011-12-03T14:37:16+00:00
 author: Jilles van Gurp

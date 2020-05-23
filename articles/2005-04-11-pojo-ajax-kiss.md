@@ -1,5 +1,4 @@
 ---
-
 title: Pojo + ajax = KISS
 date: 2005-04-11T18:00:00+00:00
 author: Jilles van Gurp

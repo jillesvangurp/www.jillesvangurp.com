@@ -1,5 +1,4 @@
 ---
-
 title: First impressions of Finland
 date: 2006-01-01T15:25:19+00:00
 author: Jilles van Gurp

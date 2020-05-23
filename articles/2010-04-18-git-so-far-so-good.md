@@ -1,5 +1,4 @@
 ---
-
 title: 'Git: so far, so good'
 date: 2010-04-18T09:30:21+00:00
 author: Jilles van Gurp

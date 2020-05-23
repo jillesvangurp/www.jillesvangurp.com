@@ -1,5 +1,4 @@
 ---
-
 title: Jruby and Java at Localstream
 date: 2013-05-09T14:49:49+00:00
 author: Jilles van Gurp

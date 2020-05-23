@@ -1,5 +1,4 @@
 ---
-
 title: good headphones
 date: 2006-03-09T20:01:31+00:00
 author: Jilles van Gurp

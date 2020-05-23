@@ -1,5 +1,4 @@
 ---
-
 title: Welcome to the USA!
 date: 2006-08-20T15:15:21+00:00
 author: Jilles van Gurp

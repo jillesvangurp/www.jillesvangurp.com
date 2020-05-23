@@ -1,5 +1,4 @@
 ---
-
 title: photos
 date: 2005-12-21T21:28:13+00:00
 author: Jilles van Gurp

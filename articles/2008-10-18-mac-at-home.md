@@ -1,5 +1,4 @@
 ---
-
 title: Mac at home
 date: 2008-10-18T11:40:58+00:00
 author: Jilles van Gurp

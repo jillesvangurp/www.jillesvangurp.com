@@ -1,5 +1,4 @@
 ---
-
 title: Storm of the decade
 date: 2008-01-05T18:55:52+00:00
 author: Jilles van Gurp

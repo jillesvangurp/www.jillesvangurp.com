@@ -1,5 +1,4 @@
 ---
-
 title: Web application scalability
 date: 2007-11-01T19:10:21+00:00
 author: Jilles van Gurp

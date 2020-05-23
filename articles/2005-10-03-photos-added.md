@@ -1,5 +1,4 @@
 ---
-
 title: 'Photo&#8217;s added'
 date: 2005-10-03T19:13:43+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: WordPress sandbox theme
 date: 2007-04-01T12:24:59+00:00
 author: Jilles van Gurp

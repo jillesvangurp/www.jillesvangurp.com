@@ -1,5 +1,4 @@
 ---
-
 title: Nice article by Neal Stephenson
 date: 2008-03-30T22:53:22+00:00
 author: Jilles van Gurp

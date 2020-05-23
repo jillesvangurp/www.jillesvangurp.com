@@ -1,5 +1,4 @@
 ---
-
 title: Local Interaction demo on Youtube
 date: 2008-10-09T18:11:36+00:00
 author: Jilles van Gurp

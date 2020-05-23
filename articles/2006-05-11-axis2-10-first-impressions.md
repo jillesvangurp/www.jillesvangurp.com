@@ -1,5 +1,4 @@
 ---
-
 title: 'Axis2 &#8211; 1.0 First impressions'
 date: 2006-05-11T17:57:45+00:00
 author: Jilles van Gurp

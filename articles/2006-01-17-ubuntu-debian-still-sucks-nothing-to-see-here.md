@@ -1,5 +1,4 @@
 ---
-
 title: 'ubuntu: debian still sucks, nothing to see here'
 date: 2006-01-17T23:40:31+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Bought a porsche
 date: 2007-01-29T19:58:54+00:00
 author: Jilles van Gurp

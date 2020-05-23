@@ -1,5 +1,4 @@
 ---
-
 title: X-Plane 9 review
 date: 2008-06-08T19:09:05+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: more x-plane tweaking
 date: 2006-03-16T21:59:03+00:00
 author: Jilles van Gurp

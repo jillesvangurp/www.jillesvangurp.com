@@ -1,5 +1,4 @@
 ---
-
 title: SPLC workshop papers
 date: 2006-08-18T10:04:29+00:00
 author: Jilles van Gurp

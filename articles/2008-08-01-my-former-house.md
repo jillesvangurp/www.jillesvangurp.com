@@ -1,5 +1,4 @@
 ---
-
 title: My former house
 date: 2008-08-01T18:20:15+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Self portrait
 date: 2006-06-12T20:03:23+00:00
 author: Jilles van Gurp

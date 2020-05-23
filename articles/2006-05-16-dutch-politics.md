@@ -1,5 +1,4 @@
 ---
-
 title: Dutch politics
 date: 2006-05-16T20:45:32+00:00
 author: Jilles van Gurp

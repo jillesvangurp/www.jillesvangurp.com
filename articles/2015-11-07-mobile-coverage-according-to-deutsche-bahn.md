@@ -1,5 +1,4 @@
 ---
-
 title: Mobile Coverage according to Deutsche Bahn
 date: 2015-11-07T11:54:11+00:00
 author: Jilles van Gurp

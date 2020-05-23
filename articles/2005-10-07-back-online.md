@@ -1,5 +1,4 @@
 ---
-
 title: Back online
 date: 2005-10-07T19:02:35+00:00
 author: Jilles van Gurp

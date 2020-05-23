@@ -1,5 +1,4 @@
 ---
-
 title: Google Social Graph API
 date: 2008-02-04T23:42:13+00:00
 author: Jilles van Gurp

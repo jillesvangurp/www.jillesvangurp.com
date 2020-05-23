@@ -1,5 +1,4 @@
 ---
-
 title: Semantic diffusion
 date: 2006-12-15T10:29:56+00:00
 author: Jilles van Gurp

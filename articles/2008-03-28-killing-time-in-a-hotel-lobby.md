@@ -1,5 +1,4 @@
 ---
-
 title: Killing time in a hotel lobby
 date: 2008-03-28T17:40:51+00:00
 author: Jilles van Gurp

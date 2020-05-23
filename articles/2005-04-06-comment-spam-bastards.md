@@ -1,5 +1,4 @@
 ---
-
 title: comment spam bastards
 date: 2005-04-06T19:39:00+00:00
 author: Jilles van Gurp

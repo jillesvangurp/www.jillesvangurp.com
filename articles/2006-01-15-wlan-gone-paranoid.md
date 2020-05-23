@@ -1,5 +1,4 @@
 ---
-
 title: wlan gone paranoid
 date: 2006-01-15T17:13:04+00:00
 author: Jilles van Gurp

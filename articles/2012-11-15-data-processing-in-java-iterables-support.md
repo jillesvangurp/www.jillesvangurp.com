@@ -1,5 +1,4 @@
 ---
-
 title: 'Data processing in Java: iterables-support'
 date: 2012-11-15T11:56:56+00:00
 author: Jilles van Gurp

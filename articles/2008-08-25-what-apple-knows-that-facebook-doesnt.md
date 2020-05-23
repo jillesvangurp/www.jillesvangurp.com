@@ -1,5 +1,4 @@
 ---
-
 title: 'What Apple Knows That Facebook Doesn&#8217;t'
 date: 2008-08-25T18:54:21+00:00
 author: Jilles van Gurp

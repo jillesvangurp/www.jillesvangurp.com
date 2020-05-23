@@ -1,5 +1,4 @@
 ---
-
 title: Using rsync for backup
 date: 2007-02-24T14:00:19+00:00
 author: Jilles van Gurp

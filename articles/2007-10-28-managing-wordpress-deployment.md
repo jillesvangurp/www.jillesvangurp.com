@@ -1,5 +1,4 @@
 ---
-
 title: Managing wordpress deployment
 date: 2007-10-28T17:17:04+00:00
 author: Jilles van Gurp

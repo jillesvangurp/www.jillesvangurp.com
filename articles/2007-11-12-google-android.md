@@ -1,5 +1,4 @@
 ---
-
 title: Google Android
 date: 2007-11-12T22:10:04+00:00
 author: Jilles van Gurp

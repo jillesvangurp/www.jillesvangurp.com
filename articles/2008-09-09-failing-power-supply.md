@@ -1,5 +1,4 @@
 ---
-
 title: Failing power supply
 date: 2008-09-09T22:58:50+00:00
 author: Jilles van Gurp

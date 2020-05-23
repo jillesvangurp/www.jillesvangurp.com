@@ -1,5 +1,4 @@
 ---
-
 title: The Way We Live Next
 date: 2008-09-16T21:18:19+00:00
 author: Jilles van Gurp

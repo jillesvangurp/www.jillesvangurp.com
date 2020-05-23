@@ -1,5 +1,4 @@
 ---
-
 title: more on opera mini
 date: 2006-02-02T09:42:49+00:00
 author: Jilles van Gurp

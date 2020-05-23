@@ -1,5 +1,4 @@
 ---
-
 title: wolframalpha
 date: 2009-05-21T10:06:39+00:00
 author: Jilles van Gurp

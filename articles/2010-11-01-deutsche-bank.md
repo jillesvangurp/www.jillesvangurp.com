@@ -1,5 +1,4 @@
 ---
-
 title: Deutsche bank
 date: 2010-11-01T23:47:30+00:00
 author: Jilles van Gurp

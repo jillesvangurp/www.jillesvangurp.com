@@ -1,5 +1,4 @@
 ---
-
 title: Travel from A to B
 date: 2007-11-22T23:22:37+00:00
 author: Jilles van Gurp

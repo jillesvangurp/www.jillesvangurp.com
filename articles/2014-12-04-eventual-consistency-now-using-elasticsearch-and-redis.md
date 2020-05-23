@@ -1,5 +1,4 @@
 ---
-
 title: Eventual Consistency Now! using Elasticsearch and Redis
 date: 2014-12-04T00:09:27+00:00
 author: Jilles van Gurp

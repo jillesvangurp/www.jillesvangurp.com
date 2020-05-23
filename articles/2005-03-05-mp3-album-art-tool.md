@@ -1,5 +1,4 @@
 ---
-
 title: MP3 Album Art Tool
 date: 2005-03-05T10:20:00+00:00
 author: Jilles van Gurp

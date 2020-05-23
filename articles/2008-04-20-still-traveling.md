@@ -1,5 +1,4 @@
 ---
-
 title: Still traveling
 date: 2008-04-20T10:15:47+00:00
 author: Jilles van Gurp

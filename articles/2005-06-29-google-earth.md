@@ -1,5 +1,4 @@
 ---
-
 title: google earth
 date: 2005-06-29T20:30:00+00:00
 author: Jilles van Gurp

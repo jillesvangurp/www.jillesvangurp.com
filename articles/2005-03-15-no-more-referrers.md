@@ -1,5 +1,4 @@
 ---
-
 title: no more referrers
 date: 2005-03-15T21:14:00+00:00
 author: Jilles van Gurp

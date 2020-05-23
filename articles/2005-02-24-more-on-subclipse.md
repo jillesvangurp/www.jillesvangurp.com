@@ -1,5 +1,4 @@
 ---
-
 title: more on subclipse
 date: 2005-02-24T20:27:00+00:00
 author: Jilles van Gurp

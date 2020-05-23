@@ -1,5 +1,4 @@
 ---
-
 title: Scientific content should be free
 date: 2005-03-09T18:33:00+00:00
 author: Jilles van Gurp

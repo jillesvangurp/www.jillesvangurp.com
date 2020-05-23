@@ -1,5 +1,4 @@
 ---
-
 title: Dutch beer
 date: 2007-11-07T22:47:40+00:00
 author: Jilles van Gurp

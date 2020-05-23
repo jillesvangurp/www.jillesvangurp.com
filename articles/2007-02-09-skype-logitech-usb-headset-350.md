@@ -1,5 +1,4 @@
 ---
-
 title: Skype + Logitech USB Headset 350
 date: 2007-02-09T20:22:36+00:00
 author: Jilles van Gurp

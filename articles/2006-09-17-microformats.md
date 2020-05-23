@@ -1,5 +1,4 @@
 ---
-
 title: Microformats
 date: 2006-09-17T16:08:05+00:00
 author: Jilles van Gurp

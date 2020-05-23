@@ -1,5 +1,4 @@
 ---
-
 title: Viva las Vegas
 date: 2008-01-11T23:18:46+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: JAlbum repository
 date: 2006-01-01T16:18:41+00:00
 author: Jilles van Gurp

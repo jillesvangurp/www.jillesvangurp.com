@@ -1,5 +1,4 @@
 ---
-
 title: Back from vacation
 date: 2008-07-29T20:44:42+00:00
 author: Jilles van Gurp

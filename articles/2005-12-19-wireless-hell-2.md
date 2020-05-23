@@ -1,5 +1,4 @@
 ---
-
 title: wireless hell (2)
 date: 2005-12-19T21:14:25+00:00
 author: Jilles van Gurp

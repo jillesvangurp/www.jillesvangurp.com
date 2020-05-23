@@ -1,5 +1,4 @@
 ---
-
 title: I love this country
 date: 2006-03-21T19:25:27+00:00
 author: Jilles van Gurp

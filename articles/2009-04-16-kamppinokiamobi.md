@@ -1,5 +1,4 @@
 ---
-
 title: kamppi.nokia.mobi
 date: 2009-04-16T20:29:54+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Crypto Crap in Python
 date: 2008-01-25T19:05:22+00:00
 author: Jilles van Gurp

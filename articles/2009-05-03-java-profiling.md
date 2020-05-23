@@ -1,5 +1,4 @@
 ---
-
 title: Java Profiling
 date: 2009-05-03T11:05:19+00:00
 author: Jilles van Gurp

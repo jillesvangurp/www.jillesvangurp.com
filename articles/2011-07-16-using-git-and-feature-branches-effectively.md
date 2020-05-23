@@ -1,5 +1,4 @@
 ---
-
 title: Using Git and feature branches effectively
 date: 2011-07-16T12:19:49+00:00
 author: Jilles van Gurp

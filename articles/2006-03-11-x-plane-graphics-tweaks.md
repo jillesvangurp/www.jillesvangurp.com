@@ -1,5 +1,4 @@
 ---
-
 title: x-plane graphics tweaks
 date: 2006-03-11T16:52:39+00:00
 author: Jilles van Gurp

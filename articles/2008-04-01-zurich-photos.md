@@ -1,5 +1,4 @@
 ---
-
 title: Zurich Photos
 date: 2008-04-01T22:47:16+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Nokia Android Phone
 date: 2014-02-10T22:42:53+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Upgrading to wordpress 2.1
 date: 2007-01-23T17:49:30+00:00
 author: Jilles van Gurp

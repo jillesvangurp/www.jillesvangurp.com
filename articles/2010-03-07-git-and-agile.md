@@ -1,5 +1,4 @@
 ---
-
 title: Git and agile
 date: 2010-03-07T21:21:56+00:00
 author: Jilles van Gurp

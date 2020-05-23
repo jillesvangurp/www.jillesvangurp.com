@@ -1,5 +1,4 @@
 ---
-
 title: Impressive IT project
 date: 2006-05-18T17:49:04+00:00
 author: Jilles van Gurp

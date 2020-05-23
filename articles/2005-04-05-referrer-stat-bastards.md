@@ -1,5 +1,4 @@
 ---
-
 title: referrer stat bastards!
 date: 2005-04-05T17:35:00+00:00
 author: Jilles van Gurp

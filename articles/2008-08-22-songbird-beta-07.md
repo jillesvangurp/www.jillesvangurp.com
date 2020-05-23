@@ -1,5 +1,4 @@
 ---
-
 title: Songbird Beta (0.7)
 date: 2008-08-22T20:22:48+00:00
 author: Jilles van Gurp

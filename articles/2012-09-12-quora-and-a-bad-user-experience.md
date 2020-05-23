@@ -1,5 +1,4 @@
 ---
-
 title: Quora and a bad user experience
 date: 2012-09-12T12:25:25+00:00
 author: Jilles van Gurp

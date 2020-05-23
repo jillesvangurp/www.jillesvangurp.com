@@ -1,5 +1,4 @@
 ---
-
 title: macbook pro, cons and pros
 date: 2008-10-16T21:58:53+00:00
 author: Jilles van Gurp

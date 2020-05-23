@@ -1,5 +1,4 @@
 ---
-
 title: Upgrade to wordpress 2.7.1
 date: 2009-04-13T14:08:24+00:00
 author: Jilles van Gurp

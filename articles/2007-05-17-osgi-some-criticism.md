@@ -1,5 +1,4 @@
 ---
-
 title: 'OSGi: some criticism'
 date: 2007-05-17T11:54:09+00:00
 author: Jilles van Gurp

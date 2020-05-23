@@ -1,5 +1,4 @@
 ---
-
 title: Presenting Local Interaction Demo
 date: 2008-10-09T22:18:52+00:00
 author: Jilles van Gurp

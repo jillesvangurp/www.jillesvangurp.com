@@ -1,5 +1,4 @@
 ---
-
 title: Git-svn tips
 date: 2012-06-10T14:55:35+00:00
 author: Jilles van Gurp

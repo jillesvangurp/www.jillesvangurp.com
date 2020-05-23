@@ -1,5 +1,4 @@
 ---
-
 title: On vacation
 date: 2007-06-04T13:53:58+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Nice Photo of Helsinki
 date: 2006-05-20T13:07:54+00:00
 author: Jilles van Gurp

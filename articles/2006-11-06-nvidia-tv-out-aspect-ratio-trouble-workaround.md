@@ -1,5 +1,4 @@
 ---
-
 title: 'Nvidia tv out aspect ratio trouble &#038; workaround'
 date: 2006-11-06T23:37:08+00:00
 author: Jilles van Gurp

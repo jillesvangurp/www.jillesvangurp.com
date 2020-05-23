@@ -1,5 +1,4 @@
 ---
-
 title: Workshop paper
 date: 2007-07-20T17:43:18+00:00
 author: Jilles van Gurp

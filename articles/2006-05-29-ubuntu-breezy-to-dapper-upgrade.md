@@ -1,5 +1,4 @@
 ---
-
 title: ubuntu breezy to dapper upgrade
 date: 2006-05-29T17:49:30+00:00
 author: Jilles van Gurp

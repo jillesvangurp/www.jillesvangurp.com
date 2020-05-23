@@ -1,5 +1,4 @@
 ---
-
 title: 'new site: mopho.jillesvangurp.com'
 date: 2006-08-03T20:05:47+00:00
 author: Jilles van Gurp

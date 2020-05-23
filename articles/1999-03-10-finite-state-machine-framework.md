@@ -1,5 +1,4 @@
 ---
-
 title: Finite State Machine Framework
 date: 1999-03-10T12:00:28+00:00
 author: Jilles van Gurp

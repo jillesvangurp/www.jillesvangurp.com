@@ -1,5 +1,4 @@
 ---
-
 title: Another Porsche
 date: 2007-08-24T18:06:29+00:00
 author: Jilles van Gurp

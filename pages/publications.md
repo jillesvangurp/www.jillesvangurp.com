@@ -1,10 +1,8 @@
 ---
-
 title: Publications & Academic work
 date: 2008-03-15T10:54:02+00:00
 author: Jilles van Gurp
 ---
-
 Before becoming a software engineer, I was a researcher studying software engineering at the universities of Utrecht, Karlskrona/Ronneby (these days known as the Belinking Institute of Technology), and Groningen. Additionally I worked at Nokia Research. On this page you may find various things I've published from those days. You may also find me on [Research Gate](https://www.researchgate.net/profile/Jilles_Van_Gurp), even though I'm not very active there. If you need something that isn't listed on this page, drop me an email.
 
 I choose to share my published work via this website. The reason is simply because I wrote these articles so that others may read them. I find that locking them up behind tightly controlled for profit publisher web sites is a good way of ensuring few people do that. It should be noted though that in some cases the _copyright of the material belongs to the publisher_ and not to me. It is my understanding that publishers generally don't object against authors providing downloadable pdfs of their published work. I know this to be true of at least the IEEE where several of these articles have been published.

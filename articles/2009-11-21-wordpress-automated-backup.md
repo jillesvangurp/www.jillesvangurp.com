@@ -1,5 +1,4 @@
 ---
-
 title: WordPress automated backup
 date: 2009-11-21T13:19:36+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Git presentation
 date: 2012-08-04T09:48:59+00:00
 author: Jilles van Gurp

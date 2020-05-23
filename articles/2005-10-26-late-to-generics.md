@@ -1,5 +1,4 @@
 ---
-
 title: Generic event code
 date: 2005-10-26T22:30:02+00:00
 author: Jilles van Gurp

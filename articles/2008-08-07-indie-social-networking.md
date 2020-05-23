@@ -1,5 +1,4 @@
 ---
-
 title: Indie Social Networking
 date: 2008-08-07T22:05:44+00:00
 author: Jilles van Gurp

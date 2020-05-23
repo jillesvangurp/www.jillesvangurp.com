@@ -1,5 +1,4 @@
 ---
-
 title: 'WordPress 3.2 &#038; new theme'
 date: 2011-07-05T09:11:32+00:00
 author: Jilles van Gurp

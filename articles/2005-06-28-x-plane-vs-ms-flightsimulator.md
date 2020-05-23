@@ -1,5 +1,4 @@
 ---
-
 title: x-plane vs ms flightsimulator
 date: 2005-06-28T18:20:00+00:00
 author: Jilles van Gurp

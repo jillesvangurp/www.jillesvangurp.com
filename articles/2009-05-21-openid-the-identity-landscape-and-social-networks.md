@@ -1,5 +1,4 @@
 ---
-
 title: OpenID, the identity landscape, and social networks
 date: 2009-05-21T10:30:31+00:00
 author: Jilles van Gurp

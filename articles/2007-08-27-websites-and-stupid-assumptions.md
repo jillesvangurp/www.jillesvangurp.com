@@ -1,5 +1,4 @@
 ---
-
 title: websites and stupid assumptions
 date: 2007-08-27T21:34:47+00:00
 author: Jilles van Gurp

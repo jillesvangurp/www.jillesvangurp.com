@@ -1,5 +1,4 @@
 ---
-
 title: Traveling in style
 date: 2008-01-07T22:38:12+00:00
 author: Jilles van Gurp

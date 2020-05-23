@@ -1,5 +1,4 @@
 ---
-
 title: semantic vs Semantic
 date: 2007-10-18T21:22:24+00:00
 author: Jilles van Gurp

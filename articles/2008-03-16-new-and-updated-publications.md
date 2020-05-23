@@ -1,5 +1,4 @@
 ---
-
 title: New and updated publications
 date: 2008-03-16T12:36:20+00:00
 author: Jilles van Gurp

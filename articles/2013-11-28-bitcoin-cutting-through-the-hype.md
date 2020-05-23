@@ -1,5 +1,4 @@
 ---
-
 title: 'Bitcoin: cutting through the hype'
 date: 2013-11-28T08:18:56+00:00
 author: Jilles van Gurp

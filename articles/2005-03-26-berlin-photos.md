@@ -1,5 +1,4 @@
 ---
-
 title: Berlin photos
 date: 2005-03-26T12:24:00+00:00
 author: Jilles van Gurp

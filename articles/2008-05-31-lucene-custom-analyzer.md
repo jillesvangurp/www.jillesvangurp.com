@@ -1,5 +1,4 @@
 ---
-
 title: Lucene Custom Analyzer
 date: 2008-05-31T12:03:16+00:00
 author: Jilles van Gurp

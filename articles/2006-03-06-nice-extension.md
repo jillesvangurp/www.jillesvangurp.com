@@ -1,5 +1,4 @@
 ---
-
 title: Nice extension
 date: 2006-03-06T22:00:34+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Optimistic locking for updates in Elasticsearch
 date: 2014-12-03T15:04:34+00:00
 author: Jilles van Gurp

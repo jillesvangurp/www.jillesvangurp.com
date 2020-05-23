@@ -10,7 +10,6 @@ This article was originally published by my friends at the [Coder Society](https
 They also did an [interview with me](https://codersociety.com/blog/videos/the-future-of-libra-and-blockchain-beyond-the-hype).
 
 ---
-
 After a lot of hype around blockchains, Libra is a wakeup call.
 Everybody is obsessing over what Facebook is planning. But now the
 debate is shifting to how central banks, and perhaps others, can use

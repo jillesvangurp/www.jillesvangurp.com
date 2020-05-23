@@ -1,5 +1,4 @@
 ---
-
 title: Whoohoo vacation!
 date: 2006-06-22T20:04:19+00:00
 author: Jilles van Gurp

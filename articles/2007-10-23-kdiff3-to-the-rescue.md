@@ -1,5 +1,4 @@
 ---
-
 title: Kdiff3 to the rescue
 date: 2007-10-23T23:47:05+00:00
 author: Jilles van Gurp

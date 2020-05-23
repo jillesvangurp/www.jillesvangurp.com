@@ -1,5 +1,4 @@
 ---
-
 title: In search of the One True Layout
 date: 2005-11-03T20:11:37+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Photos from Paris
 date: 2006-10-17T18:14:15+00:00
 author: Jilles van Gurp

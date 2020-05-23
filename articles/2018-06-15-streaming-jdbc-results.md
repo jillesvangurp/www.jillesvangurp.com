@@ -4,7 +4,6 @@ title: Streaming results from a JdbcTemplate in Kotlin
 description: Sometimes you just want to do a foreach thing in the results of a query do something without worrying about running out of memory, paging etc. 
 tags: jdbctemplate, kotlin, streams, spring-boot
 ---
-
 Originally published on [dev.to](https://dev.to/jillesvangurp/streaming-results-from-a-jdbctemplate-in-kotlin-474h).
 
 I've been transitioning from using Hibernate to using JdbcTemplate in a Kotlin based Spring Boot 2.x project recently. The why and how of that I wrote down in another [article](https://dev.to/jillesvangurp/ripping-out-hibernate-and-going-native-jdbc-1lf2). One of the repository methods that I needed to move over was something like this:

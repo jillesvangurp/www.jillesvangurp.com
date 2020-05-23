@@ -1,5 +1,4 @@
 ---
-
 title: And another theme
 date: 2007-04-11T20:07:14+00:00
 author: Jilles van Gurp

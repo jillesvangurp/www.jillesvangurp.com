@@ -1,5 +1,4 @@
 ---
-
 title: Spam users
 date: 2007-10-17T19:20:08+00:00
 author: Jilles van Gurp

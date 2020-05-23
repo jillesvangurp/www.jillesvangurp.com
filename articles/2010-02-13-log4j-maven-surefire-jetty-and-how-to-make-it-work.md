@@ -1,5 +1,4 @@
 ---
-
 title: log4j, maven, surefire, jetty and how to make it work
 date: 2010-02-13T10:16:46+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: going offline
 date: 2005-11-20T22:27:21+00:00
 author: Jilles van Gurp

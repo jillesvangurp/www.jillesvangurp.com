@@ -1,5 +1,4 @@
 ---
-
 title: Dumping bloglines for google reader
 date: 2006-12-11T19:49:04+00:00
 author: Jilles van Gurp

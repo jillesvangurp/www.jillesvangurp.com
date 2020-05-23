@@ -1,5 +1,4 @@
 ---
-
 title: Elasticsearch failed shard recovery
 date: 2015-02-18T19:00:31+00:00
 author: Jilles van Gurp

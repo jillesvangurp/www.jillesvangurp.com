@@ -1,5 +1,4 @@
 ---
-
 title: Placeopedia
 date: 2007-01-14T11:39:05+00:00
 author: Jilles van Gurp

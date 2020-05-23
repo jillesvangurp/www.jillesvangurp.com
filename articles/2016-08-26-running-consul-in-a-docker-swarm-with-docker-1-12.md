@@ -1,5 +1,4 @@
 ---
-
 title: Running consul in a docker swarm with docker 1.12
 date: 2016-08-26T10:00:58+00:00
 author: Jilles van Gurp

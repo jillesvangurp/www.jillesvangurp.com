@@ -1,5 +1,4 @@
 ---
-
 title: The Snowden effect
 date: 2013-08-02T10:10:00+00:00
 author: Jilles van Gurp

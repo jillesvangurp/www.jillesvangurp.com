@@ -1,5 +1,4 @@
 ---
-
 title: Running Elasticsearch in a Docker 1.12 Swarm
 date: 2016-08-26T11:09:58+00:00
 author: Jilles van Gurp

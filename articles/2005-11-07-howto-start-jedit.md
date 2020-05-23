@@ -1,5 +1,4 @@
 ---
-
 title: Howto start jEdit
 date: 2005-11-07T21:28:38+00:00
 author: Jilles van Gurp

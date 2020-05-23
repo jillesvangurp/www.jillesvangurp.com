@@ -1,5 +1,4 @@
 ---
-
 title: stuff gets released
 date: 2005-10-24T19:06:20+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Structured Blogging Test
 date: 2006-09-17T15:33:30+00:00
 author: Jilles van Gurp

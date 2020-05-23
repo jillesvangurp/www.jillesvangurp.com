@@ -1,5 +1,4 @@
 ---
-
 title: Christmas Photos
 date: 2008-02-05T01:10:56+00:00
 author: Jilles van Gurp

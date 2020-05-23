@@ -1,5 +1,4 @@
 ---
-
 title: why cvs sucks
 date: 2006-03-07T14:02:00+00:00
 author: Jilles van Gurp

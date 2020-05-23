@@ -1,5 +1,4 @@
 ---
-
 title: Open Office 2.0 Beta
 date: 2005-03-02T20:45:00+00:00
 author: Jilles van Gurp

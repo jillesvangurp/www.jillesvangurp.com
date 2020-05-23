@@ -1,5 +1,4 @@
 ---
-
 title: Variability Management and Compositional SPL Development
 date: 2007-03-21T23:15:45+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: New papers
 date: 2006-05-30T20:56:14+00:00
 author: Jilles van Gurp

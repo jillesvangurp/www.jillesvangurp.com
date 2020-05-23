@@ -1,5 +1,4 @@
 ---
-
 title: server side osgi, a myth?
 date: 2008-11-25T17:56:17+00:00
 author: Jilles van Gurp

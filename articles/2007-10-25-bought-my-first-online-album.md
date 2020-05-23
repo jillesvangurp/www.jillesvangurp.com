@@ -1,5 +1,4 @@
 ---
-
 title: Bought my first online album
 date: 2007-10-25T23:06:02+00:00
 author: Jilles van Gurp

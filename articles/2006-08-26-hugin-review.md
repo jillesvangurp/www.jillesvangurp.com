@@ -1,5 +1,4 @@
 ---
-
 title: Hugin review
 date: 2006-08-26T20:18:32+00:00
 author: Jilles van Gurp

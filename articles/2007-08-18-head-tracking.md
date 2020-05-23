@@ -1,5 +1,4 @@
 ---
-
 title: Head tracking
 date: 2007-08-18T16:27:44+00:00
 author: Jilles van Gurp

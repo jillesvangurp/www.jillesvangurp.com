@@ -1,5 +1,4 @@
 ---
-
 title: Server side development sucks
 date: 2009-10-07T21:01:00+00:00
 author: Jilles van Gurp

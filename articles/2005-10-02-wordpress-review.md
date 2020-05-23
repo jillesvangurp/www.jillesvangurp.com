@@ -1,5 +1,4 @@
 ---
-
 title: WordPress review
 date: 2005-10-02T18:22:28+00:00
 author: Jilles van Gurp

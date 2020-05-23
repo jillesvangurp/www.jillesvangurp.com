@@ -1,5 +1,4 @@
 ---
-
 title: Good article on classloaders
 date: 2006-01-19T19:01:53+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: '2084 &#8211; Dodging a Dystopian Future'
 date: 2017-01-09T14:27:22+00:00
 author: Jilles van Gurp

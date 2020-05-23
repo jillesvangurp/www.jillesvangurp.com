@@ -1,5 +1,4 @@
 ---
-
 title: The coming paradigm shift in TV broadcasting
 date: 2005-10-17T23:26:58+00:00
 author: Jilles van Gurp

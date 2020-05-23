@@ -1,5 +1,4 @@
 ---
-
 title: Little WTF moment this morning
 date: 2006-09-27T12:20:51+00:00
 author: Jilles van Gurp

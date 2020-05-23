@@ -1,5 +1,4 @@
 ---
-
 title: Anamorphic aspect ratio calculator
 date: 2004-02-10T13:27:48+00:00
 author: Jilles van Gurp

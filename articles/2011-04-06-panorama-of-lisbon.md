@@ -1,5 +1,4 @@
 ---
-
 title: Panorama of Lisbon
 date: 2011-04-06T09:14:05+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Functional tests and flakyness
 date: 2016-05-25T10:38:13+00:00
 author: Jilles van Gurp

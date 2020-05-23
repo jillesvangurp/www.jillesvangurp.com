@@ -1,5 +1,4 @@
 ---
-
 title: another ubuntu installation test
 date: 2007-01-27T14:15:18+00:00
 author: Jilles van Gurp

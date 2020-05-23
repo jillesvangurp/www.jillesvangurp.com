@@ -1,5 +1,4 @@
 ---
-
 title: And another Stockholm photo
 date: 2007-11-06T01:14:32+00:00
 author: Jilles van Gurp

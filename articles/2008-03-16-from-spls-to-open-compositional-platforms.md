@@ -1,5 +1,4 @@
 ---
-
 title: From SPLs to Open, Compositional Platforms
 date: 2008-03-16T13:04:01+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: 'Photos Baltimore &#038; Washington'
 date: 2006-09-06T23:34:20+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: despair.com
 date: 2006-03-02T22:09:00+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: Using Elastic Search for geo-spatial search
 date: 2013-03-20T19:59:25+00:00
 author: Jilles van Gurp

@@ -1,5 +1,4 @@
 ---
-
 title: How to rename an index in Elasticsearch
 date: 2015-03-03T15:35:52+00:00
 author: Jilles van Gurp

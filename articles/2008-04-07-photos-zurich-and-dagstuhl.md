@@ -1,5 +1,4 @@
 ---
-
 title: Photos Zurich and Dagstuhl
 date: 2008-04-07T19:31:58+00:00
 author: Jilles van Gurp

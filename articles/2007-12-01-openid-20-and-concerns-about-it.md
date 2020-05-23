@@ -1,5 +1,4 @@
 ---
-
 title: OpenID 2.0 and concerns about it
 date: 2007-12-01T13:04:27+00:00
 author: Jilles van Gurp

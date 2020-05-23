@@ -1,5 +1,4 @@
 ---
-
 title: Netbeans 5.0 first impressions
 date: 2006-02-07T19:13:38+00:00
 author: Jilles van Gurp

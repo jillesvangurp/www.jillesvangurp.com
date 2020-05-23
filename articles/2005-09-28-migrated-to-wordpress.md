@@ -1,5 +1,4 @@
 ---
-
 title: migrated to wordpress
 date: 2005-09-28T23:13:54+00:00
 author: Jilles van Gurp

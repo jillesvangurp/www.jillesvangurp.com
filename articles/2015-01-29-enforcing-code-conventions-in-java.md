@@ -1,5 +1,4 @@
 ---
-
 title: Enforcing code conventions in Java
 date: 2015-01-29T11:36:10+00:00
 author: Jilles van Gurp

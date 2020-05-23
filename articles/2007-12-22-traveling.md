@@ -1,5 +1,4 @@
 ---
-
 title: traveling
 date: 2007-12-22T14:11:56+00:00
 author: Jilles van Gurp

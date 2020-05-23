@@ -1,5 +1,4 @@
 ---
-
 title: Internationalization fail
 date: 2011-02-12T16:27:56+00:00
 author: Jilles van Gurp

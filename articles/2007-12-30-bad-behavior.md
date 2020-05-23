@@ -1,5 +1,4 @@
 ---
-
 title: Bad behavior
 date: 2007-12-30T16:16:57+00:00
 author: Jilles van Gurp

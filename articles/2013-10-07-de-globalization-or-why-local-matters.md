@@ -1,5 +1,4 @@
 ---
-
 title: De-globalization or why local matters
 date: 2013-10-07T18:44:43+00:00
 author: Jilles van Gurp

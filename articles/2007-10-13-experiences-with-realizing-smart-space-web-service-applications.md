@@ -1,5 +1,4 @@
 ---
-
 title: Experiences with realizing Smart Space Web Service Applications
 date: 2007-10-13T12:04:28+00:00
 author: Jilles van Gurp

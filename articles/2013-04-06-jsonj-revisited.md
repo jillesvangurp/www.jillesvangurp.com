@@ -1,5 +1,4 @@
 ---
-
 title: jsonj revisited
 date: 2013-04-06T00:51:45+00:00
 author: Jilles van Gurp

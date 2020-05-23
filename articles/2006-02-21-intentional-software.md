@@ -1,5 +1,4 @@
 ---
-
 title: Intentional Software
 date: 2006-02-21T18:40:20+00:00
 author: Jilles van Gurp

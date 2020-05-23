@@ -1,5 +1,4 @@
 ---
-
 title: 'New PC &#038; moving itunes library'
 date: 2006-01-09T20:39:18+00:00
 author: Jilles van Gurp

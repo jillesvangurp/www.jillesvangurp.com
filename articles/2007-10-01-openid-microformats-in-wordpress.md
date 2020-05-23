@@ -1,5 +1,4 @@
 ---
-
 title: 'OpenID &#038; Microformats in WordPress'
 date: 2007-10-01T23:09:24+00:00
 author: Jilles van Gurp

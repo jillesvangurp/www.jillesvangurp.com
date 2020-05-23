@@ -1,5 +1,4 @@
 ---
-
 title: 'Java theory and practice: Urban performance legends, revisited'
 date: 2005-10-09T19:28:46+00:00
 author: Jilles van Gurp

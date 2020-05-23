@@ -1,5 +1,4 @@
 ---
-
 title: Paper on Sensor Actuator Kit evaluation
 date: 2008-07-31T19:17:36+00:00
 author: Jilles van Gurp

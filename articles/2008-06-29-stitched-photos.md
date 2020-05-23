@@ -1,5 +1,4 @@
 ---
-
 title: Stitched Photos
 date: 2008-06-29T11:17:33+00:00
 author: Jilles van Gurp

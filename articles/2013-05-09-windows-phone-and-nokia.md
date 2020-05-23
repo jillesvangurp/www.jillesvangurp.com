@@ -1,5 +1,4 @@
 ---
-
 title: Windows Phone and Nokia
 date: 2013-05-09T10:20:53+00:00
 author: Jilles van Gurp

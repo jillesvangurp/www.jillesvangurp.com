@@ -1,5 +1,4 @@
 ---
-
 title: Comments are now enabled
 date: 2005-02-28T18:33:00+00:00
 author: Jilles van Gurp

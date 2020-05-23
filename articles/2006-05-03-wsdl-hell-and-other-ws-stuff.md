@@ -1,5 +1,4 @@
 ---
-
 title: WSDL Hell and other WS stuff
 date: 2006-05-03T17:57:45+00:00
 author: Jilles van Gurp

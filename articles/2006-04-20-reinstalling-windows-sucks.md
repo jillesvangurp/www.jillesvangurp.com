@@ -1,5 +1,4 @@
 ---
-
 title: reinstalling windows sucks
 date: 2006-04-20T22:08:39+00:00
 author: Jilles van Gurp

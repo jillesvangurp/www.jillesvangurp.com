@@ -1,5 +1,4 @@
 ---
-
 title: One week with the N900
 date: 2010-06-05T16:57:54+00:00
 author: Jilles van Gurp

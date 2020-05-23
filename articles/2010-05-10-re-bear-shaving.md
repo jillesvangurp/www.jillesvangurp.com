@@ -1,5 +1,4 @@
 ---
-
 title: 'Re: bear shaving'
 date: 2010-05-10T09:01:50+00:00
 author: Jilles van Gurp

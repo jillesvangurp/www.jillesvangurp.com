@@ -1,5 +1,4 @@
 ---
-
 title: Boosting Lucene search results using timestamps
 date: 2008-05-28T18:00:41+00:00
 author: Jilles van Gurp
