@@ -1,7 +1,6 @@
 ---
 title: Jilles van Gurp
 author: Jilles van Gurp
-
 ---
 <img alt="Jilles van Gurp photo" src="https://en.gravatar.com/userimage/227586/49ce2cb62cc80e45d963cc055ce6edb8.jpg?size=300" style="float:right;margin-left:1em;margin-bottom:1em;"/>
 
@@ -9,13 +8,11 @@ This is my website. I've had it in various forms since the mid nineties and with
 
 ## Professional Services
 
-I currently am self employed and working as a freelance consultant.
-
-In recent years I've worked as a very hands on CTO,  worked as a freelancer applying my skills related to (Elastic)search, Stellar, backend development, and related topics. I also maintain the Kotlin clients for [Stellar](https://github.com/jillesvangurp/stellar-kotlin-client) and [Elasticsearch](https://github.com/jillesvangurp/es-kotlin-wrapper-client).
+I am self employed and recent years I've worked as a very hands on CTO, as a freelance consultant applying my skills related to (Elastic)search, Stellar, backend development, and related topics. I also maintain the Kotlin clients for [Stellar](https://github.com/jillesvangurp/stellar-kotlin-client) and [Elasticsearch](https://github.com/jillesvangurp/es-kotlin-wrapper-client).
 
 Highlights/buzzwords:
 
-- Expert on Kotlin/Java (24 years experience), Spring/Spring boot, and many related tools and frameworks.
+- Expert on Kotlin/Java (decades of experience), Spring/Spring boot, and many related tools and frameworks.
 - Elasticsearch and associated tools and technology. I'm also a proponent of observable software and have architected solutions using the full Elastic stack for logging, auditing, KPIs, metrics, and live insights of what users are doing.
 - Stellar blockchain - I'm not a crypto investor but have done a fair bit of development work against Stellar in two startups to support various use cases.
 - I deal with many different tech stacks on various projects including Go, Scala, Python, Ruby/Jruby, some frontend javascript/typescript, ... while not an expert on all these stacks, I learn quickly.
@@ -24,14 +21,17 @@ Recently I've focused on helping multiple customers with their Elasticsearch set
 
 I'm **available** for both short focused projects as well as longer projects. For short projects I prefer to work with concrete goals where I can come in as a specialist and add value. For longer projects I charge a premium daily rate for my services and typically work in senior backend engineering / CTO type roles. With experience as a startup CTO and principal engineer & researcher, I bring a lot of experience to any team I join.
 
-For more information, refer to my [linkedin profile](https://www.linkedin.com/in/jillesvangurp).
+For more information, refer to my [Linkedin profile](https://www.linkedin.com/in/jillesvangurp).
 
-## Contact/impressum
+## Contact
 
 - **email**: jilles AT jillesvangurp.com
-- **misc**: jillesvangurp on github, hackernews, keybase, google, skype, hotmail, facebook, twitter, foursquare, linkedin, …
-- **cell phone**: +4917661895701. I’m also on whatsapp and signal.
+- **cell phone**: +4917661895701. I’m also on Whatsapp and Signal.
 - **Address** Bergstrase 16, 10115 Berlin, Germany
+- [Github](https://github.com/jillesvangurp)
+- [Linkedin](https://linkedin.com/in/jillesvangurp)
+- [Twitter](https://twitter.com/jillesvangurp)
+- Generally @jillesvanugurp on anything I use. That handle is globally unique.
 
 A little guide for contacting me:
 
