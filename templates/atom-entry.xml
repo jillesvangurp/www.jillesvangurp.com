@@ -1,0 +1,18 @@
+  <entry>
+    <title>$title$</title>
+    <id>$link$</id>
+    <link href="$link$" />
+    <updated>$timestamp$</updated>
+$if(description)$
+    <summary>$description$"</summary>
+$endif$
+    <author>
+      <name>Jilles van Gurp</name>
+    </author>
+    <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+$body$
+      <a href="$link$">Read more</a>
+    </div>
+    </content>
+  </entry>

@@ -39,13 +39,21 @@ minify:
 	# https://github.com/tdewolff/minify/tree/master/cmd/minify
 	minify style.css -o public/style.css
 
+.PHONY: sitemap
+sitemap:
+	./sitemap.sh
+
+.PHONY: atom
+atom:
+	./atom.sh
+
 .PHONY: deploy
 deploy:
 	rsync -azp --delete-after  public/* jillesvangurpcom@ftp.jillesvangurp.com:/srv/home/jillesvangurpcom/domains/jillesvangurp.com/htdocs/www
 	rsync -azp --delete-after  public/.htaccess jillesvangurpcom@ftp.jillesvangurp.com:/srv/home/jillesvangurpcom/domains/jillesvangurp.com/htdocs
 
 .PHONY: all
-all: clean pages blog es-kotlin-manual minify
+all: clean pages blog es-kotlin-manual sitemap atom minify
 	
 
 
