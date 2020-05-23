@@ -1,15 +1,26 @@
 ---
-id: 386
+
 title: Publications & Academic work
 date: 2008-03-15T10:54:02+00:00
 author: Jilles van Gurp
-layout: page
-guid: http://blog.jillesvangurp.com/publications/
 ---
 
 Before becoming a software engineer, I was a researcher studying software engineering at the universities of Utrecht, Karlskrona/Ronneby (these days known as the Belinking Institute of Technology), and Groningen. Additionally I worked at Nokia Research. On this page you may find various things I've published from those days. You may also find me on [Research Gate](https://www.researchgate.net/profile/Jilles_Van_Gurp), even though I'm not very active there. If you need something that isn't listed on this page, drop me an email.
 
 I choose to share my published work via this website. The reason is simply because I wrote these articles so that others may read them. I find that locking them up behind tightly controlled for profit publisher web sites is a good way of ensuring few people do that. It should be noted though that in some cases the _copyright of the material belongs to the publisher_ and not to me. It is my understanding that publishers generally don't object against authors providing downloadable pdfs of their published work. I know this to be true of at least the IEEE where several of these articles have been published.
+
+## Students / PhD Students
+
+Over the years I've had the pleasure of supervising/coaching several smart people with their thesis work either officially or unofficially. Looking back, all of them went on to have amazing careers of their own and I realize that I learned as much from them as they hopefully did from me.
+
+- 2000: [Tony Gorschek](http://www.gorschek.com/). I vaguely recall this enthusiastic pair of students working on their bachelor thesis in 2000. Tony went on to do a M Sc., licentiate and Ph. D. after I left Sweden and eventually became a professor in the same department I used to work in.
+- 2001-2003: [Anton Jansen](http://www.antonjansen.com/). I worked with Anton while doing my Ph. D. at the university of Groningen. We wrote a paper together while he was doing his master thesis and I supervised him during his first year as a Ph. D. and we did another paper together. He received his degree in 2008.
+- 2001-2003: [Eelke Folmer](http://www.eelke.com/). Eelke was one of the big guys I shared a room with in Groningen. He joined our research group in 2001 and I helped him out with his research work until I left. He got his Ph D. in 2005 and now works as a professor in Reno, Nevada doing research on Game design patterns aimed at making games fun and playable for disabled people.
+- 2005: [Ronald Bos](http://www.linkedin.com/in/ronaldbos). When I was working for GX, Ronald joined us to do his master thesis on usability in content management systems. I supervised him for the six months he was with us and wrote a paper with him and Sjaak Brinkkemper. Last I checked, he was working in Barcelona.
+- 2005: [Martijn Claus](http://trese.cs.utwente.nl/assignments/assignments.php?action=showAssignment&a_id=122&s_id=). Martijn joined us at GX to do his master thesis on using aspect oriented programming in GX WebManager. After finishing, he was offered a job as a sofware engineer at GX. This was around the time I left.
+- 2007-2008: [Christian del Rosso](http://www.christiandelrosso.org/). My colleague, friend and neighbor in Helsinki will soon graduate with Jan Bosch as his main super visor. I helped him out a bit revising his thesis.
+- 2007-2008: Filip Suba. Filip worked in my research team as a trainee during the summer of 2007. We wrote a paper on an evaluation of sensor actuator networks and after a few months he joined us to work on his master thesis with me as his main supervisor in Nokia. He finalized his master thesis in summer of 2008 on prototyping an extension to OpenID around a new security concept we are working on.
+- 2008: [Daniel Wilms](http://www.facebook.com/profile.php?id=750527587). Daniel joined Filip in our team a few months after Filip started. He finished his master thesis in Nokia on social networks and semantic web (lowercase) and now works for Nokia.
 
 ## Ph. D. Thesis and other works
 
@@ -72,16 +83,3 @@ I choose to share my published work via this website. The reason is simply becau
 - Jilles van Gurp, Jan Bosch, [Separation of Concerns: a Case Study](/static/soccasestudy.pdf). technical paper.
 - Mikael Svahnberg, Jilles van Gurp, Jan Bosch, [A Taxonomy of Variability Realization Techniques](/static/Variability_taxonomy.pdf), technical paper, ISSN: 1103-1581, Blekinge Institute of Technology, Sweden, 2002\. An evolved version of this article has been published in Software Practice & Experience (see above). An earlier version of this paper has been included in my [Ph. D. thesis](/static/phdthesis/index.html).
 - Jilles van Gurp, Jan Bosch, [Proceedings of First workshop on software variability management (SVM 2003)](/static/svm2003/index.html)
-
-## Students / PhD Students
-
-Over the years I've had the pleasure of supervising/coaching several smart people with their thesis work either officially or unofficially. Looking back, all of them went on to have amazing careers of their own and I realize that I learned as much from them as they hopefully did from me.
-
-- 2000: [Tony Gorschek](http://www.gorschek.com/). I vaguely recall this enthusiastic pair of students working on their bachelor thesis in 2000. Tony went on to do a M Sc., licentiate and Ph. D. after I left Sweden and eventually became a professor in the same department I used to work in. 
-- 2001-2003: [Anton Jansen](http://www.antonjansen.com/). I worked with Anton while doing my Ph. D. at the university of Groningen. We wrote a paper together while he was doing his master thesis and I supervised him during his first year as a Ph. D. and we did another paper together. He received his degree in 2008.
-- 2001-2003: [Eelke Folmer](http://www.eelke.com/). Eelke was one of the big guys I shared a room with in Groningen. He joined our research group in 2001 and I helped him out with his research work until I left. He got his Ph D. in 2005 and now works as a professor in Reno, Nevada doing research on Game design patterns aimed at making games fun and playable for disabled people.
-- 2005: [Ronald Bos](http://www.linkedin.com/in/ronaldbos). When I was working for GX, Ronald joined us to do his master thesis on usability in content management systems. I supervised him for the six months he was with us and wrote a paper with him and Sjaak Brinkkemper. Last I checked, he was working in Barcelona.
-- 2005: [Martijn Claus](http://trese.cs.utwente.nl/assignments/assignments.php?action=showAssignment&a_id=122&s_id=). Martijn joined us at GX to do his master thesis on using aspect oriented programming in GX WebManager. After finishing, he was offered a job as a sofware engineer at GX. This was around the time I left.
-- 2007-2008: [Christian del Rosso](http://www.christiandelrosso.org/). My colleague, friend and neighbour in Helsinki will soon graduate with Jan Bosch as his main super visor. I helped him out a bit revising his thesis.
-- 2007-2008: Filip Suba. Filip worked in my research team as a trainee during the summer of 2007. We wrote a paper on an evaluation of sensor actuator networks and after a few months he joined us to work on his master thesis with me as his main supervisor in Nokia. He finalized his master thesis in summer of 2008 on prototyping an extension to OpenID around a new security concept we are working on.
-- 2008: [Daniel Wilms](http://www.facebook.com/profile.php?id=750527587). Daniel joined Filip in our team a few months after Filip started. He finished his master thesis in Nokia on social networks and semantic web (lowercase) and now works for Nokia.
