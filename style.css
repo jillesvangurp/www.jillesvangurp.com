@@ -73,7 +73,8 @@ section {
 
 @media screen and (min-width:800px) {
   html {
-    font-size: 20px
+    font-size: 20px;
+    margin: 0px;
   }
 
   section {
@@ -86,7 +87,6 @@ body {
   margin: 0px;
   padding: 10px;
   line-height: 1.25;
-  width: 100%;
 }
 
 ul,p {
