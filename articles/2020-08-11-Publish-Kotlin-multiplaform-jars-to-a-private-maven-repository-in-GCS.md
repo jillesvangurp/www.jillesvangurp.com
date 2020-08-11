@@ -12,7 +12,7 @@ A recurring topic on many projects for me is publishing private packages of some
 
 I code a lot of Kotlin in the last few years and that means I get to deal with gradle a lot. On many projects people dodge the need for private repositories by doing mono repositories with multi module gradle or maven repositories. I've always hated dealing with multi module gradle projects because things slow down a lot when you are waiting for builds to happen. As soon as you have n modules, everything now happens n times (compile, test, package, etc). And while build tools are great for making things repeatable, they do have the potential to suck the life out of you in terms of consuming all your time. Three minutes may sound like nothing but repeat that 10-20 times in a day and you have just lost an hour.
 
-So, especially for things that don't change a lot wouldn't it be nice if you could park them in a separate project and just download the already compiled binary. The short answer to this completely rhetorical question is "well duh". That's where private maven repositories come in. of those 
+So, especially for things that don't change a lot wouldn't it be nice if you could park them in a separate project and just download the already compiled binary. The short answer to this completely rhetorical question is "well duh". That's where private maven repositories come in. 
 
 ## Multiplatform
 
