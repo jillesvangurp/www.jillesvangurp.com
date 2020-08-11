@@ -6,7 +6,7 @@ description: Creating a google cloud storage based maven repository for storing 
 tags: kotlin, multiplatform, gradle, gcs
 ---
 
-# Publish Kotlin multiplaform jars to a private maven repository in GCS
+A version of this article was also published on [dev.to](https://dev.to/jillesvangurp/publish-kotlin-multiplaform-jars-to-a-private-maven-2bdh).
 
 A recurring topic on many projects for me is publishing private packages of some sort so that they can be used in other private projects. Historically this has always been a PITA to setup and involves either paying someone to provide you some SAAS solution or reserving a chunk of time to do devops. It's a reason I often dodge the issue by simply not bothering with maven repositories.
 
