@@ -8,13 +8,18 @@ This is my website. I've had it in various forms since the mid nineties and with
 
 ## Professional Services
 
-I am self employed and in recent years I've worked as a very hands on CTO and as a freelance consultant applying my skills related to (Elastic)search, Stellar, backend development, and related topics. I also maintain the Kotlin clients for [Elasticsearch](https://github.com/jillesvangurp/es-kotlin-wrapper-client) and [Stellar](https://github.com/jillesvangurp/stellar-kotlin-client).
+I am self employed and in recent years I've worked as a very hands on CTO of several companies and lately for [Formation](https://tryformation.com). Additionally, I'm active as a freelance consultant applying my skills related to (Elastic)search, backend development, and related topics as well as geospatial services (through Formation)
 
 Currently I do several things:
 
-- I'm active ad as a consultant for several companies. These are typically short projects of a few days or weeks to solve a technical problem, or advice them on architecture, team strategy or product strategy. I usually work with a daily rate + retainer fees. If you need help with e.g. your Elasticsearch setup, talk to me as this is one of the things I specialize in.
-- I'm working with a local startup called [Formation](https://tryformation.com) on straightening out their technical roadmap and putting them on a path to profitability. I also do technical work for them.
-- When time permits, I work on my OSS projects.
+- I'm CTO for an early stage startup in Berlin called [Formation](https://tryformation.com). Currently I'm spending most of my time on straightening out their technical stack and roadmap and getting on a path to profitability. Formation is also offering consulting services related to location based systems and we are actively looking for customers.
+- I also available as a consultant on other topics. These are typically short projects of a few days or weeks to solve a technical problem, or advice them on architecture, team strategy or product strategy. If you need help with e.g. your Elasticsearch setup, talk to me as this is one of the things I specialize in.
+- I am a member of the [The Coder Society](https://codersociety.com) and they've kindly [featured me on their website](https://codersociety.com/blog/videos/the-future-of-libra-and-blockchain-beyond-the-hype) as one of their expert Freelancers.
+- When time permits, I work on my OSS projects. Some of my more notable projects include:
+  - [The Kotlin client for Elasticsearch](https://github.com/jillesvangurp/es-kotlin-wrapper-client). This my third attempt at creating an OSS client for Elasticsearch and I think I nailed it this time. It has a growing amount of users and I put a lot of time in ensuring it keeps up with Elasticsearch releases.
+  - [Geogeometry](https://github.com/jillesvangurp/geogeometry) - This library is one of my oldest projects and is what I reach for when I need to do simple geospatial stuff. I've modernized the code base over the years and recently improved things a lot around the time I joined Formation as the CTO.
+  - [Kotlin Stellar Client](https://github.com/jillesvangurp/stellar-kotlin-client) - I developed this during my time at Inbot and also made a few contributions to the official Java client at the time.
+  - [Ktjsearch](https://github.com/jillesvangurp/ktjsearch) -  this is an offline search engine loosely inspired by Elasticsearch. It's a multiplatform Kotlin project and my intention is to eventually integrate it in this website as well as use it in the Formation Android application (ongoing work).
 
 Highlights/buzzwords:
 
