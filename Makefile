@@ -49,8 +49,8 @@ atom:
 
 .PHONY: deploy
 deploy:
-	rsync -azp --exclude maven* --delete-after  public/* jillesvangurpcom@ftp.jillesvangurp.com:/srv/home/jillesvangurpcom/domains/jillesvangurp.com/htdocs/www
-	rsync -azp --delete-after  public/.htaccess jillesvangurpcom@ftp.jillesvangurp.com:/srv/home/jillesvangurpcom/domains/jillesvangurp.com/htdocs
+	rsync -azpv --exclude maven* --delete-after  public/* jillesvangurpcom@ftp.jillesvangurp.com:/srv/home/jillesvangurpcom/domains/jillesvangurp.com/htdocs/www
+	rsync -azpv --delete-after  public/.htaccess jillesvangurpcom@ftp.jillesvangurp.com:/srv/home/jillesvangurpcom/domains/jillesvangurp.com/htdocs
 
 .PHONY: all
 all: clean pages blog es-kotlin-manual sitemap atom minify

@@ -13,4 +13,6 @@ for article in $(ls ../es-kotlin-wrapper-client/manual); do
         --metadata title="$title" \
         --metadata author="Jilles van Gurp"
   sed -i ' ' 's/\.md/\.html/g' "$output"
+  cp -R ../es-kotlin-wrapper-client/docs public/es-kotlin-manual/
+  cp ../es-kotlin-wrapper-client/book.epub public/es-kotlin-manual
 done

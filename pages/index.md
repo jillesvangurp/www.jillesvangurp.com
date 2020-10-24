@@ -23,7 +23,7 @@ Currently I do several things:
 
 Highlights/buzzwords:
 
-- Elasticsearch and associated tools and technology. I've built and architected many search engines over the years with Lucene, Solr, and the last eight years Elasticsearch. This includes designing ETL pipelines, mass ingesting data, creating sophisticated search experiences, querying, devops, etc. 
+- Elasticsearch and associated tools and technology. I've built and architected many search engines over the years with Lucene, Solr, and the last eight years Elasticsearch. This includes designing ETL pipelines, mass ingesting data, creating sophisticated search experiences, querying, devops, etc.
 - Expert on Kotlin/Java (25 years of experience), Spring/Spring boot, Ktor and many related tools and frameworks.
 - Stellar blockchain - I'm not a crypto investor but I have done a fair bit of development work against Stellar in two startups to support various use cases.
 - I deal with many different tech stacks on various projects including Go, Scala, Python, Ruby/Jruby, some frontend javascript/typescript, ... while not an expert on all these stacks, I learn quickly.
@@ -50,4 +50,6 @@ A little guide for contacting me:
 
 ## Privacy & cookies
 
-This site currently has **no cookies** that need setting, I have no analytics installed, and nor am I interested in invading your privacy. This may change in the future but current browsers are making this quite hard to implement and I enjoy using that the type of browsers that are good at at this. The web hosting that I use may collect some server logs of course; beyond that, I'm not aware of any kind of tracking or privacy invading tools on this website. If you are looking for a privacy policy, you just read it.
+This site currently has **no cookies** that need setting, I have no analytics installed, and nor am I interested in invading your privacy. This may change in the future if I add some new functionality to this site. However, current browsers are making tracking quite hard to implement and I actually enjoy using the type of browsers that are good at at this. So, if you enjoy the content, give me a shout out on e.g. Twitter or something. The web hosting that I use may collect some server logs of course. Beyond that, I'm not aware of any kind of tracking or privacy invading tools on this website.
+
+If you are looking for a privacy policy, you just read it. 
