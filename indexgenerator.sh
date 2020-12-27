@@ -31,7 +31,7 @@ for name in $(find articles -type f -exec basename {} \; | sort -ur | sed 's/\.m
 
 done
 
-pandoc --from markdown_github+smart+yaml_metadata_block+auto_identifiers "_index.md" \
+pandoc --from markdown+smart+yaml_metadata_block+auto_identifiers "_index.md" \
   -o "public/blog/index.html" \
   --template templates/article.html \
   -V navigation="$(cat navigation.html)" \

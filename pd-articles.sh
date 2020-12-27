@@ -2,7 +2,7 @@
 
 for blogpost in $(ls articles); do 
   export publishdate=$(echo $blogpost | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}')
-  pandoc --from markdown_github+smart+yaml_metadata_block+auto_identifiers "articles/$blogpost" \
+  pandoc --from markdown+smart+yaml_metadata_block+auto_identifiers "articles/$blogpost" \
     -o "public/blog/$(basename $blogpost .md).html" \
     --template templates/article.html	\
     -V publishdate="$publishdate" \
