@@ -55,6 +55,7 @@ nav > ul {
 nav > ul > li {
   display: inline;
 }
+
 nav > ul > li::before {
   content: "| ";
 }
@@ -62,7 +63,7 @@ nav > ul > li::before {
 nav > ul::after {
   content: "| ";
 }
- 
+
 header,footer {
   text-align: center;
 }
@@ -111,7 +112,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.2rem
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
@@ -141,7 +142,8 @@ a:visited {
 a:active,
 a:focus,
 a:hover {
-  color: #2980b9
+  color: #2980b9;
+  text-shadow: 1px 1px #CCC;
 }
 
 pre {
