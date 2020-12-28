@@ -4,7 +4,7 @@ author: Jilles van Gurp
 ---
 <img alt="Jilles van Gurp photo" src="https://en.gravatar.com/userimage/227586/49ce2cb62cc80e45d963cc055ce6edb8.jpg?size=300" style="float:right;margin-left:1em;margin-bottom:1em;"/>
 
-This is my website. I've had it in various forms since the mid nineties and with this domain for two decades now. For the last decade or so, I've been based in Berlin, Germany and have also lived in Finland, Sweden, and the Netherlands (my home country).
+This is my website. I've had it in various forms since the mid nineties and with this domain for two decades now. For the last decade or so, I've been in Berlin, Germany. Before that I lived in Finland, Sweden, and the Netherlands (my home country).
 
 ## Consulting Services
 
@@ -14,7 +14,7 @@ I can do several things for you:
 
 - Help you scale your IOT or geospatial architecture. I've been building and scaling backend software for most of this century and have been building geo spatial software for most of that time.
 - Help you with your Elasticsearch architecture. I've done several projects in recent years helping customers with complicated upgrades of their Elasticsearch setup, query optimizations, ETL, and more. I have about 15 years of experience with search and have been an early adopter of Elasticsearch.
-- Help you with generic Kotlin/Spring Boot projects. I've been working with Java since it was released in 1995. These days I prefer Kotlin. If you want to migrate to Kotlin, I can help you get started.
+- Help you with generic Kotlin/Spring Boot projects. I've been working with Java since its release in 1995. These days I prefer Kotlin. If you want to migrate to Kotlin, I can help you get started.
 
 I'm **available** for both short focused projects as well as longer projects. For short projects I prefer to work with concrete goals where I can come in as a specialist and add value. I charge a premium daily rate for my services and typically work in senior backend engineering / CTO type roles. With experience as a startup CTO and principal engineer & researcher, I bring a lot of experience to any team I join.
 
@@ -30,13 +30,12 @@ For more information, refer to my [Linkedin profile](https://www.linkedin.com/in
 
 ## Recent Customers
 
-In between working for startups, I've done a few successful consulting projects with customers during the last four years:
+When not working for startups, I've done a few successful consulting projects with customers during the last four years:
 
 - I consulted on a Bertelsmann project to help them build out their Elasticsearch based recommendation engine and set up their ETL pipeline using Apache Airflow.
 - I helped a Berlin startup (Artory) get organized with their ETL and querying.
 - I migrated Soundcloud's search engine from Elasticsearch 5 to version 7 in an intense one month project. The project scope included migrating their custom plugins, updating their schema, fixing their ETL code base and upgrading their deployment scripts. 
 - I helped build what is now matmatch.com (via BCG) and designed and built the first version of the material search engine. This included figuring out this complex domain and coming up with a solution to index and rank hundreds of different types of material properties (physical, chemical, electric, magnetic, etc.) to help users.
-
 
 ## Contact
 
