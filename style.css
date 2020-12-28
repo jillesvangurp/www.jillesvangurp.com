@@ -15,12 +15,16 @@ ul {
 }
 
 html {
-  font-size: 15px
+  font-size: 15px;
+  font-family: "Titillium Web", sans-serif;
+  color: #222;
 }
 
 header {
   max-width: 65rem;
   margin: 1rem auto 1rem;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 footer {
@@ -28,12 +32,14 @@ footer {
 }
 
 nav {
-  margin: 0rem 0rem 0rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   background-color: fafafa;
-  font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 300;
+  font-size: 0.8rem;
 }
 nav > .published {
   display: block;
@@ -58,16 +64,10 @@ nav > ul::after {
 }
  
 header,footer {
-  color: #444;
-  font-family: 'Open Sans', Helvetica, sans-serif;
-  font-weight: 300;
   text-align: center;
 }
 
 section {
-  color: #444;
-  font-family: 'Open Sans', Helvetica, sans-serif;
-  font-weight: 300;
   margin: 6rem auto 1rem;
   max-width: 40rem;
 }
@@ -90,11 +90,6 @@ body {
   line-height: 1.25;
 }
 
-ul,p {
-  font-size: 1rem;
-  margin-bottom: 0.8rem
-}
-
 h1,
 h2,
 h3,
@@ -106,15 +101,18 @@ h4 {
 
 h1 {
   margin-top: 0;
-  font-size: 2.5rem
+  font-size: 2.5rem;
+  font-weight: 800;
 }
 
 h2 {
-  font-size: 1.5rem
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 h3 {
-  font-size: 1.2
+  font-size: 1.2rem
+  font-weight: 600;
 }
 
 small {
@@ -152,6 +150,7 @@ pre {
   white-space: pre-wrap;
   line-height: 1;
   font-size: 0.8rem;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 blockquote {
@@ -161,9 +160,6 @@ blockquote {
   padding: 1.33em
 }
 
-p {
-  color: #777
-}
 
 /* https://pandoc.org/demos.html */
 code span.al { color: #ff0000; } /* Alert */
