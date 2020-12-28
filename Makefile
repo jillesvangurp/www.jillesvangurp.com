@@ -28,7 +28,7 @@ es-kotlin-manual:
 
 .PHONY: run
 run:
-	docker run -dit --name jilles-httpd -p 8080:80 -v "$(shell pwd)/public":/usr/local/apache2/htdocs/ httpd
+	docker run -dit --rm --name jilles-httpd -p 8080:80 -v "$(shell pwd)/public":/usr/local/apache2/htdocs/ httpd
 
 .PHONY: stop
 stop:
