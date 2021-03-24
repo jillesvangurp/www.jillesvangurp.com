@@ -9,7 +9,7 @@ I wrote a [way too long HN comment](https://news.ycombinator.com/item?id=2656475
 
 ## Build Performance Matters
 
-I've always been aggressive on trying to keep my Java and lately Kotlin builds fast. Anything over a few minutes in CI becomes a drain on the team. Basically, a productive team will have many open pull requests open at any point and lots of commits happening on all of them. That means builds start piling up. People start hopping between tasks (or procrastinating) while builds are happening. Cheap laptops become a drain on developer productivity. Etc. All of this is bad. Maintain the flow and keep things as fast as you can. It's worth investing time in.
+I've always been aggressive on trying to keep my Java and lately Kotlin builds fast. Anything over a few minutes in CI becomes a drain on the team. Basically, a productive team will have many pull requests open at any point and lots of commits happening on all of them. That means builds start piling up. People start hopping between tasks (or procrastinating) while builds are happening. Cheap laptops become a drain on developer productivity. Etc. All of this is bad. Maintain the flow and keep things as fast as you can. It's worth investing time in.
 
 Some of the overhead is unavoidable unfortunately. E.g. the Kotlin compiler is a bit of a slouch despite some improvements recently. Many integration tests these days involve using docker or docker compose. That's better than a lot of fakes and imperfect substitutes. But it sucks up time. A lot of Kotlin and Spring projects involve code generation. This adds to your build times. Breaking builds up into modules increases build times as well. Be mindful of all this.
 
