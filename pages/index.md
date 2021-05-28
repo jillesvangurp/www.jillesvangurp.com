@@ -2,11 +2,11 @@
 title: Jilles van Gurp
 author: Jilles van Gurp
 ---
-<img alt="Jilles van Gurp photo" src="https://en.gravatar.com/userimage/227586/49ce2cb62cc80e45d963cc055ce6edb8.jpg?size=300" style="float:right;margin-left:1em;margin-bottom:1em;"/>
+<img alt="Jilles van Gurp photo" src="https://en.gravatar.com/userimage/227586/42cb1ab09e4b62dd9e71a3cdc65f164f.jpg?size=300" style="float:right;margin-left:1em;margin-bottom:1em;"/>
 
 **CTO@Formation, consultant**, Berlin Germany
 
-Experienced tech entrepreneur, (interim) CTO, strategy and product consultant, hands-on troubleshooter and mentor.
+Experienced tech entrepreneur, (interim) CTO, strategy, and product consultant, hands-on troubleshooter and mentor.
 
 - Entrepreneurship
 - Geospatial technologies
@@ -16,7 +16,6 @@ Experienced tech entrepreneur, (interim) CTO, strategy and product consultant, h
 - Technical consulting
 - Team Workshops / Troubleshooting
 - Server-side cloud architectures
-
 
 ## About Jilles
 
@@ -31,12 +30,12 @@ Jilles is a CTO, serial founder, and troubleshooter based in Berlin. He has deca
 
 Jilles holds a PHD in Software Engineering from the University of Groningen in the Netherlands (2003) where he also worked as a postdoc, a Swedish Licentiate degree from the Blekinge Institute of Technology (2001), and an master degree from the University of Utrecht 1999.
 
-## Available for
+## Available For
 
 - Architecture reviews or workshops
 - Team trouble shooting
-- General advice on tech, roadmap, or product
-- High level advice on search architecture
+- General consulting on tech, roadmap, or product
+- High level consulting on search architecture & Elasticsearch
 
 ## Contact
 
@@ -48,7 +47,7 @@ Jilles holds a PHD in Software Engineering from the University of Groningen in t
 - [Twitter](https://twitter.com/jillesvangurp)
 - Generally @jillesvangurp on anything I use. That handle is globally unique.
 
-## This web site
+## This Web Site
 
 Jillesvangurp has been my online handle since the beginning of this century. On this web site you may find an archive of my [blog](https://jillesvangurp.com/blog/index.html) (including some recent efforts) and pdfs of my [published work](https://jillesvangurp.com/publications.html) from my academic career.
 
