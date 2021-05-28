@@ -3,8 +3,6 @@ export navigation=$(cat navigation.html)
 
 rm -f _sidebar.md
 
-echo "# Articles" > _sidebar.md
-
 current_year="-"
 for name in $(find articles -type f -exec basename {} \; | sort -ur | sed 's/\.md//' | head -n 30); do
   year=$(echo $name | sed -E 's/([0-9]{4})-([0-9]{2})-([0-9]{2})-(.*)/\1/')
