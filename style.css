@@ -76,8 +76,8 @@ section {
   background-color: white;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
 }
 
 #sidebar {
@@ -93,7 +93,7 @@ section {
 
 body {
   line-height: 1.25;
-  background-color: #fafafa;
+  background-color: #eaeaea;
 }
 
 @media screen and (min-width:1000px) {
@@ -110,8 +110,8 @@ body {
   #outer {
     margin-left: 20%;
     margin-right: 20%;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
   }
   
   #inner {
@@ -122,13 +122,13 @@ body {
 
   #center-column {
     width: max-content;
+    margin-left: 20px;
   }
 
   #sidebar {
     width: 300px;
     background-color: #fafafa;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
   }
 
   #selfie {

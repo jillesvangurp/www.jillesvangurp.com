@@ -31,34 +31,34 @@ $endif$
       <nav>
         $navigation$
       </nav>
+      <header>
+        <h1>$title$</h1>
+        $if(image)$
+        <img src="..$image$" />      
+        $endif$
+      </header>
       <div id="inner">
         <div id="center-column">
-          <header>
-            <h1>$title$</h1>
-            $if(image)$
-            <img src="..$image$" />      
-            $endif$
-          </header>
-          <section id="main-content">
+            <section id="main-content">
+              $for(include-before)$
+              $include-before$
+              $endfor$
+              $body$
+              $for(include-after)$
+              $include-after$
+              $endfor$
+            </section>
+          </div>
+          <div id="sidebar">
             $for(include-before)$
             $include-before$
             $endfor$
-            $body$
+            $sidebar$
             $for(include-after)$
             $include-after$
             $endfor$
-          </section>
+          </div>
         </div>
-        <div id="sidebar">
-          $for(include-before)$
-          $include-before$
-          $endfor$
-          $sidebar$
-          $for(include-after)$
-          $include-after$
-          $endfor$
-        </div>
-      </div>
       <footer>
         $footer$
       </footer>
