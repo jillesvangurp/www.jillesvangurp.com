@@ -19,7 +19,7 @@ Experienced tech entrepreneur, (interim) CTO, strategy, and product consultant, 
 
 ## About Jilles
 
-Jilles is a CTO, serial founder, and troubleshooter based in Berlin. He has decades of experience building innovative software services, leading tech teams, and creating breakthrough products. Jilles’ professional experience includes Senior Researcher at Nokia Research in Finland, Principal Engineer at Nokia Maps in Berlin, Search Engine tech lead at BCG DV and later CTO of Inbot and more recently at [FORMATION](https://tryformation.com) where he drives the product and technology roadmap.
+Dr. Jilles van Gurp is a CTO, serial founder, and troubleshooter based in Berlin. He has decades of experience building innovative software services, leading tech teams, and creating breakthrough products. Jilles’ professional experience includes Senior Researcher at Nokia Research in Finland, Principal Engineer at Nokia Maps in Berlin, Search Engine tech lead at BCG DV and later CTO of Inbot and more recently at [FORMATION](https://tryformation.com) where he drives the product and technology roadmap.
 
 ## Skills
 
@@ -35,7 +35,8 @@ Jilles holds a PHD in Software Engineering from the University of Groningen in t
 - Architecture reviews or workshops
 - Team trouble shooting
 - General consulting on tech, roadmap, or product
-- High level consulting on search architecture & Elasticsearch
+- High level or hands on consulting on search architecture & Elasticsearch
+
 
 ## Contact
 
