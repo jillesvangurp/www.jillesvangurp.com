@@ -16,12 +16,12 @@ ul {
 
 html {
   font-size: 15px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #222;
+  font-weight: 300;
 }
 
 header {
-  max-width: 65rem;
   margin: 1rem auto 1rem;
   font-size: 0.8rem;
   text-align: center;
@@ -70,10 +70,33 @@ header,footer {
 
 section {
   margin: 6rem auto 1rem;
-  max-width: 40rem;
 }
 
-@media screen and (min-width:800px) {
+#outer {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#sidebar {
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+#selfie {
+  display: block;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+body {
+  line-height: 1.25;
+  background-color: #fafafa;
+}
+
+@media screen and (min-width:1000px) {
   html {
     font-size: 20px;
     margin: 0px;
@@ -81,14 +104,40 @@ section {
 
   section {
     margin: 1.5rem auto 1rem;
-    max-width: 55rem;
+    max-width: 1200px;
   }
-}
 
-body {
-  margin: 0px;
-  padding: 10px;
-  line-height: 1.25;
+  #outer {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  #inner {
+    display: flex;
+    flex-direction: row;    
+    align-items: stretch;
+  }
+
+  #center-column {
+    width: max-content;
+  }
+
+  #sidebar {
+    width: 300px;
+    background-color: #fafafa;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #selfie {
+    float:right;
+    margin:1em;
+    border: 1px solid gray;
+    border-radius: 10% 10%;
+    box-shadow: 3px 3px lightgray;
+  }
 }
 
 h1,
@@ -96,7 +145,7 @@ h2,
 h3,
 h4 {
   margin: 1rem 0 .5rem;
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.42
 }
 

@@ -2,7 +2,7 @@
 title: Jilles van Gurp
 author: Jilles van Gurp
 ---
-<img alt="Jilles van Gurp photo" src="https://en.gravatar.com/userimage/227586/42cb1ab09e4b62dd9e71a3cdc65f164f.jpg?size=300" style="float:right;margin-left:1em;margin-bottom:1em;"/>
+<img alt="Jilles van Gurp photo" src="https://en.gravatar.com/userimage/227586/42cb1ab09e4b62dd9e71a3cdc65f164f.jpg?size=300" id="selfie"/>
 
 **CTO@Formation, consultant**, Berlin Germany
 
