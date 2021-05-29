@@ -14,6 +14,10 @@ ul {
   text-align: left
 }
 
+ul {
+  list-style: square;
+}
+
 html {
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
@@ -124,7 +128,7 @@ section {
   
   #inner {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row-reverse;    
     align-items: stretch;
   }
 
@@ -136,7 +140,7 @@ section {
   #sidebar {
     width: 300px;
     background-color: #fafafa;
-    margin-left: 20px;
+    margin-right: 20px;
   }
 
   #selfie {
@@ -147,7 +151,6 @@ section {
     box-shadow: 3px 3px lightgray;
   }
 }
-
 h1,
 h2,
 h3,
@@ -155,6 +158,10 @@ h4 {
   margin: 1rem 0 .5rem;
   font-weight: 800;
   line-height: 1.42
+}
+
+header > h1 {
+  font-weight: bolder;
 }
 
 h1 {
