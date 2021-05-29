@@ -28,7 +28,7 @@ html {
 
 body {
   line-height: 1.25;
-  background-color: #eaeaea;
+  background-color: #E5E4E2;
   min-height: 100%;
   margin: 0px;
 }
@@ -134,7 +134,7 @@ section {
 
   #center-column {
     width: max-content;
-    margin-left: 20px;
+    margin-right: 20px;
   }
 
   #sidebar {
