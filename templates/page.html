@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<html$if(lang)$ lang="$lang$"$endif$$if(dir)$ dir="$dir$"$endif$>
+<html$if(lang)$ lang="$lang$" $endif$$if(dir)$ dir="$dir$" $endif$>
+
   <head>
     <title>$title$</title>
     <meta charset='utf-8'>
     <meta name="generator" content="pandoc">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-$for(author-meta)$
+    $for(author-meta)$
     <meta name="author" content="$author-meta$">
-$endfor$
-$if(date-meta)$
+    $endfor$
+    $if(date-meta)$
     <meta name="dcterms.date" content="$date-meta$">
-$endif$
-$if(description)$
+    $endif$
+    $if(description)$
     <meta name="description" content="$description$">
-$endif$
-$if(tags)$
+    $endif$
+    $if(tags)$
     <meta name="keywords" content="$for(tags)$$tags$$sep$, $endfor$">
-$endif$
+    $endif$
     <meta property="og:type" content="website" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -34,34 +35,35 @@ $endif$
       <header>
         <h1>$title$</h1>
         $if(image)$
-        <img src="..$image$" />      
+        <img src="..$image$" />
         $endif$
       </header>
       <div id="inner">
         <div id="center-column">
-            <section id="main-content">
-              $for(include-before)$
-              $include-before$
-              $endfor$
-              $body$
-              $for(include-after)$
-              $include-after$
-              $endfor$
-            </section>
-          </div>
-          <div id="sidebar">
+          <section id="main-content">
             $for(include-before)$
             $include-before$
             $endfor$
-            $sidebar$
+            $body$
             $for(include-after)$
             $include-after$
             $endfor$
-          </div>
+          </section>
         </div>
+        <div id="sidebar">
+          $for(include-before)$
+          $include-before$
+          $endfor$
+          $sidebar$
+          $for(include-after)$
+          $include-after$
+          $endfor$
+        </div>
+      </div>
       <footer>
         $footer$
       </footer>
     </div>
   </body>
-</html>
+
+  </html>

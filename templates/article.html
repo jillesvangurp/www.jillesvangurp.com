@@ -1,61 +1,65 @@
 <!DOCTYPE html>
-<html$if(lang)$ lang="$lang$"$endif$$if(dir)$ dir="$dir$"$endif$>
+<html$if(lang)$ lang="$lang$" $endif$$if(dir)$ dir="$dir$" $endif$>
+
   <head>
     <title>$title$</title>
     <meta charset='utf-8'>
     <meta name="generator" content="pandoc">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-$for(author-meta)$
+    $for(author-meta)$
     <meta name="author" content="$author-meta$">
-$endfor$
-$if(date-meta)$
+    $endfor$
+    $if(date-meta)$
     <meta name="dcterms.date" content="$date-meta$">
-$endif$
-$if(description)$
+    $endif$
+    $if(description)$
     <meta name="description" content="$description$">
-$endif$
-$if(tags)$
+    $endif$
+    $if(tags)$
     <meta name="keywords" content="$for(tags)$$tags$$sep$, $endfor$">
-$endif$
+    $endif$
     <meta property="og:author" content="Jilles van Gurp" />
     <meta property="og:title" content="$title$" />
-$if(description)$
+    $if(description)$
     <meta property="og:description" content="$description$" />
-$endif$
+    $endif$
     <meta property="og:article:published_time" content="$publishdate$" />
-$if(image)$
+    $if(image)$
     <meta property="og:image" content="..$image$" />
-$endif$
+    $endif$
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css" type="text/css" />
     <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
   </head>
 
   <body>
-    <nav>
-      $navigation$
-      <div class="published" Published: <b>$publishdate$</b></div>
-    </nav>
-    <header>      
-      <h1>$title$</h1>
-      $if(image)$
-        <img src="..$image$" />      
-      $endif$
-    </header>
-    
-    <section id="main-content">
-      $for(include-before)$
-$include-before$
-$endfor$
-$body$
-$for(include-after)$
-$include-after$
-$endfor$
-    </section>
-    <footer>
-      $footer$
-    </footer>
+    <div id="outer">
+      <nav>
+        $navigation$
+        <div class="published" Published: <b>$publishdate$</b></div>
+      </nav>
+      <header>
+        <h1>$title$</h1>
+        $if(image)$
+        <img src="..$image$" />
+        $endif$
+      </header>
+
+      <section id="main-content">
+        $for(include-before)$
+        $include-before$
+        $endfor$
+        $body$
+        $for(include-after)$
+        $include-after$
+        $endfor$
+      </section>
+      <footer>
+        $footer$
+      </footer>
+    </div>
   </body>
-</html>
+
+  </html>
