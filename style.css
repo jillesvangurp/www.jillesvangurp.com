@@ -1,3 +1,11 @@
+html {
+  font-size: 16px;
+  font-family: "Mukta", sans-serif;
+  color: #222;
+  font-weight: 200;
+  min-height: 100%;
+}
+
 footer {
   text-align: center;
 }
@@ -18,12 +26,23 @@ ul {
   list-style: square;
 }
 
-html {
-  font-size: 15px;
-  font-family: "Open Sans", sans-serif;
-  color: #222;
-  font-weight: 300;
-  min-height: 100%;
+h1, h2 {
+  margin-top: 0px;
+  margin-bottom: 0.4em;
+}
+
+p, li {
+  margin-top: 0px;
+  margin-bottom: 0.2em;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+strong {
+  font-weight: 900;
 }
 
 body {
@@ -44,6 +63,11 @@ header {
   margin: 1rem auto 1rem;
   font-size: 0.8rem;
   text-align: center;
+}
+
+header h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 footer {
@@ -89,7 +113,8 @@ header,footer {
 }
 
 section {
-  margin: 6rem auto 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 #sidebar {
@@ -97,10 +122,12 @@ section {
   padding: 5px;
 }
 
-#selfie {
+img#selfie {
   display: block;
+  margin-top: 0px;
+  margin-bottom: 1em;
   margin-left: auto;
-  margin-bottom: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width:1000px) {
@@ -110,7 +137,6 @@ section {
   }
 
   section {
-    margin: 1.5rem auto 1rem;
     max-width: 1200px;
     flex-grow: 1;    
   }
@@ -141,9 +167,11 @@ section {
     margin-right: 20px;
   }
 
-  #selfie {
+  img#selfie {
     float:right;
-    margin:1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
     border: 1px solid gray;
     border-radius: 10% 10%;
     box-shadow: 3px 3px lightgray;
@@ -190,10 +218,6 @@ svg,
 textarea,
 video {
   max-width: 100%
-}
-
-img {
-  margin: 0 auto;
 }
 
 a,
