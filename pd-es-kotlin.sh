@@ -12,8 +12,8 @@ for article in $(ls ../es-kotlin-client/manual); do
         -V footer="$(cat footer.html)" \
         --metadata title="$title" \
         --metadata author="Jilles van Gurp"
-  # FIXME broken, what was this supposed to do?
-  # sed -i ' ' 's/\.md/\.html/g' "$output"
+  # fixes the links to point to html files instead of md files
+  sed -i 's/\.md/\.html/g' "$output"
   cp -R ../es-kotlin-client/docs public/es-kotlin-manual/
   cp ../es-kotlin-client/book.epub public/es-kotlin-manual
 done
