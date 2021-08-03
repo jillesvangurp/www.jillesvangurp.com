@@ -4,7 +4,7 @@ export navigation=$(cat navigation.html)
 rm -f _sidebar.md
 
 current_year="-"
-for name in $(find articles -type f -exec basename {} \; | sort -ur | sed 's/\.md//' | head -n 30); do
+for name in $(find articles -type f -exec basename {} \; | sort -ur | sed 's/\.md//' | head -n 20); do
   year=$(echo $name | sed -E 's/([0-9]{4})-([0-9]{2})-([0-9]{2})-(.*)/\1/')
   month=$(echo $name | sed -E 's/([0-9]{4})-([0-9]{2})-([0-9]{2})-(.*)/\2/')
   day=$(echo $name | sed -E 's/([0-9]{4})-([0-9]{2})-([0-9]{2})-(.*)/\3/')
@@ -16,6 +16,9 @@ for name in $(find articles -type f -exec basename {} \; | sort -ur | sed 's/\.m
   current_year=$year
   echo "- [$nice_title](/blog/$year/$month/$day/$title)" >> _sidebar.md
 done
+
+echo "" >> _sidebar.md
+echo "[more](/blog/index.html)" >> _sidebar.md
 
 pandoc --from markdown+smart+yaml_metadata_block+auto_identifiers "_sidebar.md" \
   -o "_sidebar.html" 
