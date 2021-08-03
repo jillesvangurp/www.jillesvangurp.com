@@ -28,19 +28,19 @@ Dr. Jilles van Gurp is a CTO, serial founder, and troubleshooter based in Berlin
 - Deep technical expertise and mindset, with hands-on approach to dealing with new domains, tech stacks and paradigms.
 - Pragmatic problem solver and fan of lateral-&-end to end thinking, love to iterate!
 
-Jilles holds a PHD in Software Engineering from the University of Groningen in the Netherlands (2003) where he also worked as a postdoc, a Swedish Licentiate degree from the Blekinge Institute of Technology (2001), and a master degree from the University of Utrecht 1999.
+Jilles holds a PhD in Software Engineering from the University of Groningen in the Netherlands (2003) where he also worked as a postdoc, a Swedish Licentiate degree from the Blekinge Institute of Technology (2001), and a master degree from the University of Utrecht 1999.
 
 ## Available For
 
-- Architecture reviews or workshops
-- Team trouble shooting
+- Architecture reviews, workshops, or hands-on deep dives
+- Team troubleshooting
 - General consulting on tech, roadmap, or product
-- High level or hands on consulting on search architecture & Elasticsearch
+- High-level or hands-on consulting on search architecture & Elasticsearch
 
 ## Contact
 
 - **Email**: jilles AT jillesvangurp.com
-- **Cellphone**: +4917661895701. I’m also on WhatsApp and Signal.
+- **Cellphone**: [+49-176-6189-5701](sms://+4917661895701). I’m also on WhatsApp and Signal.
 - **Address** Bergstrasse 16, 10115 Berlin, Germany
 - [Linkedin](https://linkedin.com/in/jillesvangurp)
 - [Github](https://github.com/jillesvangurp)
@@ -53,6 +53,6 @@ Jillesvangurp has been my online handle since the beginning of this century. On 
 
 ## Privacy & Cookies
 
-This site currently has **no cookies** that need setting, I have no analytics installed, and nor am I interested in invading your privacy. This may change in the future if I add some new functionality to this site. Current browsers are making tracking quite hard. Also, I actually enjoy using such browsers. If you enjoy the content, reach out on e.g. Twitter, LinkedIn, etc. The web hosting that I use may collect some server logs of course. Beyond that, I'm not aware of any kind of tracking or privacy invading tools on this website.
+This site currently has **no cookies** that need setting, I don't use any analytics, and I'm not interested in invading your privacy. Current browsers are making tracking quite hard in any case. Also, I actually enjoy using such browsers myself for this reason. The web hosting that I use may collect some server logs of course. Beyond that, I'm not aware of any kind of tracking or privacy invading tools on this website. I also opted you out of Google's latest attempt to invade your privacy by specifying `Permissions-Policy: interest-cohort=()` in my `.htaccess`.
 
-If you are looking for a privacy policy, you just read it.
+If you are looking for a privacy policy, you just read it. If you enjoy the content, reach out on e.g. Twitter, LinkedIn, etc.

@@ -235,7 +235,7 @@ a:hover {
 pre {
   background-color: #fafafa;
   padding: 1rem;
-  white-space: pre-wrap;
+  white-space: pre-line;
   line-height: 1;
   font-size: 0.8rem;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
