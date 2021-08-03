@@ -14,6 +14,10 @@ for article in $(ls ../es-kotlin-client/manual); do
         --metadata author="Jilles van Gurp"
   # fixes the links to point to html files instead of md files
   sed -i 's/\.md/\.html/g' "$output"
+  # pandoc indenting causing issues, so remove it
+  sed -i 's/^\s*<span/<span/g' "$output"
+  sed -i 's/^\s*\([^<]\)/\1/g' "$output"
+  
   cp -R ../es-kotlin-client/docs public/es-kotlin-manual/
   cp ../es-kotlin-client/book.epub public/es-kotlin-manual
 done
