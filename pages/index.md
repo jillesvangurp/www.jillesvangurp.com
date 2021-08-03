@@ -53,6 +53,6 @@ Jillesvangurp has been my online handle since the beginning of this century. On 
 
 ## Privacy & Cookies
 
-This site currently has **no cookies** that need setting, I don't use any analytics, and I'm not interested in invading your privacy. Current browsers are making tracking quite hard in any case. Also, I actually enjoy using such browsers myself for this reason. The web hosting that I use may collect some server logs of course. Beyond that, I'm not aware of any kind of tracking or privacy invading tools on this website. I also opted you out of Google's latest attempt to invade your privacy by specifying `Permissions-Policy: interest-cohort=()` in my `.htaccess`.
+This site currently has **no cookies** that need setting, I don't use any analytics, and I'm not interested in invading your privacy. Current browsers are making tracking quite hard in any case. Also, I actually enjoy using such browsers myself for this reason. The web hosting that I use may collect some server logs of course. Beyond that, I'm not aware of any kind of tracking or privacy invading tools on this website.
 
 If you are looking for a privacy policy, you just read it. If you enjoy the content, reach out on e.g. Twitter, LinkedIn, etc.
