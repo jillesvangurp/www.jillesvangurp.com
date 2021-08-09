@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 rm -f _index.md
-export HEADER=`cat <<EOF
+export HEADER=$(cat <<EOF
 ---
 title: Article Index
 author: Jilles van Gurp
@@ -12,7 +12,7 @@ In recent years, I've published articles on platforms like [medium](https://medi
 
 Note: I tried to clean up the migrated content but wordpress evolved quite a bit over the past 20+ years. So there are utf-8 encoding errors that may have slipped in, broken links to websites that no longer exist, bits of information that are no longer relevant/outdated/wrong, etc. If you notice something fixable, let me know. Otherwise enjoy.
 EOF
-`
+)
 
 echo "$HEADER" > _index.md
 
