@@ -97,4 +97,13 @@ Downsides:
 
 There are all sorts of ways to make this more seamless but it works quite nicely like this already. Adding stuff like Kubernetes support might be relevant for some. Making the port mapping less tedious might be doable with e.g. `sshuttle` or setting up a ssh proxy.
 
-Let me know on twitter (@jillesvangurp) what you think about this.
+Let me know on Twitter (@jillesvangurp) what you think about this.
+
+**UPDATE**, after running this for a week, I figured out that I needed to disable app nap, which is slowing down applications that you aren't looking at, like qemu when you are using it via ssh. Really annoying feature. You might not want to do this on a laptop. I added two aliases for this to my `.zshrc`:
+
+```bash
+alias appnapoff="defaults write NSGlobalDomain NSAppSleepDisabled -bool YES"
+alias appnapon="defaults write NSGlobalDomain NSAppSleepDisabled -bool NO"
+```
+
+Also, [kind](https://kind.sigs.k8s.io/) is a nice option if you want to add Kubernetes to this mix.
