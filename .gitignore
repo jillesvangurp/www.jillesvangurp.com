@@ -2,3 +2,4 @@ _site
 public
 .DS_Store
 .vale.ini
+.idea
