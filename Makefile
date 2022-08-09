@@ -22,9 +22,9 @@ blogindex:
 blog: blogindex
 	./pd-articles.sh
 
-.PHONY: es-kotlin-manual
-es-kotlin-manual:
-	./pd-es-kotlin.sh
+# .PHONY: es-kotlin-manual
+# es-kotlin-manual:
+# 	./pd-es-kotlin.sh
 
 .PHONY: run
 run:
@@ -53,7 +53,7 @@ deploy:
 	rsync -azpv --delete-after  public/.htaccess jillesvangurpcom@ftp.jillesvangurp.com:/srv/home/jillesvangurpcom/domains/jillesvangurp.com/htdocs
 
 .PHONY: all
-all: clean pages blog es-kotlin-manual sitemap atom minify
-	
+all: clean pages blog sitemap atom minify
+
 
 
