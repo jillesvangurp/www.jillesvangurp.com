@@ -1,5 +1,11 @@
 .DEFAULT_GOAL := all
 
+export SITEGEN=docker run -v $(shell pwd):/root sitegen
+
+.PHONY: docker
+docker:
+	docker build docker -t sitegen
+
 .PHONY: clean
 clean:
 	rm -rf public
@@ -12,19 +18,15 @@ pages:
 	cp .htaccess public
 	cp -R static public
 	cp -R wp-content public
-	./pd-pages.sh
+	$(SITEGEN) pd-pages.sh
 
 .PHONY: blogindex
 blogindex:
-	./indexgenerator.sh
+	$(SITEGEN) indexgenerator.sh
 
 .PHONY: blog
 blog: blogindex
-	./pd-articles.sh
-
-# .PHONY: es-kotlin-manual
-# es-kotlin-manual:
-# 	./pd-es-kotlin.sh
+	$(SITEGEN) pd-articles.sh
 
 .PHONY: run
 run:
@@ -37,15 +39,15 @@ stop:
 .PHONY: minify
 minify:
 	# https://github.com/tdewolff/minify/tree/master/cmd/minify
-	minify style.css -o public/style.css
+	$(SITEGEN) minify style.css -o public/style.css
 
 .PHONY: sitemap
 sitemap:
-	./sitemap.sh
+	$(SITEGEN) sitemap.sh
 
 .PHONY: atom
 atom:
-	./atom.sh
+	$(SITEGEN) atom.sh
 
 .PHONY: deploy
 deploy:
@@ -54,6 +56,7 @@ deploy:
 
 .PHONY: all
 all: clean pages blog sitemap atom minify
+
 
 
 
