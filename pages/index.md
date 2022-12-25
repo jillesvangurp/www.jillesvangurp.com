@@ -19,7 +19,7 @@ Experienced tech entrepreneur, (interim) CTO, strategy, and product consultant, 
 
 ## About Jilles
 
-Dr. Jilles van Gurp is a CTO, serial founder, and troubleshooter based in Berlin. He has decades of experience building innovative software services, leading tech teams, and creating breakthrough products. Jilles’ professional experience includes Senior Researcher at Nokia Research in Finland, Principal Engineer at Nokia Maps in Berlin, Search Engine tech lead at BCG DV and later CTO of Inbot and more recently at [FORMATION](https://tryformation.com) where he drives the product and technology roadmap.
+Dr. Jilles van Gurp is the CTO, of [FORMATION Gmbh](https://tryformation.com) in Berlin where he drives the product and technology roadmap. Jilles is a serial founder, troubleshooter, and has decades of experience building innovative software services, leading tech teams, and creating breakthrough products. His professional experience includes Senior Researcher at Nokia Research in Finland, Principal Engineer at Nokia Maps in Berlin, Search Engine consultant helping clients such as BCG DV, Soundcloud, and others with their search challenges, product development, and roadmap.
 
 ## Skills
 
@@ -32,10 +32,11 @@ Jilles holds a PhD in Software Engineering from the University of Groningen in t
 
 ## Available For
 
-- Architecture reviews, workshops, or hands-on deep dives
-- Team troubleshooting
-- General consulting on tech, roadmap, or product
 - High-level or hands-on consulting on search architecture & Elasticsearch
+- Architecture reviews, workshops, or hands-on deep dives
+- Team troubleshooting & interim management
+- General consulting on tech, roadmap, or product
+- Discovery projects, trainings/workshops, mentoring
 
 ## Contact
 
@@ -45,11 +46,12 @@ Jilles holds a PhD in Software Engineering from the University of Groningen in t
 - [Linkedin](https://linkedin.com/in/jillesvangurp)
 - [Github](https://github.com/jillesvangurp)
 - [Twitter](https://twitter.com/jillesvangurp)
-- Generally @jillesvangurp on anything I use. That handle is globally unique.
+- [Mastodon](https://mastodon.world/@jillesvangurp)
+- Generally @jillesvangurp on anything I use. That handle, like my name, is globally unique.
 
 ## This Web Site
 
-Jillesvangurp has been my online handle since the beginning of this century. On this web-site you may find an archive of my [blog](https://jillesvangurp.com/blog/index.html) (including some recent efforts) and PDFs of my [published work](https://jillesvangurp.com/publications.html) from my academic career.
+On this web-site you may find an archive of my [blog](https://jillesvangurp.com/blog/index.html) (including some recent efforts) and PDFs of my [published work](https://jillesvangurp.com/publications.html) from my academic career.
 
 ## Privacy & Cookies
 
