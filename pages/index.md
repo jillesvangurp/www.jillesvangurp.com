@@ -19,7 +19,7 @@ Experienced tech entrepreneur, (interim) CTO, strategy, and product consultant, 
 
 ## About Jilles
 
-Dr. Jilles van Gurp is the CTO, of [FORMATION Gmbh](https://tryformation.com) in Berlin where he drives the product and technology roadmap. Jilles is a serial founder, troubleshooter, and has decades of experience building innovative software services, leading tech teams, and creating breakthrough products. His professional experience includes Senior Researcher at Nokia Research in Finland, Principal Engineer at Nokia Maps in Berlin, Search Engine consultant helping clients such as BCG DV, Soundcloud, and others with their search challenges, product development, and roadmap.
+Dr. Jilles van Gurp is the CTO, of [FORMATION Gmbh](https://tryformation.com) in Berlin where he drives the product and technology roadmap. Jilles is a serial founder, troubleshooter, and has decades of experience building innovative software services, leading tech teams, and creating breakthrough products. His professional experience includes Senior Researcher at Nokia Research in Finland, Principal Engineer at Nokia Maps in Berlin. He also is a Search Engine consultant that has worked with clients such as BCG DV, Soundcloud, Bertelsmann Group and others with their search challenges, product development, and roadmap.
 
 ## Skills
 
@@ -33,10 +33,12 @@ Jilles holds a PhD in Software Engineering from the University of Groningen in t
 ## Available For
 
 - High-level or hands-on consulting on search architecture & Elasticsearch
+- Trainings and workshops related to that. Want to use Fleet, ELK, or are you looking to level up your search skills? I can help.
 - Architecture reviews, workshops, or hands-on deep dives
-- Team troubleshooting & interim management
-- General consulting on tech, roadmap, or product
-- Discovery projects, trainings/workshops, mentoring
+- Team troubleshooting & interim management & mentoring.
+- General consulting on tech, roadmap, or product.
+
+I charge a day rate for my services. I'm not available to join your team full time.
 
 ## Contact
 
