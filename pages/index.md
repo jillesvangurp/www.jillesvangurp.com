@@ -34,15 +34,16 @@ Jilles holds a PhD in Software Engineering from the University of Groningen in t
 
 - High-level or hands-on consulting on search architecture & Elasticsearch
 - Trainings and workshops related to that. Want to use Fleet, ELK, or are you looking to level up your search skills? I can help.
-- Architecture reviews, workshops, or hands-on deep dives
+- Improving the quality of your search. I have built [Rankquest Studio](https://rankquest.jillesvangurp.com) to help people benchmark their search quality.
+- Architecture / ETL reviews, workshops, or hands-on deep dives
 - Team troubleshooting & interim management & mentoring.
 - General consulting on tech, roadmap, or product.
 
-I charge a day rate for my services. I'm not available to join your team full time.
+I generally work as a consultant, not as a freelance developer. This means I can work with you in short projects or on a retainer fee basis. But I'm not able to join teams fulltime.
 
 ## Opensource
 
-I maintain several projects on Github that relate to my activities as a search consultant and that we use at FORMATION as part of our product platform:
+I maintain several projects on Github that relate to my activities as a consultant and that we use at FORMATION as part of our product platform:
 
 - [rankquest-studio](https://github.com/jillesvangurp/rankquest-studio) Rankquest Studio is a web based tool that you can use to benchmark search query metrics for your search APIs. You can try the [latest version here](https://rankquest.jillesvangurp.com).
 - [rankquest-core](https://github.com/jillesvangurp/rankquest-core) Rankquest is a kotlin multiplatform rank evalution library that you can use to benchmark any API that returns search results. It powers Rankquest Studio.
@@ -55,7 +56,7 @@ I maintain several projects on Github that relate to my activities as a search c
 ## Contact
 
 - **Email**: jilles AT jillesvangurp.com
-- **Cellphone**: [+49-176-6189-5701](sms://+4917661895701). I’m also on WhatsApp and Signal.
+- **Cellphone**: [+49-176-6189-5701](sms://+4917661895701). I’m also on WhatsApp and Signal. Please coordinate asynchronously before calling.
 - **Address** Bergstrasse 16, 10115 Berlin, Germany
 - [Linkedin](https://linkedin.com/in/jillesvangurp)
 - [Github](https://github.com/jillesvangurp)
@@ -65,7 +66,7 @@ I maintain several projects on Github that relate to my activities as a search c
 
 ## This Web Site
 
-On this web-site you may find an archive of my [blog](https://jillesvangurp.com/blog/index.html) (including some recent efforts) and PDFs of my [published work](https://jillesvangurp.com/publications.html) from my academic career.
+On this web-site you may find an archive of my [blog](https://jillesvangurp.com/blog/index.html) (including some recent efforts) and PDFs of my [published work](https://jillesvangurp.com/publications.html) from my academic career (1998-2009).
 
 ## Privacy & Cookies
 
