@@ -40,6 +40,18 @@ Jilles holds a PhD in Software Engineering from the University of Groningen in t
 
 I charge a day rate for my services. I'm not available to join your team full time.
 
+## Opensource
+
+I maintain several projects on Github that relate to my activities as a search consultant and that we use at FORMATION as part of our product platform:
+
+- [rankquest-studio](https://github.com/jillesvangurp/rankquest-studio) Rankquest Studio is a web based tool that you can use to benchmark search query metrics for your search APIs. You can try the [latest version here](https://rankquest.jillesvangurp.com).
+- [rankquest-core](https://github.com/jillesvangurp/rankquest-core) Rankquest is a kotlin multiplatform rank evalution library that you can use to benchmark any API that returns search results. It powers Rankquest Studio.
+- [kt-search](https://github.com/jillesvangurp/kt-search) Multi platform kotlin client for Elasticsearch & Opensearch with easily extendable Kotlin DSLs for queries, mappings, bulk, and more.
+- [kt-search-logback-appender](https://github.com/jillesvangurp/kt-search-logback-appender) Log appender for Logback that bulk indexes to Elasticsearch/Opensearch using kt-search as the client. Intended for use with jvm based application servers like Spring Boot
+- [querylight](https://github.com/jillesvangurp/querylight) Querylight is an in memory, kotlin multi platform text indexing library that implements tf/idf and a minimal query language. Great for client side search in web apps, android or other Kotlin apps.
+- [geogeometry](https://github.com/jillesvangurp/geogeometry) GeoGeometry is a set of algorithms and functions for manipulating geo hashes and geometric shapes with geo coordinates.
+
+
 ## Contact
 
 - **Email**: jilles AT jillesvangurp.com
@@ -48,7 +60,7 @@ I charge a day rate for my services. I'm not available to join your team full ti
 - [Linkedin](https://linkedin.com/in/jillesvangurp)
 - [Github](https://github.com/jillesvangurp)
 - [Twitter](https://twitter.com/jillesvangurp)
-- [Mastodon](https://mastodon.world/@jillesvangurp)
+- <a href="https://mastodon.world/@jillesvangurp" rel="me">Mastodon</a>
 - Generally @jillesvangurp on anything I use. That handle, like my name, is globally unique.
 
 ## This Web Site
