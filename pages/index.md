@@ -34,7 +34,7 @@ Jilles holds a PhD in Software Engineering from the University of Groningen in t
 
 - High-level or hands-on consulting on search architecture & Elasticsearch
 - Trainings and workshops related to that. Want to use Fleet, ELK, or are you looking to level up your search skills? I can help.
-- Improving the quality of your search. I have built [Rankquest Studio](https://rankquest.jillesvangurp.com) to help people benchmark their search quality.
+- Improving the quality of your search. I built [Rankquest Studio](https://rankquest.jillesvangurp.com) to help my clients benchmark their search quality because I have found that a lot of them were struggling with a lack of a structured approach to evolving their search in a datadriven way.
 - Architecture / ETL reviews, workshops, or hands-on deep dives
 - Team troubleshooting & interim management & mentoring.
 - General consulting on tech, roadmap, or product.
