@@ -38,6 +38,7 @@ stop:
 .PHONY: minify
 minify:
   # tailwind expects node_modules but it only exists in the docker file; so link it here temporarily
+	rm -f node_modules
 	$(SITEGEN) ln -s /npm/node_modules
 	$(SITEGEN) npx postcss tailwind.css -o style.css
 	rm node_modules
