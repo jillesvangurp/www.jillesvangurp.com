@@ -10,9 +10,11 @@ Feel free to copy and adapt as you need. This bunch of scripts that I have is de
 - Can be used to render code blocks as well
 - Sitemap, article index, and recent articles are generated.
 - Atom feed is generated for the articles.
-- Css minifier.
+- Tailwind css styling & css minifier.
 
 ## Usage
+
+Instead of installing a lot of stuff, everything is done via docker. The docker container installs all the necessary tools.
 
 ```bash
 # create docker container with tools and scripts
@@ -34,7 +36,6 @@ make deploy
 - `public` this directory is git ignored and is where the generated files end up
 - `templates` put your pandoc templates here
 - `footer.html` and `navigation.html` little hard coded navigation that is injected in the template. Nice and simple.
-- `style.css` put your styling here. It all gets minified as part of the scripts.
 - `Makefile` mostly self explanatory. You might want to tweak the hard coded values
 
 ## License
