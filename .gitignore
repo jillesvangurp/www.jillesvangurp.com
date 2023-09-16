@@ -9,3 +9,5 @@ highlighting.css
 .npm
 # created if you run docker run -itv $(pwd):/root sitegen /usr/bin/bash
 .bash_history
+# generated
+style.css

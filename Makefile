@@ -14,7 +14,6 @@ clean:
 pages:
 	mkdir -p public/blog
 	# link so we can develop
-	cp style.css public
 	cp .htaccess public
 	cp -R static public
 	cp -R wp-content public
