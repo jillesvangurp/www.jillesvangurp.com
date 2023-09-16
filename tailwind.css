@@ -38,15 +38,6 @@
   }
 }
 
-/* @keyframes color {
-0%   { background: #33CCCC; }
-20%  { background: #33CC36; }
-40%  { background: #B8CC33; }
-60%  { background: #FCCA00; }
-80%  { background: #33CC36; }
-100% { background: #33CCCC; }
-} */
-
 @keyframes color {
   0% {
     background: #3E92CC
@@ -72,7 +63,6 @@
     background: #2A628F;
   }
 }
-
 
 body {
   background: #3E92CC;
