@@ -6,10 +6,10 @@
 
 @layer base {
   h1 {
-    @apply text-6xl font-bold mb-6;
+    @apply  text-2xl xl:text-6xl font-bold mb-6;
   }
   h2 {
-    @apply text-2xl mt-2 mb-4;
+    @apply text-xl xl:text-4xl mt-2 mb-4;
   }
   h3 {
     @apply text-lg mt-2 mb-2;
@@ -27,6 +27,10 @@
 
   ul {
     @apply my-2
+  }
+
+  pre {
+    @apply overflow-auto lg:w-440 xl:w-830
   }
 }
 
