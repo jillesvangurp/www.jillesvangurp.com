@@ -38,7 +38,16 @@ stop:
 
 .PHONY: minify
 minify:
-	# https://github.com/tdewolff/minify/tree/master/cmd/minify
+  # tailwind expects node_modules but it only exists in the docker file; so link it here temporarily
+	$(SITEGEN) ln -s /npm/node_modules
+	$(SITEGEN) npx postcss tailwind.css -o style.css
+	rm node_modules
+	echo '```html' > sample.md
+	echo "OHAI" >> sample.md
+	echo '```' >> sample.md
+	$(SITEGEN) pandoc --template=highlighting-css.template sample.md -o highlighting.css
+	rm sample.md
+	cat highlighting.css >> style.css
 	$(SITEGEN) minify style.css -o public/style.css
 
 .PHONY: sitemap

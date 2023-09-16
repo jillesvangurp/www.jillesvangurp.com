@@ -4,3 +4,8 @@ public
 .vale.ini
 .idea
 .vscode
+node_modules
+highlighting.css
+.npm
+# created if you run docker run -itv $(pwd):/root sitegen /usr/bin/bash
+.bash_history

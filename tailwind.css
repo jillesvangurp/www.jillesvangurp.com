@@ -1,0 +1,32 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@layer base {
+  h1 {
+    @apply text-3xl mb-6;
+  }
+  h2 {
+    @apply text-xl mt-2 mb-4;
+  }
+  h3 {
+    @apply text-lg mt-2 mb-2;
+  }
+  p {
+    @apply mb-2;
+  }
+  a {
+    @apply text-blue-600 hover:text-blue-400 underline cursor-pointer;
+  }
+
+  li {
+    @apply ml-5 list-disc
+  }
+
+  ul {
+    @apply my-2
+  }
+}
+
