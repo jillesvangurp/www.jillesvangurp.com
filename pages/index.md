@@ -57,7 +57,6 @@ I maintain several projects on Github that relate to my activities as a consulta
 
 - **Email**: jilles AT jillesvangurp.com
 - **Cellphone**: [+49-176-6189-5701](sms://+4917661895701). I’m also on WhatsApp and Signal. Please coordinate asynchronously before calling.
-- **Address** Bergstrasse 16, 10115 Berlin, Germany
 - [Linkedin](https://linkedin.com/in/jillesvangurp)
 - [Github](https://github.com/jillesvangurp)
 - [Twitter](https://twitter.com/jillesvangurp)

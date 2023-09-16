@@ -3,7 +3,7 @@ title: Impressum
 author: Jilles van Gurp
 ---
 
-This is the website of Jilles van Gurp where I post articles, opinions, and offer my services as a freelancer (see the [frontpage](/) for more on that).
+This is the website of Jilles van Gurp where I post articles, opinions, and offer my services as a consultant (see the [frontpage](/) for more on that).
 
 ## Contact information
 
