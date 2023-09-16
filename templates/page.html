@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html$if(lang)$ lang="$lang$" $endif$$if(dir)$ dir="$dir$" $endif$>
-
   <head>
     <title>$title$</title>
     <meta charset='utf-8'>
@@ -20,27 +19,25 @@
     <meta name="keywords" content="$for(tags)$$tags$$sep$, $endfor$">
     $endif$
     <meta property="og:type" content="website" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
-
+    <meta property="og:image" content="https://jillesvangurp.com/static/jilles.jpg" />
+    <meta property="og:title" content="$title$" />
+    <meta property="og:description" content="$description$" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
   </head>
-
-  <body class="bg-gray-200">
-    <div id="outer" class="bg-gray-50 lg:w-4/6 mx-auto my-10 p-10">
+  <body class="bg-slate-500">
+    <div id="outer" class="bg-gray-50 lg:w-500 xl:w-900 mx-auto my-5 flex flex-col">
       <nav>
         $navigation$
       </nav>
       <header>
-        <h1 class="text-4xl">$title$</h1>
+        <h1 class="text-4xl w-full text-center mt-10">$title$</h1>
         $if(image)$
         <img src="..$image$" />
         $endif$
       </header>
-      <div id="inner">
-        <div id="center-column">
+      <div id="inner" class="md:flex md:flex-row-reverse">
+        <div id="center-column" class="lg:w-max p-5 m-5">
           <section id="main-content">
             $for(include-before)$
             $include-before$
@@ -51,20 +48,19 @@
             $endfor$
           </section>
         </div>
-        <div id="sidebar">
-          $for(include-before)$
-          $include-before$
-          $endfor$
-          $sidebar$
-          $for(include-after)$
-          $include-after$
-          $endfor$
-        </div>
       </div>
       <footer>
         $footer$
       </footer>
     </div>
+    <div class="lg:absolute lg:left-5 lg:top-5 lg:w-48 text-sm bg-slate-200 hover:bg-slate-100 hover:shadow-2xl p-5">
+      $for(include-before)$
+      $include-before$
+      $endfor$
+      $sidebar$
+      $for(include-after)$
+      $include-after$
+      $endfor$
+    </div>
   </body>
-
   </html>

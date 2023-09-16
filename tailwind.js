@@ -843,6 +843,8 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
+      500: '500px',
+      900: '900px'
     },
     stroke: ({ theme }) => ({
       none: 'none',
