@@ -31,7 +31,7 @@ Since the probabilities for this are (initially) small change is that people get
 
 Let's model this. Instead of modeling the probability of things breaking, we're going to model things being fine. Let's assume 1 in a 100 changes is problematic. So, for each change you introduce there's a 99% chance that things are completely fine. We don't worry about the cost. Either it's 0$ or it is high.
 
-What happens if you do 10 changes? Very easy, that's `0.99^10 = 0.9``. So, we can do a small amount of changes and it's very likely to be fine. What happens if we make 100 changes? `0.99^100 = 0.37`. So, now it's more than likely that integrating this amount of change is problematic. But you might get lucky.
+What happens if you do 10 changes? Very easy, that's `0.99^10 = 0.9`. So, we can do a small amount of changes and it's very likely to be fine. What happens if we make 100 changes? `0.99^100 = 0.37`. So, now it's more than likely that integrating this amount of change is problematic. But you might get lucky.
 
 And for a 1000 changes? It's 0.000043. Yikes! You get my point, this quickly converges on the chances of anything being anywhere near fine being infinitely close to zero. Nobody is that lucky. Large amounts of changes means you have your work cut out. 100% (well 99.99999%) guaranteed. I don't like those odds.
 
