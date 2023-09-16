@@ -6,17 +6,21 @@
 
 @layer base {
   h1 {
-    @apply  text-2xl xl:text-6xl font-bold mb-6;
+    @apply text-2xl xl:text-6xl font-bold mb-6;
   }
+
   h2 {
     @apply text-xl xl:text-4xl mt-2 mb-4;
   }
+
   h3 {
     @apply text-lg mt-2 mb-2;
   }
+
   p {
     @apply mb-2;
   }
+
   a {
     @apply text-slate-600 hover:text-slate-400 underline cursor-pointer;
   }
@@ -34,3 +38,44 @@
   }
 }
 
+/* @keyframes color {
+0%   { background: #33CCCC; }
+20%  { background: #33CC36; }
+40%  { background: #B8CC33; }
+60%  { background: #FCCA00; }
+80%  { background: #33CC36; }
+100% { background: #33CCCC; }
+} */
+
+@keyframes color {
+  0% {
+    background: #3E92CC
+  }
+
+  20% {
+    background: #2A628F;
+  }
+
+  40% {
+    background: #13293D;
+  }
+
+  60% {
+    background: #16324F;
+  }
+
+  80% {
+    background: #13293D;
+  }
+
+  90% {
+    background: #2A628F;
+  }
+}
+
+
+body {
+  background: #3E92CC;
+  /* Fallback */
+  animation: color 30s infinite linear;
+}
