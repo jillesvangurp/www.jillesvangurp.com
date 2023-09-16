@@ -18,7 +18,7 @@
     @apply mb-2;
   }
   a {
-    @apply text-blue-600 hover:text-blue-400 underline cursor-pointer;
+    @apply text-slate-600 hover:text-slate-400 underline cursor-pointer;
   }
 
   li {
