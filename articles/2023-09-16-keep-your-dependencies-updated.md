@@ -7,7 +7,7 @@ tags: dependencies, software-engineering
 
 Whenever I start work on a project that I haven't touched in a while or on somebody else's project, the first thing I do is update its dependencies.Imagine starting work on a project, only to find that its dependencies haven't been updated in a while. I've often found myself in this situation. I've also noticed that many developers tend to stick with what works and avoid updating because it is a hassle to do so.
 
-Worse, when you point this out to engineers, many of them just shug and act like it cannot or should not be addressed. If it ain't broke, don't fix it. However, is that really true? Just because you don't know where the fixed bugs  are doesn't mean you don't have them. And what about compatibility breaking things where your code is building on top of now effectively deprecated and no longer maintained things?
+Worse, when you point this out to engineers, many of them just shrug and act like it cannot or should not be addressed. If it ain't broke, don't fix it. However, is that really true? Just because you don't know where the fixed bugs  are doesn't mean you don't have them. And what about compatibility breaking things where your code is building on top of now effectively deprecated and no longer maintained things?
 
 This article tries to make an argument for updating frequently. It's actually less work this way and you stay on top of things. And you get to benefit from the hard work people do upstream of your code base.
 
