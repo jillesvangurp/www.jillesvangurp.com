@@ -4,13 +4,13 @@ author: Jilles van Gurp
 ---
 <img class="float-right border-0 rounded-lg shadow-xl hover:shadow-2xl w-32 h-32 xl:w-72 xl:h-72" alt="Jilles van Gurp photo" src="https://www.jillesvangurp.com/static/jilles.jpg" id="selfie"/>
 
-**CTO@Formation, consultant**, Berlin Germany
+**CTO@FORMATION, consultant**, Berlin Germany
 
-Experienced tech entrepreneur, (interim) CTO, strategy, and product consultant, hands-on troubleshooter and mentor.
+Experienced tech entrepreneur, (interim) CTO, strategy, and consultant, hands-on troubleshooter and mentor.
 
-- Entrepreneurship
-- Geospatial technologies
 - Search Engines / ElasticSearch
+- Geospatial technologies
+- Entrepreneurship
 - Leading Remote Teams
 - Agile Team Management
 - Technical consulting
@@ -25,14 +25,14 @@ Dr. Jilles van Gurp is the CTO, of [FORMATION Gmbh](https://tryformation.com) in
 
 - Natural team player, with strong interpersonal skills, can build and lead agile teams, coach and mentor individuals at all professional levels and from a wide variety of backgrounds.
 - Loves to figure out technical roadmaps and tackle the difficult strategic questions with a focus on pragmatic early releases to achieve long-term strategic value.
-- Deep technical expertise and mindset, with hands-on approach to dealing with new domains, tech stacks and paradigms.
+- Deep technical expertise and mindset, with hands-on approach to dealing with new domains, tech stacks and paradigms. Using Lucene, Solr, and Elasticsearch for 20 years.
 - Pragmatic problem solver and fan of lateral-&-end to end thinking, love to iterate!
 
 Jilles holds a PhD in Software Engineering from the University of Groningen in the Netherlands (2003) where he also worked as a postdoc, a Swedish Licentiate degree from the Blekinge Institute of Technology (2001), and a master degree from the University of Utrecht 1999.
 
 ## Available For
 
-- High-level or hands-on consulting on search architecture & Elasticsearch
+- High-level or hands-on consulting on search architecture & Elasticsearch.
 - Trainings and workshops related to that. Want to use Fleet, ELK, or are you looking to level up your search skills? I can help.
 - Improving the quality of your search. I built [Rankquest Studio](https://rankquest.jillesvangurp.com) to help my clients benchmark their search quality because I have found that a lot of them were struggling with a lack of a structured approach to evolving their search in a datadriven way.
 - Architecture / ETL reviews, workshops, or hands-on deep dives
@@ -51,6 +51,7 @@ I maintain several projects on Github that relate to my activities as a consulta
 - [kt-search-logback-appender](https://github.com/jillesvangurp/kt-search-logback-appender) Log appender for Logback that bulk indexes to Elasticsearch/Opensearch using kt-search as the client. Intended for use with jvm based application servers like Spring Boot
 - [querylight](https://github.com/jillesvangurp/querylight) Querylight is an in memory, kotlin multi platform text indexing library that implements tf/idf and a minimal query language. Great for client side search in web apps, android or other Kotlin apps.
 - [geogeometry](https://github.com/jillesvangurp/geogeometry) GeoGeometry is a set of algorithms and functions for manipulating geo hashes and geometric shapes with geo coordinates.
+- [more](https://github.com/jillesvangurp?tab=repositories)
 
 
 ## Contact
