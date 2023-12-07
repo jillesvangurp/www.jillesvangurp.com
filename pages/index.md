@@ -32,25 +32,23 @@ Jilles holds a PhD in Software Engineering from the University of Groningen in t
 
 ## Available For
 
-- High-level or hands-on consulting on search architecture & Elasticsearch.
+- High-level or hands-on consulting on search architecture, vector search, & elasticsearch/opensearch.
 - Trainings and workshops related to that. Want to use Fleet, ELK, or are you looking to level up your search skills? I can help.
 - Improving the quality of your search. I built [Rankquest Studio](https://rankquest.jillesvangurp.com) to help my clients benchmark their search quality because I have found that a lot of them were struggling with a lack of a structured approach to evolving their search in a datadriven way.
 - Architecture / ETL reviews, workshops, or hands-on deep dives
 - Team troubleshooting & interim management & mentoring.
 - General consulting on tech, roadmap, or product.
 
-I generally work as a consultant, not as a freelance developer. This means I can work with you in short projects or on a retainer fee basis. But I'm not able to join teams fulltime.
+I generally work as a consultant, not as a freelance developer. This means I can work with you in short projects or on a retainer fee basis. While I am very hands-on technically, I'm not able to join teams fulltime.
 
 ## Opensource
 
-I maintain several projects on Github that relate to my activities as a consultant and that we use at FORMATION as part of our product platform:
+I maintain several projects on Github that relate to my activities as a consultant and that we use at FORMATION as part of our product platform. Here is a small selection:
 
-- [rankquest-studio](https://github.com/jillesvangurp/rankquest-studio) Rankquest Studio is a web based tool that you can use to benchmark search query metrics for your search APIs. You can try the [latest version here](https://rankquest.jillesvangurp.com).
-- [rankquest-core](https://github.com/jillesvangurp/rankquest-core) Rankquest is a kotlin multiplatform rank evalution library that you can use to benchmark any API that returns search results. It powers Rankquest Studio.
+- [rankquest-studio](https://github.com/jillesvangurp/rankquest-studio) Rankquest Studio is a web based tool that you can use to benchmark search relevance metrics for your search APIs.  You can try the [latest version here](https://rankquest.jillesvangurp.com).
 - [kt-search](https://github.com/jillesvangurp/kt-search) Multi platform kotlin client for Elasticsearch & Opensearch with easily extendable Kotlin DSLs for queries, mappings, bulk, and more.
-- [kt-search-logback-appender](https://github.com/jillesvangurp/kt-search-logback-appender) Log appender for Logback that bulk indexes to Elasticsearch/Opensearch using kt-search as the client. Intended for use with jvm based application servers like Spring Boot
 - [querylight](https://github.com/jillesvangurp/querylight) Querylight is an in memory, kotlin multi platform text indexing library that implements tf/idf and a minimal query language. Great for client side search in web apps, android or other Kotlin apps.
-- [geogeometry](https://github.com/jillesvangurp/geogeometry) GeoGeometry is a set of algorithms and functions for manipulating geo hashes and geometric shapes with geo coordinates.
+- [geogeometry](https://github.com/jillesvangurp/geogeometry) GeoGeometry is a set of algorithms and functions for manipulating geo hashes and geometric shapes with geo coordinates. We use this at FORMATION and this library has served me well in my various startups.
 - [more](https://github.com/jillesvangurp?tab=repositories)
 
 
