@@ -64,7 +64,7 @@ deploy:
 	rsync -azpv --delete-after  public/.htaccess jillesvangurpcom@ftp.jillesvangurp.com:/srv/home/jillesvangurpcom/domains/jillesvangurp.com/htdocs
 
 .PHONY: all
-all: clean pages blog sitemap atom minify
+all: docker clean pages blog sitemap atom minify
 
 
 
