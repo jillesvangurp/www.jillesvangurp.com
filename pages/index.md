@@ -6,44 +6,63 @@ author: Jilles van Gurp
 
 **CTO@FORMATION, consultant**, Berlin Germany
 
-Experienced tech entrepreneur, (interim) CTO, strategy, and consultant, hands-on troubleshooter and mentor.
+Seasoned tech entrepreneur and CTO with a track record of driving innovation and leading top-tier technology teams.
 
-- Search Engines / ElasticSearch
-- Geospatial technologies
-- Entrepreneurship
-- Leading Remote Teams
-- Agile Team Management
-- Technical consulting
-- Team Workshops / Troubleshooting
-- Server-side cloud architectures
+- Expert in Search Engines (ElasticSearch, Opensearch, etc.), Geospatial Technologies, and Server-side Cloud Architectures
+- Proven Leadership in Remote Team Management and Agile Team Management
+- Skilled in Entrepreneurship, Technical Consulting, and Conducting Team Workshops and Troubleshooting Sessions
 
 ## About Jilles
 
-Dr. Jilles van Gurp is the CTO, of [FORMATION Gmbh](https://tryformation.com) in Berlin where he drives the product and technology roadmap. Jilles is a serial founder, troubleshooter, and has decades of experience building innovative software services, leading tech teams, and creating breakthrough products. His professional experience includes Senior Researcher at Nokia Research in Finland, Principal Engineer at Nokia Maps in Berlin. He also is a Search Engine consultant that has worked with clients such as BCG DV, Soundcloud, Bertelsmann Group and others with their search challenges, product development, and roadmap.
+Dr. Jilles van Gurp is an accomplished technology leader with a strong track record of founding and running innovative startups and leading technology teams to create breakthrough products. With over two decades of deep expertise in search engines, geospatial technologies, and agile team management, he excels in crafting technical strategies and solving complex problems to drive product development and achieve long-term strategic value.
+
+Currently serving as the CTO at [FORMATION Gmbh](https://tryformation.com) in Berlin, Jilles leverages his extensive experience to drive strategic and technical advancements.
+
+A serial founder and troubleshooter, Jilles brings decades of expertise in software innovation, team leadership, and product development. His professional journey includes pivotal roles such as Senior Researcher at **Nokia Research** in Finland and Principal Engineer at **Nokia Maps/Here** in Berlin. As a search engine consultant, Jilles has collaborated with industry giants like **BCG Digital Ventures**, **Soundcloud**, **Bertelsmann Group*, and many smaller companies addressing their search challenges and driving product excellence.
+
+Before FORMATION, Jilles co-founded Localstream with Mark Macmahon. Localstream was acquired by Linko, which later renamed to Inbot where Jilles lead the team as the CTO until the company folded in 2018. In recent years, Jilles has mentored several startups via Techstars and in his Berlin network.
 
 ## Skills
 
-- Natural team player, with strong interpersonal skills, can build and lead agile teams, coach and mentor individuals at all professional levels and from a wide variety of backgrounds.
-- Loves to figure out technical roadmaps and tackle the difficult strategic questions with a focus on pragmatic early releases to achieve long-term strategic value.
-- Deep technical expertise and mindset, with hands-on approach to dealing with new domains, tech stacks and paradigms. Using Lucene, Solr, and Elasticsearch for 20 years.
-- Pragmatic problem solver and fan of lateral-&-end to end thinking, love to iterate!
+### Technical Expertise
 
-Jilles holds a PhD in Software Engineering from the University of Groningen in the Netherlands (2003) where he also worked as a postdoc, a Swedish Licentiate degree from the Blekinge Institute of Technology (2001), and a master degree from the University of Utrecht 1999.
+- **Search Technologies**: 20+ years of experience with Lucene, Solr, and Elasticsearch. Developer of [kt-search](https://github.com/jillesvangurp/kt-search), a multi-platform Kotlin client for Elasticsearch & Opensearch.
+- **Geospatial Technologies**: Expertise in geo hashes and geometric shapes with geo coordinates. Creator of [geogeometry](https://github.com/jillesvangurp/geogeometry).
+- **Cloud Architectures**: Skilled in designing and implementing server-side cloud architectures to support scalable and robust applications.
 
-## Available For
+### Leadership and Management
 
-- High-level or hands-on consulting on search architecture, vector search, & elasticsearch/opensearch.
-- Trainings and workshops related to that. Want to use Fleet, ELK, or are you looking to level up your search skills? I can help.
-- Improving the quality of your search. I built [Rankquest Studio](https://rankquest.jillesvangurp.com) to help my clients benchmark their search quality because I have found that a lot of them were struggling with a lack of a structured approach to evolving their search in a datadriven way.
-- Architecture / ETL reviews, workshops, or hands-on deep dives
-- Team troubleshooting & interim management & mentoring.
-- General consulting on tech, roadmap, or product.
+- **Team Leadership**: Proven ability to build and lead agile teams. Experience mentoring individuals at all professional levels and from diverse backgrounds.
+- **Remote Team Management**: Successfully leading and managing remote teams, ensuring productivity and collaboration across different time zones.
+- **Agile Methodologies**: Deep understanding of agile team management and implementing agile practices to enhance team performance and product development.
 
-I generally work as a consultant, not as a freelance developer. This means I can work with you in short projects or on a retainer fee basis. While I am very hands-on technically, I'm not able to join teams fulltime.
+### Strategic and Technical Consulting
+
+- **Technical Roadmaps**: Expertise in developing technical roadmaps and tackling strategic questions with a focus on pragmatic, early releases for long-term value.
+- **Problem Solving**: Pragmatic problem solver with a fan of lateral & end-to-end thinking. Adept at iterative development and finding innovative solutions to complex problems.
+- **Search Quality Improvement**: Developer of [Rankquest Studio](https://rankquest.jillesvangurp.com), a tool to benchmark search relevance metrics, helping clients improve search ranking and performance.
+
+### Workshops and Trainings
+
+- **Team Workshops**: Conducts effective workshops to troubleshoot team issues, improve workflows, and enhance technical skills.
+- **Training and Mentoring**: Provides comprehensive training sessions and mentoring to skill up teams in search architecture, vector search, and Elasticsearch/OpenSearch. In recent years, Jilles has also mentored several startups via Techstars and in his Berlin network on how to run their tech teams, product and technical strategy and other challenges that startup founders face.
+
+### Performance Optimization
+
+- **Query and Mapping Tuning**: Expert in performance tuning queries and mappings for faster performance and lower cost. Offers quick analysis and recommendations for performance issues.
+- **ETL and Architecture Reviews**: Conducts detailed reviews of ETL processes and overall architecture to ensure optimal performance and scalability.
+
+### Interpersonal Skills
+
+- **Natural Team Player**: Strong interpersonal skills, fostering a collaborative and supportive team environment.
+- **Effective Communication**: Clear and concise communicator, able to convey complex technical concepts to non-technical stakeholders.
+
+
+Feel free to **reach out by email** for setting up a short call on how I can help you. I'm available for either short & focused projects or on a part time/retainer basis. I generally start with a discovery project to see how we can help each other where I talk to different stakeholders in your company to get a feel for what is needed.
 
 ## Opensource
 
-I maintain several projects on Github that relate to my activities as a consultant and that we use at FORMATION as part of our product platform. Here is a small selection:
+I maintain several projects on Github that relate to my activities as a consultant and that we use at FORMATION as part of our product platform. Here is a small selection of things I've recently worked on:
 
 - [rankquest-studio](https://github.com/jillesvangurp/rankquest-studio) Rankquest Studio is a web based tool that you can use to benchmark search relevance metrics for your search APIs.  You can try the [latest version here](https://rankquest.jillesvangurp.com).
 - [kt-search](https://github.com/jillesvangurp/kt-search) Multi platform kotlin client for Elasticsearch & Opensearch with easily extendable Kotlin DSLs for queries, mappings, bulk, and more.
@@ -51,20 +70,15 @@ I maintain several projects on Github that relate to my activities as a consulta
 - [geogeometry](https://github.com/jillesvangurp/geogeometry) GeoGeometry is a set of algorithms and functions for manipulating geo hashes and geometric shapes with geo coordinates. We use this at FORMATION and this library has served me well in my various startups.
 - [more](https://github.com/jillesvangurp?tab=repositories)
 
-
 ## Contact
 
 - **Email**: jilles AT jillesvangurp.com
-- **Cellphone**: [+49-176-6189-5701](sms://+4917661895701). I’m also on WhatsApp and Signal. Please coordinate asynchronously before calling.
-- [Linkedin](https://linkedin.com/in/jillesvangurp)
+- **Cellphone**: [+49-176-6189-5701](sms://+4917661895701). I’m also on WhatsApp and Signal. Please coordinate asynchronously before calling. I prefer video calls.
 - [Github](https://github.com/jillesvangurp)
+- [Linkedin](https://linkedin.com/in/jillesvangurp)
 - [Twitter](https://twitter.com/jillesvangurp)
 - <a href="https://mastodon.world/@jillesvangurp" rel="me">Mastodon</a>
 - Generally @jillesvangurp on anything I use. That handle, like my name, is globally unique.
-
-## This Web Site
-
-On this web-site you may find an archive of my [blog](https://jillesvangurp.com/blog/index.html) (including some recent efforts) and PDFs of my [published work](https://jillesvangurp.com/publications.html) from my academic career (1998-2009).
 
 ## Privacy & Cookies
 
