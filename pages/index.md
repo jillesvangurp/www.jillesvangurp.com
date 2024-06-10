@@ -18,7 +18,7 @@ Dr. Jilles van Gurp is an accomplished technology leader with a strong track rec
 
 Currently serving as the CTO at [FORMATION Gmbh](https://tryformation.com) in Berlin, Jilles leverages his extensive experience to drive strategic and technical advancements.
 
-A serial founder and troubleshooter, Jilles brings decades of expertise in software innovation, team leadership, and product development. His professional journey includes pivotal roles such as Senior Researcher at **Nokia Research** in Finland and Principal Engineer at **Nokia Maps/Here** in Berlin. As a search engine consultant, Jilles has collaborated with industry giants like **BCG Digital Ventures**, **Soundcloud**, **Bertelsmann Group*, and many smaller companies addressing their search challenges and driving product excellence.
+A serial founder and troubleshooter, Jilles brings decades of expertise in software innovation, team leadership, and product development. His professional journey includes pivotal roles such as Senior Researcher at **Nokia Research** in Finland and Principal Engineer at **Nokia Maps/Here** in Berlin. As a search engine consultant, Jilles has collaborated with industry giants like **BCG Digital Ventures**, **Soundcloud**, **Bertelsmann Group**, and many smaller companies addressing their search challenges and driving product excellence.
 
 Before FORMATION, Jilles co-founded Localstream with Mark Macmahon. Localstream was acquired by Linko, which later renamed to Inbot where Jilles lead the team as the CTO until the company folded in 2018. In recent years, Jilles has mentored several startups via Techstars and in his Berlin network.
 
