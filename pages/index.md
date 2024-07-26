@@ -6,7 +6,7 @@ author: Jilles van Gurp
 
 **CTO@FORMATION, consultant**, Berlin Germany
 
-Seasoned tech entrepreneur and CTO with a track record of driving innovation and leading top-tier technology teams.
+Experienced tech entrepreneur and CTO with a track record of driving innovation and leading top-tier technology teams.
 
 - Expert in Search Engines (ElasticSearch, Opensearch, etc.), Geospatial Technologies, and Server-side Cloud Architectures
 - Proven Leadership in Remote Team Management and Agile Team Management
@@ -18,9 +18,9 @@ Dr. Jilles van Gurp is an accomplished technology leader with a strong track rec
 
 Currently serving as the CTO at [FORMATION Gmbh](https://tryformation.com) in Berlin, Jilles leverages his extensive experience to drive strategic and technical advancements.
 
-A serial founder and troubleshooter, Jilles brings decades of expertise in software innovation, team leadership, and product development. His professional journey includes pivotal roles such as Senior Researcher at **Nokia Research** in Finland and Principal Engineer at **Nokia Maps/Here** in Berlin. As a search engine consultant, Jilles has collaborated with industry giants like **BCG Digital Ventures**, **Soundcloud**, **Bertelsmann Group**, and many smaller companies addressing their search challenges and driving product excellence.
+A serial founder and troubleshooter, Jilles brings decades of expertise in software innovation, team leadership, and product development. His professional journey includes pivotal roles such as Senior Researcher at **Nokia Research** in Finland and Principal Engineer at **Nokia Maps/Here** in Berlin. As a search engine consultant, Jilles has collaborated with industry giants like **BCG Digital Ventures**, **Soundcloud**, **Bertelsmann Group**, **Nokia Bell Labs** and several smaller companies addressing their search challenges and driving product excellence.
 
-Before FORMATION, Jilles co-founded Localstream with Mark Macmahon. Localstream was acquired by Linko, which later renamed to Inbot where Jilles lead the team as the CTO until the company folded in 2018. In recent years, Jilles has mentored several startups via Techstars and in his Berlin network.
+Before FORMATION, Jilles co-founded Localstream with Mark Macmahon. Localstream was acquired by Linko, which later renamed to Inbot where Jilles lead the team as the CTO until the company folded in 2018. In recent years, Jilles has also mentored several startups via Techstars and in his Berlin network.
 
 ## Skills
 
@@ -64,10 +64,12 @@ Feel free to **reach out by email** for setting up a short call on how I can hel
 
 I maintain several projects on Github that relate to my activities as a consultant and that we use at FORMATION as part of our product platform. Here is a small selection of things I've recently worked on:
 
-- [rankquest-studio](https://github.com/jillesvangurp/rankquest-studio) Rankquest Studio is a web based tool that you can use to benchmark search relevance metrics for your search APIs.  You can try the [latest version here](https://rankquest.jillesvangurp.com).
+
+- [rankquest-studio](https://rankquest.jillesvangurp.com) Rankquest Studio is a web based tool that you can use to benchmark search relevance metrics for your search APIs.  You can try the [latest version here](https://rankquest.jillesvangurp.com).
 - [kt-search](https://github.com/jillesvangurp/kt-search) Multi platform kotlin client for Elasticsearch & Opensearch with easily extendable Kotlin DSLs for queries, mappings, bulk, and more.
 - [querylight](https://github.com/jillesvangurp/querylight) Querylight is an in memory, kotlin multi platform text indexing library that implements tf/idf and a minimal query language. Great for client side search in web apps, android or other Kotlin apps.
 - [geogeometry](https://github.com/jillesvangurp/geogeometry) GeoGeometry is a set of algorithms and functions for manipulating geo hashes and geometric shapes with geo coordinates. We use this at FORMATION and this library has served me well in my various startups.
+- [Fluent AI](https://fluent-ai.jillesvangurp.com). This is a tool that uses OpenAI to automate the process of translating Project Fluent localization files. We use this at FORMATION.
 - [more](https://github.com/jillesvangurp?tab=repositories)
 
 ## Contact
