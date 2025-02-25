@@ -1,4 +1,9 @@
-# 2024 in Review for jillesvangurp/kt-search
+---
+title: 2024 in Review for jillesvangurp/kt-search
+published: true
+description: With the end of the year nearing, it's a good moment to look at how far kt-search has come.
+tags: kt-search, elasticsearch, opensearch, kotlin
+---
 
 With the end of the year nearing, it's a good moment to look at how far **[kt-search](https://github.com/jillesvangurp/kt-search)** has come. This year was the first full year of stable releases. I released version 2.0 mid 2023 and since then, I've been getting more and more external contributions. So much that I decided to write up a little overview.
 

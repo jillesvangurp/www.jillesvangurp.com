@@ -22,15 +22,15 @@
     <meta property="og:author" content="Jilles van Gurp" />
     <meta property="og:title" content="$title$" />
     <meta property="og:type" content="article" />
+    $if(image)$
+    <meta property="og:image" content="..$image$" />
+    $else$
     <meta property="og:image" content="https://www.jillesvangurp.com/static/jilles.jpg" />
-    <meta property="og:description" content="$description$" />
+    $endif$
     $if(description)$
     <meta property="og:description" content="$description$" />
     $endif$
     <meta property="og:article:published_time" content="$publishdate$" />
-    $if(image)$
-    <meta property="og:image" content="..$image$" />
-    $endif$
     <link rel="stylesheet" href="../style.css" type="text/css" />
     <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
   </head>
@@ -68,3 +68,5 @@
   </body>
 
   </html>
+
+  BF6D7XYD
