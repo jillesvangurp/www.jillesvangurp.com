@@ -1,16 +1,14 @@
-@import "tailwindcss/base";
-
-@import "tailwindcss/components";
-
-@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   h1 {
-    @apply text-2xl xl:text-5xl font-bold mb-6;
+    @apply text-2xl font-bold mb-6;
   }
 
   h2 {
-    @apply text-xl xl:text-3xl mt-2 mb-4;
+    @apply text-xl mt-2 mb-4;
   }
 
   h3 {
@@ -26,46 +24,65 @@
   }
 
   li {
-    @apply ml-5 list-disc
+    @apply ml-5 list-disc;
   }
 
   ul {
-    @apply my-2
+    @apply my-2;
   }
 
   pre {
-    @apply overflow-auto lg:w-430 xl:w-800
+    @apply overflow-auto;
+  }
+
+  body {
+    background: #3E92CC;
+    animation: color 30s infinite linear;
   }
 }
 
-@keyframes color {
-  0% {
-    background: #3E92CC
+/* Responsive overrides via media queries */
+@layer base {
+  @media (min-width: 1024px) {
+    pre {
+      @apply w-[430px];
+    }
   }
 
-  20% {
-    background: #2A628F;
-  }
+  @media (min-width: 1280px) {
+    h1 {
+      @apply text-4xl;
+    }
 
-  40% {
-    background: #13293D;
-  }
+    h2 {
+      @apply text-3xl;
+    }
 
-  60% {
-    background: #16324F;
-  }
-
-  80% {
-    background: #13293D;
-  }
-
-  90% {
-    background: #2A628F;
+    pre {
+      @apply w-[800px];
+    }
   }
 }
 
-body {
-  background: #3E92CC;
-  /* Fallback */
-  animation: color 30s infinite linear;
+@layer utilities {
+  @keyframes color {
+    0% {
+      background: #3E92CC;
+    }
+    20% {
+      background: #2A628F;
+    }
+    40% {
+      background: #13293D;
+    }
+    60% {
+      background: #16324F;
+    }
+    80% {
+      background: #13293D;
+    }
+    90% {
+      background: #2A628F;
+    }
+  }
 }
