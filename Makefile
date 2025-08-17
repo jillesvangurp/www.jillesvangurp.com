@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := all
 
-export SITEGEN=docker run -v $(shell pwd):/root sitegen
+export SITEGEN=docker run --rm -v $(shell pwd):/root sitegen
 
 .PHONY: docker
 docker:
