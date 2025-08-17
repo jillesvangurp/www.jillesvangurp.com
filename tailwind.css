@@ -1,64 +1,43 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
+  body {
+    @apply bg-sky-600;
+    animation: color 30s infinite linear;
+  }
+
   h1 {
-    @apply text-2xl font-bold mb-6;
+    @apply text-3xl lg:text-4xl font-bold mt-6 mb-4;
   }
 
   h2 {
-    @apply text-xl mt-2 mb-4;
+    @apply text-2xl lg:text-3xl font-semibold mt-4 mb-2;
   }
 
   h3 {
-    @apply text-lg mt-2 mb-2;
+    @apply text-xl font-semibold mt-4 mb-2;
   }
 
   p {
-    @apply mb-2;
+    @apply mb-4 leading-relaxed;
   }
 
   a {
-    @apply text-slate-600 hover:text-slate-400 underline cursor-pointer;
-  }
-
-  li {
-    @apply ml-5 list-disc;
+    @apply text-sky-600 hover:text-sky-500 underline cursor-pointer;
   }
 
   ul {
-    @apply my-2;
+    @apply mb-4 ml-5 list-disc;
+  }
+
+  li {
+    @apply mb-1;
   }
 
   pre {
-    @apply overflow-auto;
-  }
-
-  body {
-    background: #3E92CC;
-    animation: color 30s infinite linear;
-  }
-}
-
-/* Responsive overrides via media queries */
-@layer base {
-  @media (min-width: 1024px) {
-    pre {
-      @apply w-[430px];
-    }
-  }
-
-  @media (min-width: 1280px) {
-    h1 {
-      @apply text-4xl;
-    }
-
-    h2 {
-      @apply text-3xl;
-    }
-
-    pre {
-      @apply w-[800px];
-    }
+    @apply overflow-auto w-full lg:w-[430px] xl:w-[800px];
   }
 }
 

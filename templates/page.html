@@ -25,19 +25,19 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
   </head>
-  <body class="">
-    <div id="outer" class="bg-gray-50 lg:w-[480px] xl:w-[900px] mx-auto my-5 flex flex-col border-s-0 rounded-lg shadow-xl">
+  <body>
+    <div id="outer" class="bg-gray-50 w-full max-w-screen-lg mx-auto my-5 flex flex-col rounded-lg shadow-xl">
       <nav>
         $navigation$
       </nav>
       <header>
-        <h1 class="w-full text-center mt-10">$title$</h1>
+        <h1 class="text-center mt-6">$title$</h1>
         $if(image)$
         <img src="..$image$" />
         $endif$
       </header>
-      <div id="inner" class="md:flex md:flex-row-reverse">
-        <div id="center-column" class="lg:w-max px-10 py-5 m-5">
+      <div id="inner" class="md:flex md:flex-row-reverse w-full">
+        <div id="center-column" class="w-full max-w-prose px-4 md:px-10 py-5 m-5">
           <section id="main-content">
             $for(include-before)$
             $include-before$
