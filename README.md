@@ -25,6 +25,16 @@ All tooling runs inside a Docker container so nothing (except for docker) needs 
 - **minify** for shrinking the final CSS bundle
 - Small bash scripts and a Makefile orchestrate the build
 
+## Shell scripts
+
+The Makefile calls several helper scripts in `docker/`:
+
+- `docker/pd-pages.sh`  generate static pages and sidebar
+- `docker/pd-articles.sh`  convert blog articles to HTML
+- `docker/indexgenerator.sh`  build the blog index page
+- `docker/sitemap.sh`  create `sitemap.xml` and `robots.txt`
+- `docker/atom.sh`  generate the Atom feed
+
 ## Usage
 
 Build the container and generate the site:
