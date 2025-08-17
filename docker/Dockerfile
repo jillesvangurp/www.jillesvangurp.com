@@ -1,22 +1,15 @@
-FROM debian:testing as base
+FROM debian:testing AS base
 
-RUN apt-get update
-RUN apt-get install -y pandoc minify ca-certificates curl gnupg apt-transport-https
-RUN mkdir -p /etc/apt/keyrings
-# RUN sh -c 'curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg'
-# RUN sh -c 'echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_20.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list'
-RUN apt-get update
-RUN apt-get install -y nodejs npm
-
-WORKDIR /bin
-
-COPY *sh .
-
-RUN mkdir /npm
-WORKDIR /npm
-RUN npm install tailwindcss postcss-cli autoprefixer
+RUN apt-get update && \
+    apt-get install -y pandoc minify ca-certificates curl gnupg apt-transport-https nodejs npm
 
 WORKDIR /root
 
+COPY *sh /usr/local/bin
 
+# Install Tailwind CSS alongside PostCSS tooling
+RUN npm install -g @tailwindcss/cli tailwindcss postcss @tailwindcss/postcss postcss-cli autoprefixer
+
+ENV NODE_PATH=/usr/local/lib/node_modules
+ENV PATH="/usr/local/bin:$PATH"
 

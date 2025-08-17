@@ -1,44 +1,72 @@
 # www.jillesvangurp.com
 
-Source code & markdown for generating my [website](https://www.jillesvangurp.com). I use pandoc and a bit of bash to generate the site.
+Source code and markdown for generating my [website](https://www.jillesvangurp.com).
 
-Feel free to copy and adapt as you need. This bunch of scripts that I have is deliberately kept minimal and simple. Yet, I'm of course looking to add features over time.
+Everything is built with shell scripts, make, and [Pandoc](https://pandoc.org).
 
-## Features
+Feel free to copy and adapt as you need; this setup is deliberately minimal.
 
-- Uses pandoc to render github flavored markdown. I exported my old wordpress articles to markdown format and did a lot of manual cleanup.
-- Can be used to render code blocks as well
-- Sitemap, article index, and recent articles are generated.
-- Atom feed is generated for the articles.
-- Tailwind css styling & css minifier.
+## Key features
+
+- Markdown articles and pages rendered with Pandoc templates
+- Syntax highlighting for fenced code blocks
+- Automatic sitemap, blog index, recent posts list and Atom feed
+- Tailwind CSS styling with minified output
+- Shell scripts launch sub processes to speed things up.
+- Uses docker to remove the need to install a lot of tools.
+
+## Tool chain
+
+All tooling runs inside a Docker container so nothing (except for docker) needs to be installed locally.
+
+- **Pandoc** for converting Markdown to HTML
+- **Node.js** tooling for PostCSS and Tailwind CSS
+- **Tailwind CLI** and **PostCSS** with `autoprefixer` to build CSS
+- **minify** for shrinking the final CSS bundle
+- Small bash scripts and a Makefile orchestrate the build
+
+## Shell scripts
+
+The Makefile calls several helper scripts in `docker/`:
+
+- `docker/pd-pages.sh`  generate static pages and sidebar
+- `docker/pd-articles.sh`  convert blog articles to HTML
+- `docker/indexgenerator.sh`  build the blog index page
+- `docker/sitemap.sh`  create `sitemap.xml` and `robots.txt`
+- `docker/atom.sh`  generate the Atom feed
 
 ## Usage
 
-Instead of installing a lot of stuff, everything is done via docker. The docker container installs all the necessary tools.
+Build the container and generate the site:
 
 ```bash
-# create docker container with tools and scripts
-make docker
-# build the site
-make all
-# check if you like what it did
-# you might want to tweak the Makefile to update where and how you deploy before you run this. Uses rsync.
+make docker    # build the container with the tool chain
+make all       # generate the site into public/
+```
+
+Deploying is project specific. Adjust the `deploy` target in the Makefile
+and run:
+
+```bash
 make deploy
 ```
 
-## Directories and files
+## Directory structure
 
-- `articles` this is where you put your blog articles. Use an iso date as the name prefix so it gets sorted correctly.
-- `docker` this is where all the scripts and the Dockerfile live.
-- `pages` this is where the markdown for each of the pages live.
-- `wp-content` as the name suggests this has all the file uploads from my former wordpress blog. Those are linked from the articles.
-- `static` this is the static part of my website. Some of it dates back to last century. It's copied over as is
-- `public` this directory is git ignored and is where the generated files end up
-- `templates` put your pandoc templates here
-- `footer.html` and `navigation.html` little hard coded navigation that is injected in the template. Nice and simple.
-- `Makefile` mostly self explanatory. You might want to tweak the hard coded values
+- `Makefile`     build and deployment targets
+- `articles/`    blog articles named `YYYY-MM-DD-title.md`
+- `docker/`      Dockerfile and build scripts
+- `pages/`       standalone markdown pages
+- `static/`      static files copied as-is
+- `templates/`   Pandoc templates and partials
+- `wp-content/`  legacy uploads referenced from articles
+- `public/`      generated output (ignored in git)
+- `navigation.html` and `footer.html` snippets injected in pages
+- `tailwind.css`, `postcss.config.js`, `tailwind.config.js` styling sources
 
 ## License
 
-The scripts & css are MIT licensed. The Markdown & website content is NOT and the copyright belongs to me. This means normal copyright law applies to that (i.e. don't republish my website without my permission).
+The scripts and CSS are MIT licensed.
+
+Website content and markdown are copyrighted and may not be republished without permission.
 
