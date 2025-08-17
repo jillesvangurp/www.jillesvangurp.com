@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-sky-600;
+    @apply bg-blue-600;
     animation: color 30s infinite linear;
   }
 
@@ -25,7 +25,7 @@
   }
 
   a {
-    @apply text-sky-600 hover:text-sky-500 underline cursor-pointer;
+    @apply text-blue-600 hover:text-blue-500 underline cursor-pointer;
   }
 
   ul {

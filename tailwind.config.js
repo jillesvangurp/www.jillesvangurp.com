@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     'templates/**/*.{html,js}',
-    'public/**/*.{html,js,md,css}',
+    'pages/**/*.{md,html}',
+    'articles/**/*.{md,html}',
   ],
   darkMode: 'media',
   plugins: [],
