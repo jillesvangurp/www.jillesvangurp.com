@@ -4,6 +4,11 @@
 # Run commands inside the sitegen container
 export SITEGEN=docker run --rm -v $(shell pwd):/root sitegen
 
+# Load Cloudflare credentials
+-include $(HOME)/.cloudflare
+export CLOUDFLARE_ACCOUNT_ID
+export CLOUDFLARE_API_TOKEN
+
 # Build the Docker image with the tool chain
 .PHONY: docker
 docker:
@@ -69,10 +74,21 @@ atom:
 	$(SITEGEN) atom.sh
 
 # Upload the generated site to the server
-.PHONY: deploy
-deploy:
+.PHONY: deploy-old
+deploy-old:
 	rsync -azpv --exclude maven* --exclude bmath --delete-after  public/* jillesvangurpcom@ftp.jillesvangurp.com:/srv/home/jillesvangurpcom/domains/jillesvangurp.com/htdocs/www
 	rsync -azpv --delete-after  public/.htaccess jillesvangurpcom@ftp.jillesvangurp.com:/srv/home/jillesvangurpcom/domains/jillesvangurp.com/htdocs
+
+# Deploy to Cloudflare Pages
+.PHONY: deploy
+deploy:
+	docker run --rm -it \
+		-v "$(shell pwd)":/workspace \
+		-w /workspace \
+		-e CLOUDFLARE_ACCOUNT_ID=$(CLOUDFLARE_ACCOUNT_ID) \
+		-e CLOUDFLARE_API_TOKEN=$(CLOUDFLARE_API_TOKEN) \
+		node:22 \
+		npx --yes wrangler pages deploy public --project-name=www-jillesvangurp --branch=master
 
 # Build everything
 .PHONY: all
