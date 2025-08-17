@@ -7,7 +7,8 @@ WORKDIR /root
 
 COPY *sh /usr/local/bin
 
-RUN npm install -g @tailwindcss/cli
+# Install Tailwind CSS alongside PostCSS tooling
+RUN npm install -g tailwindcss postcss postcss-cli autoprefixer
 
 ENV PATH="/usr/local/bin:$PATH"
 
