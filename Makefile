@@ -37,9 +37,9 @@ stop:
 
 .PHONY: minify
 minify:
-	$(SITEGEN)  tailwindcss  -i tailwind.css -o style.css
+	$(SITEGEN) postcss tailwind.css -o style.css
 
-	rm node_modules
+	rm -rf node_modules
 	echo '```html' > sample.md
 	echo "OHAI" >> sample.md
 	echo '```' >> sample.md
