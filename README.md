@@ -1,9 +1,10 @@
 # www.jillesvangurp.com
 
 Source code and markdown for generating my [website](https://www.jillesvangurp.com).
-Everything is built with simple scripts and [Pandoc](https://pandoc.org).
 
-Feel free to copy and adapt as you need; the setup is deliberately minimal.
+Everything is built with shell scripts, make, and [Pandoc](https://pandoc.org).
+
+Feel free to copy and adapt as you need; this setup is deliberately minimal.
 
 ## Key features
 
@@ -11,10 +12,12 @@ Feel free to copy and adapt as you need; the setup is deliberately minimal.
 - Syntax highlighting for fenced code blocks
 - Automatic sitemap, blog index, recent posts list and Atom feed
 - Tailwind CSS styling with minified output
+- Shell scripts launch sub processes to speed things up.
+- Uses docker to remove the need to install a lot of tools.
 
 ## Tool chain
 
-All tooling runs inside a Docker container so nothing needs to be installed locally.
+All tooling runs inside a Docker container so nothing (except for docker) needs to be installed locally.
 
 - **Pandoc** for converting Markdown to HTML
 - **Node.js** tooling for PostCSS and Tailwind CSS
@@ -40,6 +43,7 @@ make deploy
 
 ## Directory structure
 
+- `Makefile`     build and deployment targets
 - `articles/`    blog articles named `YYYY-MM-DD-title.md`
 - `docker/`      Dockerfile and build scripts
 - `pages/`       standalone markdown pages
@@ -47,12 +51,12 @@ make deploy
 - `templates/`   Pandoc templates and partials
 - `wp-content/`  legacy uploads referenced from articles
 - `public/`      generated output (ignored in git)
-- `Makefile`     build and deployment targets
 - `navigation.html` and `footer.html` snippets injected in pages
 - `tailwind.css`, `postcss.config.js`, `tailwind.config.js` styling sources
 
 ## License
 
 The scripts and CSS are MIT licensed.
+
 Website content and markdown are copyrighted and may not be republished without permission.
 
